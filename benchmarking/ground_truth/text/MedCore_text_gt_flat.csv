@@ -1,0 +1,137 @@
+id,page,class,gt_text_status,gt_text,char_len,bbox_norm
+e0001,1,header,programmatic_verified,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 1 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)",136,"{""x"": 0.0, ""y"": 0.0, ""w"": 1.0, ""h"": 0.0475}"
+e0002,1,footer,programmatic_verified,"ISO 13485:2016    CE Marked    FDA 510(k)    ENERGY STAR
++49 69 4521 8800 | procurement@medcore-intl.com | www.medcore-intl.com Page 1 of 4",139,"{""x"": 0.0, ""y"": 0.905, ""w"": 1.0, ""h"": 0.095}"
+e0003,1,figure,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.0475, ""w"": 0.9059, ""h"": 0.6199}"
+e0004,1,title,programmatic_verified,2024 - 2025 PRODUCT CATALOGUE,29,"{""x"": 0.047, ""y"": 0.6722, ""w"": 0.9059, ""h"": 0.0309}"
+e0005,1,title,programmatic_verified,Advanced Diagnostic & Surgical Instruments,42,"{""x"": 0.047, ""y"": 0.7078, ""w"": 0.9059, ""h"": 0.0214}"
+e0006,1,paragraph,programmatic_verified,For ICUs | Operation Theatres | Diagnostic Labs | General Practice,66,"{""x"": 0.047, ""y"": 0.7339, ""w"": 0.9059, ""h"": 0.0166}"
+e0007,2,header,programmatic_verified,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 2 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)",136,"{""x"": 0.0, ""y"": 0.0, ""w"": 1.0, ""h"": 0.0475}"
+e0008,2,footer,programmatic_verified,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.2",180,"{""x"": 0.0, ""y"": 0.9667, ""w"": 1.0, ""h"": 0.0333}"
+e0009,2,section_header,programmatic_verified,SECTION 1 -- Diagnostic & Monitoring Equipment    CE Certified | 2-Year Warranty,80,"{""x"": 0.047, ""y"": 0.0475, ""w"": 0.9059, ""h"": 0.038}"
+e0010,2,section_header,programmatic_verified,All products include 2-year warranty | Free calibration first year | ServicePlus from EUR 299/yr,96,"{""x"": 0.047, ""y"": 0.9477, ""w"": 0.9059, ""h"": 0.019}"
+e0011,2,product_card,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.4192}"
+e0012,2,caption,programmatic_verified,"MC-VSP-9000    EUR 4,850",24,"{""x"": 0.047, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.0178}"
+e0013,2,figure,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.1152, ""w"": 0.4429, ""h"": 0.1761}"
+e0014,2,title,programmatic_verified,VitalScan Pro 9000,18,"{""x"": 0.047, ""y"": 0.296, ""w"": 0.4429, ""h"": 0.019}"
+e0015,2,paragraph,programmatic_verified,Hospital-grade continuous vital-signs monitoring with 15-inch anti-glare TFT touchscreen. Seamless HL7 EMR integration.,119,"{""x"": 0.047, ""y"": 0.3198, ""w"": 0.4429, ""h"": 0.0671}"
+e0016,2,spec_list,programmatic_verified,"Display: 15"" TFT 1024x768
+Parameters: ECG 12-lead, SpO2, NIBP, Temp
+Battery: 4 hours backup
+Connectivity: Wi-Fi, Ethernet, USB 3.0
+Cert.: CE, ISO 13485, IEC 60601",162,"{""x"": 0.047, ""y"": 0.3916, ""w"": 0.4429, ""h"": 0.0755}"
+e0017,2,price_tag,programmatic_verified,"EUR 4,850 / unit",16,"{""x"": 0.047, ""y"": 0.4718, ""w"": 0.4429, ""h"": 0.0261}"
+e0018,2,product_card,out_of_scope_for_track_a,,0,"{""x"": 0.5101, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.4192}"
+e0019,2,caption,programmatic_verified,"MC-DSE-3X    EUR 1,299",22,"{""x"": 0.5101, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.0178}"
+e0020,2,figure,out_of_scope_for_track_a,,0,"{""x"": 0.5101, ""y"": 0.1152, ""w"": 0.4429, ""h"": 0.1761}"
+e0021,2,title,programmatic_verified,DermoScope Elite 3X,19,"{""x"": 0.5101, ""y"": 0.296, ""w"": 0.4429, ""h"": 0.019}"
+e0022,2,paragraph,programmatic_verified,Variable 10-30x magnification with polarized and non-polarized LED illumination. Wi-Fi enabled 48 MP CMOS camera.,113,"{""x"": 0.5101, ""y"": 0.3198, ""w"": 0.4429, ""h"": 0.0671}"
+e0023,2,spec_list,programmatic_verified,"Magnification: 10x / 20x / 30x
+Illumination: 20 LED, polarized + non-pol
+Camera: 48 MP CMOS sensor
+Storage: 16 GB + cloud sync
+Cert.: CE, ISO 13485",147,"{""x"": 0.5101, ""y"": 0.3916, ""w"": 0.4429, ""h"": 0.0755}"
+e0024,2,price_tag,programmatic_verified,"EUR 1,299 / unit",16,"{""x"": 0.5101, ""y"": 0.4718, ""w"": 0.4429, ""h"": 0.0261}"
+e0025,2,product_card,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.5238, ""w"": 0.4429, ""h"": 0.4192}"
+e0026,2,caption,programmatic_verified,MC-ASD-HD    EUR 389,20,"{""x"": 0.047, ""y"": 0.5238, ""w"": 0.4429, ""h"": 0.0178}"
+e0027,2,figure,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.5463, ""w"": 0.4429, ""h"": 0.1761}"
+e0028,2,title,programmatic_verified,AuraScan Digital Otoscope,25,"{""x"": 0.047, ""y"": 0.7272, ""w"": 0.4429, ""h"": 0.019}"
+e0029,2,paragraph,programmatic_verified,Crystal-clear 1080p tympanic membrane visualization. USB-C EMR output. Three speculum sizes included.,101,"{""x"": 0.047, ""y"": 0.7509, ""w"": 0.4429, ""h"": 0.0671}"
+e0030,2,spec_list,programmatic_verified,"Resolution: 1920x1080 HD
+Illumination: Cool white LED 5500K
+Speculums: 2.5mm, 4mm, 5mm
+Output: USB-C, 3.5mm AV
+Cert.: CE, ISO 13485",131,"{""x"": 0.047, ""y"": 0.8227, ""w"": 0.4429, ""h"": 0.0755}"
+e0031,2,price_tag,programmatic_verified,EUR 389 / unit,14,"{""x"": 0.047, ""y"": 0.9029, ""w"": 0.4429, ""h"": 0.0261}"
+e0032,2,product_card,out_of_scope_for_track_a,,0,"{""x"": 0.5101, ""y"": 0.5238, ""w"": 0.4429, ""h"": 0.4192}"
+e0033,2,caption,programmatic_verified,MC-GSP-LAB    EUR 245,21,"{""x"": 0.5101, ""y"": 0.5238, ""w"": 0.4429, ""h"": 0.0178}"
+e0034,2,figure,out_of_scope_for_track_a,,0,"{""x"": 0.5101, ""y"": 0.5463, ""w"": 0.4429, ""h"": 0.1761}"
+e0035,2,title,programmatic_verified,GlucoSense Pro,14,"{""x"": 0.5101, ""y"": 0.7272, ""w"": 0.4429, ""h"": 0.019}"
+e0036,2,paragraph,programmatic_verified,"Lab-accurate blood glucose in under 5 seconds. Hematocrit correction, 1000-reading memory, Bluetooth 5.0.",105,"{""x"": 0.5101, ""y"": 0.7509, ""w"": 0.4429, ""h"": 0.0671}"
+e0037,2,spec_list,programmatic_verified,"Range: 1.1-33.3 mmol/L
+Sample: 0.5 microlitre
+Time: < 5 seconds
+Memory: 1000 readings + timestamp
+Cert.: CE, ISO 13485",118,"{""x"": 0.5101, ""y"": 0.8227, ""w"": 0.4429, ""h"": 0.0755}"
+e0038,2,price_tag,programmatic_verified,EUR 245 / unit,14,"{""x"": 0.5101, ""y"": 0.9029, ""w"": 0.4429, ""h"": 0.0261}"
+e0039,3,header,programmatic_verified,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 3 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)",136,"{""x"": 0.0, ""y"": 0.0, ""w"": 1.0, ""h"": 0.0475}"
+e0040,3,footer,programmatic_verified,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.3",180,"{""x"": 0.0, ""y"": 0.9667, ""w"": 1.0, ""h"": 0.0333}"
+e0041,3,section_header,programmatic_verified,SECTION 2 -- Surgical Instruments & Sets    316L SS | Autoclave Compatible | ISO 17664,86,"{""x"": 0.047, ""y"": 0.0475, ""w"": 0.9059, ""h"": 0.038}"
+e0042,3,title,programmatic_verified,Patient Monitor Series -- Feature Comparison    Choose the right monitor for your department,92,"{""x"": 0.047, ""y"": 0.6056, ""w"": 0.9059, ""h"": 0.0261}"
+e0043,3,table,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.6318, ""w"": 0.9059, ""h"": 0.335}"
+e0044,3,product_card,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.5035}"
+e0045,3,caption,programmatic_verified,"MC-SS-PRO42    EUR 1,870 / set",30,"{""x"": 0.047, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.0178}"
+e0046,3,figure,out_of_scope_for_track_a,,0,"{""x"": 0.047, ""y"": 0.1152, ""w"": 0.4429, ""h"": 0.2197}"
+e0047,3,title,programmatic_verified,SurgSet Pro 42-Piece,20,"{""x"": 0.047, ""y"": 0.3397, ""w"": 0.4429, ""h"": 0.019}"
+e0048,3,paragraph,programmatic_verified,"316L stainless steel, mirror-polished. Laser-etched ID codes per ISO 17664. Autoclave-compatible up to 134 C.",109,"{""x"": 0.047, ""y"": 0.3635, ""w"": 0.4429, ""h"": 0.0451}"
+e0049,3,spec_list,programmatic_verified,"Material: 316L Stainless Steel
+Autoclave: 134 C / 3 bar
+Pieces: 42 instruments
+Tray: Perforated SS with lid",107,"{""x"": 0.047, ""y"": 0.4134, ""w"": 0.4429, ""h"": 0.0594}"
+e0050,3,price_tag,programmatic_verified,"EUR 1,870 / set",15,"{""x"": 0.047, ""y"": 0.4775, ""w"": 0.4429, ""h"": 0.0261}"
+e0051,3,product_card,out_of_scope_for_track_a,,0,"{""x"": 0.5101, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.5035}"
+e0052,3,caption,programmatic_verified,"MC-LT-5MM    EUR 3,250 / set",28,"{""x"": 0.5101, ""y"": 0.0926, ""w"": 0.4429, ""h"": 0.0178}"
+e0053,3,figure,out_of_scope_for_track_a,,0,"{""x"": 0.5101, ""y"": 0.1152, ""w"": 0.4429, ""h"": 0.2197}"
+e0054,3,title,programmatic_verified,LaparoTroc 5mm Trocar Set,25,"{""x"": 0.5101, ""y"": 0.3397, ""w"": 0.4429, ""h"": 0.019}"
+e0055,3,paragraph,programmatic_verified,Radially dilating tip reduces port-site trauma. Valveless cannula minimizes gas leakage during pneumoperitoneum.,112,"{""x"": 0.5101, ""y"": 0.3635, ""w"": 0.4429, ""h"": 0.0451}"
+e0056,3,spec_list,programmatic_verified,"Sizes: 5 mm / 10 mm / 12 mm
+Tip: Radially dilating
+Valve: Valveless cannula
+Sterilize: EtO / Autoclave 134 C",108,"{""x"": 0.5101, ""y"": 0.4134, ""w"": 0.4429, ""h"": 0.0594}"
+e0057,3,price_tag,programmatic_verified,"EUR 3,250 / set",15,"{""x"": 0.5101, ""y"": 0.4775, ""w"": 0.4429, ""h"": 0.0261}"
+e0058,4,header,programmatic_verified,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 4 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)",136,"{""x"": 0.0, ""y"": 0.0, ""w"": 1.0, ""h"": 0.0475}"
+e0059,4,footer,programmatic_verified,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.4",180,"{""x"": 0.0, ""y"": 0.9667, ""w"": 1.0, ""h"": 0.0333}"
+e0060,4,section_header,programmatic_verified,ORDERING * AFTER-SALES * CONTACT,32,"{""x"": 0.047, ""y"": 0.0475, ""w"": 0.9059, ""h"": 0.038}"
+e0061,4,section_header,programmatic_verified,Download Catalogue | Request Demo | Apply for Credit Account | www.medcore-intl.com,83,"{""x"": 0.047, ""y"": 0.9406, ""w"": 0.9059, ""h"": 0.0261}"
+e0062,4,section_header,programmatic_verified,Ordering & Delivery,19,"{""x"": 0.047, ""y"": 0.0926, ""w"": 0.2908, ""h"": 0.0261}"
+e0063,4,title,programmatic_verified,STEP 1 - Request a Quote,24,"{""x"": 0.047, ""y"": 0.1235, ""w"": 0.2908, ""h"": 0.019}"
+e0064,4,paragraph,programmatic_verified,Submit RFQ at www.medcore-intl.com/rfq. Include product codes and quantities. Response within 24 business hours.,112,"{""x"": 0.047, ""y"": 0.1473, ""w"": 0.2908, ""h"": 0.038}"
+e0065,4,title,programmatic_verified,STEP 2 - Receive Proforma Invoice,33,"{""x"": 0.047, ""y"": 0.19, ""w"": 0.2908, ""h"": 0.019}"
+e0066,4,paragraph,programmatic_verified,"Proforma invoice issued within 24 hours, valid 30 days. Full itemization included.",82,"{""x"": 0.047, ""y"": 0.2138, ""w"": 0.2908, ""h"": 0.0309}"
+e0067,4,title,programmatic_verified,STEP 3 - Payment Terms,22,"{""x"": 0.047, ""y"": 0.2494, ""w"": 0.2908, ""h"": 0.019}"
+e0068,4,paragraph,programmatic_verified,"Net 30 for approved accounts. 50% advance for new clients. LC accepted for orders > EUR 50,000.",95,"{""x"": 0.047, ""y"": 0.2732, ""w"": 0.2908, ""h"": 0.038}"
+e0069,4,title,programmatic_verified,STEP 4 - Shipping,17,"{""x"": 0.047, ""y"": 0.316, ""w"": 0.2908, ""h"": 0.019}"
+e0070,4,paragraph,programmatic_verified,DDP worldwide. Standard: 7-10 days (Europe). Express: 2-3 days DHL Medical Express. GPS + temp tracking.,104,"{""x"": 0.047, ""y"": 0.3397, ""w"": 0.2908, ""h"": 0.038}"
+e0071,4,section_header,programmatic_verified,Warranty & Support,18,"{""x"": 0.3546, ""y"": 0.0926, ""w"": 0.2908, ""h"": 0.0261}"
+e0072,4,list,programmatic_verified,"* Electronic instruments: 2-year warranty
+* Surgical steel: Lifetime on defects
+* Consumables: Lot-controlled replacement
+* Software: Free lifetime OTA updates",159,"{""x"": 0.3546, ""y"": 0.1235, ""w"": 0.2908, ""h"": 0.0831}"
+e0073,4,title,programmatic_verified,ServicePlus Plans,17,"{""x"": 0.3546, ""y"": 0.2138, ""w"": 0.2908, ""h"": 0.0261}"
+e0074,4,table,out_of_scope_for_track_a,,0,"{""x"": 0.3546, ""y"": 0.2471, ""w"": 0.2908, ""h"": 0.1307}"
+e0075,4,paragraph,programmatic_verified,ISO/IEC 17025 accredited calibration from EUR 120/instrument.,61,"{""x"": 0.3546, ""y"": 0.3848, ""w"": 0.2908, ""h"": 0.0594}"
+e0076,4,section_header,programmatic_verified,Get In Touch,12,"{""x"": 0.6622, ""y"": 0.0926, ""w"": 0.2908, ""h"": 0.0261}"
+e0077,4,map,out_of_scope_for_track_a,,0,"{""x"": 0.6622, ""y"": 0.1235, ""w"": 0.2908, ""h"": 0.1307}"
+e0078,4,paragraph,programmatic_verified,"MedCore Instruments International GmbH Suite 1200, Meridian Medical Tower 48 Commerce Blvd, Frankfurt 60311, Germany Tel: +49 69 4521 8800",138,"{""x"": 0.6622, ""y"": 0.2613, ""w"": 0.2908, ""h"": 0.0713}"
+e0079,4,list,programmatic_verified,"London UK: +44 20 7946 0832
+New York USA: +1 646 880 4421
+Singapore: +65 6438 7710
+Mumbai India: +91 22 4890 3300
+Dubai UAE: +971 4 456 9100",140,"{""x"": 0.6622, ""y"": 0.3397, ""w"": 0.2908, ""h"": 0.0831}"
+e0080,4,paragraph,programmatic_verified,sales@medcore-intl.com www.medcore-intl.com Live chat: 24/7,59,"{""x"": 0.6622, ""y"": 0.43, ""w"": 0.2908, ""h"": 0.0618}"

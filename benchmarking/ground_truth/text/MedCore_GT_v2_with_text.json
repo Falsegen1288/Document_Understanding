@@ -1,0 +1,1843 @@
+{
+  "document": "MedCore_Catalogue_v2.pdf",
+  "generator": "MedCore Synthetic Doc Generator v2",
+  "page_size_pts": {
+    "width": 595.28,
+    "height": 841.89
+  },
+  "page_size_mm": {
+    "width": 210,
+    "height": 297
+  },
+  "total_pages": 4,
+  "total_elements": 80,
+  "class_counts": {
+    "caption": 6,
+    "figure": 7,
+    "footer": 4,
+    "header": 4,
+    "list": 2,
+    "map": 1,
+    "paragraph": 14,
+    "price_tag": 6,
+    "product_card": 6,
+    "section_header": 8,
+    "spec_list": 6,
+    "table": 2,
+    "title": 14
+  },
+  "yolo_class_map": {
+    "title": 0,
+    "paragraph": 1,
+    "table": 2,
+    "figure": 3,
+    "caption": 4,
+    "header": 5,
+    "footer": 6,
+    "logo": 7,
+    "list": 8,
+    "section_header": 9,
+    "product_card": 10,
+    "price_tag": 11,
+    "spec_list": 12,
+    "map": 13
+  },
+  "pages": [
+    {
+      "page": 1,
+      "elements": [
+        {
+          "id": "e0001",
+          "page": 1,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475",
+          "gt_text": "MedCore\nINSTRUMENTS INTERNATIONAL\nPrecision. Reliability. Care.\nPage 1 of 4\nwww.medcore-intl.com\nISO 13485:2016 | CE Marked | FDA 510(k)",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0002",
+          "page": 1,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 80.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.905,
+            "w": 1.0,
+            "h": 0.095
+          },
+          "yolo": "6 0.5000 0.9525 1.0000 0.0950",
+          "gt_text": "ISO 13485:2016    CE Marked    FDA 510(k)    ENERGY STAR\n+49 69 4521 8800 | procurement@medcore-intl.com | www.medcore-intl.com Page 1 of 4",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0003",
+          "page": 1,
+          "class": "figure",
+          "class_id": 3,
+          "content": "Cover hero - surgical instruments on OR drape",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 280.0,
+            "w": 539.28,
+            "h": 521.89
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.6199
+          },
+          "yolo": "3 0.5000 0.3575 0.9059 0.6199",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0004",
+          "page": 1,
+          "class": "title",
+          "class_id": 0,
+          "content": "2024-2025 Product Catalogue",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 250.0,
+            "w": 539.28,
+            "h": 26.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.6722,
+            "w": 0.9059,
+            "h": 0.0309
+          },
+          "yolo": "0 0.5000 0.6876 0.9059 0.0309",
+          "gt_text": "2024 - 2025 PRODUCT CATALOGUE",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0005",
+          "page": 1,
+          "class": "title",
+          "class_id": 0,
+          "content": "Advanced Diagnostic & Surgical Instruments",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 228.0,
+            "w": 539.28,
+            "h": 18.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7078,
+            "w": 0.9059,
+            "h": 0.0214
+          },
+          "yolo": "0 0.5000 0.7185 0.9059 0.0214",
+          "gt_text": "Advanced Diagnostic & Surgical Instruments",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0006",
+          "page": 1,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "For ICUs | OTs | Diagnostic Labs | General Practice",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 210.0,
+            "w": 539.28,
+            "h": 14.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7339,
+            "w": 0.9059,
+            "h": 0.0166
+          },
+          "yolo": "1 0.5000 0.7422 0.9059 0.0166",
+          "gt_text": "For ICUs | Operation Theatres | Diagnostic Labs | General Practice",
+          "gt_text_status": "programmatic_verified"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "elements": [
+        {
+          "id": "e0007",
+          "page": 2,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475",
+          "gt_text": "MedCore\nINSTRUMENTS INTERNATIONAL\nPrecision. Reliability. Care.\nPage 2 of 4\nwww.medcore-intl.com\nISO 13485:2016 | CE Marked | FDA 510(k)",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0008",
+          "page": 2,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 28.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.9667,
+            "w": 1.0,
+            "h": 0.0333
+          },
+          "yolo": "6 0.5000 0.9834 1.0000 0.0333",
+          "gt_text": "MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com\nTel: +49 69 4521 8800 | All products for professional medical use only\np.2",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0009",
+          "page": 2,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Section 1 Diagnostic Instruments",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 769.89,
+            "w": 539.28,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.038
+          },
+          "yolo": "9 0.5000 0.0665 0.9059 0.0380",
+          "gt_text": "SECTION 1 -- Diagnostic & Monitoring Equipment    CE Certified | 2-Year Warranty",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0010",
+          "page": 2,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Warranty strip",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 28.0,
+            "w": 539.28,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.9477,
+            "w": 0.9059,
+            "h": 0.019
+          },
+          "yolo": "9 0.5000 0.9572 0.9059 0.0190",
+          "gt_text": "All products include 2-year warranty | Free calibration first year | ServicePlus from EUR 299/yr",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0011",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "VitalScan Pro 9000",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 410.94,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.2685 0.3023 0.4429 0.4192",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0012",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-VSP-9000",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.2685 0.1016 0.4429 0.0178",
+          "gt_text": "MC-VSP-9000    EUR 4,850",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0013",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 596.65,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.2685 0.2033 0.4429 0.1761",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0014",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "VitalScan Pro 9000",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 576.65,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.296,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.2685 0.3055 0.4429 0.0190",
+          "gt_text": "VitalScan Pro 9000",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0015",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 516.18,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3198,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.2685 0.3533 0.4429 0.0671",
+          "gt_text": "Hospital-grade continuous vital-signs monitoring with 15-inch anti-glare TFT touchscreen. Seamless HL7 EMR integration.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0016",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 448.65,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3916,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.2685 0.4294 0.4429 0.0755",
+          "gt_text": "Display: 15\" TFT 1024x768\nParameters: ECG 12-lead, SpO2, NIBP, Temp\nBattery: 4 hours backup\nConnectivity: Wi-Fi, Ethernet, USB 3.0\nCert.: CE, ISO 13485, IEC 60601",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0017",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 4,850",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 422.65,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.4718,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.2685 0.4849 0.4429 0.0261",
+          "gt_text": "EUR 4,850 / unit",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0018",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "DermoScope Elite 3X",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 410.94,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.7315 0.3023 0.4429 0.4192",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0019",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-DSE-3X",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.7315 0.1016 0.4429 0.0178",
+          "gt_text": "MC-DSE-3X    EUR 1,299",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0020",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 596.65,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.7315 0.2033 0.4429 0.1761",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0021",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "DermoScope Elite 3X",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 576.65,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.296,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.7315 0.3055 0.4429 0.0190",
+          "gt_text": "DermoScope Elite 3X",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0022",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 516.18,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3198,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.7315 0.3533 0.4429 0.0671",
+          "gt_text": "Variable 10-30x magnification with polarized and non-polarized LED illumination. Wi-Fi enabled 48 MP CMOS camera.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0023",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 448.65,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3916,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.7315 0.4294 0.4429 0.0755",
+          "gt_text": "Magnification: 10x / 20x / 30x\nIllumination: 20 LED, polarized + non-pol\nCamera: 48 MP CMOS sensor\nStorage: 16 GB + cloud sync\nCert.: CE, ISO 13485",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0024",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 1,299",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 422.65,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.4718,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.7315 0.4849 0.4429 0.0261",
+          "gt_text": "EUR 1,299 / unit",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0025",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "AuraScan Digital Otoscope",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 48.0,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.2685 0.7334 0.4429 0.4192",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0026",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-ASD-HD",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 385.94,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.2685 0.5327 0.4429 0.0178",
+          "gt_text": "MC-ASD-HD    EUR 389",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0027",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 233.71,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.5463,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.2685 0.6344 0.4429 0.1761",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0028",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "AuraScan Digital Otoscope",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 213.71,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7272,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.2685 0.7367 0.4429 0.0190",
+          "gt_text": "AuraScan Digital Otoscope",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0029",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 153.24,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7509,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.2685 0.7844 0.4429 0.0671",
+          "gt_text": "Crystal-clear 1080p tympanic membrane visualization. USB-C EMR output. Three speculum sizes included.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0030",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 85.71,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.8227,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.2685 0.8605 0.4429 0.0755",
+          "gt_text": "Resolution: 1920x1080 HD\nIllumination: Cool white LED 5500K\nSpeculums: 2.5mm, 4mm, 5mm\nOutput: USB-C, 3.5mm AV\nCert.: CE, ISO 13485",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0031",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 389",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 59.71,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.9029,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.2685 0.9160 0.4429 0.0261",
+          "gt_text": "EUR 389 / unit",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0032",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "GlucoSense Pro",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 48.0,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.7315 0.7334 0.4429 0.4192",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0033",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-GSP-LAB",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 385.94,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.7315 0.5327 0.4429 0.0178",
+          "gt_text": "MC-GSP-LAB    EUR 245",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0034",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 233.71,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.5463,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.7315 0.6344 0.4429 0.1761",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0035",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "GlucoSense Pro",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 213.71,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.7272,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.7315 0.7367 0.4429 0.0190",
+          "gt_text": "GlucoSense Pro",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0036",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 153.24,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.7509,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.7315 0.7844 0.4429 0.0671",
+          "gt_text": "Lab-accurate blood glucose in under 5 seconds. Hematocrit correction, 1000-reading memory, Bluetooth 5.0.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0037",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 85.71,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.8227,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.7315 0.8605 0.4429 0.0755",
+          "gt_text": "Range: 1.1-33.3 mmol/L\nSample: 0.5 microlitre\nTime: < 5 seconds\nMemory: 1000 readings + timestamp\nCert.: CE, ISO 13485",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0038",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 245",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 59.71,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.9029,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.7315 0.9160 0.4429 0.0261",
+          "gt_text": "EUR 245 / unit",
+          "gt_text_status": "programmatic_verified"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "elements": [
+        {
+          "id": "e0039",
+          "page": 3,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475",
+          "gt_text": "MedCore\nINSTRUMENTS INTERNATIONAL\nPrecision. Reliability. Care.\nPage 3 of 4\nwww.medcore-intl.com\nISO 13485:2016 | CE Marked | FDA 510(k)",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0040",
+          "page": 3,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 28.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.9667,
+            "w": 1.0,
+            "h": 0.0333
+          },
+          "yolo": "6 0.5000 0.9834 1.0000 0.0333",
+          "gt_text": "MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com\nTel: +49 69 4521 8800 | All products for professional medical use only\np.3",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0041",
+          "page": 3,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Section 2 Surgical Instruments",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 769.89,
+            "w": 539.28,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.038
+          },
+          "yolo": "9 0.5000 0.0665 0.9059 0.0380",
+          "gt_text": "SECTION 2 -- Surgical Instruments & Sets    316L SS | Autoclave Compatible | ISO 17664",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0042",
+          "page": 3,
+          "class": "title",
+          "class_id": 0,
+          "content": "Monitor Comparison Table Title",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 310.0,
+            "w": 539.28,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.6056,
+            "w": 0.9059,
+            "h": 0.0261
+          },
+          "yolo": "0 0.5000 0.6187 0.9059 0.0261",
+          "gt_text": "Patient Monitor Series -- Feature Comparison    Choose the right monitor for your department",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0043",
+          "page": 3,
+          "class": "table",
+          "class_id": 2,
+          "content": "Patient Monitor Comparison Table",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 28.0,
+            "w": 539.28,
+            "h": 282.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.6318,
+            "w": 0.9059,
+            "h": 0.335
+          },
+          "yolo": "2 0.5000 0.7993 0.9059 0.3350",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0044",
+          "page": 3,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "SurgSet Pro 42-Piece",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 340.0,
+            "w": 263.64,
+            "h": 423.89
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.5035
+          },
+          "yolo": "10 0.2685 0.3444 0.4429 0.5035",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0045",
+          "page": 3,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-SS-PRO42",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.2685 0.1016 0.4429 0.0178",
+          "gt_text": "MC-SS-PRO42    EUR 1,870 / set",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0046",
+          "page": 3,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 559.89,
+            "w": 263.64,
+            "h": 185.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.2197
+          },
+          "yolo": "3 0.2685 0.2251 0.4429 0.2197",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0047",
+          "page": 3,
+          "class": "title",
+          "class_id": 0,
+          "content": "SurgSet Pro 42-Piece",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 539.89,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3397,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.2685 0.3492 0.4429 0.0190",
+          "gt_text": "SurgSet Pro 42-Piece",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0048",
+          "page": 3,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 497.89,
+            "w": 263.64,
+            "h": 38.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3635,
+            "w": 0.4429,
+            "h": 0.0451
+          },
+          "yolo": "1 0.2685 0.3860 0.4429 0.0451",
+          "gt_text": "316L stainless steel, mirror-polished. Laser-etched ID codes per ISO 17664. Autoclave-compatible up to 134 C.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0049",
+          "page": 3,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 443.89,
+            "w": 263.64,
+            "h": 50.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.4134,
+            "w": 0.4429,
+            "h": 0.0594
+          },
+          "yolo": "12 0.2685 0.4431 0.4429 0.0594",
+          "gt_text": "Material: 316L Stainless Steel\nAutoclave: 134 C / 3 bar\nPieces: 42 instruments\nTray: Perforated SS with lid",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0050",
+          "page": 3,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 1,870 / set",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 417.89,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.4775,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.2685 0.4906 0.4429 0.0261",
+          "gt_text": "EUR 1,870 / set",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0051",
+          "page": 3,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "LaparoTroc 5mm Trocar Set",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 340.0,
+            "w": 263.64,
+            "h": 423.89
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.5035
+          },
+          "yolo": "10 0.7315 0.3444 0.4429 0.5035",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0052",
+          "page": 3,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-LT-5MM",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.7315 0.1016 0.4429 0.0178",
+          "gt_text": "MC-LT-5MM    EUR 3,250 / set",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0053",
+          "page": 3,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 559.89,
+            "w": 263.64,
+            "h": 185.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.2197
+          },
+          "yolo": "3 0.7315 0.2251 0.4429 0.2197",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0054",
+          "page": 3,
+          "class": "title",
+          "class_id": 0,
+          "content": "LaparoTroc 5mm Trocar Set",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 539.89,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3397,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.7315 0.3492 0.4429 0.0190",
+          "gt_text": "LaparoTroc 5mm Trocar Set",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0055",
+          "page": 3,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 497.89,
+            "w": 263.64,
+            "h": 38.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3635,
+            "w": 0.4429,
+            "h": 0.0451
+          },
+          "yolo": "1 0.7315 0.3860 0.4429 0.0451",
+          "gt_text": "Radially dilating tip reduces port-site trauma. Valveless cannula minimizes gas leakage during pneumoperitoneum.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0056",
+          "page": 3,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 443.89,
+            "w": 263.64,
+            "h": 50.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.4134,
+            "w": 0.4429,
+            "h": 0.0594
+          },
+          "yolo": "12 0.7315 0.4431 0.4429 0.0594",
+          "gt_text": "Sizes: 5 mm / 10 mm / 12 mm\nTip: Radially dilating\nValve: Valveless cannula\nSterilize: EtO / Autoclave 134 C",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0057",
+          "page": 3,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 3,250 / set",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 417.89,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.4775,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.7315 0.4906 0.4429 0.0261",
+          "gt_text": "EUR 3,250 / set",
+          "gt_text_status": "programmatic_verified"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "elements": [
+        {
+          "id": "e0058",
+          "page": 4,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475",
+          "gt_text": "MedCore\nINSTRUMENTS INTERNATIONAL\nPrecision. Reliability. Care.\nPage 4 of 4\nwww.medcore-intl.com\nISO 13485:2016 | CE Marked | FDA 510(k)",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0059",
+          "page": 4,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 28.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.9667,
+            "w": 1.0,
+            "h": 0.0333
+          },
+          "yolo": "6 0.5000 0.9834 1.0000 0.0333",
+          "gt_text": "MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com\nTel: +49 69 4521 8800 | All products for professional medical use only\np.4",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0060",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Ordering - Warranty - Contact",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 769.89,
+            "w": 539.28,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.038
+          },
+          "yolo": "9 0.5000 0.0665 0.9059 0.0380",
+          "gt_text": "ORDERING * AFTER-SALES * CONTACT",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0061",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Bottom promo band",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 28.0,
+            "w": 539.28,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.9406,
+            "w": 0.9059,
+            "h": 0.0261
+          },
+          "yolo": "9 0.5000 0.9537 0.9059 0.0261",
+          "gt_text": "Download Catalogue | Request Demo | Apply for Credit Account | www.medcore-intl.com",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0062",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "How to Order",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 741.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "9 0.1924 0.1057 0.2908 0.0261",
+          "gt_text": "Ordering & Delivery",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0063",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 1 - Request Quote",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 721.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1235,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.1330 0.2908 0.0190",
+          "gt_text": "STEP 1 - Request a Quote",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0064",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 1 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 685.89,
+            "w": 173.09,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1473,
+            "w": 0.2908,
+            "h": 0.038
+          },
+          "yolo": "1 0.1924 0.1663 0.2908 0.0380",
+          "gt_text": "Submit RFQ at www.medcore-intl.com/rfq. Include product codes and quantities. Response within 24 business hours.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0065",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 2 - Invoice",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 665.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.19,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.1996 0.2908 0.0190",
+          "gt_text": "STEP 2 - Receive Proforma Invoice",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0066",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 2 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 635.89,
+            "w": 173.09,
+            "h": 26.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.2138,
+            "w": 0.2908,
+            "h": 0.0309
+          },
+          "yolo": "1 0.1924 0.2292 0.2908 0.0309",
+          "gt_text": "Proforma invoice issued within 24 hours, valid 30 days. Full itemization included.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0067",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 3 - Payment",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 615.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.2494,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.2589 0.2908 0.0190",
+          "gt_text": "STEP 3 - Payment Terms",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0068",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 3 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 579.89,
+            "w": 173.09,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.2732,
+            "w": 0.2908,
+            "h": 0.038
+          },
+          "yolo": "1 0.1924 0.2922 0.2908 0.0380",
+          "gt_text": "Net 30 for approved accounts. 50% advance for new clients. LC accepted for orders > EUR 50,000.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0069",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 4 - Delivery",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 559.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.316,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.3255 0.2908 0.0190",
+          "gt_text": "STEP 4 - Shipping",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0070",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 4 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 523.89,
+            "w": 173.09,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3397,
+            "w": 0.2908,
+            "h": 0.038
+          },
+          "yolo": "1 0.1924 0.3587 0.2908 0.0380",
+          "gt_text": "DDP worldwide. Standard: 7-10 days (Europe). Express: 2-3 days DHL Medical Express. GPS + temp tracking.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0071",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Warranty and Support",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 741.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.0926,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "9 0.5000 0.1057 0.2908 0.0261",
+          "gt_text": "Warranty & Support",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0072",
+          "page": 4,
+          "class": "list",
+          "class_id": 8,
+          "content": "Standard warranty coverage list",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 667.89,
+            "w": 173.09,
+            "h": 70.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.1235,
+            "w": 0.2908,
+            "h": 0.0831
+          },
+          "yolo": "8 0.5000 0.1651 0.2908 0.0831",
+          "gt_text": "* Electronic instruments: 2-year warranty\n* Surgical steel: Lifetime on defects\n* Consumables: Lot-controlled replacement\n* Software: Free lifetime OTA updates",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0073",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "ServicePlus Plans title",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 639.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.2138,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "0 0.5000 0.2269 0.2908 0.0261",
+          "gt_text": "ServicePlus Plans",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0074",
+          "page": 4,
+          "class": "table",
+          "class_id": 2,
+          "content": "ServicePlus plans table",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 523.89,
+            "w": 173.09,
+            "h": 110.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.2471,
+            "w": 0.2908,
+            "h": 0.1307
+          },
+          "yolo": "2 0.5000 0.3124 0.2908 0.1307",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0075",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Calibration services",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 467.89,
+            "w": 173.09,
+            "h": 50.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.3848,
+            "w": 0.2908,
+            "h": 0.0594
+          },
+          "yolo": "1 0.5000 0.4145 0.2908 0.0594",
+          "gt_text": "ISO/IEC 17025 accredited calibration from EUR 120/instrument.",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0076",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Get In Touch",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 741.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.0926,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "9 0.8076 0.1057 0.2908 0.0261",
+          "gt_text": "Get In Touch",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0077",
+          "page": 4,
+          "class": "map",
+          "class_id": 13,
+          "content": "World map regional offices",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 627.89,
+            "w": 173.09,
+            "h": 110.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.1235,
+            "w": 0.2908,
+            "h": 0.1307
+          },
+          "yolo": "13 0.8076 0.1889 0.2908 0.1307",
+          "gt_text": null,
+          "gt_text_status": "out_of_scope_for_track_a"
+        },
+        {
+          "id": "e0078",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "HQ address",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 561.89,
+            "w": 173.09,
+            "h": 60.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.2613,
+            "w": 0.2908,
+            "h": 0.0713
+          },
+          "yolo": "1 0.8076 0.2970 0.2908 0.0713",
+          "gt_text": "MedCore Instruments International GmbH Suite 1200, Meridian Medical Tower 48 Commerce Blvd, Frankfurt 60311, Germany Tel: +49 69 4521 8800",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0079",
+          "page": 4,
+          "class": "list",
+          "class_id": 8,
+          "content": "Regional offices list",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 485.89,
+            "w": 173.09,
+            "h": 70.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.3397,
+            "w": 0.2908,
+            "h": 0.0831
+          },
+          "yolo": "8 0.8076 0.3813 0.2908 0.0831",
+          "gt_text": "London UK: +44 20 7946 0832\nNew York USA: +1 646 880 4421\nSingapore: +65 6438 7710\nMumbai India: +91 22 4890 3300\nDubai UAE: +971 4 456 9100",
+          "gt_text_status": "programmatic_verified"
+        },
+        {
+          "id": "e0080",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Sales contact details",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 427.89,
+            "w": 173.09,
+            "h": 52.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.43,
+            "w": 0.2908,
+            "h": 0.0618
+          },
+          "yolo": "1 0.8076 0.4609 0.2908 0.0618",
+          "gt_text": "sales@medcore-intl.com www.medcore-intl.com Live chat: 24/7",
+          "gt_text_status": "programmatic_verified"
+        }
+      ]
+    }
+  ],
+  "text_gt_generation": {
+    "method": "programmatic_extraction_from_synthesis_text_dump + visual_bbox_spot_check",
+    "source": "per-page .txt dumps embedded in MedCore_Catalogue_v2.pdf (zip container) + manual visual crop verification of representative bboxes per element type",
+    "known_unassigned_content": [
+      {
+        "page": 1,
+        "text": "6 Product Categories   2,400+ Hospitals Served   Est. 1987 | Frankfurt",
+        "reason": "Appears in page text dump but has no corresponding bbox in MedCore_GT_v2.json; visually it is an overlay stat-band on the cover hero figure (e0003). Out of Track-A scope; relevant to Track C (embedded figure text) instead."
+      }
+    ],
+    "stats": {
+      "text_bearing_filled": 64,
+      "out_of_scope_classes_skipped": 16,
+      "missing": 0
+    }
+  }
+}

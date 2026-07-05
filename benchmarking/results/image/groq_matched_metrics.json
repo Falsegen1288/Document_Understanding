@@ -1,0 +1,21 @@
+{
+  "model_id": "groq_matched",
+  "total_images": 12,
+  "successful_predictions": 12,
+  "failed_predictions": 0,
+  "average_latency_sec": 1.2686757644017537,
+  "captioning_metrics": {
+    "average_bleu4": 0.0003850714091025185,
+    "average_rougeL": 0.003787878787878788,
+    "average_semantic_similarity": 0.0026881720430107525,
+    "black_image_detection_rate": 0.8333333333333334,
+    "hallucination_rate": 0.16666666666666663
+  },
+  "attribute_extraction_metrics": {
+    "category_accuracy": 0.08333333333333333,
+    "surgical_instrument_flag_accuracy": 0.5833333333333334,
+    "color_extraction_fill_rate": 0.16666666666666666,
+    "material_extraction_fill_rate": 0.16666666666666666,
+    "background_extraction_fill_rate": 0.16666666666666666
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model_id": "groq_llama-4-scout",
+  "total_images": 126,
+  "successful_predictions": 125,
+  "failed_predictions": 1,
+  "average_latency_sec": 1.6142217960357665,
+  "captioning_metrics": {
+    "average_bleu4": 0.0006068760431467852,
+    "average_rougeL": 0.0143296362229823,
+    "average_semantic_similarity": 0.003327335824530776,
+    "black_image_detection_rate": 0.952,
+    "hallucination_rate": 0.04800000000000004
+  },
+  "attribute_extraction_metrics": {
+    "category_accuracy": 0.176,
+    "surgical_instrument_flag_accuracy": 0.632,
+    "color_extraction_fill_rate": 0.256,
+    "material_extraction_fill_rate": 0.144,
+    "background_extraction_fill_rate": 0.256
+  }
+}

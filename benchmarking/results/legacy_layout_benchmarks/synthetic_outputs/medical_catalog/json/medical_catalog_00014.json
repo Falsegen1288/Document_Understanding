@@ -1,0 +1,955 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "medical_catalog_00014",
+  "domain": "medical_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200014,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/medical_catalog/images/medical_catalog_00014_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "mc00014_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            35.553551999999996,
+            35.63976,
+            576.446448,
+            48.88524
+          ],
+          "text": "SURGI-ALLOY\nREF 356 / CAT-2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e001",
+          "type": "title",
+          "bbox": [
+            35.55,
+            85.005,
+            576.9225,
+            108.045
+          ],
+          "text": "SURGI-ALLOY / SURGICAL RETRACTORS",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e002",
+          "type": "text",
+          "bbox": [
+            35.55,
+            110.925,
+            576.9225,
+            120.525
+          ],
+          "text": "Clinical-grade surgical instruments and medical equipment manufactured to ISO 13485 standards.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e003",
+          "type": "picture",
+          "bbox": [
+            44.19,
+            140.685,
+            195.8475,
+            230.925
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e008",
+          "type": "picture",
+          "bbox": [
+            230.4075,
+            140.685,
+            382.065,
+            230.925
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e013",
+          "type": "picture",
+          "bbox": [
+            416.625,
+            140.685,
+            568.2825,
+            230.925
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e004",
+          "type": "title",
+          "bbox": [
+            43.71,
+            239.085,
+            196.3275,
+            250.3125
+          ],
+          "text": "Army-Navy Retractor",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e009",
+          "type": "title",
+          "bbox": [
+            229.9275,
+            239.085,
+            382.545,
+            250.3125
+          ],
+          "text": "Richardson Appendectomy Retractor",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e014",
+          "type": "title",
+          "bbox": [
+            416.145,
+            239.085,
+            568.7625,
+            250.3125
+          ],
+          "text": "Weitlaner Self-Retaining Retractor",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e005",
+          "type": "text",
+          "bbox": [
+            43.71,
+            254.1525,
+            196.3275,
+            282.6525
+          ],
+          "text": "Double-ended handheld retractor used for exposing superficial wounds.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e010",
+          "type": "text",
+          "bbox": [
+            229.9275,
+            254.1525,
+            382.545,
+            282.6525
+          ],
+          "text": "Large loop handle retractor with single right-angled blade for laparotomy.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e015",
+          "type": "text",
+          "bbox": [
+            416.145,
+            254.1525,
+            568.7625,
+            271.6125
+          ],
+          "text": "Self-retaining retractor with 3x4 blunt prongs for deep abdominal exposure.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e016",
+          "type": "table",
+          "bbox": [
+            416.145,
+            277.3725,
+            568.7625,
+            310.4925
+          ],
+          "text": "Material\tSurgical Steel\nBlades\tDouble-ended\nOrigin\tMade in Germany",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  416.145,
+                  279.2925,
+                  484.8225,
+                  285.7725
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Surgical Steel",
+                "bbox": [
+                  484.8225,
+                  279.2925,
+                  568.7625,
+                  285.7725
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Blades",
+                "bbox": [
+                  416.145,
+                  290.0925,
+                  484.8225,
+                  296.8125
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Double-ended",
+                "bbox": [
+                  484.8225,
+                  290.0925,
+                  568.7625,
+                  296.8125
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  416.145,
+                  301.1325,
+                  484.8225,
+                  307.8525
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Made in Germany",
+                "bbox": [
+                  484.8225,
+                  301.1325,
+                  568.7625,
+                  307.8525
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e006",
+          "type": "table",
+          "bbox": [
+            43.71,
+            288.4125,
+            196.3275,
+            310.4925
+          ],
+          "text": "Prongs\t3 Sharp\nBlades\tDouble-ended",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Prongs",
+                "bbox": [
+                  43.71,
+                  290.3325,
+                  112.3875,
+                  296.8125
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "3 Sharp",
+                "bbox": [
+                  112.3875,
+                  290.3325,
+                  196.3275,
+                  296.8125
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Blades",
+                "bbox": [
+                  43.71,
+                  301.1325,
+                  112.3875,
+                  307.8525
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Double-ended",
+                "bbox": [
+                  112.3875,
+                  301.1325,
+                  196.3275,
+                  307.8525
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e011",
+          "type": "table",
+          "bbox": [
+            229.9275,
+            288.4125,
+            382.545,
+            310.4925
+          ],
+          "text": "Origin\tMade in Germany\nBlades\tDouble-ended",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  229.9275,
+                  290.3325,
+                  298.605,
+                  296.8125
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Made in Germany",
+                "bbox": [
+                  298.605,
+                  290.3325,
+                  382.545,
+                  296.8125
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Blades",
+                "bbox": [
+                  229.9275,
+                  301.1325,
+                  298.605,
+                  307.8525
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Double-ended",
+                "bbox": [
+                  298.605,
+                  301.1325,
+                  382.545,
+                  307.8525
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e007",
+          "type": "text",
+          "bbox": [
+            43.71,
+            320.5725,
+            75.9825,
+            331.6125
+          ],
+          "text": "$314.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e012",
+          "type": "text",
+          "bbox": [
+            229.9275,
+            320.5725,
+            263.31,
+            331.6125
+          ],
+          "text": "$399.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e017",
+          "type": "text",
+          "bbox": [
+            416.145,
+            320.5725,
+            450.615,
+            331.6125
+          ],
+          "text": "$205.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e018",
+          "type": "picture",
+          "bbox": [
+            44.19,
+            365.6925,
+            195.8475,
+            455.9325
+          ],
+          "text": null,
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e023",
+          "type": "picture",
+          "bbox": [
+            230.4075,
+            365.6925,
+            382.065,
+            455.9325
+          ],
+          "text": null,
+          "reading_order": 19,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e028",
+          "type": "picture",
+          "bbox": [
+            416.625,
+            365.6925,
+            568.2825,
+            455.9325
+          ],
+          "text": null,
+          "reading_order": 20,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e019",
+          "type": "title",
+          "bbox": [
+            43.71,
+            464.0925,
+            196.3275,
+            475.32
+          ],
+          "text": "Senn Handheld Retractor",
+          "reading_order": 21,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e024",
+          "type": "title",
+          "bbox": [
+            229.9275,
+            464.0925,
+            382.545,
+            475.32
+          ],
+          "text": "Adson Tissue Forceps",
+          "reading_order": 22,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e029",
+          "type": "title",
+          "bbox": [
+            416.145,
+            464.0925,
+            568.7625,
+            475.32
+          ],
+          "text": "Semken Dressing Forceps",
+          "reading_order": 23,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e020",
+          "type": "text",
+          "bbox": [
+            43.71,
+            479.16,
+            196.3275,
+            496.62
+          ],
+          "text": "Double-ended retractor with three sharp prongs on one side and a solid blade on the other.",
+          "reading_order": 24,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e025",
+          "type": "text",
+          "bbox": [
+            229.9275,
+            479.16,
+            382.545,
+            496.62
+          ],
+          "text": "Premium stainless steel surgical forceps with 1x2 teeth for secure tissue grip.",
+          "reading_order": 25,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e030",
+          "type": "text",
+          "bbox": [
+            416.145,
+            479.16,
+            568.7625,
+            496.62
+          ],
+          "text": "Straight forceps without teeth, ideal for dressing and delicate dissection.",
+          "reading_order": 26,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e021",
+          "type": "table",
+          "bbox": [
+            43.71,
+            502.38,
+            196.3275,
+            535.5
+          ],
+          "text": "Prongs\t3 Sharp\nBlades\tDouble-ended\nOrigin\tMade in Germany",
+          "reading_order": 27,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Prongs",
+                "bbox": [
+                  43.71,
+                  504.3,
+                  112.3875,
+                  510.78
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "3 Sharp",
+                "bbox": [
+                  112.3875,
+                  504.3,
+                  196.3275,
+                  510.78
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Blades",
+                "bbox": [
+                  43.71,
+                  515.1,
+                  112.3875,
+                  521.82
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Double-ended",
+                "bbox": [
+                  112.3875,
+                  515.1,
+                  196.3275,
+                  521.82
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  43.71,
+                  526.14,
+                  112.3875,
+                  532.86
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Made in Germany",
+                "bbox": [
+                  112.3875,
+                  526.14,
+                  196.3275,
+                  532.86
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e026",
+          "type": "table",
+          "bbox": [
+            229.9275,
+            502.38,
+            382.545,
+            535.5
+          ],
+          "text": "Autoclavable\tYes (134\u00b0C)\nTeeth\t1x2 Teeth\nLength\t12 cm",
+          "reading_order": 28,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Autoclavable",
+                "bbox": [
+                  229.9275,
+                  504.3,
+                  298.605,
+                  510.78
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Yes (134\u00b0C)",
+                "bbox": [
+                  298.605,
+                  504.3,
+                  382.545,
+                  510.78
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Teeth",
+                "bbox": [
+                  229.9275,
+                  515.1,
+                  298.605,
+                  521.82
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "1x2 Teeth",
+                "bbox": [
+                  298.605,
+                  515.1,
+                  382.545,
+                  521.82
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Length",
+                "bbox": [
+                  229.9275,
+                  526.14,
+                  298.605,
+                  532.86
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "12 cm",
+                "bbox": [
+                  298.605,
+                  526.14,
+                  382.545,
+                  532.86
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e031",
+          "type": "table",
+          "bbox": [
+            416.145,
+            502.38,
+            568.7625,
+            535.5
+          ],
+          "text": "Material\t316L Stainless Steel\nTeeth\t1x2 Teeth\nAutoclavable\tYes (134\u00b0C)",
+          "reading_order": 29,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  416.145,
+                  504.3,
+                  484.8225,
+                  510.78
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "316L Stainless Steel",
+                "bbox": [
+                  484.8225,
+                  504.3,
+                  568.7625,
+                  510.78
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Teeth",
+                "bbox": [
+                  416.145,
+                  515.1,
+                  484.8225,
+                  521.82
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "1x2 Teeth",
+                "bbox": [
+                  484.8225,
+                  515.1,
+                  568.7625,
+                  521.82
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Autoclavable",
+                "bbox": [
+                  416.145,
+                  526.14,
+                  484.8225,
+                  532.86
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Yes (134\u00b0C)",
+                "bbox": [
+                  484.8225,
+                  526.14,
+                  568.7625,
+                  532.86
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e022",
+          "type": "text",
+          "bbox": [
+            43.71,
+            545.58,
+            75.6375,
+            556.62
+          ],
+          "text": "$213.00",
+          "reading_order": 30,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e027",
+          "type": "text",
+          "bbox": [
+            229.9275,
+            545.58,
+            263.4375,
+            556.62
+          ],
+          "text": "$355.00",
+          "reading_order": 31,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e032",
+          "type": "text",
+          "bbox": [
+            416.145,
+            545.58,
+            449.9925,
+            556.62
+          ],
+          "text": "$226.00",
+          "reading_order": 32,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00014_p1_e033",
+          "type": "page_footer",
+          "bbox": [
+            35.553551999999996,
+            754.288104,
+            576.446448,
+            754.388104
+          ],
+          "text": "\u00a9 2026 SURGI-ALLOY. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 33,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

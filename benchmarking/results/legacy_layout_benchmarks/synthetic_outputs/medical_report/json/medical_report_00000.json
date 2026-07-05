@@ -1,0 +1,1493 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "medical_report_00000",
+  "domain": "medical_report",
+  "source_engine": "reportlab_platypus",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200000,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/medical_report/images/medical_report_00000_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "mr00000_p1_e001",
+          "type": "title",
+          "bbox": [
+            36.25342021329848,
+            126.6354952267601,
+            575.9620734813741,
+            150.6354952267601
+          ],
+          "text": "PATIENT INTAKE REPORT",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e002",
+          "type": "section_header",
+          "bbox": [
+            36.25342021329848,
+            165.6354952267601,
+            575.9620734813741,
+            180.6354952267601
+          ],
+          "text": "Patient Information",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e003",
+          "type": "table",
+          "bbox": [
+            42.25342021329848,
+            191.6354952267601,
+            569.9620734813741,
+            227.6354952267601
+          ],
+          "text": null,
+          "reading_order": 2,
+          "attributes": {
+            "n_rows": 2,
+            "n_cols": 4,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  42.25342021329848,
+                  191.6354952267601,
+                  158.75548051522125,
+                  204.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '2e802748-9d2e-4ae9-81f7-1c1b40105c1e'\n'_gt_text': '<b>Patient Name:</b>'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>Patient Name:</b>'\n'frags': [ParaFrag(__tag__='b', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Patient Name:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 116.50206030192277\n'_wrapWidths': [116.50206030192277, 116.50206030192277]\n'_width_max': 60.012\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='b', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(56.49006030192277, ['Patient', 'Name:'])], link=[], rise=0, text='Patient Name:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  170.75548051522125,
+                  191.6354952267601,
+                  300.10774684733633,
+                  204.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '17cc8be6-42bc-4a3b-99d1-37a2b762f8a4'\n'_gt_text': 'Robert Miller'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Robert Miller'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Robert Miller', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 129.35226633211505\n'_wrapWidths': [129.35226633211505, 129.35226633211505]\n'_width_max': 51.003\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(78.34926633211505, ['Robert', 'Miller'])], link=[], rise=0, text='Robert Miller', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "bbox": [
+                  312.10774684733633,
+                  191.6354952267601,
+                  428.6098071492591,
+                  204.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '41e9ba7a-325d-42af-9886-9f67c4d6bc1e'\n'_gt_text': '<b>Date of Birth:</b>'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>Date of Birth:</b>'\n'frags': [ParaFrag(__tag__='b', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Date of Birth:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 116.50206030192277\n'_wrapWidths': [116.50206030192277, 116.50206030192277]\n'_width_max': 56.99700000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='b', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(59.50506030192276, ['Date', 'of', 'Birth:'])], link=[], rise=0, text='Date of Birth:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "bbox": [
+                  440.60980714925904,
+                  191.6354952267601,
+                  569.9620734813741,
+                  204.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '1a14a6a0-c634-43dd-b9bb-4e639419a57e'\n'_gt_text': '1944-12-02'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '1944-12-02'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='1944-12-02', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 129.35226633211505\n'_wrapWidths': [129.35226633211505, 129.35226633211505]\n'_width_max': 46.025999999999996\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(83.32626633211505, ['1944-12-02'])], link=[], rise=0, text='1944-12-02', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "bbox": [
+                  42.25342021329848,
+                  214.6354952267601,
+                  158.75548051522125,
+                  227.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'b93ae86f-c23a-4e7c-9d7b-6f0032d4dcda'\n'_gt_text': '<b>MRN / Patient ID:</b>'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>MRN / Patient ID:</b>'\n'frags': [ParaFrag(__tag__='b', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='MRN / Patient ID:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 116.50206030192277\n'_wrapWidths': [116.50206030192277, 116.50206030192277]\n'_width_max': 72.50399999999999\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='b', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(43.99806030192278, ['MRN', '/', 'Patient', 'ID:'])], link=[], rise=0, text='MRN / Patient ID:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "bbox": [
+                  170.75548051522125,
+                  214.6354952267601,
+                  300.10774684733633,
+                  227.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '01a31851-2897-40a0-ab1d-933f1bf2a099'\n'_gt_text': 'PT-CB-96267'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'PT-CB-96267'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='PT-CB-96267', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 129.35226633211505\n'_wrapWidths': [129.35226633211505, 129.35226633211505]\n'_width_max': 55.017\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(74.33526633211505, ['PT-CB-96267'])], link=[], rise=0, text='PT-CB-96267', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "bbox": [
+                  312.10774684733633,
+                  214.6354952267601,
+                  428.6098071492591,
+                  227.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'e6321b05-d64f-4a8b-b08f-88285e724707'\n'_gt_text': '<b>Report Date:</b>'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>Report Date:</b>'\n'frags': [ParaFrag(__tag__='b', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Report Date:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 116.50206030192277\n'_wrapWidths': [116.50206030192277, 116.50206030192277]\n'_width_max': 54.0\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='b', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(62.50206030192277, ['Report', 'Date:'])], link=[], rise=0, text='Report Date:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "bbox": [
+                  440.60980714925904,
+                  214.6354952267601,
+                  569.9620734813741,
+                  227.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '2792e20a-2b0d-4292-92e9-f5d835ec7878'\n'_gt_text': '2025-10-27'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '2025-10-27'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='2025-10-27', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 129.35226633211505\n'_wrapWidths': [129.35226633211505, 129.35226633211505]\n'_width_max': 46.025999999999996\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(83.32626633211505, ['2025-10-27'])], link=[], rise=0, text='2025-10-27', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              }
+            ],
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e012",
+          "type": "section_header",
+          "bbox": [
+            36.25342021329848,
+            254.6354952267601,
+            575.9620734813741,
+            269.6354952267601
+          ],
+          "text": "Vital Signs Log",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e013",
+          "type": "table",
+          "bbox": [
+            42.25342021329848,
+            280.6354952267601,
+            569.9620734813741,
+            373.6354952267601
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "n_rows": 5,
+            "n_cols": 6,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  42.25342021329848,
+                  280.6354952267601,
+                  115.92146041458032,
+                  289.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '967d9276-ae57-4a4b-8384-f12688faebdd'\n'_gt_text': 'Time'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Time'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Time', textColor=Color(.023529,.305882,.231373,1), us_lines=[])]\n'style': <ParagraphStyle 'MedTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 73.66804020128184\n'_wrapWidths': [73.66804020128184, 73.66804020128184]\n'_width_max': 21.006\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(52.66204020128184, ['Time'])], link=[], rise=0, text='Time', textColor=Color(.023529,.305882,.231373,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  127.92146041458032,
+                  280.6354952267601,
+                  223.00651066618263,
+                  289.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '00837d23-2c4d-421c-96ca-9bfb957eb352'\n'_gt_text': 'Blood Pressure'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Blood Pressure'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Blood Pressure', textColor=Color(.023529,.305882,.231373,1), us_lines=[])]\n'style': <ParagraphStyle 'MedTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 95.08505025160231\n'_wrapWidths': [95.08505025160231, 95.08505025160231]\n'_width_max': 66.519\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(28.566050251602306, ['Blood', 'Pressure'])], link=[], rise=0, text='Blood Pressure', textColor=Color(.023529,.305882,.231373,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "bbox": [
+                  235.00651066618263,
+                  280.6354952267601,
+                  319.3830558926247,
+                  289.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '4108aed4-a17e-48ff-a8fe-f6ef50122081'\n'_gt_text': 'Heart Rate (bpm)'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Heart Rate (bpm)'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Heart Rate (bpm)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])]\n'style': <ParagraphStyle 'MedTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 84.37654522644209\n'_wrapWidths': [84.37654522644209, 84.37654522644209]\n'_width_max': 72.504\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(11.872545226442085, ['Heart', 'Rate', '(bpm)'])], link=[], rise=0, text='Heart Rate (bpm)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "bbox": [
+                  331.3830558926247,
+                  280.6354952267601,
+                  394.34259106874634,
+                  289.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a9d1fd8c-2080-4577-84f0-5883844b04d5'\n'_gt_text': 'Temp (\u00b0F)'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Temp (\u00b0F)'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Temp (\u00b0F)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])]\n'style': <ParagraphStyle 'MedTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 41.598\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(21.36153517612162, ['Temp', '(\u00b0F)'])], link=[], rise=0, text='Temp (\u00b0F)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 4,
+                "bbox": [
+                  406.3425910687464,
+                  280.6354952267601,
+                  469.302126244868,
+                  289.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '87b9e619-3e89-4d31-b1a0-95a87d194ab9'\n'_gt_text': 'SpO2 (%)'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SpO2 (%)'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SpO2 (%)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])]\n'style': <ParagraphStyle 'MedTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 40.005\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.954535176121617, ['SpO2', '(%)'])], link=[], rise=0, text='SpO2 (%)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 5,
+                "bbox": [
+                  481.30212624486796,
+                  280.6354952267601,
+                  569.9620734813741,
+                  289.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'cf921f37-2fe1-4095-9043-a6c00d2f09ad'\n'_gt_text': 'Weight (lbs)'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Weight (lbs)'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Weight (lbs)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])]\n'style': <ParagraphStyle 'MedTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 88.65994723650617\n'_wrapWidths': [88.65994723650617, 88.65994723650617]\n'_width_max': 51.498000000000005\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(37.161947236506165, ['Weight', '(lbs)'])], link=[], rise=0, text='Weight (lbs)', textColor=Color(.023529,.305882,.231373,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "bbox": [
+                  42.25342021329848,
+                  299.6354952267601,
+                  115.92146041458032,
+                  310.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '36617f73-796c-4e6a-b12c-d8c6fe50809c'\n'_gt_text': '08:00'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '08:00'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='08:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 73.66804020128184\n'_wrapWidths': [73.66804020128184, 73.66804020128184]\n'_width_max': 22.518\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(51.15004020128184, ['08:00'])], link=[], rise=0, text='08:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "bbox": [
+                  127.92146041458032,
+                  299.6354952267601,
+                  223.00651066618263,
+                  310.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '47fe4002-d13b-4356-8cff-46b624e3aae9'\n'_gt_text': '116/88'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '116/88'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='116/88', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 95.08505025160231\n'_wrapWidths': [95.08505025160231, 95.08505025160231]\n'_width_max': 27.522000000000002\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(67.5630502516023, ['116/88'])], link=[], rise=0, text='116/88', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "bbox": [
+                  235.00651066618263,
+                  299.6354952267601,
+                  319.3830558926247,
+                  310.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'fcff6859-68a8-4ddc-9126-194bf4d3688e'\n'_gt_text': '74'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '74'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='74', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 84.37654522644209\n'_wrapWidths': [84.37654522644209, 84.37654522644209]\n'_width_max': 10.008000000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(74.3685452264421, ['74'])], link=[], rise=0, text='74', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "bbox": [
+                  331.3830558926247,
+                  299.6354952267601,
+                  394.34259106874634,
+                  310.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '716c4f6f-2f20-4157-a173-958a9f1b5225'\n'_gt_text': '98.3'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '98.3'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='98.3', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 17.514\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.44553517612162, ['98.3'])], link=[], rise=0, text='98.3', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 4,
+                "bbox": [
+                  406.3425910687464,
+                  299.6354952267601,
+                  469.302126244868,
+                  310.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '342e3127-cb26-439e-b5c3-cfb0ecc2bff8'\n'_gt_text': '95'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '95'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='95', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 10.008000000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(52.95153517612162, ['95'])], link=[], rise=0, text='95', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 5,
+                "bbox": [
+                  481.30212624486796,
+                  299.6354952267601,
+                  569.9620734813741,
+                  310.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'bc0d2080-1726-45e0-97cd-84754e29dd0e'\n'_gt_text': '160'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '160'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 88.65994723650617\n'_wrapWidths': [88.65994723650617, 88.65994723650617]\n'_width_max': 15.011999999999999\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(73.64794723650617, ['160'])], link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "bbox": [
+                  42.25342021329848,
+                  320.6354952267601,
+                  115.92146041458032,
+                  331.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'aa69af0c-6299-43e7-a727-c866fd63d804'\n'_gt_text': '12:00'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '12:00'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='12:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 73.66804020128184\n'_wrapWidths': [73.66804020128184, 73.66804020128184]\n'_width_max': 22.518\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(51.15004020128184, ['12:00'])], link=[], rise=0, text='12:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "bbox": [
+                  127.92146041458032,
+                  320.6354952267601,
+                  223.00651066618263,
+                  331.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '778cbcf5-863d-417d-8cea-33e7cf36a2b6'\n'_gt_text': '134/88'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '134/88'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='134/88', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 95.08505025160231\n'_wrapWidths': [95.08505025160231, 95.08505025160231]\n'_width_max': 27.522000000000002\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(67.5630502516023, ['134/88'])], link=[], rise=0, text='134/88', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "bbox": [
+                  235.00651066618263,
+                  320.6354952267601,
+                  319.3830558926247,
+                  331.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'adb300fe-9ed1-423d-98f1-ae399af305ac'\n'_gt_text': '81'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '81'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='81', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 84.37654522644209\n'_wrapWidths': [84.37654522644209, 84.37654522644209]\n'_width_max': 10.008000000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(74.3685452264421, ['81'])], link=[], rise=0, text='81', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "bbox": [
+                  331.3830558926247,
+                  320.6354952267601,
+                  394.34259106874634,
+                  331.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '112fccf4-0d03-43bb-a906-6db56a8f92d9'\n'_gt_text': '99.1'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '99.1'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='99.1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 17.514\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.44553517612162, ['99.1'])], link=[], rise=0, text='99.1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 4,
+                "bbox": [
+                  406.3425910687464,
+                  320.6354952267601,
+                  469.302126244868,
+                  331.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '6c4c7af2-2fec-4a6d-8a5c-23c2b2bbc658'\n'_gt_text': '96'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '96'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='96', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 10.008000000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(52.95153517612162, ['96'])], link=[], rise=0, text='96', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 5,
+                "bbox": [
+                  481.30212624486796,
+                  320.6354952267601,
+                  569.9620734813741,
+                  331.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '6f669dd4-234c-4984-b1b4-d501fcaab5c2'\n'_gt_text': '160'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '160'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 88.65994723650617\n'_wrapWidths': [88.65994723650617, 88.65994723650617]\n'_width_max': 15.011999999999999\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(73.64794723650617, ['160'])], link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "bbox": [
+                  42.25342021329848,
+                  341.6354952267601,
+                  115.92146041458032,
+                  352.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '49310d71-d7c0-4246-a237-9fc41865e2f2'\n'_gt_text': '16:00'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '16:00'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='16:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 73.66804020128184\n'_wrapWidths': [73.66804020128184, 73.66804020128184]\n'_width_max': 22.518\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(51.15004020128184, ['16:00'])], link=[], rise=0, text='16:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "bbox": [
+                  127.92146041458032,
+                  341.6354952267601,
+                  223.00651066618263,
+                  352.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a1c33404-e875-4858-ab72-5fa1d5f8cb8f'\n'_gt_text': '123/84'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '123/84'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='123/84', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 95.08505025160231\n'_wrapWidths': [95.08505025160231, 95.08505025160231]\n'_width_max': 27.522000000000002\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(67.5630502516023, ['123/84'])], link=[], rise=0, text='123/84', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "bbox": [
+                  235.00651066618263,
+                  341.6354952267601,
+                  319.3830558926247,
+                  352.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'fac57068-a28e-422d-8a4a-8f48908fd4bc'\n'_gt_text': '75'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '75'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='75', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 84.37654522644209\n'_wrapWidths': [84.37654522644209, 84.37654522644209]\n'_width_max': 10.008000000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(74.3685452264421, ['75'])], link=[], rise=0, text='75', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "bbox": [
+                  331.3830558926247,
+                  341.6354952267601,
+                  394.34259106874634,
+                  352.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '34eb4fed-c350-469d-9e64-1f294460d1b0'\n'_gt_text': '98.8'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '98.8'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='98.8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 17.514\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.44553517612162, ['98.8'])], link=[], rise=0, text='98.8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 4,
+                "bbox": [
+                  406.3425910687464,
+                  341.6354952267601,
+                  469.302126244868,
+                  352.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '04506e4e-2f65-4265-a541-845b7f7286c5'\n'_gt_text': '98'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '98'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='98', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 10.008000000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(52.95153517612162, ['98'])], link=[], rise=0, text='98', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 5,
+                "bbox": [
+                  481.30212624486796,
+                  341.6354952267601,
+                  569.9620734813741,
+                  352.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '620e81b1-e285-400f-972a-0e3e6b3505e1'\n'_gt_text': '160'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '160'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 88.65994723650617\n'_wrapWidths': [88.65994723650617, 88.65994723650617]\n'_width_max': 15.011999999999999\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(73.64794723650617, ['160'])], link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "bbox": [
+                  42.25342021329848,
+                  362.6354952267601,
+                  115.92146041458032,
+                  373.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd99c772c-35d0-4432-bb4a-f2aebcfe4cfa'\n'_gt_text': '20:00'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '20:00'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='20:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 73.66804020128184\n'_wrapWidths': [73.66804020128184, 73.66804020128184]\n'_width_max': 22.518\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(51.15004020128184, ['20:00'])], link=[], rise=0, text='20:00', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "bbox": [
+                  127.92146041458032,
+                  362.6354952267601,
+                  223.00651066618263,
+                  373.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '0cae9307-79cd-4b25-a9ac-580514cda74e'\n'_gt_text': '115/86'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '115/86'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='115/86', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 95.08505025160231\n'_wrapWidths': [95.08505025160231, 95.08505025160231]\n'_width_max': 27.522000000000002\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(67.5630502516023, ['115/86'])], link=[], rise=0, text='115/86', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 2,
+                "bbox": [
+                  235.00651066618263,
+                  362.6354952267601,
+                  319.3830558926247,
+                  373.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '5ea19593-6a0b-45de-8b61-178dc304d13f'\n'_gt_text': '66'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '66'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='66', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 84.37654522644209\n'_wrapWidths': [84.37654522644209, 84.37654522644209]\n'_width_max': 10.008000000000001\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(74.3685452264421, ['66'])], link=[], rise=0, text='66', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 3,
+                "bbox": [
+                  331.3830558926247,
+                  362.6354952267601,
+                  394.34259106874634,
+                  373.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'f3e76bc4-fe1a-4968-8c70-d34911a2b464'\n'_gt_text': '98.0'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '98.0'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='98.0', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 17.514\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.44553517612162, ['98.0'])], link=[], rise=0, text='98.0', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 4,
+                "bbox": [
+                  406.3425910687464,
+                  362.6354952267601,
+                  469.302126244868,
+                  373.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'e2926eca-8535-4cd2-9283-ac770dc2499f'\n'_gt_text': '100'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '100'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='100', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 62.95953517612162\n'_wrapWidths': [62.95953517612162, 62.95953517612162]\n'_width_max': 15.011999999999999\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(47.94753517612162, ['100'])], link=[], rise=0, text='100', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 5,
+                "bbox": [
+                  481.30212624486796,
+                  362.6354952267601,
+                  569.9620734813741,
+                  373.6354952267601
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'c08cf7d1-7d9d-4ee6-8717-5ae4c2f5e4f0'\n'_gt_text': '160'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '160'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'MedBody'>\n'bulletText': None\n'debug': 0\n'width': 88.65994723650617\n'_wrapWidths': [88.65994723650617, 88.65994723650617]\n'_width_max': 15.011999999999999\n'height': 13\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(73.64794723650617, ['160'])], link=[], rise=0, text='160', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              }
+            ],
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e044",
+          "type": "section_header",
+          "bbox": [
+            36.25342021329848,
+            400.6354952267601,
+            575.9620734813741,
+            415.6354952267601
+          ],
+          "text": "Clinical Notes & Assessment",
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e045",
+          "type": "text",
+          "bbox": [
+            36.25342021329848,
+            421.6354952267601,
+            575.9620734813741,
+            434.6354952267601
+          ],
+          "text": "<b>Primary Diagnosis Code:</b> ICD-10 CGU-41.53",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e046",
+          "type": "text",
+          "bbox": [
+            36.25342021329848,
+            440.6354952267601,
+            575.9620734813741,
+            466.6354952267601
+          ],
+          "text": "Follow-up examination reveals normal pulmonary auscultation. The patient reports adherence to prescribed inhaler therapies with good symptomatic control. Advised to continue current outpatient management plan.",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e047",
+          "type": "text",
+          "bbox": [
+            36.25342021329848,
+            472.6354952267601,
+            575.9620734813741,
+            498.6354952267601
+          ],
+          "text": "The patient was admitted for observation following a minor syncopal episode at home. Physical examination was unremarkable except for mild orthostatic blood pressure changes. Neurological checks remained entirely normal throughout the stay.",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e048",
+          "type": "section_header",
+          "bbox": [
+            36.25342021329848,
+            526.6354952267601,
+            575.9620734813741,
+            541.6354952267601
+          ],
+          "text": "Discharge Medications",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e049",
+          "type": "list_item",
+          "bbox": [
+            36.25342021329848,
+            547.6354952267601,
+            575.9620734813741,
+            560.6354952267601
+          ],
+          "text": "Gabapentin 300mg three times daily for neuropathic pain.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e050",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            547.6354952267601,
+            575.9620734813741,
+            560.6354952267601
+          ],
+          "text": "Gabapentin 300mg three times daily for neuropathic pain.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e051",
+          "type": "list_item",
+          "bbox": [
+            36.25342021329848,
+            566.6354952267601,
+            575.9620734813741,
+            579.6354952267601
+          ],
+          "text": "Metformin 500mg twice daily with meals for glucose management.",
+          "reading_order": 12,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e052",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            566.6354952267601,
+            575.9620734813741,
+            579.6354952267601
+          ],
+          "text": "Metformin 500mg twice daily with meals for glucose management.",
+          "reading_order": 13,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e053",
+          "type": "list_item",
+          "bbox": [
+            36.25342021329848,
+            585.6354952267601,
+            575.9620734813741,
+            598.6354952267601
+          ],
+          "text": "Lisinopril 10mg daily for blood pressure control.",
+          "reading_order": 14,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e054",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            585.6354952267601,
+            575.9620734813741,
+            598.6354952267601
+          ],
+          "text": "Lisinopril 10mg daily for blood pressure control.",
+          "reading_order": 15,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e055",
+          "type": "list_item",
+          "bbox": [
+            36.25342021329848,
+            604.6354952267601,
+            575.9620734813741,
+            617.6354952267601
+          ],
+          "text": "Atorvastatin 20mg daily at bedtime for cholesterol.",
+          "reading_order": 16,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e056",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            604.6354952267601,
+            575.9620734813741,
+            617.6354952267601
+          ],
+          "text": "Atorvastatin 20mg daily at bedtime for cholesterol.",
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e057",
+          "type": "section_header",
+          "bbox": [
+            36.25342021329848,
+            645.6354952267601,
+            575.9620734813741,
+            660.6354952267601
+          ],
+          "text": "Discharge Instructions",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e058",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            666.6354952267601,
+            575.9620734813741,
+            679.6354952267601
+          ],
+          "text": "Follow up with your primary care physician within 7-10 days of discharge.",
+          "reading_order": 19,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e059",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            685.6354952267601,
+            575.9620734813741,
+            698.6354952267601
+          ],
+          "text": "Seek immediate medical attention if you experience chest pain, shortness of breath, or severe dizziness.",
+          "reading_order": 20,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e014",
+          "type": "text",
+          "bbox": [
+            6,
+            693.0,
+            79.66804020128184,
+            704.0
+          ],
+          "text": "Time",
+          "reading_order": 21,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e015",
+          "type": "text",
+          "bbox": [
+            91.66804020128184,
+            693.0,
+            186.75309045288415,
+            704.0
+          ],
+          "text": "Blood Pressure",
+          "reading_order": 22,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e016",
+          "type": "text",
+          "bbox": [
+            198.75309045288415,
+            693.0,
+            283.12963567932627,
+            704.0
+          ],
+          "text": "Heart Rate (bpm)",
+          "reading_order": 23,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e017",
+          "type": "text",
+          "bbox": [
+            295.12963567932627,
+            693.0,
+            358.0891708554479,
+            704.0
+          ],
+          "text": "Temp (\u00b0F)",
+          "reading_order": 24,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e018",
+          "type": "text",
+          "bbox": [
+            370.0891708554479,
+            693.0,
+            433.0487060315695,
+            704.0
+          ],
+          "text": "SpO2 (%)",
+          "reading_order": 25,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e019",
+          "type": "text",
+          "bbox": [
+            445.0487060315695,
+            693.0,
+            533.7086532680756,
+            704.0
+          ],
+          "text": "Weight (lbs)",
+          "reading_order": 26,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e020",
+          "type": "text",
+          "bbox": [
+            6,
+            712.0,
+            79.66804020128184,
+            725.0
+          ],
+          "text": "08:00",
+          "reading_order": 27,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e021",
+          "type": "text",
+          "bbox": [
+            91.66804020128184,
+            712.0,
+            186.75309045288415,
+            725.0
+          ],
+          "text": "116/88",
+          "reading_order": 28,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e022",
+          "type": "text",
+          "bbox": [
+            198.75309045288415,
+            712.0,
+            283.12963567932627,
+            725.0
+          ],
+          "text": "74",
+          "reading_order": 29,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e023",
+          "type": "text",
+          "bbox": [
+            295.12963567932627,
+            712.0,
+            358.0891708554479,
+            725.0
+          ],
+          "text": "98.3",
+          "reading_order": 30,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e024",
+          "type": "text",
+          "bbox": [
+            370.0891708554479,
+            712.0,
+            433.0487060315695,
+            725.0
+          ],
+          "text": "95",
+          "reading_order": 31,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e025",
+          "type": "text",
+          "bbox": [
+            445.0487060315695,
+            712.0,
+            533.7086532680756,
+            725.0
+          ],
+          "text": "160",
+          "reading_order": 32,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e000",
+          "type": "page_footer",
+          "bbox": [
+            157.816,
+            719.495101239942,
+            454.18399999999997,
+            725.495101239942
+          ],
+          "text": "CONFIDENTIAL MEDICAL RECORD - FOR PROFESSIONAL USE ONLY | Page 1",
+          "reading_order": 33,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e026",
+          "type": "text",
+          "bbox": [
+            6,
+            733.0,
+            79.66804020128184,
+            746.0
+          ],
+          "text": "12:00",
+          "reading_order": 34,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e027",
+          "type": "text",
+          "bbox": [
+            91.66804020128184,
+            733.0,
+            186.75309045288415,
+            746.0
+          ],
+          "text": "134/88",
+          "reading_order": 35,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e028",
+          "type": "text",
+          "bbox": [
+            198.75309045288415,
+            733.0,
+            283.12963567932627,
+            746.0
+          ],
+          "text": "81",
+          "reading_order": 36,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e029",
+          "type": "text",
+          "bbox": [
+            295.12963567932627,
+            733.0,
+            358.0891708554479,
+            746.0
+          ],
+          "text": "99.1",
+          "reading_order": 37,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e030",
+          "type": "text",
+          "bbox": [
+            370.0891708554479,
+            733.0,
+            433.0487060315695,
+            746.0
+          ],
+          "text": "96",
+          "reading_order": 38,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e031",
+          "type": "text",
+          "bbox": [
+            445.0487060315695,
+            733.0,
+            533.7086532680756,
+            746.0
+          ],
+          "text": "160",
+          "reading_order": 39,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e004",
+          "type": "text",
+          "bbox": [
+            6,
+            751.0,
+            122.50206030192277,
+            764.0
+          ],
+          "text": "<b>Patient Name:</b>",
+          "reading_order": 40,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e005",
+          "type": "text",
+          "bbox": [
+            134.50206030192277,
+            751.0,
+            263.8543266340378,
+            764.0
+          ],
+          "text": "Robert Miller",
+          "reading_order": 41,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e006",
+          "type": "text",
+          "bbox": [
+            275.8543266340378,
+            751.0,
+            392.3563869359606,
+            764.0
+          ],
+          "text": "<b>Date of Birth:</b>",
+          "reading_order": 42,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e007",
+          "type": "text",
+          "bbox": [
+            404.3563869359606,
+            751.0,
+            533.7086532680756,
+            764.0
+          ],
+          "text": "1944-12-02",
+          "reading_order": 43,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e032",
+          "type": "text",
+          "bbox": [
+            6,
+            754.0,
+            79.66804020128184,
+            767.0
+          ],
+          "text": "16:00",
+          "reading_order": 44,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e033",
+          "type": "text",
+          "bbox": [
+            91.66804020128184,
+            754.0,
+            186.75309045288415,
+            767.0
+          ],
+          "text": "123/84",
+          "reading_order": 45,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e034",
+          "type": "text",
+          "bbox": [
+            198.75309045288415,
+            754.0,
+            283.12963567932627,
+            767.0
+          ],
+          "text": "75",
+          "reading_order": 46,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e035",
+          "type": "text",
+          "bbox": [
+            295.12963567932627,
+            754.0,
+            358.0891708554479,
+            767.0
+          ],
+          "text": "98.8",
+          "reading_order": 47,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e036",
+          "type": "text",
+          "bbox": [
+            370.0891708554479,
+            754.0,
+            433.0487060315695,
+            767.0
+          ],
+          "text": "98",
+          "reading_order": 48,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e037",
+          "type": "text",
+          "bbox": [
+            445.0487060315695,
+            754.0,
+            533.7086532680756,
+            767.0
+          ],
+          "text": "160",
+          "reading_order": 49,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e008",
+          "type": "text",
+          "bbox": [
+            6,
+            774.0,
+            122.50206030192277,
+            787.0
+          ],
+          "text": "<b>MRN / Patient ID:</b>",
+          "reading_order": 50,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e009",
+          "type": "text",
+          "bbox": [
+            134.50206030192277,
+            774.0,
+            263.8543266340378,
+            787.0
+          ],
+          "text": "PT-CB-96267",
+          "reading_order": 51,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e010",
+          "type": "text",
+          "bbox": [
+            275.8543266340378,
+            774.0,
+            392.3563869359606,
+            787.0
+          ],
+          "text": "<b>Report Date:</b>",
+          "reading_order": 52,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e011",
+          "type": "text",
+          "bbox": [
+            404.3563869359606,
+            774.0,
+            533.7086532680756,
+            787.0
+          ],
+          "text": "2025-10-27",
+          "reading_order": 53,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e038",
+          "type": "text",
+          "bbox": [
+            6,
+            775.0,
+            79.66804020128184,
+            788.0
+          ],
+          "text": "20:00",
+          "reading_order": 54,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e039",
+          "type": "text",
+          "bbox": [
+            91.66804020128184,
+            775.0,
+            186.75309045288415,
+            788.0
+          ],
+          "text": "115/86",
+          "reading_order": 55,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e040",
+          "type": "text",
+          "bbox": [
+            198.75309045288415,
+            775.0,
+            283.12963567932627,
+            788.0
+          ],
+          "text": "66",
+          "reading_order": 56,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e041",
+          "type": "text",
+          "bbox": [
+            295.12963567932627,
+            775.0,
+            358.0891708554479,
+            788.0
+          ],
+          "text": "98.0",
+          "reading_order": 57,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e042",
+          "type": "text",
+          "bbox": [
+            370.0891708554479,
+            775.0,
+            433.0487060315695,
+            788.0
+          ],
+          "text": "100",
+          "reading_order": 58,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p1_e043",
+          "type": "text",
+          "bbox": [
+            445.0487060315695,
+            775.0,
+            533.7086532680756,
+            788.0
+          ],
+          "text": "160",
+          "reading_order": 59,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/medical_report/images/medical_report_00000_p2.png",
+      "layout_elements": [
+        {
+          "element_id": "mr00000_p2_e001",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            126.6354952267601,
+            575.9620734813741,
+            139.6354952267601
+          ],
+          "text": "Monitor blood pressure daily and record measurements in a log.",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p2_e002",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            145.6354952267601,
+            575.9620734813741,
+            158.6354952267601
+          ],
+          "text": "Maintain a low-sodium, heart-healthy diet as discussed.",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p2_e003",
+          "type": "text",
+          "bbox": [
+            48.25342021329848,
+            164.6354952267601,
+            575.9620734813741,
+            177.6354952267601
+          ],
+          "text": "Continue taking all prescribed discharge medications as directed.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mr00000_p2_e000",
+          "type": "page_footer",
+          "bbox": [
+            157.816,
+            719.495101239942,
+            454.18399999999997,
+            725.495101239942
+          ],
+          "text": "CONFIDENTIAL MEDICAL RECORD - FOR PROFESSIONAL USE ONLY | Page 2",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

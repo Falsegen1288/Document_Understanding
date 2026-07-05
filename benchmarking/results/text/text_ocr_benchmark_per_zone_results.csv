@@ -1,0 +1,360 @@
+id,page,class,model,gt_text,pred_text,CER,WER,exact_match
+e0001,1,header,easyocr,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 1 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore Page 1 of 4
+INSTRUMENTS INTERNATIONAL ISO 13485.2016 1 CE Marked 3 FDA 510(k)
+Vnn medcore-intl.com
+Precision.   Reliability. Care.",0.6323529411764706,0.7894736842105263,0
+e0001,1,header,tesseract,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 1 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore ISO 13485:2016 | CE Marked | FDA 510(k HOU GI
+INSTRUMENTS INTERNATIONAL 2016 | CE Marked | “) www.medcore-intl.com
+Precision. Reliability. Care.",0.8088235294117647,0.9473684210526315,0
+e0002,1,footer,easyocr,"ISO 13485:2016    CE Marked    FDA 510(k)    ENERGY STAR
++49 69 4521 8800 | procurement@medcore-intl.com | www.medcore-intl.com Page 1 of 4","ISO 13485.2016 CE Marked FDA 510(k) ENERGY STAR
++49 69 4521 8800 procurement@medcore-intl com WWW medcore-intl com Page 1 of 4",0.06153846153846154,0.3,0
+e0002,1,footer,tesseract,"ISO 13485:2016    CE Marked    FDA 510(k)    ENERGY STAR
++49 69 4521 8800 | procurement@medcore-intl.com | www.medcore-intl.com Page 1 of 4","ISO 13485:2016 CE Marked FDA 510(k) ENERGY STAR
++49 69 4521 8800 | procurement@medcore-intl.com | www.medcore-intl.com Page 1 of 4",0.0,0.0,1
+e0004,1,title,easyocr,2024 - 2025 PRODUCT CATALOGUE,2uz4 Zuzj Phudu6i GATALOGUE,0.4482758620689655,1.0,0
+e0004,1,title,tesseract,2024 - 2025 PRODUCT CATALOGUE,0 UES £ULZOI PRAUYVUUT CALTALUUUE UL,0.7586206896551724,1.2,0
+e0005,1,title,easyocr,Advanced Diagnostic & Surgical Instruments,Aavanced Dlagnostic & Surgical instruments,0.047619047619047616,0.4,0
+e0005,1,title,tesseract,Advanced Diagnostic & Surgical Instruments,Aavanced Viagnostic & ourgical instruments,0.07142857142857142,0.6,0
+e0006,1,paragraph,easyocr,For ICUs | Operation Theatres | Diagnostic Labs | General Practice,For ICUs | Operation Theatres Diagnostic Labs General Practice,0.06060606060606061,0.18181818181818182,0
+e0006,1,paragraph,tesseract,For ICUs | Operation Theatres | Diagnostic Labs | General Practice,For ICUs | Operation Theatres | Diagnostic Labs | General Practice,0.0,0.0,1
+e0007,2,header,easyocr,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 2 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore Page 2 of 4
+INSTRUMENTS INTERNATIONAL ISO 13485.2016 1 CE Marked FDA 510(k)
+Vnn medcore-intl.com
+Precision:  Reliability: Care:",0.6176470588235294,0.7894736842105263,0
+e0007,2,header,tesseract,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 2 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore ISO 13485:2016 | CE Marked | FDA 510(k Page SN
+INSTRUMENTS INTERNATIONAL : arocl | (kK) www.medcore-intl.com
+Precision. Reliability. Care. .",0.7794117647058824,1.0526315789473684,0
+e0008,2,footer,easyocr,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.2","MedCore Instruments International GmbH 48 Commerce Blvd; Frankfurt 60311 procurement@medcore-intl com p.2
+Tel: +49 69 4521 8800 1 All products for professional medical use only",0.08333333333333333,0.2692307692307692,0
+e0008,2,footer,tesseract,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.2","MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com p.2
+Tel: +49 69 4521 8800 | All products for professional medical use only",0.044444444444444446,0.07692307692307693,0
+e0009,2,section_header,easyocr,SECTION 1 -- Diagnostic & Monitoring Equipment    CE Certified | 2-Year Warranty,ISECTION 1 Diagnostic & Monitoring Equipment CE Certified 2-Year Warranty,0.07792207792207792,0.25,0
+e0009,2,section_header,tesseract,SECTION 1 -- Diagnostic & Monitoring Equipment    CE Certified | 2-Year Warranty,SECTION 1 -- Diagnostic & Monitoring Equipment CE Certified | 2-Year Warran,0.025974025974025976,0.08333333333333333,0
+e0010,2,section_header,easyocr,All products include 2-year warranty | Free calibration first year | ServicePlus from EUR 299/yr,All products include 2-year warranty Free calibration first year ServicePlus from EUR 299lyr,0.052083333333333336,0.2,0
+e0010,2,section_header,tesseract,All products include 2-year warranty | Free calibration first year | ServicePlus from EUR 299/yr,All products include 2-year warranty | Free calibration first year | ServicePlus from EUR 299/yr,0.0,0.0,1
+e0012,2,caption,easyocr,"MC-VSP-9000    EUR 4,850","MC-VSP-90OO EUR 4,850",0.09523809523809523,0.3333333333333333,0
+e0012,2,caption,tesseract,"MC-VSP-9000    EUR 4,850",MC-VSP-9000,0.47619047619047616,0.6666666666666666,0
+e0014,2,title,easyocr,VitalScan Pro 9000,VitalScan Pro 9000,0.0,0.0,1
+e0014,2,title,tesseract,VitalScan Pro 9000,VitalScan Pro 9000,0.0,0.0,1
+e0015,2,paragraph,easyocr,Hospital-grade continuous vital-signs monitoring with 15-inch anti-glare TFT touchscreen. Seamless HL7 EMR integration.,"Hospital-grade continuous vital-signs monitoring with 15-inch anti-glare TFT
+touchscreen. Seamless HL7 EMR integration:",0.008403361344537815,0.07692307692307693,0
+e0015,2,paragraph,tesseract,Hospital-grade continuous vital-signs monitoring with 15-inch anti-glare TFT touchscreen. Seamless HL7 EMR integration.,"Hospital-grade continuous vital-signs monitoring with 15-inch anti-glare TFT
+touchscreen. Seamless HL7 EMR integration.",0.0,0.0,1
+e0016,2,spec_list,easyocr,"Display: 15"" TFT 1024x768
+Parameters: ECG 12-lead, SpO2, NIBP, Temp
+Battery: 4 hours backup
+Connectivity: Wi-Fi, Ethernet, USB 3.0
+Cert.: CE, ISO 13485, IEC 60601","Display: 15"" TFT 1024x768
+Parameters: ECG 12-lead, SpO2, NIBP, Temp
+Battery: 4 hours backup
+Connectivity: Wi-Fi, Ethernet; USB 3.0
+Cert:: CE, ISO 13485, IEC 60601",0.012345679012345678,0.08,0
+e0016,2,spec_list,tesseract,"Display: 15"" TFT 1024x768
+Parameters: ECG 12-lead, SpO2, NIBP, Temp
+Battery: 4 hours backup
+Connectivity: Wi-Fi, Ethernet, USB 3.0
+Cert.: CE, ISO 13485, IEC 60601","Display: 15"" TFT 1024x768
+Parameters: ECG 12-lead, SpO2, NIBP, Temp
+Battery: 4 hours backup
+Connectivity: Wi-Fi, Ethernet, USB 3.0
+Cert.: CE, ISO 13485, IEC 60601",0.0,0.0,1
+e0017,2,price_tag,easyocr,"EUR 4,850 / unit","EUR 4,850 {unit",0.125,0.5,0
+e0017,2,price_tag,tesseract,"EUR 4,850 / unit","EUR 4,850 / unit",0.0,0.0,1
+e0019,2,caption,easyocr,"MC-DSE-3X    EUR 1,299","MC-DSE-3X EUR 1,299",0.0,0.0,1
+e0019,2,caption,tesseract,"MC-DSE-3X    EUR 1,299",MC-DSE-3X,0.5263157894736842,0.6666666666666666,0
+e0021,2,title,easyocr,DermoScope Elite 3X,DermoScope Elite 3X,0.0,0.0,1
+e0021,2,title,tesseract,DermoScope Elite 3X,DermoScope Elite 3X,0.0,0.0,1
+e0022,2,paragraph,easyocr,Variable 10-30x magnification with polarized and non-polarized LED illumination. Wi-Fi enabled 48 MP CMOS camera.,"Variable 10-30x magnification with polarized and non-polarized LED
+illumination Wi-Fi enabled 48 MP CMOS camera:",0.017699115044247787,0.13333333333333333,0
+e0022,2,paragraph,tesseract,Variable 10-30x magnification with polarized and non-polarized LED illumination. Wi-Fi enabled 48 MP CMOS camera.,"Variable 10-30x magnification with polarized and non-polarized LED
+illumination. Wi-Fi enabled 48 MP CMOS camera.",0.0,0.0,1
+e0023,2,spec_list,easyocr,"Magnification: 10x / 20x / 30x
+Illumination: 20 LED, polarized + non-pol
+Camera: 48 MP CMOS sensor
+Storage: 16 GB + cloud sync
+Cert.: CE, ISO 13485","Magnification: 10x / 20x / 30x
+Illumination: 20 LED, polarized + non-pol
+Camera: 48 MP CMOS sensor
+Storage: 16 GB + cloud sync
+Cert:: CE, ISO 13485",0.006802721088435374,0.037037037037037035,0
+e0023,2,spec_list,tesseract,"Magnification: 10x / 20x / 30x
+Illumination: 20 LED, polarized + non-pol
+Camera: 48 MP CMOS sensor
+Storage: 16 GB + cloud sync
+Cert.: CE, ISO 13485","Magnification: 10x / 20x / 30x
+Illumination: 20 LED, polarized + non-pol
+Camera: 48 MP CMOS sensor
+Storage: 16 GB + cloud sync
+Cert.: CE, ISO 13485",0.0,0.0,1
+e0024,2,price_tag,easyocr,"EUR 1,299 / unit","EUR 1,299 unit",0.125,0.25,0
+e0024,2,price_tag,tesseract,"EUR 1,299 / unit","EUR 1,299 / unit",0.0,0.0,1
+e0026,2,caption,easyocr,MC-ASD-HD    EUR 389,MC-ASD-HD EUR 389,0.0,0.0,1
+e0026,2,caption,tesseract,MC-ASD-HD    EUR 389,MC-ASD-HD EUR 389,0.0,0.0,1
+e0028,2,title,easyocr,AuraScan Digital Otoscope,AuraScan Digital Otoscope,0.0,0.0,1
+e0028,2,title,tesseract,AuraScan Digital Otoscope,AuraScan Digital Otoscope,0.0,0.0,1
+e0029,2,paragraph,easyocr,Crystal-clear 1080p tympanic membrane visualization. USB-C EMR output. Three speculum sizes included.,"Crystal-clear 108Op tympanic membrane visualization. USB-C EMR output:
+Three speculum sizes included",0.0297029702970297,0.25,0
+e0029,2,paragraph,tesseract,Crystal-clear 1080p tympanic membrane visualization. USB-C EMR output. Three speculum sizes included.,"Crystal-clear 1080p tympanic membrane visualization. USB-C EMR output.
+Three speculum sizes included.",0.0,0.0,1
+e0030,2,spec_list,easyocr,"Resolution: 1920x1080 HD
+Illumination: Cool white LED 5500K
+Speculums: 2.5mm, 4mm, 5mm
+Output: USB-C, 3.5mm AV
+Cert.: CE, ISO 13485","Resolution: 1920x1080 HD
+Illumination: Cool white LED S500K
+Speculums: 2.Smm, 4mm, Smm
+Output: USB-C, 3.Smm AV
+Cert:: CE; ISO 13485",0.04580152671755725,0.3,0
+e0030,2,spec_list,tesseract,"Resolution: 1920x1080 HD
+Illumination: Cool white LED 5500K
+Speculums: 2.5mm, 4mm, 5mm
+Output: USB-C, 3.5mm AV
+Cert.: CE, ISO 13485","Resolution: 1920x1080 HD
+Illumination: Cool white LED 5500K
+Speculums: 2.5mm, 4mm, 5mm
+Output: USB-C, 3.5mm AV
+Cert.: CE, ISO 13485",0.0,0.0,1
+e0031,2,price_tag,easyocr,EUR 389 / unit,EUR 389 unit,0.14285714285714285,0.25,0
+e0031,2,price_tag,tesseract,EUR 389 / unit,EUR 389 / unit,0.0,0.0,1
+e0033,2,caption,easyocr,MC-GSP-LAB    EUR 245,MC-GSP-LAB EUR 245,0.0,0.0,1
+e0033,2,caption,tesseract,MC-GSP-LAB    EUR 245,MC-GSP-LAB EUR 245,0.0,0.0,1
+e0035,2,title,easyocr,GlucoSense Pro,GlucoSense Pro,0.0,0.0,1
+e0035,2,title,tesseract,GlucoSense Pro,GlucoSense Pro,0.0,0.0,1
+e0036,2,paragraph,easyocr,"Lab-accurate blood glucose in under 5 seconds. Hematocrit correction, 1000-reading memory, Bluetooth 5.0.","Lab-accurate blood glucose in under 5 seconds: Hematocrit correction;
+1000-reading memory, Bluetooth 5.0",0.02857142857142857,0.23076923076923078,0
+e0036,2,paragraph,tesseract,"Lab-accurate blood glucose in under 5 seconds. Hematocrit correction, 1000-reading memory, Bluetooth 5.0.","Lab-accurate blood glucose in under 5 seconds. Hematocrit correction,
+1000-reading memory, Bluetooth 5.0.",0.0,0.0,1
+e0037,2,spec_list,easyocr,"Range: 1.1-33.3 mmol/L
+Sample: 0.5 microlitre
+Time: < 5 seconds
+Memory: 1000 readings + timestamp
+Cert.: CE, ISO 13485","Range: 1.1-33.3 mmollL
+Sample: 0.5 microlitre
+Time: <5 seconds
+Memory: 1000 readings + timestamp
+Cert:: CE, ISO 13485",0.025423728813559324,0.21052631578947367,0
+e0037,2,spec_list,tesseract,"Range: 1.1-33.3 mmol/L
+Sample: 0.5 microlitre
+Time: < 5 seconds
+Memory: 1000 readings + timestamp
+Cert.: CE, ISO 13485","Range: 1.1-33.3 mmol/L
+Sample: 0.5 microlitre
+Time: < 5 seconds
+Memory: 1000 readings + timestamp
+Cert.: CE, ISO 13485",0.0,0.0,1
+e0038,2,price_tag,easyocr,EUR 245 / unit,EUR 245 unit,0.14285714285714285,0.25,0
+e0038,2,price_tag,tesseract,EUR 245 / unit,EUR 245 / unit,0.0,0.0,1
+e0039,3,header,easyocr,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 3 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore Page 3 of 4
+INSTRUMENTS INTERNATIONAL ISO 13485.2016 1 CE Marked 3 FDA 510(k)
+Vnn medcore-intl.com
+Precision.   Reliability. Care.",0.6323529411764706,0.7894736842105263,0
+e0039,3,header,tesseract,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 3 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore ISO 13485:2016 | CE Marked | FDA 510(k HOGG
+INSTRUMENTS INTERNATIONAL 2016 | CE Marked | “) www.medcore-intl.com
+Precision. Reliability. Care.",0.7941176470588235,0.8947368421052632,0
+e0040,3,footer,easyocr,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.3","MedCore Instruments International GmbH 48 Commerce Blvd; Frankfurt 60311 procurement@medcore-intl com p.3
+Tel: +49 69 4521 8800 | AIl products for professional medical use only",0.08333333333333333,0.2692307692307692,0
+e0040,3,footer,tesseract,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.3","MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com p.3",0.39444444444444443,0.5,0
+e0041,3,section_header,easyocr,SECTION 2 -- Surgical Instruments & Sets    316L SS | Autoclave Compatible | ISO 17664,ISECTION 2 Surgical Instruments & Sets 316L SS Autoclave Compatible LISO 17664,0.0963855421686747,0.3333333333333333,0
+e0041,3,section_header,tesseract,SECTION 2 -- Surgical Instruments & Sets    316L SS | Autoclave Compatible | ISO 17664,SECTION 2 -- Surgical Instruments & Sets 316L SS | Autoclave Compatible | ISO =,0.060240963855421686,0.06666666666666667,0
+e0042,3,title,easyocr,Patient Monitor Series -- Feature Comparison    Choose the right monitor for your department,Patient Monitor Series Feature Comparison Choose the right monitor for your departmeni,0.0449438202247191,0.15384615384615385,0
+e0042,3,title,tesseract,Patient Monitor Series -- Feature Comparison    Choose the right monitor for your department,Patient Monitor Series -- Feature Comparison Choose the right monitor for your ay,0.10112359550561797,0.07692307692307693,0
+e0045,3,caption,easyocr,"MC-SS-PRO42    EUR 1,870 / set","MC-SS-PRO42 EUR 1,870 / set",0.0,0.0,1
+e0045,3,caption,tesseract,"MC-SS-PRO42    EUR 1,870 / set",MC-SS-PRO42,0.5925925925925926,0.8,0
+e0047,3,title,easyocr,SurgSet Pro 42-Piece,SurgSet Pro 42-Piece,0.0,0.0,1
+e0047,3,title,tesseract,SurgSet Pro 42-Piece,ourgset Pro 42-Piece,0.05,0.3333333333333333,0
+e0048,3,paragraph,easyocr,"316L stainless steel, mirror-polished. Laser-etched ID codes per ISO 17664. Autoclave-compatible up to 134 C.","316L stainless steel, mirror-polished: Laser-etched ID codes per ISO 17664.
+Autoclave-compatible up to 134 €",0.027522935779816515,0.13333333333333333,0
+e0048,3,paragraph,tesseract,"316L stainless steel, mirror-polished. Laser-etched ID codes per ISO 17664. Autoclave-compatible up to 134 C.","316L stainless steel, mirror-polished. Laser-etched ID codes per ISO 17664.
+Autoclave-compatible up to 134 C.",0.0,0.0,1
+e0049,3,spec_list,easyocr,"Material: 316L Stainless Steel
+Autoclave: 134 C / 3 bar
+Pieces: 42 instruments
+Tray: Perforated SS with lid","Material: 316L Stainless Steel
+Autoclave: 134 € / 3 bar
+Pieces: 42 instruments
+Tray: Perforated SS with lid",0.009345794392523364,0.05555555555555555,0
+e0049,3,spec_list,tesseract,"Material: 316L Stainless Steel
+Autoclave: 134 C / 3 bar
+Pieces: 42 instruments
+Tray: Perforated SS with lid","Material: 316L Stainless Steel
+Autoclave: 134 C / 3 bar
+Pieces: 42 instruments
+Tray: Perforated SS with lid",0.0,0.0,1
+e0050,3,price_tag,easyocr,"EUR 1,870 / set","EUR 1,870 / set",0.0,0.0,1
+e0050,3,price_tag,tesseract,"EUR 1,870 / set","EUR 1,870 / set",0.0,0.0,1
+e0052,3,caption,easyocr,"MC-LT-5MM    EUR 3,250 / set","MC-LT-SMM EUR 3,250 / set",0.04,0.2,0
+e0052,3,caption,tesseract,"MC-LT-5MM    EUR 3,250 / set",MC-LT-5MM,0.64,0.8,0
+e0054,3,title,easyocr,LaparoTroc 5mm Trocar Set,LaparoTroc Smm Trocar Set,0.04,0.25,0
+e0054,3,title,tesseract,LaparoTroc 5mm Trocar Set,Laparolroc 5mm Irocar Set,0.08,0.5,0
+e0055,3,paragraph,easyocr,Radially dilating tip reduces port-site trauma. Valveless cannula minimizes gas leakage during pneumoperitoneum.,"Radially dilating tip reduces port-site trauma. Valveless cannula minimizes
+gas leakage during pneumoperitoneum:",0.008928571428571428,0.07692307692307693,0
+e0055,3,paragraph,tesseract,Radially dilating tip reduces port-site trauma. Valveless cannula minimizes gas leakage during pneumoperitoneum.,"Radially dilating tip reduces port-site trauma. Valveless cannula minimizes
+gas leakage during pneumoperitoneum.",0.0,0.0,1
+e0056,3,spec_list,easyocr,"Sizes: 5 mm / 10 mm / 12 mm
+Tip: Radially dilating
+Valve: Valveless cannula
+Sterilize: EtO / Autoclave 134 C","Sizes: 5 mm / 10 mm / 12 mm
+Tip: Radially dilating
+Valve: Valveless cannula
+Sterilize: EtO / Autoclave 134 €",0.009259259259259259,0.047619047619047616,0
+e0056,3,spec_list,tesseract,"Sizes: 5 mm / 10 mm / 12 mm
+Tip: Radially dilating
+Valve: Valveless cannula
+Sterilize: EtO / Autoclave 134 C","Sizes: 5mm/10mm/ 12mm
+Tip: Radially dilating
+Valve: Valveless cannula
+Sterilize: EtO / Autoclave 134 C",0.05555555555555555,0.38095238095238093,0
+e0057,3,price_tag,easyocr,"EUR 3,250 / set","EUR 3,250 / set",0.0,0.0,1
+e0057,3,price_tag,tesseract,"EUR 3,250 / set","EUR 3,250 / set",0.0,0.0,1
+e0058,4,header,easyocr,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 4 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore Page 4 of 4
+INSTRUMENTS INTERNATIONAL ISO 13485.2016 1 CE Marked FDA 510(k)
+Vnn medcore-intl.com
+Precision:  Reliability: Care:",0.6176470588235294,0.7894736842105263,0
+e0058,4,header,tesseract,"MedCore
+INSTRUMENTS INTERNATIONAL
+Precision. Reliability. Care.
+Page 4 of 4
+www.medcore-intl.com
+ISO 13485:2016 | CE Marked | FDA 510(k)","MedCore ISO 13485:2016 | CE Marked | FDA 510(k Page ae
+INSTRUMENTS INTERNATIONAL : arocl | (kK) www.medcore-intl.com
+Precision. Reliability. Care. .",0.7794117647058824,1.0526315789473684,0
+e0059,4,footer,easyocr,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.4","MedCore Instruments International GmbH 48 Commerce Blvd; Frankfurt 60311 procurement@medcore-intl com p.4
+Tel: +49 69 4521 8800 1 All products for professional medical use only",0.08333333333333333,0.2692307692307692,0
+e0059,4,footer,tesseract,"MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com
+Tel: +49 69 4521 8800 | All products for professional medical use only
+p.4","MedCore Instruments International GmbH | 48 Commerce Blvd, Frankfurt 60311 | procurement@medcore-intl.com p.4
+Tel: +49 69 4521 8800 | All products for professional medical use only",0.044444444444444446,0.07692307692307693,0
+e0060,4,section_header,easyocr,ORDERING * AFTER-SALES * CONTACT,ORDERING AFTER-SALES CONTACT,0.125,0.4,0
+e0060,4,section_header,tesseract,ORDERING * AFTER-SALES * CONTACT,ORDERING * AFTER-SALES * CONTACT,0.0,0.0,1
+e0061,4,section_header,easyocr,Download Catalogue | Request Demo | Apply for Credit Account | www.medcore-intl.com,Download Catalogue | Request Demo 1 Apply for Credit Account WWW medcore-intl com,0.060240963855421686,0.3333333333333333,0
+e0061,4,section_header,tesseract,Download Catalogue | Request Demo | Apply for Credit Account | www.medcore-intl.com,Download Catalogue | Request Demo | Apply for Credit Account | www.medcore-intl.com,0.0,0.0,1
+e0062,4,section_header,easyocr,Ordering & Delivery,Ordering & Delivery,0.0,0.0,1
+e0062,4,section_header,tesseract,Ordering & Delivery,Ordering & Delivery,0.0,0.0,1
+e0063,4,title,easyocr,STEP 1 - Request a Quote,STEP 1 Request a Quote,0.08333333333333333,0.16666666666666666,0
+e0063,4,title,tesseract,STEP 1 - Request a Quote,STEP 1 - Request a Quote,0.0,0.0,1
+e0064,4,paragraph,easyocr,Submit RFQ at www.medcore-intl.com/rfq. Include product codes and quantities. Response within 24 business hours.,"Submit RFQ at WWW medcore-intl com/rfq: Include
+product codes and quantities. Response within 24
+business hours:",0.03571428571428571,0.2857142857142857,0
+e0064,4,paragraph,tesseract,Submit RFQ at www.medcore-intl.com/rfq. Include product codes and quantities. Response within 24 business hours.,"Submit RFQ at www.medcore-intl.com/rfq. Include
+product codes and quantities. Response within 24
+business hours.",0.0,0.0,1
+e0065,4,title,easyocr,STEP 2 - Receive Proforma Invoice,STEP 2 Receive Proforma Invoice,0.06060606060606061,0.16666666666666666,0
+e0065,4,title,tesseract,STEP 2 - Receive Proforma Invoice,STEP 2 - Receive Proforma Invoice,0.0,0.0,1
+e0066,4,paragraph,easyocr,"Proforma invoice issued within 24 hours, valid 30 days. Full itemization included.","Proforma invoice issued within 24 hours, valid 30
+days: Full itemization included.",0.012195121951219513,0.08333333333333333,0
+e0066,4,paragraph,tesseract,"Proforma invoice issued within 24 hours, valid 30 days. Full itemization included.","Proforma invoice issued within 24 hours, valid 30
+days. Full itemization included.",0.0,0.0,1
+e0067,4,title,easyocr,STEP 3 - Payment Terms,STEP 3 Payment Terms,0.09090909090909091,0.2,0
+e0067,4,title,tesseract,STEP 3 - Payment Terms,STEP 3 - Payment Terms,0.0,0.0,1
+e0068,4,paragraph,easyocr,"Net 30 for approved accounts. 50% advance for new clients. LC accepted for orders > EUR 50,000.","Net 30 for approved accounts. 50% advance for new
+clients. LC accepted for orders > EUR 50,000.",0.0,0.0,1
+e0068,4,paragraph,tesseract,"Net 30 for approved accounts. 50% advance for new clients. LC accepted for orders > EUR 50,000.","Net 30 for approved accounts. 50% advance for new
+clients. LC accepted for orders > EUR 50,000.",0.0,0.0,1
+e0069,4,title,easyocr,STEP 4 - Shipping,STEP 4 - Shipping,0.0,0.0,1
+e0069,4,title,tesseract,STEP 4 - Shipping,STEP 4 - Shipping,0.0,0.0,1
+e0070,4,paragraph,easyocr,DDP worldwide. Standard: 7-10 days (Europe). Express: 2-3 days DHL Medical Express. GPS + temp tracking.,"DDP worldwide. Standard: 7-10 days (Europe).
+Express: 2-3 days DHL Medical Express. GPS +
+temp tracking:",0.009615384615384616,0.0625,0
+e0070,4,paragraph,tesseract,DDP worldwide. Standard: 7-10 days (Europe). Express: 2-3 days DHL Medical Express. GPS + temp tracking.,"DDP worldwide. Standard: 7-10 days (Europe).
+Express: 2-3 days DHL Medical Express. GPS +
+temp tracking.",0.0,0.0,1
+e0071,4,section_header,easyocr,Warranty & Support,Warranty & Support,0.0,0.0,1
+e0071,4,section_header,tesseract,Warranty & Support,Warranty & Support,0.0,0.0,1
+e0072,4,list,easyocr,"* Electronic instruments: 2-year warranty
+* Surgical steel: Lifetime on defects
+* Consumables: Lot-controlled replacement
+* Software: Free lifetime OTA updates","Electronic instruments: 2-year warranty
+Surgical steel: Lifetime on defects
+Consumables: Lot-controlled replacement
+Software: Free lifetime OTA updates",0.050314465408805034,0.19047619047619047,0
+e0072,4,list,tesseract,"* Electronic instruments: 2-year warranty
+* Surgical steel: Lifetime on defects
+* Consumables: Lot-controlled replacement
+* Software: Free lifetime OTA updates","“ Electronic instruments: 2-year warranty
+
+“ Surgical steel: Lifetime on defects
+
+“ Consumables: Lot-controlled replacement
+“ Software: Free lifetime OTA updates",0.025157232704402517,0.19047619047619047,0
+e0073,4,title,easyocr,ServicePlus Plans,ServicePlus Plans,0.0,0.0,1
+e0073,4,title,tesseract,ServicePlus Plans,ServicePlus Plans,0.0,0.0,1
+e0075,4,paragraph,easyocr,ISO/IEC 17025 accredited calibration from EUR 120/instrument.,"ISOJIEC 17025 accredited calibration from EUR
+120linstrument:",0.04918032786885246,0.2857142857142857,0
+e0075,4,paragraph,tesseract,ISO/IEC 17025 accredited calibration from EUR 120/instrument.,"ISO/IEC 17025 accredited calibration from EUR
+120/instrument.",0.0,0.0,1
+e0076,4,section_header,easyocr,Get In Touch,Get In Touch,0.0,0.0,1
+e0076,4,section_header,tesseract,Get In Touch,Get In Touch,0.0,0.0,1
+e0078,4,paragraph,easyocr,"MedCore Instruments International GmbH Suite 1200, Meridian Medical Tower 48 Commerce Blvd, Frankfurt 60311, Germany Tel: +49 69 4521 8800","MedCore Instruments International GmbH Suite
+1200, Meridian Medical Tower 48 Commerce Blvd,
+Frankfurt 60311, Germany Tel: +49 69 4521 8800",0.0,0.0,1
+e0078,4,paragraph,tesseract,"MedCore Instruments International GmbH Suite 1200, Meridian Medical Tower 48 Commerce Blvd, Frankfurt 60311, Germany Tel: +49 69 4521 8800","MedCore Instruments International GmbH Suite
+1200, Meridian Medical Tower 48 Commerce Blvd,
+Frankfurt 60311, Germany Tel: +49 69 4521 8800",0.0,0.0,1
+e0079,4,list,easyocr,"London UK: +44 20 7946 0832
+New York USA: +1 646 880 4421
+Singapore: +65 6438 7710
+Mumbai India: +91 22 4890 3300
+Dubai UAE: +971 4 456 9100","London UK: +44 20 7946 0832
+New York USA: +1 646 880 4421
+Singapore: +65 6438 7710
+Mumbai India: +91 22 4890 3300
+Dubai UAE: +971 4 456 9100",0.0,0.0,1
+e0079,4,list,tesseract,"London UK: +44 20 7946 0832
+New York USA: +1 646 880 4421
+Singapore: +65 6438 7710
+Mumbai India: +91 22 4890 3300
+Dubai UAE: +971 4 456 9100","London UK: +44 20 7946 0832
+New York USA: +1 646 880 4421
+Singapore: +65 6438 7710
+Mumbai India: +91 22 4890 3300
+Dubai UAE: +971 4 456 9100",0.0,0.0,1
+e0080,4,paragraph,easyocr,sales@medcore-intl.com www.medcore-intl.com Live chat: 24/7,"sales@medcore-intl.com WWW.medcore-intl.com
+Live chat: 24/7",0.0,0.0,1
+e0080,4,paragraph,tesseract,sales@medcore-intl.com www.medcore-intl.com Live chat: 24/7,"sales@medcore-intl.com www.medcore-intl.com
+Live chat: 24/7",0.0,0.0,1

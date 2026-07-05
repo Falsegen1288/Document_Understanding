@@ -1,0 +1,6 @@
+id,doc_type,download_url
+Financial_001,invoice,https://slicedinvoices.com/pdf/wordpress-pdf-invoice-plugin-sample.pdf
+Financial_002,payslip,https://www.pittstate.edu/hr/_files/documents/documents---payslip-sample---hourly-with-benefits.pdf
+Financial_003,tax_form,https://www.irs.gov/pub/irs-pdf/f1040.pdf
+Financial_004,receipt,https://raw.githubusercontent.com/m3nu/invoice2data/master/tests/compare/oyo.pdf
+Financial_005,invoice,https://raw.githubusercontent.com/CatchTheTornado/text-extract-api/main/examples/example-invoice.pdf

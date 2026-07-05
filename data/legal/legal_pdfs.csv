@@ -1,0 +1,6 @@
+id,doc_type,download_url
+Legal_001,us_supreme_court_slip_opinion,https://raw.githubusercontent.com/freelawproject/courtlistener/main/cl/assets/media/test/search/opinion_pdf_text_based.pdf
+Legal_002,us_tax_court_opinion,https://raw.githubusercontent.com/freelawproject/courtlistener/main/cl/assets/media/test/search/opinion_tax.pdf
+Legal_003,us_workers_compensation_appeal,https://raw.githubusercontent.com/freelawproject/courtlistener/main/cl/corpus_importer/test_assets/tenn_test_files/1449/Diaz_v._Create_and_Construct__LLC_Appeals_Board_Opinion.pdf
+Legal_004,india_ncrb_accidental_deaths_report,https://raw.githubusercontent.com/camelot-dev/camelot/master/docs/benchmark/lattice/column_span_1/column_span_1.pdf
+Legal_005,india_district_health_survey_dlhs,https://raw.githubusercontent.com/camelot-dev/camelot/master/docs/benchmark/stream/missing_values/missing_values.pdf

@@ -1,0 +1,3 @@
+"""
+huggingface image extraction package
+"""

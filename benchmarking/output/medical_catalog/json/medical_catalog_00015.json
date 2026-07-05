@@ -1,0 +1,502 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "medical_catalog_00015",
+  "domain": "medical_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200015,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/medical_catalog/images/medical_catalog_00015_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "mc00015_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            35.507088,
+            34.950096,
+            576.492912,
+            47.759904
+          ],
+          "text": "APEX-HEALTH\nREF 249 / CAT-2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e001",
+          "type": "title",
+          "bbox": [
+            35.505,
+            83.19,
+            576.15,
+            106.23
+          ],
+          "text": "APEX-HEALTH / SURGICAL SCISSORS",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e002",
+          "type": "text",
+          "bbox": [
+            35.505,
+            109.11,
+            576.15,
+            118.71
+          ],
+          "text": "Clinical-grade surgical instruments and medical equipment manufactured to ISO 13485 standards.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e003",
+          "type": "picture",
+          "bbox": [
+            44.145,
+            138.87,
+            195.555,
+            229.11
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e008",
+          "type": "picture",
+          "bbox": [
+            230.115,
+            138.87,
+            381.5325,
+            229.11
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e013",
+          "type": "picture",
+          "bbox": [
+            416.0925,
+            138.87,
+            567.5025,
+            229.11
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e004",
+          "type": "title",
+          "bbox": [
+            43.665,
+            237.27,
+            196.035,
+            248.4975
+          ],
+          "text": "Metzenbaum Curved Scissors",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e009",
+          "type": "title",
+          "bbox": [
+            229.635,
+            237.27,
+            382.0125,
+            248.4975
+          ],
+          "text": "Mayo Dissecting Scissors (Straight)",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e014",
+          "type": "title",
+          "bbox": [
+            415.6125,
+            237.27,
+            567.9825,
+            248.4975
+          ],
+          "text": "Iris Suture Scissors",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e005",
+          "type": "text",
+          "bbox": [
+            43.665,
+            252.3375,
+            196.035,
+            280.8375
+          ],
+          "text": "Delicate curved dissecting scissors for exposing organs and deep structures.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e010",
+          "type": "text",
+          "bbox": [
+            229.635,
+            252.3375,
+            382.0125,
+            269.7975
+          ],
+          "text": "Heavy-duty straight scissors designed for cutting body tissues near the wound surface.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e015",
+          "type": "text",
+          "bbox": [
+            415.6125,
+            252.3375,
+            567.9825,
+            280.8375
+          ],
+          "text": "Fine, straight scissors designed for ophthalmic and delicate suture cutting.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e011",
+          "type": "table",
+          "bbox": [
+            229.635,
+            275.5575,
+            382.0125,
+            308.6775
+          ],
+          "text": "Material\tTungsten Carbide\nBlades\tCurved / Sharp\nWarranty\tLifetime Warranty",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  229.635,
+                  277.4775,
+                  298.2,
+                  283.9575
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Tungsten Carbide",
+                "bbox": [
+                  298.2,
+                  277.4775,
+                  382.0125,
+                  283.9575
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Blades",
+                "bbox": [
+                  229.635,
+                  288.2775,
+                  298.2,
+                  294.9975
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Curved / Sharp",
+                "bbox": [
+                  298.2,
+                  288.2775,
+                  382.0125,
+                  294.9975
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Warranty",
+                "bbox": [
+                  229.635,
+                  299.3175,
+                  298.2,
+                  306.0375
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Lifetime Warranty",
+                "bbox": [
+                  298.2,
+                  299.3175,
+                  382.0125,
+                  306.0375
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e006",
+          "type": "table",
+          "bbox": [
+            43.665,
+            286.5975,
+            196.035,
+            308.6775
+          ],
+          "text": "Material\tTungsten Carbide\nLength\t14 cm",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  43.665,
+                  288.5175,
+                  112.23,
+                  294.9975
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Tungsten Carbide",
+                "bbox": [
+                  112.23,
+                  288.5175,
+                  196.035,
+                  294.9975
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Length",
+                "bbox": [
+                  43.665,
+                  299.3175,
+                  112.23,
+                  306.0375
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "14 cm",
+                "bbox": [
+                  112.23,
+                  299.3175,
+                  196.035,
+                  306.0375
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e016",
+          "type": "table",
+          "bbox": [
+            415.6125,
+            286.5975,
+            567.9825,
+            308.6775
+          ],
+          "text": "Length\t14 cm\nMaterial\tTungsten Carbide",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Length",
+                "bbox": [
+                  415.6125,
+                  288.5175,
+                  484.1775,
+                  294.9975
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "14 cm",
+                "bbox": [
+                  484.1775,
+                  288.5175,
+                  567.9825,
+                  294.9975
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  415.6125,
+                  299.3175,
+                  484.1775,
+                  306.0375
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Tungsten Carbide",
+                "bbox": [
+                  484.1775,
+                  299.3175,
+                  567.9825,
+                  306.0375
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e007",
+          "type": "text",
+          "bbox": [
+            43.665,
+            318.7575,
+            77.3325,
+            329.7975
+          ],
+          "text": "$295.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e012",
+          "type": "text",
+          "bbox": [
+            229.635,
+            318.7575,
+            260.955,
+            329.7975
+          ],
+          "text": "$179.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e017",
+          "type": "text",
+          "bbox": [
+            415.6125,
+            318.7575,
+            444.63,
+            329.7975
+          ],
+          "text": "$94.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00015_p1_e018",
+          "type": "page_footer",
+          "bbox": [
+            35.507088,
+            757.208856,
+            576.492912,
+            757.308856
+          ],
+          "text": "\u00a9 2026 APEX-HEALTH. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "medical_catalog_00006",
+  "domain": "medical_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200006,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/medical_catalog/images/medical_catalog_00006_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "mc00006_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            37.416768,
+            36.232848,
+            574.583232,
+            46.747152
+          ],
+          "text": "NEXUS-MED\nREF 495 / CAT-2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e001",
+          "type": "title",
+          "bbox": [
+            37.41,
+            83.46,
+            575.4,
+            106.5
+          ],
+          "text": "NEXUS-MED / SURGICAL SCALPELS",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e002",
+          "type": "text",
+          "bbox": [
+            37.41,
+            109.38,
+            575.4,
+            118.98
+          ],
+          "text": "Clinical-grade surgical instruments and medical equipment manufactured to ISO 13485 standards.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e003",
+          "type": "picture",
+          "bbox": [
+            46.05,
+            139.14,
+            196.575,
+            229.38
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e008",
+          "type": "picture",
+          "bbox": [
+            231.135,
+            139.14,
+            381.6675,
+            229.38
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e013",
+          "type": "picture",
+          "bbox": [
+            416.2275,
+            139.14,
+            566.7525,
+            229.38
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e004",
+          "type": "title",
+          "bbox": [
+            45.57,
+            237.54,
+            197.055,
+            248.7675
+          ],
+          "text": "Disposable Safety Scalpel No. 10",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e009",
+          "type": "title",
+          "bbox": [
+            230.655,
+            237.54,
+            382.1475,
+            248.7675
+          ],
+          "text": "Scalpel Handle No. 4",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e014",
+          "type": "title",
+          "bbox": [
+            415.7475,
+            237.54,
+            567.2325,
+            248.7675
+          ],
+          "text": "Bard-Parker Handle No. 3",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e005",
+          "type": "text",
+          "bbox": [
+            45.57,
+            252.6075,
+            197.055,
+            281.1075
+          ],
+          "text": "Sterile disposable scalpel with retractable protective safety shield.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e010",
+          "type": "text",
+          "bbox": [
+            230.655,
+            252.6075,
+            382.1475,
+            270.0675
+          ],
+          "text": "Heavy-duty surgical handle compatible with larger size 20-25 scalpel blades.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e015",
+          "type": "text",
+          "bbox": [
+            415.7475,
+            252.6075,
+            567.2325,
+            281.1075
+          ],
+          "text": "Standard stainless steel surgical scalpel handle compatible with sizes 10-15 blades.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e011",
+          "type": "table",
+          "bbox": [
+            230.655,
+            275.8275,
+            382.1475,
+            308.9475
+          ],
+          "text": "Autoclavable\tYes\nISO Standard\tISO 7153-1\nFitment\tBlades 10-15",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Autoclavable",
+                "bbox": [
+                  230.655,
+                  277.7475,
+                  298.8225,
+                  284.2275
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Yes",
+                "bbox": [
+                  298.8225,
+                  277.7475,
+                  382.1475,
+                  284.2275
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "ISO Standard",
+                "bbox": [
+                  230.655,
+                  288.5475,
+                  298.8225,
+                  295.2675
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "ISO 7153-1",
+                "bbox": [
+                  298.8225,
+                  288.5475,
+                  382.1475,
+                  295.2675
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Fitment",
+                "bbox": [
+                  230.655,
+                  299.5875,
+                  298.8225,
+                  306.3075
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Blades 10-15",
+                "bbox": [
+                  298.8225,
+                  299.5875,
+                  382.1475,
+                  306.3075
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e006",
+          "type": "table",
+          "bbox": [
+            45.57,
+            286.8675,
+            197.055,
+            308.9475
+          ],
+          "text": "Fitment\tBlades 10-15\nISO Standard\tISO 7153-1",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Fitment",
+                "bbox": [
+                  45.57,
+                  288.7875,
+                  113.7375,
+                  295.2675
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Blades 10-15",
+                "bbox": [
+                  113.7375,
+                  288.7875,
+                  197.055,
+                  295.2675
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "ISO Standard",
+                "bbox": [
+                  45.57,
+                  299.5875,
+                  113.7375,
+                  306.3075
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "ISO 7153-1",
+                "bbox": [
+                  113.7375,
+                  299.5875,
+                  197.055,
+                  306.3075
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e016",
+          "type": "table",
+          "bbox": [
+            415.7475,
+            286.8675,
+            567.2325,
+            308.9475
+          ],
+          "text": "Fitment\tBlades 10-15\nISO Standard\tISO 7153-1",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Fitment",
+                "bbox": [
+                  415.7475,
+                  288.7875,
+                  483.915,
+                  295.2675
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Blades 10-15",
+                "bbox": [
+                  483.915,
+                  288.7875,
+                  567.2325,
+                  295.2675
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "ISO Standard",
+                "bbox": [
+                  415.7475,
+                  299.5875,
+                  483.915,
+                  306.3075
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "ISO 7153-1",
+                "bbox": [
+                  483.915,
+                  299.5875,
+                  567.2325,
+                  306.3075
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e007",
+          "type": "text",
+          "bbox": [
+            45.57,
+            319.0275,
+            76.7175,
+            330.0675
+          ],
+          "text": "$137.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e012",
+          "type": "text",
+          "bbox": [
+            230.655,
+            319.0275,
+            263.415,
+            330.0675
+          ],
+          "text": "$327.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e017",
+          "type": "text",
+          "bbox": [
+            415.7475,
+            319.0275,
+            447.45,
+            330.0675
+          ],
+          "text": "$169.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00006_p1_e018",
+          "type": "page_footer",
+          "bbox": [
+            37.416768,
+            755.3629679999999,
+            574.583232,
+            755.4629679999999
+          ],
+          "text": "\u00a9 2026 NEXUS-MED. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

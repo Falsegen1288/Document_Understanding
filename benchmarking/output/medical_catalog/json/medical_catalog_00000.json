@@ -1,0 +1,480 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "medical_catalog_00000",
+  "domain": "medical_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200000,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/medical_catalog/images/medical_catalog_00000_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "mc00000_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            35.305056,
+            34.48896,
+            576.694944,
+            48.27354
+          ],
+          "text": "SURGI-ALLOY\nREF 636 / CAT-2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e001",
+          "type": "title",
+          "bbox": [
+            35.3025,
+            83.2425,
+            574.8525,
+            106.2825
+          ],
+          "text": "SURGI-ALLOY / SURGICAL RETRACTORS",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e002",
+          "type": "text",
+          "bbox": [
+            35.3025,
+            109.1625,
+            574.8525,
+            118.7625
+          ],
+          "text": "Clinical-grade surgical instruments and medical equipment manufactured to ISO 13485 standards.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e003",
+          "type": "picture",
+          "bbox": [
+            43.9425,
+            138.9225,
+            194.9925,
+            229.1625
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e008",
+          "type": "picture",
+          "bbox": [
+            229.5525,
+            138.9225,
+            380.6025,
+            229.1625
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e013",
+          "type": "picture",
+          "bbox": [
+            415.1625,
+            138.9225,
+            566.2125,
+            229.1625
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e004",
+          "type": "title",
+          "bbox": [
+            43.4625,
+            237.3225,
+            195.4725,
+            248.55
+          ],
+          "text": "Senn Handheld Retractor",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e009",
+          "type": "title",
+          "bbox": [
+            229.0725,
+            237.3225,
+            381.0825,
+            248.55
+          ],
+          "text": "Richardson Appendectomy Retractor",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e014",
+          "type": "title",
+          "bbox": [
+            414.6825,
+            237.3225,
+            566.6925,
+            248.55
+          ],
+          "text": "Army-Navy Retractor",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e005",
+          "type": "text",
+          "bbox": [
+            43.4625,
+            252.39,
+            195.4725,
+            269.85
+          ],
+          "text": "Double-ended retractor with three sharp prongs on one side and a solid blade on the other.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e010",
+          "type": "text",
+          "bbox": [
+            229.0725,
+            252.39,
+            381.0825,
+            269.85
+          ],
+          "text": "Large loop handle retractor with single right-angled blade for laparotomy.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e015",
+          "type": "text",
+          "bbox": [
+            414.6825,
+            252.39,
+            566.6925,
+            269.85
+          ],
+          "text": "Double-ended handheld retractor used for exposing superficial wounds.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e006",
+          "type": "table",
+          "bbox": [
+            43.4625,
+            275.61,
+            195.4725,
+            297.69
+          ],
+          "text": "Prongs\t3 Sharp\nMaterial\tSurgical Steel",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Prongs",
+                "bbox": [
+                  43.4625,
+                  277.53,
+                  111.8625,
+                  284.01
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "3 Sharp",
+                "bbox": [
+                  111.8625,
+                  277.53,
+                  195.4725,
+                  284.01
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  43.4625,
+                  288.33,
+                  111.8625,
+                  295.05
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Surgical Steel",
+                "bbox": [
+                  111.8625,
+                  288.33,
+                  195.4725,
+                  295.05
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e011",
+          "type": "table",
+          "bbox": [
+            229.0725,
+            275.61,
+            381.0825,
+            297.69
+          ],
+          "text": "Origin\tMade in Germany\nBlades\tDouble-ended",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  229.0725,
+                  277.53,
+                  297.4725,
+                  284.01
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Made in Germany",
+                "bbox": [
+                  297.4725,
+                  277.53,
+                  381.0825,
+                  284.01
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Blades",
+                "bbox": [
+                  229.0725,
+                  288.33,
+                  297.4725,
+                  295.05
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Double-ended",
+                "bbox": [
+                  297.4725,
+                  288.33,
+                  381.0825,
+                  295.05
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e016",
+          "type": "table",
+          "bbox": [
+            414.6825,
+            275.61,
+            566.6925,
+            297.69
+          ],
+          "text": "Material\tSurgical Steel\nOrigin\tMade in Germany",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  414.6825,
+                  277.53,
+                  483.0825,
+                  284.01
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Surgical Steel",
+                "bbox": [
+                  483.0825,
+                  277.53,
+                  566.6925,
+                  284.01
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  414.6825,
+                  288.33,
+                  483.0825,
+                  295.05
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Made in Germany",
+                "bbox": [
+                  483.0825,
+                  288.33,
+                  566.6925,
+                  295.05
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e007",
+          "type": "text",
+          "bbox": [
+            43.4625,
+            307.77,
+            72.495,
+            318.81
+          ],
+          "text": "$70.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e012",
+          "type": "text",
+          "bbox": [
+            229.0725,
+            307.77,
+            260.97,
+            318.81
+          ],
+          "text": "$153.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e017",
+          "type": "text",
+          "bbox": [
+            414.6825,
+            307.77,
+            448.1625,
+            318.81
+          ],
+          "text": "$363.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00000_p1_e018",
+          "type": "page_footer",
+          "bbox": [
+            35.305056,
+            757.555224,
+            576.694944,
+            757.655224
+          ],
+          "text": "\u00a9 2026 SURGI-ALLOY. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

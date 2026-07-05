@@ -1,0 +1,480 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00004",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200004,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00004_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00004_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            36.171312,
+            37.360896,
+            575.8286879999999,
+            48.799104
+          ],
+          "text": "KRONOS\nVOL. 10 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e001",
+          "type": "title",
+          "bbox": [
+            36.165,
+            86.64,
+            575.28,
+            109.68
+          ],
+          "text": "KRONOS / MODERN FURNITURE",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e002",
+          "type": "text",
+          "bbox": [
+            36.165,
+            112.56,
+            575.28,
+            122.16
+          ],
+          "text": "Curated selection of premium modern furniture for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e003",
+          "type": "picture",
+          "bbox": [
+            44.805,
+            142.32,
+            195.705,
+            232.56
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e008",
+          "type": "picture",
+          "bbox": [
+            230.265,
+            142.32,
+            381.1725,
+            232.56
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e013",
+          "type": "picture",
+          "bbox": [
+            415.7325,
+            142.32,
+            566.6325,
+            232.56
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e004",
+          "type": "title",
+          "bbox": [
+            44.325,
+            240.72,
+            196.185,
+            251.9475
+          ],
+          "text": "Apex Desk",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e009",
+          "type": "title",
+          "bbox": [
+            229.785,
+            240.72,
+            381.6525,
+            251.9475
+          ],
+          "text": "Nouveau Sideboard",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e014",
+          "type": "title",
+          "bbox": [
+            415.2525,
+            240.72,
+            567.1125,
+            251.9475
+          ],
+          "text": "Harkness Lounge Chair",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e005",
+          "type": "text",
+          "bbox": [
+            44.325,
+            255.7875,
+            196.185,
+            273.2475
+          ],
+          "text": "Height-adjustable standing desk with solid bamboo top and cable routing.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e010",
+          "type": "text",
+          "bbox": [
+            229.785,
+            255.7875,
+            381.6525,
+            273.2475
+          ],
+          "text": "Minimalist oak sideboard with matte black steel hardware and soft-close doors.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e015",
+          "type": "text",
+          "bbox": [
+            415.2525,
+            255.7875,
+            567.1125,
+            273.2475
+          ],
+          "text": "Ergonomic leather lounge chair with polished walnut wood frame.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e006",
+          "type": "table",
+          "bbox": [
+            44.325,
+            279.0075,
+            196.185,
+            301.0875
+          ],
+          "text": "Material\tOak Wood\nDimensions\t85x90x105 cm",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  44.325,
+                  280.9275,
+                  112.6575,
+                  287.4075
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  112.6575,
+                  280.9275,
+                  196.185,
+                  287.4075
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Dimensions",
+                "bbox": [
+                  44.325,
+                  291.7275,
+                  112.6575,
+                  298.4475
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "85x90x105 cm",
+                "bbox": [
+                  112.6575,
+                  291.7275,
+                  196.185,
+                  298.4475
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e011",
+          "type": "table",
+          "bbox": [
+            229.785,
+            279.0075,
+            381.6525,
+            301.0875
+          ],
+          "text": "Material\tOak Wood\nOrigin\tMade in Denmark",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  229.785,
+                  280.9275,
+                  298.125,
+                  287.4075
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  298.125,
+                  280.9275,
+                  381.6525,
+                  287.4075
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  229.785,
+                  291.7275,
+                  298.125,
+                  298.4475
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Made in Denmark",
+                "bbox": [
+                  298.125,
+                  291.7275,
+                  381.6525,
+                  298.4475
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e016",
+          "type": "table",
+          "bbox": [
+            415.2525,
+            279.0075,
+            567.1125,
+            301.0875
+          ],
+          "text": "Assembly\tRequired\nMaterial\tOak Wood",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Assembly",
+                "bbox": [
+                  415.2525,
+                  280.9275,
+                  483.585,
+                  287.4075
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Required",
+                "bbox": [
+                  483.585,
+                  280.9275,
+                  567.1125,
+                  287.4075
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  415.2525,
+                  291.7275,
+                  483.585,
+                  298.4475
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  483.585,
+                  291.7275,
+                  567.1125,
+                  298.4475
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e007",
+          "type": "text",
+          "bbox": [
+            44.325,
+            311.1675,
+            78.2475,
+            322.2075
+          ],
+          "text": "$626.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e012",
+          "type": "text",
+          "bbox": [
+            229.785,
+            311.1675,
+            261.525,
+            322.2075
+          ],
+          "text": "$219.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e017",
+          "type": "text",
+          "bbox": [
+            415.2525,
+            311.1675,
+            447.525,
+            322.2075
+          ],
+          "text": "$134.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00004_p1_e018",
+          "type": "page_footer",
+          "bbox": [
+            36.171312,
+            756.0213120000001,
+            575.8286879999999,
+            756.1213120000001
+          ],
+          "text": "\u00a9 2026 KRONOS. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "scientific_paper_00000",
+  "domain": "scientific_paper",
+  "source_engine": "reportlab_platypus",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200000,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/scientific_paper/images/scientific_paper_00000_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "sp00000_p1_e001",
+          "type": "title",
+          "bbox": [
+            56.16541288934006,
+            144.51536664348112,
+            565.0443262815544,
+            166.51536664348112
+          ],
+          "text": "Day east strategy star recognize reveal cup",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p1_e002",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            176.51536664348112,
+            565.0443262815544,
+            215.51536664348112
+          ],
+          "text": "Connie Thompson* and Lauren Herring\u2020<br/>*Department of Computer Science, Carson Group<br/>\u2020Research Laboratory, Vazquez Group",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p1_e003",
+          "type": "section_header",
+          "bbox": [
+            56.16541288934006,
+            230.51536664348112,
+            565.0443262815544,
+            243.51536664348112
+          ],
+          "text": "Abstract",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p1_e004",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            247.51536664348112,
+            565.0443262815544,
+            291.5153666434811
+          ],
+          "text": "This paper presents a novel framework for the generation of synthetic document datasets with pixel-perfect ground-truth layouts. We address the critical issue of bounding box coordinate drift in traditional layout analysis. By intercepting layout information directly inside the rendering lifecycle, we eliminate approximation errors. Experimental evaluations demonstrate substantial improvements in downstream object detection training efficiency.",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p1_e000",
+          "type": "page_footer",
+          "bbox": [
+            303.75,
+            663.7800384220322,
+            308.25,
+            670.5300384220322
+          ],
+          "text": "1",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/scientific_paper/images/scientific_paper_00000_p2.png",
+      "layout_elements": [
+        {
+          "element_id": "sp00000_p2_e001",
+          "type": "section_header",
+          "bbox": [
+            56.16541288934006,
+            144.51536664348112,
+            565.0443262815544,
+            158.51536664348112
+          ],
+          "text": "1. Introduction",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e002",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            164.51536664348112,
+            565.0443262815544,
+            210.51536664348112
+          ],
+          "text": "Recent advancements in deep learning models have significantly advanced the state of the art in document understanding. However, training robust neural networks for layout detection requires extensive annotated datasets. Manual labelling of document bounding boxes is labor-intensive and prone to human errors. Synthetic data generators offer a viable alternative by providing unlimited samples with pre-determined coordinate data.",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e003",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            216.51536664348112,
+            565.0443262815544,
+            262.5153666434811
+          ],
+          "text": "Our approach relies on ReportLab's document rendering engine. We subclass foundational flowable elements to hook into their canvas draw routines. During the compilation of the PDF, the precise positioning coordinates are computed relative to the page height. This method captures the exact pixels where text, tables, and images are drawn, bypassing errors introduced by font substitution and line-wrap calculations.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e004",
+          "type": "section_header",
+          "bbox": [
+            56.16541288934006,
+            272.5153666434811,
+            565.0443262815544,
+            286.5153666434811
+          ],
+          "text": "2. Methodology",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e005",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            292.5153666434811,
+            565.0443262815544,
+            327.0153666434811
+          ],
+          "text": "We describe the architecture of our generator across multiple domains. In the scientific paper domain, the dual-column layout presents a unique challenge for reading order reconstruction. Traditional top-to-bottom geometric sorting fails because it mixes left and right columns. We implement a column-aware sort key that buckets coordinates relative to the page midpoint before sorting vertically within each column.",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e006",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            333.0153666434811,
+            565.0443262815544,
+            379.0153666434811
+          ],
+          "text": "Furthermore, table splitting across pages requires special correlation. When a table overflows the available vertical space, the engine splits the flowable. We assign a unique identifier to the original parent block. The child fragments inherit this key, allowing downstream ingestion scripts to reassemble the split components. This structure is essential for training chunking algorithms in retrieval-augmented generation pipelines.",
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e007",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            385.0153666434811,
+            565.0443262815544,
+            396.5153666434811
+          ],
+          "text": "For our mathematical formulation, we define the following relationship:",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e009",
+          "type": "section_header",
+          "bbox": [
+            56.16541288934006,
+            436.43536664348113,
+            565.0443262815544,
+            450.43536664348113
+          ],
+          "text": "3. Experimental Evaluation",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e010",
+          "type": "text",
+          "bbox": [
+            56.16541288934006,
+            456.43536664348113,
+            565.0443262815544,
+            502.43536664348113
+          ],
+          "text": "In conclusion, our pipeline offers a complete framework for synthetic document engineering. The resulting dataset contains high-fidelity documents spanning commercial, financial, medical, and scientific domains. Future research will explore adding complex graphics, multi-page vector drawings, and advanced OCR noise models to further simulate physical scans while maintaining precise coordinate ground-truth.",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e012",
+          "type": "caption",
+          "bbox": [
+            56.16541288934006,
+            644.4353666434811,
+            565.0443262815544,
+            654.4353666434811
+          ],
+          "text": "Figure 1: Comparison of baseline models versus our layout detection generator.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e008",
+          "type": "formula",
+          "bbox": [
+            56.16541288934006,
+            402.5153666434811,
+            146.64541288934007,
+            422.43536664348113
+          ],
+          "text": null,
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e011",
+          "type": "picture",
+          "bbox": [
+            56.16541288934006,
+            508.43536664348113,
+            276.1654128893401,
+            640.4353666434811
+          ],
+          "text": null,
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00000_p2_e000",
+          "type": "page_footer",
+          "bbox": [
+            303.75,
+            663.7800384220322,
+            308.25,
+            670.5300384220322
+          ],
+          "text": "2",
+          "reading_order": 12,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

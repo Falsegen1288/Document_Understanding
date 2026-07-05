@@ -1,0 +1,6 @@
+{
+  "name": "Medical Document Layout Annotator",
+  "description": "An industrial-grade workspace for medical document layout labeling, comparison, and ground truth generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

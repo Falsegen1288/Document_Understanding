@@ -1,0 +1,2642 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "financial_invoice_00000",
+  "domain": "financial_invoice",
+  "source_engine": "reportlab_platypus",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200000,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/financial_invoice/images/financial_invoice_00000_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "fi00000_p1_e004",
+          "type": "table",
+          "bbox": [
+            21.67952139791926,
+            196.704258262724,
+            513.6795213979193,
+            212.704258262724
+          ],
+          "text": null,
+          "reading_order": 0,
+          "attributes": {
+            "n_rows": 1,
+            "n_cols": 4,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  196.704258262724,
+                  135.67952139791925,
+                  212.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a78e60d9-1841-4ad1-88fa-ff401518f7dd'\n'_gt_text': 'INVOICE'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'INVOICE'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=11, greek=0, italic=0, link=[], rise=0, text='INVOICE', textColor=Color(.023529,.372549,.27451,1), us_lines=[])]\n'style': <ParagraphStyle 'InvH2'>\n'bulletText': None\n'debug': 0\n'width': 126\n'_wrapWidths': [126, 126]\n'_width_max': 45.232\n'height': 14\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=7.898, bold=1, descent=-2.2769999999999997, fontName='Helvetica-Bold', fontSize=11, greek=0, italic=0, kind=0, lines=[(80.768, ['INVOICE'])], link=[], rise=0, text='INVOICE', textColor=Color(.023529,.372549,.27451,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  147.67952139791925,
+                  196.704258262724,
+                  261.67952139791925,
+                  212.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '87a4d09b-4262-494f-8a98-23b9aa15fdaf'\n'_gt_text': '<b>Invoice #:</b> INV-2021-19111'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>Invoice #:</b> INV-2021-19111'\n'frags': [[31.014000000000003, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Invoice #:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), 'Invoice')], [8.001, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Invoice #:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), '#:')], [0.0, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' INV-2021-19111', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), '')], [66.033, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' INV-2021-19111', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), 'INV-2021-19111')]]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 126\n'_wrapWidths': [126, 126]\n'_width_max': 110.052\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaLines(kind=1, lines=[FragLine(ascent=6.462, descent=-1.8629999999999998, extraSpace=15.947999999999993, fontSize=9, lineBreak=False, maxWidth=126, sFW=0, wordCount=3, words=[ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Invoice #:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' INV-2021-19111', textColor=Color(.215686,.254902,.317647,1), us_lines=[])])])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "bbox": [
+                  273.67952139791925,
+                  196.704258262724,
+                  387.67952139791925,
+                  212.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '5b90b77a-021c-4167-bbe5-c5946732673d'\n'_gt_text': '<b>Date:</b> 1999-11-27'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>Date:</b> 1999-11-27'\n'frags': [[22.5, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Date:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), 'Date:')], [0.0, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' 1999-11-27', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), '')], [46.025999999999996, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' 1999-11-27', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), '1999-11-27')]]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 126\n'_wrapWidths': [126, 126]\n'_width_max': 71.02799999999999\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaLines(kind=1, lines=[FragLine(ascent=6.462, descent=-1.8629999999999998, extraSpace=54.97200000000001, fontSize=9, lineBreak=False, maxWidth=126, sFW=0, wordCount=2, words=[ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Date:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' 1999-11-27', textColor=Color(.215686,.254902,.317647,1), us_lines=[])])])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "bbox": [
+                  399.67952139791925,
+                  196.704258262724,
+                  513.6795213979192,
+                  212.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '3ba5e6c3-ecd3-4747-bb15-451035398f2c'\n'_gt_text': '<b>Due Date:</b> 1986-08-11'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>Due Date:</b> 1986-08-11'\n'frags': [[17.001, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Due Date:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), 'Due')], [22.5, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Due Date:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), 'Date:')], [0.0, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' 1986-08-11', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), '')], [46.025999999999996, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' 1986-08-11', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), '1986-08-11')]]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 126\n'_wrapWidths': [126, 126]\n'_width_max': 90.531\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaLines(kind=1, lines=[FragLine(ascent=6.462, descent=-1.8629999999999998, extraSpace=35.468999999999994, fontSize=9, lineBreak=False, maxWidth=126, sFW=0, wordCount=3, words=[ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Due Date:', textColor=Color(.215686,.254902,.317647,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text=' 1986-08-11', textColor=Color(.215686,.254902,.317647,1), us_lines=[])])])\n) #TrackedParagraph,)"
+              }
+            ],
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e017",
+          "type": "table",
+          "bbox": [
+            21.67952139791926,
+            305.704258262724,
+            513.6795213979193,
+            536.704258262724
+          ],
+          "text": null,
+          "reading_order": 1,
+          "attributes": {
+            "n_rows": 11,
+            "n_cols": 5,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  305.704258262724,
+                  209.67952139791925,
+                  316.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '26450796-987b-4916-a930-9a965d81bacb'\n'_gt_text': 'Description'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Description'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Description', textColor=Color(.023529,.372549,.27451,1), us_lines=[])]\n'style': <ParagraphStyle 'InvTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 49.509\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(138.49099999999999, ['Description'])], link=[], rise=0, text='Description', textColor=Color(.023529,.372549,.27451,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  305.704258262724,
+                  289.67952139791925,
+                  316.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '88547e84-8644-4f08-95b2-add097498322'\n'_gt_text': 'SKU'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU', textColor=Color(.023529,.372549,.27451,1), us_lines=[])]\n'style': <ParagraphStyle 'InvTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 18.999000000000002\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.001, ['SKU'])], link=[], rise=0, text='SKU', textColor=Color(.023529,.372549,.27451,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  305.704258262724,
+                  329.67952139791925,
+                  316.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'c02a5e62-82d9-45ad-b130-da9f7a9eced9'\n'_gt_text': 'Qty'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Qty'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Qty', textColor=Color(.023529,.372549,.27451,1), us_lines=[])]\n'style': <ParagraphStyle 'InvTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 15.003\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(12.997, ['Qty'])], link=[], rise=0, text='Qty', textColor=Color(.023529,.372549,.27451,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  305.704258262724,
+                  419.67952139791925,
+                  316.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '30c9a527-7f91-4c76-8f8a-147857425cc9'\n'_gt_text': 'Price'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Price'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Price', textColor=Color(.023529,.372549,.27451,1), us_lines=[])]\n'style': <ParagraphStyle 'InvTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 22.014000000000003\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(55.986, ['Price'])], link=[], rise=0, text='Price', textColor=Color(.023529,.372549,.27451,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  305.704258262724,
+                  513.6795213979192,
+                  316.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '2e4eb5e0-159f-4b2c-aa10-6291c6291144'\n'_gt_text': 'Total'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Total'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Total', textColor=Color(.023529,.372549,.27451,1), us_lines=[])]\n'style': <ParagraphStyle 'InvTableHdr'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 21.501\n'height': 11\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(60.498999999999995, ['Total'])], link=[], rise=0, text='Total', textColor=Color(.023529,.372549,.27451,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  326.704258262724,
+                  209.67952139791925,
+                  338.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '54ad35d6-4a9f-4127-b269-bd16bdde0a81'\n'_gt_text': 'Devolved transitional definition'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Devolved transitional definition'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Devolved transitional definition', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 122.04899999999999\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(65.95100000000001, ['Devolved', 'transitional', 'definition'])], link=[], rise=0, text='Devolved transitional definition', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  326.704258262724,
+                  289.67952139791925,
+                  338.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '824a7608-6d07-4200-86b6-1ef543356384'\n'_gt_text': 'SKU-317-SFET'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-317-SFET'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-317-SFET', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 62.513999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(5.486000000000004, ['SKU-317-SFET'])], link=[], rise=0, text='SKU-317-SFET', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  326.704258262724,
+                  329.67952139791925,
+                  338.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '9287adb1-b1ee-4928-8a60-baef68ba73fd'\n'_gt_text': '10'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '10'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='10', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 10.008000000000001\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(17.991999999999997, ['10'])], link=[], rise=0, text='10', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  326.704258262724,
+                  419.67952139791925,
+                  338.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '4ec4444e-856a-4370-93a1-8ed21d3189f9'\n'_gt_text': '$102.87'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$102.87'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$102.87', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$102.87'])], link=[], rise=0, text='$102.87', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  326.704258262724,
+                  513.6795213979192,
+                  338.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a7f36cf7-112f-4665-9efc-649c8ab7b6e1'\n'_gt_text': '$1028.66'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$1028.66'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$1028.66', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 37.53\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(44.47, ['$1028.66'])], link=[], rise=0, text='$1028.66', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  348.704258262724,
+                  209.67952139791925,
+                  360.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '4dea83d0-1c8d-4879-a8a2-970bcc29d19e'\n'_gt_text': 'User-centric interactive monitoring'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'User-centric interactive monitoring'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='User-centric interactive monitoring', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 136.53000000000003\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(51.46999999999997, ['User-centric', 'interactive', 'monitoring'])], link=[], rise=0, text='User-centric interactive monitoring', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  348.704258262724,
+                  289.67952139791925,
+                  360.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '34a11a93-cd88-4735-9ec4-bc41918f98f6'\n'_gt_text': 'SKU-305-VLRJ'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-305-VLRJ'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-305-VLRJ', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 61.515\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(6.484999999999999, ['SKU-305-VLRJ'])], link=[], rise=0, text='SKU-305-VLRJ', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  348.704258262724,
+                  329.67952139791925,
+                  360.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'f47a16fb-5c17-47c1-a243-74640607cbbe'\n'_gt_text': '9'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '9'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='9', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['9'])], link=[], rise=0, text='9', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  348.704258262724,
+                  419.67952139791925,
+                  360.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '339569b8-3009-45f1-99bd-8ecca819c5d0'\n'_gt_text': '$32.69'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$32.69'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$32.69', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 27.522000000000002\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(50.477999999999994, ['$32.69'])], link=[], rise=0, text='$32.69', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  348.704258262724,
+                  513.6795213979192,
+                  360.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'c933c173-e607-489a-837c-cf194133b7a3'\n'_gt_text': '$294.22'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$294.22'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$294.22', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$294.22'])], link=[], rise=0, text='$294.22', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  370.704258262724,
+                  209.67952139791925,
+                  382.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '45b21f61-d8b4-4162-9040-b3d456065d47'\n'_gt_text': 'Fully-configurable reciprocal focus group'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Fully-configurable reciprocal focus group'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Fully-configurable reciprocal focus group', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 162.05400000000003\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(25.94599999999997, ['Fully-configurable', 'reciprocal', 'focus', 'group'])], link=[], rise=0, text='Fully-configurable reciprocal focus group', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  370.704258262724,
+                  289.67952139791925,
+                  382.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '1d288e0e-fd85-46da-92e6-5f00cfd2f0fe'\n'_gt_text': 'SKU-769-RNMP'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-769-RNMP'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-769-RNMP', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 66.006\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(1.9939999999999998, ['SKU-769-RNMP'])], link=[], rise=0, text='SKU-769-RNMP', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  370.704258262724,
+                  329.67952139791925,
+                  382.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a51a3f4d-8f23-4793-adcb-da599890ddd3'\n'_gt_text': '6'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '6'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='6', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['6'])], link=[], rise=0, text='6', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  370.704258262724,
+                  419.67952139791925,
+                  382.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '7e014eb1-a767-492e-823a-75a90fe36ec8'\n'_gt_text': '$290.48'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$290.48'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$290.48', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$290.48'])], link=[], rise=0, text='$290.48', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  370.704258262724,
+                  513.6795213979192,
+                  382.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '55be6b5a-c20e-4572-870e-c1cfc6ce2c40'\n'_gt_text': '$1742.87'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$1742.87'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$1742.87', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 37.53\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(44.47, ['$1742.87'])], link=[], rise=0, text='$1742.87', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  392.704258262724,
+                  209.67952139791925,
+                  404.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '877cc920-6ee3-4d99-9c2a-cb2824c01820'\n'_gt_text': 'Stand-alone web-enabled definition'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Stand-alone web-enabled definition'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Stand-alone web-enabled definition', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 141.075\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(46.92500000000001, ['Stand-alone', 'web-enabled', 'definition'])], link=[], rise=0, text='Stand-alone web-enabled definition', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  392.704258262724,
+                  289.67952139791925,
+                  404.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '16c5d4be-2973-4f84-9d83-936e283441e3'\n'_gt_text': 'SKU-720-FJBO'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-720-FJBO'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-720-FJBO', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 62.513999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(5.486000000000004, ['SKU-720-FJBO'])], link=[], rise=0, text='SKU-720-FJBO', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  392.704258262724,
+                  329.67952139791925,
+                  404.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'efa881eb-293c-4bb3-90b9-18c6a58293f1'\n'_gt_text': '8'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '8'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['8'])], link=[], rise=0, text='8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  392.704258262724,
+                  419.67952139791925,
+                  404.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '3f2aa873-6818-46d3-b76b-c3a7e98ff693'\n'_gt_text': '$109.73'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$109.73'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$109.73', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$109.73'])], link=[], rise=0, text='$109.73', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 4,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  392.704258262724,
+                  513.6795213979192,
+                  404.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '8bc18a63-99bd-4b06-8514-76b8b7289265'\n'_gt_text': '$877.87'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$877.87'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$877.87', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$877.87'])], link=[], rise=0, text='$877.87', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 5,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  414.704258262724,
+                  209.67952139791925,
+                  426.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '70346674-0f1c-4dbe-9ac0-8903874d5a3c'\n'_gt_text': 'Phased heuristic success'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Phased heuristic success'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Phased heuristic success', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 101.53799999999998\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(86.46200000000002, ['Phased', 'heuristic', 'success'])], link=[], rise=0, text='Phased heuristic success', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 5,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  414.704258262724,
+                  289.67952139791925,
+                  426.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'dcb88888-fdc6-4f2c-95aa-08692308f7bf'\n'_gt_text': 'SKU-256-ZNCV'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-256-ZNCV'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-256-ZNCV', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 64.008\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(3.9920000000000044, ['SKU-256-ZNCV'])], link=[], rise=0, text='SKU-256-ZNCV', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 5,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  414.704258262724,
+                  329.67952139791925,
+                  426.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '932828e1-4f82-4bba-8b9d-c2b51e742b45'\n'_gt_text': '6'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '6'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='6', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['6'])], link=[], rise=0, text='6', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 5,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  414.704258262724,
+                  419.67952139791925,
+                  426.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '3e7d5268-ae38-4ac9-9dab-217cb37ad300'\n'_gt_text': '$141.49'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$141.49'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$141.49', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$141.49'])], link=[], rise=0, text='$141.49', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 5,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  414.704258262724,
+                  513.6795213979192,
+                  426.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '48a76d69-1eb2-42d1-9f68-bf7936c83c16'\n'_gt_text': '$848.93'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$848.93'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$848.93', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$848.93'])], link=[], rise=0, text='$848.93', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 6,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  436.704258262724,
+                  209.67952139791925,
+                  448.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd1751e39-6603-4882-a0c3-7322cfd8fe8c'\n'_gt_text': 'Seamless client-driven projection'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Seamless client-driven projection'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Seamless client-driven projection', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 132.039\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(55.96100000000001, ['Seamless', 'client-driven', 'projection'])], link=[], rise=0, text='Seamless client-driven projection', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 6,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  436.704258262724,
+                  289.67952139791925,
+                  448.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'ff3b02f1-778d-4507-9074-c744f2a80f21'\n'_gt_text': 'SKU-419-FCTB'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-419-FCTB'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-419-FCTB', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 63.009\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(4.991, ['SKU-419-FCTB'])], link=[], rise=0, text='SKU-419-FCTB', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 6,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  436.704258262724,
+                  329.67952139791925,
+                  448.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'dd1e50bb-60ae-4941-8b9f-606e3c1c781d'\n'_gt_text': '1'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '1'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['1'])], link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 6,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  436.704258262724,
+                  419.67952139791925,
+                  448.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd530f720-c62d-478a-8f64-133f7780c7ac'\n'_gt_text': '$42.63'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$42.63'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$42.63', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 27.522000000000002\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(50.477999999999994, ['$42.63'])], link=[], rise=0, text='$42.63', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 6,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  436.704258262724,
+                  513.6795213979192,
+                  448.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '77e17fb4-d1f1-4158-be59-8c833db076d8'\n'_gt_text': '$42.63'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$42.63'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$42.63', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 27.522000000000002\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(54.477999999999994, ['$42.63'])], link=[], rise=0, text='$42.63', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 7,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  458.704258262724,
+                  209.67952139791925,
+                  470.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'e0e2c2fb-fbcd-40f4-85b6-072137fb373a'\n'_gt_text': 'Managed mission-critical flexibility'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Managed mission-critical flexibility'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Managed mission-critical flexibility', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 135.522\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(52.47800000000001, ['Managed', 'mission-critical', 'flexibility'])], link=[], rise=0, text='Managed mission-critical flexibility', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 7,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  458.704258262724,
+                  289.67952139791925,
+                  470.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'c3b819ad-f2e0-48a2-86eb-8ceca5217ce2'\n'_gt_text': 'SKU-526-HHDX'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-526-HHDX'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-526-HHDX', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 65.007\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(2.992999999999995, ['SKU-526-HHDX'])], link=[], rise=0, text='SKU-526-HHDX', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 7,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  458.704258262724,
+                  329.67952139791925,
+                  470.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '663bbddc-3289-455d-ab67-9345604aeff9'\n'_gt_text': '4'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '4'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='4', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['4'])], link=[], rise=0, text='4', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 7,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  458.704258262724,
+                  419.67952139791925,
+                  470.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'e7079217-09ba-40d6-9644-b06bfc30ac26'\n'_gt_text': '$297.35'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$297.35'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$297.35', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$297.35'])], link=[], rise=0, text='$297.35', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 7,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  458.704258262724,
+                  513.6795213979192,
+                  470.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '5c7a3397-b7d1-4cb9-85a1-e6fd7fe94a78'\n'_gt_text': '$1189.41'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$1189.41'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$1189.41', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 37.53\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(44.47, ['$1189.41'])], link=[], rise=0, text='$1189.41', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 8,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  480.704258262724,
+                  209.67952139791925,
+                  492.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '0f95f5ee-40c0-43b9-b433-2fd6f44a0a31'\n'_gt_text': 'Inverse web-enabled emulation'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Inverse web-enabled emulation'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Inverse web-enabled emulation', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 125.055\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(62.94499999999999, ['Inverse', 'web-enabled', 'emulation'])], link=[], rise=0, text='Inverse web-enabled emulation', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 8,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  480.704258262724,
+                  289.67952139791925,
+                  492.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a02669d8-5c29-48bb-97ae-2babbebdf5ca'\n'_gt_text': 'SKU-536-NPQX'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-536-NPQX'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-536-NPQX', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 65.016\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(2.9839999999999947, ['SKU-536-NPQX'])], link=[], rise=0, text='SKU-536-NPQX', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 8,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  480.704258262724,
+                  329.67952139791925,
+                  492.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '61cb1373-4c12-4bad-93b3-464c6ac0211e'\n'_gt_text': '8'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '8'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['8'])], link=[], rise=0, text='8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 8,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  480.704258262724,
+                  419.67952139791925,
+                  492.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'e0d5e055-1e94-4899-9d17-dafc57c81fff'\n'_gt_text': '$109.17'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$109.17'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$109.17', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$109.17'])], link=[], rise=0, text='$109.17', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 8,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  480.704258262724,
+                  513.6795213979192,
+                  492.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a2de150d-c695-4c10-af67-764a436c6b44'\n'_gt_text': '$873.33'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$873.33'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$873.33', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$873.33'])], link=[], rise=0, text='$873.33', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 9,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  502.704258262724,
+                  209.67952139791925,
+                  514.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '1ac567bb-ed10-42d4-96cf-b3ba0300caff'\n'_gt_text': 'Customizable hybrid complexity'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Customizable hybrid complexity'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Customizable hybrid complexity', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 126.531\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(61.468999999999994, ['Customizable', 'hybrid', 'complexity'])], link=[], rise=0, text='Customizable hybrid complexity', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 9,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  502.704258262724,
+                  289.67952139791925,
+                  514.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '04a73169-0f36-4170-a59c-33378f28fcfe'\n'_gt_text': 'SKU-730-DIGT'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-730-DIGT'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-730-DIGT', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 61.010999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(6.989000000000004, ['SKU-730-DIGT'])], link=[], rise=0, text='SKU-730-DIGT', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 9,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  502.704258262724,
+                  329.67952139791925,
+                  514.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '38871e36-c54c-478c-bfab-04aa5f45ed75'\n'_gt_text': '2'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '2'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='2', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['2'])], link=[], rise=0, text='2', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 9,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  502.704258262724,
+                  419.67952139791925,
+                  514.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'fdda0b9a-421a-418c-bc37-362cdca39c16'\n'_gt_text': '$120.37'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$120.37'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$120.37', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$120.37'])], link=[], rise=0, text='$120.37', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 9,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  502.704258262724,
+                  513.6795213979192,
+                  514.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'ee3b4c30-2dfa-4487-aa86-8549d5b0c422'\n'_gt_text': '$240.73'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$240.73'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$240.73', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$240.73'])], link=[], rise=0, text='$240.73', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 10,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  524.704258262724,
+                  209.67952139791925,
+                  536.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '050c09e6-f186-44d7-9fac-dce0a1f7ed45'\n'_gt_text': 'Future-proofed intermediate instruction set'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Future-proofed intermediate instruction set'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Future-proofed intermediate instruction set', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 169.569\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(18.43100000000001, ['Future-proofed', 'intermediate', 'instruction', 'set'])], link=[], rise=0, text='Future-proofed intermediate instruction set', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 10,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  524.704258262724,
+                  289.67952139791925,
+                  536.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd33da883-625c-48f1-bf8b-9d4b97ce4dc6'\n'_gt_text': 'SKU-379-LZOL'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-379-LZOL'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-379-LZOL', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 62.019\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(5.981000000000002, ['SKU-379-LZOL'])], link=[], rise=0, text='SKU-379-LZOL', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 10,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  524.704258262724,
+                  329.67952139791925,
+                  536.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'a8804e2d-033a-47e9-8a40-a261d6c26a95'\n'_gt_text': '8'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '8'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['8'])], link=[], rise=0, text='8', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 10,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  524.704258262724,
+                  419.67952139791925,
+                  536.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '3e63155f-2299-496e-9f9e-826c46d05675'\n'_gt_text': '$38.04'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$38.04'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$38.04', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 27.522000000000002\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(50.477999999999994, ['$38.04'])], link=[], rise=0, text='$38.04', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 10,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  524.704258262724,
+                  513.6795213979192,
+                  536.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'c169720e-9764-4bb5-b361-8672fdeefd77'\n'_gt_text': '$304.34'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$304.34'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$304.34', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$304.34'])], link=[], rise=0, text='$304.34', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              }
+            ],
+            "is_continued_from": null,
+            "is_continued_on_next_page": true
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e000",
+          "type": "page_footer",
+          "bbox": [
+            161.0145,
+            554.026641897793,
+            450.9855,
+            560.776641897793
+          ],
+          "text": "Payment Terms: Net 30. Remit payments to the address above. | Page 1",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e018",
+          "type": "text",
+          "bbox": [
+            6,
+            556.0,
+            194,
+            567.0
+          ],
+          "text": "Description",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e019",
+          "type": "text",
+          "bbox": [
+            206,
+            556.0,
+            274,
+            567.0
+          ],
+          "text": "SKU",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e020",
+          "type": "text",
+          "bbox": [
+            286,
+            556.0,
+            314,
+            567.0
+          ],
+          "text": "Qty",
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e021",
+          "type": "text",
+          "bbox": [
+            326,
+            556.0,
+            404,
+            567.0
+          ],
+          "text": "Price",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e022",
+          "type": "text",
+          "bbox": [
+            416,
+            556.0,
+            498,
+            567.0
+          ],
+          "text": "Total",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e023",
+          "type": "text",
+          "bbox": [
+            6,
+            577.0,
+            194,
+            589.0
+          ],
+          "text": "Devolved transitional definition",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e024",
+          "type": "text",
+          "bbox": [
+            206,
+            577.0,
+            274,
+            589.0
+          ],
+          "text": "SKU-317-SFET",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e025",
+          "type": "text",
+          "bbox": [
+            286,
+            577.0,
+            314,
+            589.0
+          ],
+          "text": "10",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e026",
+          "type": "text",
+          "bbox": [
+            326,
+            577.0,
+            404,
+            589.0
+          ],
+          "text": "$102.87",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e027",
+          "type": "text",
+          "bbox": [
+            416,
+            577.0,
+            498,
+            589.0
+          ],
+          "text": "$1028.66",
+          "reading_order": 12,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e028",
+          "type": "text",
+          "bbox": [
+            6,
+            599.0,
+            194,
+            611.0
+          ],
+          "text": "User-centric interactive monitoring",
+          "reading_order": 13,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e029",
+          "type": "text",
+          "bbox": [
+            206,
+            599.0,
+            274,
+            611.0
+          ],
+          "text": "SKU-305-VLRJ",
+          "reading_order": 14,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e030",
+          "type": "text",
+          "bbox": [
+            286,
+            599.0,
+            314,
+            611.0
+          ],
+          "text": "9",
+          "reading_order": 15,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e031",
+          "type": "text",
+          "bbox": [
+            326,
+            599.0,
+            404,
+            611.0
+          ],
+          "text": "$32.69",
+          "reading_order": 16,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e032",
+          "type": "text",
+          "bbox": [
+            416,
+            599.0,
+            498,
+            611.0
+          ],
+          "text": "$294.22",
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e033",
+          "type": "text",
+          "bbox": [
+            6,
+            621.0,
+            194,
+            633.0
+          ],
+          "text": "Fully-configurable reciprocal focus group",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e034",
+          "type": "text",
+          "bbox": [
+            206,
+            621.0,
+            274,
+            633.0
+          ],
+          "text": "SKU-769-RNMP",
+          "reading_order": 19,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e035",
+          "type": "text",
+          "bbox": [
+            286,
+            621.0,
+            314,
+            633.0
+          ],
+          "text": "6",
+          "reading_order": 20,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e036",
+          "type": "text",
+          "bbox": [
+            326,
+            621.0,
+            404,
+            633.0
+          ],
+          "text": "$290.48",
+          "reading_order": 21,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e037",
+          "type": "text",
+          "bbox": [
+            416,
+            621.0,
+            498,
+            633.0
+          ],
+          "text": "$1742.87",
+          "reading_order": 22,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e038",
+          "type": "text",
+          "bbox": [
+            6,
+            643.0,
+            194,
+            655.0
+          ],
+          "text": "Stand-alone web-enabled definition",
+          "reading_order": 23,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e039",
+          "type": "text",
+          "bbox": [
+            206,
+            643.0,
+            274,
+            655.0
+          ],
+          "text": "SKU-720-FJBO",
+          "reading_order": 24,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e040",
+          "type": "text",
+          "bbox": [
+            286,
+            643.0,
+            314,
+            655.0
+          ],
+          "text": "8",
+          "reading_order": 25,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e041",
+          "type": "text",
+          "bbox": [
+            326,
+            643.0,
+            404,
+            655.0
+          ],
+          "text": "$109.73",
+          "reading_order": 26,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e042",
+          "type": "text",
+          "bbox": [
+            416,
+            643.0,
+            498,
+            655.0
+          ],
+          "text": "$877.87",
+          "reading_order": 27,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e043",
+          "type": "text",
+          "bbox": [
+            6,
+            665.0,
+            194,
+            677.0
+          ],
+          "text": "Phased heuristic success",
+          "reading_order": 28,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e044",
+          "type": "text",
+          "bbox": [
+            206,
+            665.0,
+            274,
+            677.0
+          ],
+          "text": "SKU-256-ZNCV",
+          "reading_order": 29,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e045",
+          "type": "text",
+          "bbox": [
+            286,
+            665.0,
+            314,
+            677.0
+          ],
+          "text": "6",
+          "reading_order": 30,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e046",
+          "type": "text",
+          "bbox": [
+            326,
+            665.0,
+            404,
+            677.0
+          ],
+          "text": "$141.49",
+          "reading_order": 31,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e047",
+          "type": "text",
+          "bbox": [
+            416,
+            665.0,
+            498,
+            677.0
+          ],
+          "text": "$848.93",
+          "reading_order": 32,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e048",
+          "type": "text",
+          "bbox": [
+            6,
+            687.0,
+            194,
+            699.0
+          ],
+          "text": "Seamless client-driven projection",
+          "reading_order": 33,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e049",
+          "type": "text",
+          "bbox": [
+            206,
+            687.0,
+            274,
+            699.0
+          ],
+          "text": "SKU-419-FCTB",
+          "reading_order": 34,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e050",
+          "type": "text",
+          "bbox": [
+            286,
+            687.0,
+            314,
+            699.0
+          ],
+          "text": "1",
+          "reading_order": 35,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e051",
+          "type": "text",
+          "bbox": [
+            326,
+            687.0,
+            404,
+            699.0
+          ],
+          "text": "$42.63",
+          "reading_order": 36,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e052",
+          "type": "text",
+          "bbox": [
+            416,
+            687.0,
+            498,
+            699.0
+          ],
+          "text": "$42.63",
+          "reading_order": 37,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e053",
+          "type": "text",
+          "bbox": [
+            6,
+            709.0,
+            194,
+            721.0
+          ],
+          "text": "Managed mission-critical flexibility",
+          "reading_order": 38,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e054",
+          "type": "text",
+          "bbox": [
+            206,
+            709.0,
+            274,
+            721.0
+          ],
+          "text": "SKU-526-HHDX",
+          "reading_order": 39,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e055",
+          "type": "text",
+          "bbox": [
+            286,
+            709.0,
+            314,
+            721.0
+          ],
+          "text": "4",
+          "reading_order": 40,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e056",
+          "type": "text",
+          "bbox": [
+            326,
+            709.0,
+            404,
+            721.0
+          ],
+          "text": "$297.35",
+          "reading_order": 41,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e057",
+          "type": "text",
+          "bbox": [
+            416,
+            709.0,
+            498,
+            721.0
+          ],
+          "text": "$1189.41",
+          "reading_order": 42,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e058",
+          "type": "text",
+          "bbox": [
+            6,
+            731.0,
+            194,
+            743.0
+          ],
+          "text": "Inverse web-enabled emulation",
+          "reading_order": 43,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e059",
+          "type": "text",
+          "bbox": [
+            206,
+            731.0,
+            274,
+            743.0
+          ],
+          "text": "SKU-536-NPQX",
+          "reading_order": 44,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e060",
+          "type": "text",
+          "bbox": [
+            286,
+            731.0,
+            314,
+            743.0
+          ],
+          "text": "8",
+          "reading_order": 45,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e061",
+          "type": "text",
+          "bbox": [
+            326,
+            731.0,
+            404,
+            743.0
+          ],
+          "text": "$109.17",
+          "reading_order": 46,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e062",
+          "type": "text",
+          "bbox": [
+            416,
+            731.0,
+            498,
+            743.0
+          ],
+          "text": "$873.33",
+          "reading_order": 47,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e001",
+          "type": "picture",
+          "bbox": [
+            0,
+            736.0,
+            50,
+            786.0
+          ],
+          "text": null,
+          "reading_order": 48,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e002",
+          "type": "title",
+          "bbox": [
+            60,
+            736.0,
+            504,
+            762.0
+          ],
+          "text": "Harris-Sanchez",
+          "reading_order": 49,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e009",
+          "type": "text",
+          "bbox": [
+            0,
+            744.0,
+            252,
+            756.0
+          ],
+          "text": "<b>Bill To:</b>",
+          "reading_order": 50,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e013",
+          "type": "text",
+          "bbox": [
+            252,
+            744.0,
+            504,
+            756.0
+          ],
+          "text": "<b>Ship To:</b>",
+          "reading_order": 51,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e063",
+          "type": "text",
+          "bbox": [
+            6,
+            753.0,
+            194,
+            765.0
+          ],
+          "text": "Customizable hybrid complexity",
+          "reading_order": 52,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e064",
+          "type": "text",
+          "bbox": [
+            206,
+            753.0,
+            274,
+            765.0
+          ],
+          "text": "SKU-730-DIGT",
+          "reading_order": 53,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e065",
+          "type": "text",
+          "bbox": [
+            286,
+            753.0,
+            314,
+            765.0
+          ],
+          "text": "2",
+          "reading_order": 54,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e066",
+          "type": "text",
+          "bbox": [
+            326,
+            753.0,
+            404,
+            765.0
+          ],
+          "text": "$120.37",
+          "reading_order": 55,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e067",
+          "type": "text",
+          "bbox": [
+            416,
+            753.0,
+            498,
+            765.0
+          ],
+          "text": "$240.73",
+          "reading_order": 56,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e010",
+          "type": "text",
+          "bbox": [
+            0,
+            756.0,
+            252,
+            768.0
+          ],
+          "text": "Janet Hunt",
+          "reading_order": 57,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e014",
+          "type": "text",
+          "bbox": [
+            252,
+            756.0,
+            504,
+            768.0
+          ],
+          "text": "Clifford Brown",
+          "reading_order": 58,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e011",
+          "type": "text",
+          "bbox": [
+            0,
+            768.0,
+            252,
+            780.0
+          ],
+          "text": "184 Sparks Gateway",
+          "reading_order": 59,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e003",
+          "type": "text",
+          "bbox": [
+            60,
+            768.0,
+            504,
+            792.0
+          ],
+          "text": "933 Mark Common<br/>Stefanieborough, GU 55456",
+          "reading_order": 60,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e015",
+          "type": "text",
+          "bbox": [
+            252,
+            768.0,
+            504,
+            780.0
+          ],
+          "text": "28169 Ford Inlet Apt. 190",
+          "reading_order": 61,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e005",
+          "type": "text",
+          "bbox": [
+            0,
+            772.0,
+            126,
+            786.0
+          ],
+          "text": "INVOICE",
+          "reading_order": 62,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e006",
+          "type": "text",
+          "bbox": [
+            126,
+            772.0,
+            252,
+            784.0
+          ],
+          "text": "<b>Invoice #:</b> INV-2021-19111",
+          "reading_order": 63,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e007",
+          "type": "text",
+          "bbox": [
+            252,
+            772.0,
+            378,
+            784.0
+          ],
+          "text": "<b>Date:</b> 1999-11-27",
+          "reading_order": 64,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e008",
+          "type": "text",
+          "bbox": [
+            378,
+            772.0,
+            504,
+            784.0
+          ],
+          "text": "<b>Due Date:</b> 1986-08-11",
+          "reading_order": 65,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e068",
+          "type": "text",
+          "bbox": [
+            6,
+            775.0,
+            194,
+            787.0
+          ],
+          "text": "Future-proofed intermediate instruction set",
+          "reading_order": 66,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e069",
+          "type": "text",
+          "bbox": [
+            206,
+            775.0,
+            274,
+            787.0
+          ],
+          "text": "SKU-379-LZOL",
+          "reading_order": 67,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e070",
+          "type": "text",
+          "bbox": [
+            286,
+            775.0,
+            314,
+            787.0
+          ],
+          "text": "8",
+          "reading_order": 68,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e071",
+          "type": "text",
+          "bbox": [
+            326,
+            775.0,
+            404,
+            787.0
+          ],
+          "text": "$38.04",
+          "reading_order": 69,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e072",
+          "type": "text",
+          "bbox": [
+            416,
+            775.0,
+            498,
+            787.0
+          ],
+          "text": "$304.34",
+          "reading_order": 70,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e012",
+          "type": "text",
+          "bbox": [
+            0,
+            780.0,
+            252,
+            792.0
+          ],
+          "text": "Tammyborough, NY 48557",
+          "reading_order": 71,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p1_e016",
+          "type": "text",
+          "bbox": [
+            252,
+            780.0,
+            504,
+            792.0
+          ],
+          "text": "East Josephport, TX 37061",
+          "reading_order": 72,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/financial_invoice/images/financial_invoice_00000_p2.png",
+      "layout_elements": [
+        {
+          "element_id": "fi00000_p2_e001",
+          "type": "page_header",
+          "bbox": [
+            15.67952139791926,
+            85.74424813134942,
+            161.74952139791924,
+            92.49424813134942
+          ],
+          "text": "Invoice INV-2021-19111 - Continued",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e002",
+          "type": "table",
+          "bbox": [
+            21.67952139791926,
+            125.70425826272401,
+            513.6795213979193,
+            203.704258262724
+          ],
+          "text": null,
+          "reading_order": 1,
+          "attributes": {
+            "n_rows": 4,
+            "n_cols": 5,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  125.70425826272401,
+                  209.67952139791925,
+                  137.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '7de698ac-346d-4bb0-b3c7-29729218c4ae'\n'_gt_text': 'Enterprise-wide neutral array'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Enterprise-wide neutral array'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Enterprise-wide neutral array', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 115.53299999999999\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(72.46700000000001, ['Enterprise-wide', 'neutral', 'array'])], link=[], rise=0, text='Enterprise-wide neutral array', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  125.70425826272401,
+                  289.67952139791925,
+                  137.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd9e0c234-fc6d-46a1-89a0-00056dbc837f'\n'_gt_text': 'SKU-409-KTYU'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-409-KTYU'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-409-KTYU', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 63.513000000000005\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(4.486999999999995, ['SKU-409-KTYU'])], link=[], rise=0, text='SKU-409-KTYU', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  125.70425826272401,
+                  329.67952139791925,
+                  137.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd5c56715-8ec5-415b-97e5-64fd75b487ff'\n'_gt_text': '6'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '6'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='6', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['6'])], link=[], rise=0, text='6', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  125.70425826272401,
+                  419.67952139791925,
+                  137.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '6ae5a9b9-25e7-4dee-8af6-93d8332d08c4'\n'_gt_text': '$29.62'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$29.62'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$29.62', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 27.522000000000002\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(50.477999999999994, ['$29.62'])], link=[], rise=0, text='$29.62', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  125.70425826272401,
+                  513.6795213979192,
+                  137.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'cb581b42-fa28-4383-b8c9-b8e203999df3'\n'_gt_text': '$177.72'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$177.72'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$177.72', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$177.72'])], link=[], rise=0, text='$177.72', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  147.704258262724,
+                  209.67952139791925,
+                  159.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '6aec6615-c496-4dfa-82c8-ccb35aacf5a1'\n'_gt_text': 'Optimized secondary matrices'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Optimized secondary matrices'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Optimized secondary matrices', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 121.03200000000001\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(66.96799999999999, ['Optimized', 'secondary', 'matrices'])], link=[], rise=0, text='Optimized secondary matrices', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  147.704258262724,
+                  289.67952139791925,
+                  159.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'b3a8ffb1-eb68-4d8c-9220-f2600513a5ae'\n'_gt_text': 'SKU-965-APID'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-965-APID'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-965-APID', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 60.516000000000005\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(7.483999999999995, ['SKU-965-APID'])], link=[], rise=0, text='SKU-965-APID', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  147.704258262724,
+                  329.67952139791925,
+                  159.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '48043f82-a9e3-4b2a-bc09-f07546d66779'\n'_gt_text': '1'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '1'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['1'])], link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  147.704258262724,
+                  419.67952139791925,
+                  159.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '75d7e19e-3578-4293-9459-0f739ef91053'\n'_gt_text': '$111.22'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$111.22'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$111.22', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$111.22'])], link=[], rise=0, text='$111.22', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  147.704258262724,
+                  513.6795213979192,
+                  159.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'f4f2ba9d-66dd-49ac-95aa-d70327ccded1'\n'_gt_text': '$111.22'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$111.22'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$111.22', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$111.22'])], link=[], rise=0, text='$111.22', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  169.704258262724,
+                  209.67952139791925,
+                  181.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '903e2f98-124b-41fe-bf12-ff76ea333c55'\n'_gt_text': 'Customizable exuding instruction set'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Customizable exuding instruction set'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Customizable exuding instruction set', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 146.556\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(41.44399999999999, ['Customizable', 'exuding', 'instruction', 'set'])], link=[], rise=0, text='Customizable exuding instruction set', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  169.704258262724,
+                  289.67952139791925,
+                  181.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'f457392a-d02e-4b54-ab3f-6a0a61993d84'\n'_gt_text': 'SKU-528-QSKD'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-528-QSKD'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-528-QSKD', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 65.016\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(2.9839999999999947, ['SKU-528-QSKD'])], link=[], rise=0, text='SKU-528-QSKD', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  169.704258262724,
+                  329.67952139791925,
+                  181.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '9f831a81-ef87-4b5d-8fb0-738815aaf493'\n'_gt_text': '1'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '1'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['1'])], link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  169.704258262724,
+                  419.67952139791925,
+                  181.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'aa439e8b-389a-4cb1-b50f-03b9ac8d16a2'\n'_gt_text': '$130.46'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$130.46'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$130.46', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$130.46'])], link=[], rise=0, text='$130.46', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  169.704258262724,
+                  513.6795213979192,
+                  181.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '1d0eb529-2d8d-4c1b-ae34-c923897a33a4'\n'_gt_text': '$130.46'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$130.46'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$130.46', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$130.46'])], link=[], rise=0, text='$130.46', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 0,
+                "bbox": [
+                  21.67952139791926,
+                  191.704258262724,
+                  209.67952139791925,
+                  203.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'c12bd530-e04e-4127-a812-a781ce43e710'\n'_gt_text': 'Self-enabling value-added attitude'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Self-enabling value-added attitude'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Self-enabling value-added attitude', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 188\n'_wrapWidths': [188, 188]\n'_width_max': 136.575\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(51.42500000000001, ['Self-enabling', 'value-added', 'attitude'])], link=[], rise=0, text='Self-enabling value-added attitude', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "bbox": [
+                  221.67952139791925,
+                  191.704258262724,
+                  289.67952139791925,
+                  203.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '50227bb9-d3b1-4522-b9ca-e673778a2412'\n'_gt_text': 'SKU-928-UVYN'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'SKU-928-UVYN'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='SKU-928-UVYN', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 68\n'_wrapWidths': [68, 68]\n'_width_max': 64.512\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(3.4879999999999995, ['SKU-928-UVYN'])], link=[], rise=0, text='SKU-928-UVYN', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "bbox": [
+                  301.67952139791925,
+                  191.704258262724,
+                  329.67952139791925,
+                  203.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '49e9685a-6087-4fb7-89a7-81f3a623abb7'\n'_gt_text': '1'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '1'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 28\n'_wrapWidths': [28, 28]\n'_width_max': 5.0040000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(22.996, ['1'])], link=[], rise=0, text='1', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "bbox": [
+                  341.67952139791925,
+                  191.704258262724,
+                  419.67952139791925,
+                  203.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '1fcf63c1-6758-4f69-99c2-ff59934186e5'\n'_gt_text': '$105.17'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$105.17'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$105.17', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 78\n'_wrapWidths': [78, 78]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(45.474000000000004, ['$105.17'])], link=[], rise=0, text='$105.17', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 3,
+                "col": 4,
+                "bbox": [
+                  431.67952139791925,
+                  191.704258262724,
+                  513.6795213979192,
+                  203.704258262724
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '6fc336dd-c684-407b-8098-2cf9a0876b11'\n'_gt_text': '$105.17'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$105.17'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$105.17', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 82\n'_wrapWidths': [82, 82]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(49.474000000000004, ['$105.17'])], link=[], rise=0, text='$105.17', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              }
+            ],
+            "is_continued_from": "fi00000_p1_e017",
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e000",
+          "type": "page_footer",
+          "bbox": [
+            161.0145,
+            554.026641897793,
+            450.9855,
+            560.776641897793
+          ],
+          "text": "Payment Terms: Net 30. Remit payments to the address above. | Page 2",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e003",
+          "type": "text",
+          "bbox": [
+            6,
+            709.0,
+            194,
+            721.0
+          ],
+          "text": "Enterprise-wide neutral array",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e004",
+          "type": "text",
+          "bbox": [
+            206,
+            709.0,
+            274,
+            721.0
+          ],
+          "text": "SKU-409-KTYU",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e005",
+          "type": "text",
+          "bbox": [
+            286,
+            709.0,
+            314,
+            721.0
+          ],
+          "text": "6",
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e006",
+          "type": "text",
+          "bbox": [
+            326,
+            709.0,
+            404,
+            721.0
+          ],
+          "text": "$29.62",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e007",
+          "type": "text",
+          "bbox": [
+            416,
+            709.0,
+            498,
+            721.0
+          ],
+          "text": "$177.72",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e008",
+          "type": "text",
+          "bbox": [
+            6,
+            731.0,
+            194,
+            743.0
+          ],
+          "text": "Optimized secondary matrices",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e009",
+          "type": "text",
+          "bbox": [
+            206,
+            731.0,
+            274,
+            743.0
+          ],
+          "text": "SKU-965-APID",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e010",
+          "type": "text",
+          "bbox": [
+            286,
+            731.0,
+            314,
+            743.0
+          ],
+          "text": "1",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e011",
+          "type": "text",
+          "bbox": [
+            326,
+            731.0,
+            404,
+            743.0
+          ],
+          "text": "$111.22",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e012",
+          "type": "text",
+          "bbox": [
+            416,
+            731.0,
+            498,
+            743.0
+          ],
+          "text": "$111.22",
+          "reading_order": 12,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e024",
+          "type": "text",
+          "bbox": [
+            6,
+            736.0,
+            114,
+            748.0
+          ],
+          "text": "Subtotal:",
+          "reading_order": 13,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e025",
+          "type": "text",
+          "bbox": [
+            126,
+            736.0,
+            214,
+            748.0
+          ],
+          "text": "$7,967.58",
+          "reading_order": 14,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e023",
+          "type": "table",
+          "bbox": [
+            290.0,
+            737.0,
+            498.0,
+            787.0
+          ],
+          "text": null,
+          "reading_order": 15,
+          "attributes": {
+            "n_rows": 3,
+            "n_cols": 2,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  290.0,
+                  737.0,
+                  398.0,
+                  747.0
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '581ed25c-ae79-4fec-b2f4-3cbedac030a9'\n'_gt_text': 'Subtotal:'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Subtotal:'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Subtotal:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBoldBody'>\n'bulletText': None\n'debug': 0\n'width': 108\n'_wrapWidths': [108, 108]\n'_width_max': 38.997\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(69.003, ['Subtotal:'])], link=[], rise=0, text='Subtotal:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  410.0,
+                  737.0,
+                  498.0,
+                  747.0
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'f0cdd0ba-6037-458b-aff7-e017df7ff76f'\n'_gt_text': '$7,967.58'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$7,967.58'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$7,967.58', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 88\n'_wrapWidths': [88, 88]\n'_width_max': 40.032000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(47.967999999999996, ['$7,967.58'])], link=[], rise=0, text='$7,967.58', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "bbox": [
+                  290.0,
+                  757.0,
+                  398.0,
+                  767.0
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '5a65348b-353d-43ba-ac48-eb78f2b1a21b'\n'_gt_text': 'Tax (8.25%):'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Tax (8.25%):'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Tax (8.25%):', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBoldBody'>\n'bulletText': None\n'debug': 0\n'width': 108\n'_wrapWidths': [108, 108]\n'_width_max': 52.515\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(55.485, ['Tax', '(8.25%):'])], link=[], rise=0, text='Tax (8.25%):', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "bbox": [
+                  410.0,
+                  757.0,
+                  498.0,
+                  767.0
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd9478609-e4d0-4970-9295-f9cb7973c91b'\n'_gt_text': '$657.33'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$657.33'\n'frags': [ParaFrag(__tag__='para', bold=0, fontName='Helvetica', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$657.33', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBody'>\n'bulletText': None\n'debug': 0\n'width': 88\n'_wrapWidths': [88, 88]\n'_width_max': 32.525999999999996\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=0, descent=-1.8629999999999998, fontName='Helvetica', fontSize=9, greek=0, italic=0, kind=0, lines=[(55.474000000000004, ['$657.33'])], link=[], rise=0, text='$657.33', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "bbox": [
+                  290.0,
+                  777.0,
+                  398.0,
+                  787.0
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '12a92dd3-3f7f-4484-bd25-f2235a746b0c'\n'_gt_text': 'Grand Total:'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': 'Grand Total:'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='Grand Total:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBoldBody'>\n'bulletText': None\n'debug': 0\n'width': 108\n'_wrapWidths': [108, 108]\n'_width_max': 53.504999999999995\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(54.495000000000005, ['Grand', 'Total:'])], link=[], rise=0, text='Grand Total:', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "bbox": [
+                  410.0,
+                  777.0,
+                  498.0,
+                  787.0
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': '35aecf30-3666-465c-81b1-ebea071c56e4'\n'_gt_text': '$8,624.90'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '$8,624.90'\n'frags': [ParaFrag(__tag__='para', bold=1, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, link=[], rise=0, text='$8,624.90', textColor=Color(.215686,.254902,.317647,1), us_lines=[])]\n'style': <ParagraphStyle 'InvBoldBody'>\n'bulletText': None\n'debug': 0\n'width': 88\n'_wrapWidths': [88, 88]\n'_width_max': 40.032000000000004\n'height': 12\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaFrag(__tag__='para', ascent=6.462, bold=1, descent=-1.8629999999999998, fontName='Helvetica-Bold', fontSize=9, greek=0, italic=0, kind=0, lines=[(47.967999999999996, ['$8,624.90'])], link=[], rise=0, text='$8,624.90', textColor=Color(.215686,.254902,.317647,1), us_lines=[])\n) #TrackedParagraph,)"
+              }
+            ],
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e013",
+          "type": "text",
+          "bbox": [
+            6,
+            753.0,
+            194,
+            765.0
+          ],
+          "text": "Customizable exuding instruction set",
+          "reading_order": 16,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e014",
+          "type": "text",
+          "bbox": [
+            206,
+            753.0,
+            274,
+            765.0
+          ],
+          "text": "SKU-528-QSKD",
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e015",
+          "type": "text",
+          "bbox": [
+            286,
+            753.0,
+            314,
+            765.0
+          ],
+          "text": "1",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e016",
+          "type": "text",
+          "bbox": [
+            326,
+            753.0,
+            404,
+            765.0
+          ],
+          "text": "$130.46",
+          "reading_order": 19,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e017",
+          "type": "text",
+          "bbox": [
+            416,
+            753.0,
+            498,
+            765.0
+          ],
+          "text": "$130.46",
+          "reading_order": 20,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e026",
+          "type": "text",
+          "bbox": [
+            6,
+            756.0,
+            114,
+            768.0
+          ],
+          "text": "Tax (8.25%):",
+          "reading_order": 21,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e027",
+          "type": "text",
+          "bbox": [
+            126,
+            756.0,
+            214,
+            768.0
+          ],
+          "text": "$657.33",
+          "reading_order": 22,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e018",
+          "type": "text",
+          "bbox": [
+            6,
+            775.0,
+            194,
+            787.0
+          ],
+          "text": "Self-enabling value-added attitude",
+          "reading_order": 23,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e019",
+          "type": "text",
+          "bbox": [
+            206,
+            775.0,
+            274,
+            787.0
+          ],
+          "text": "SKU-928-UVYN",
+          "reading_order": 24,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e020",
+          "type": "text",
+          "bbox": [
+            286,
+            775.0,
+            314,
+            787.0
+          ],
+          "text": "1",
+          "reading_order": 25,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e021",
+          "type": "text",
+          "bbox": [
+            326,
+            775.0,
+            404,
+            787.0
+          ],
+          "text": "$105.17",
+          "reading_order": 26,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e022",
+          "type": "text",
+          "bbox": [
+            416,
+            775.0,
+            498,
+            787.0
+          ],
+          "text": "$105.17",
+          "reading_order": 27,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e028",
+          "type": "text",
+          "bbox": [
+            6,
+            776.0,
+            114,
+            788.0
+          ],
+          "text": "Grand Total:",
+          "reading_order": 28,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "fi00000_p2_e029",
+          "type": "text",
+          "bbox": [
+            126,
+            776.0,
+            214,
+            788.0
+          ],
+          "text": "$8,624.90",
+          "reading_order": 29,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

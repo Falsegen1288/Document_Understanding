@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00015",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200015,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00015_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00015_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            35.855472,
+            34.793856000000005,
+            576.144528,
+            45.636143999999994
+          ],
+          "text": "APEX\nVOL. 3 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e001",
+          "type": "title",
+          "bbox": [
+            35.85,
+            80.91,
+            577.05,
+            103.95
+          ],
+          "text": "APEX / PRECISION TIMEPIECES",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e002",
+          "type": "text",
+          "bbox": [
+            35.85,
+            106.83,
+            577.05,
+            116.43
+          ],
+          "text": "Curated selection of premium precision timepieces for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e003",
+          "type": "picture",
+          "bbox": [
+            44.49,
+            136.59,
+            196.0875,
+            226.83
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e007",
+          "type": "picture",
+          "bbox": [
+            230.6475,
+            136.59,
+            382.245,
+            226.83
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e012",
+          "type": "picture",
+          "bbox": [
+            416.805,
+            136.59,
+            568.41,
+            226.83
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e004",
+          "type": "title",
+          "bbox": [
+            44.01,
+            234.99,
+            196.5675,
+            246.2175
+          ],
+          "text": "Aether Skeleton",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e008",
+          "type": "title",
+          "bbox": [
+            230.1675,
+            234.99,
+            382.725,
+            246.2175
+          ],
+          "text": "Vanguard Diver",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e013",
+          "type": "title",
+          "bbox": [
+            416.325,
+            234.99,
+            568.89,
+            246.2175
+          ],
+          "text": "Chronos Classic",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e005",
+          "type": "text",
+          "bbox": [
+            44.01,
+            250.0575,
+            196.5675,
+            306.3975
+          ],
+          "text": "Mechanical skeleton watch showing internal gear movement.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e009",
+          "type": "text",
+          "bbox": [
+            230.1675,
+            250.0575,
+            382.725,
+            278.5575
+          ],
+          "text": "Water-resistant diving watch with rotating ceramic bezel.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e014",
+          "type": "text",
+          "bbox": [
+            416.325,
+            250.0575,
+            568.89,
+            267.5175
+          ],
+          "text": "Automatic chronograph watch with stainless steel case and leather strap.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e015",
+          "type": "table",
+          "bbox": [
+            416.325,
+            273.2775,
+            568.89,
+            306.3975
+          ],
+          "text": "Case Size\t40 mm\nGlass\tSapphire Crystal\nCaliber\tCal. 9015 Auto",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Case Size",
+                "bbox": [
+                  416.325,
+                  275.1975,
+                  484.9725,
+                  281.6775
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "40 mm",
+                "bbox": [
+                  484.9725,
+                  275.1975,
+                  568.89,
+                  281.6775
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Glass",
+                "bbox": [
+                  416.325,
+                  285.9975,
+                  484.9725,
+                  292.7175
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Sapphire Crystal",
+                "bbox": [
+                  484.9725,
+                  285.9975,
+                  568.89,
+                  292.7175
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Caliber",
+                "bbox": [
+                  416.325,
+                  297.0375,
+                  484.9725,
+                  303.7575
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Cal. 9015 Auto",
+                "bbox": [
+                  484.9725,
+                  297.0375,
+                  568.89,
+                  303.7575
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e010",
+          "type": "table",
+          "bbox": [
+            230.1675,
+            284.3175,
+            382.725,
+            306.3975
+          ],
+          "text": "Water Resist\t100m (10 ATM)\nCase Size\t40 mm",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Water Resist",
+                "bbox": [
+                  230.1675,
+                  286.2375,
+                  298.815,
+                  292.7175
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "100m (10 ATM)",
+                "bbox": [
+                  298.815,
+                  286.2375,
+                  382.725,
+                  292.7175
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Case Size",
+                "bbox": [
+                  230.1675,
+                  297.0375,
+                  298.815,
+                  303.7575
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "40 mm",
+                "bbox": [
+                  298.815,
+                  297.0375,
+                  382.725,
+                  303.7575
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e006",
+          "type": "text",
+          "bbox": [
+            44.01,
+            316.4775,
+            80.1525,
+            327.5175
+          ],
+          "text": "$1210.00",
+          "reading_order": 14,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e011",
+          "type": "text",
+          "bbox": [
+            230.1675,
+            316.4775,
+            262.1025,
+            327.5175
+          ],
+          "text": "$135.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e016",
+          "type": "text",
+          "bbox": [
+            416.325,
+            316.4775,
+            453.6225,
+            327.5175
+          ],
+          "text": "$1342.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00015_p1_e017",
+          "type": "page_footer",
+          "bbox": [
+            35.855472,
+            755.822928,
+            576.144528,
+            755.9229280000001
+          ],
+          "text": "\u00a9 2026 APEX. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+Layer,Metric,GT_Variant,DocLayoutYOLO,Nemotron,Tolerant_DocLayoutYOLO,Tolerant_Nemotron,Footnote
+Layer 1: Geometric,Precision,GT-raw,0.1154,0.1768,0.1533,0.1898,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,Precision,GT-tight,0.2381,0.2712,0.2328,0.2033,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,Recall,GT-raw,0.2104,0.2719,0.2724,0.2942,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,Recall,GT-tight,0.4517,0.4101,0.4305,0.3108,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,F1,GT-raw,0.1475,0.2133,0.1943,0.2296,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,F1,GT-tight,0.3072,0.3251,0.2982,0.2447,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,mean_iou,GT-raw,0.7472,0.7559,0.7140,0.7208,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,mean_iou,GT-tight,0.8060,0.7464,0.7335,0.7489,"IoU-sensitive metric, affected by ground-truth padding."
+Layer 1: Geometric,Class_Acc,GT-raw,0.8042,0.9375,,,
+Layer 1: Geometric,Class_Acc,GT-tight,0.5304,0.8661,,,
+Layer 2: COTe,Coverage,GT-raw,0.5498,0.5957,,,"Robust to uniform padding bias, measures localization quality."
+Layer 2: COTe,Coverage,GT-tight,0.6059,0.6575,,,"Robust to uniform padding bias, measures localization quality."
+Layer 2: COTe,Overlap,GT-raw,0.0000,0.0868,,,Slightly sensitive to padding borders.
+Layer 2: COTe,Overlap,GT-tight,0.0000,0.0868,,,Slightly sensitive to padding borders.
+Layer 2: COTe,Trespass,GT-raw,0.0120,0.0128,,,"Robust to uniform padding bias, measures localization quality."
+Layer 2: COTe,Trespass,GT-tight,0.0156,0.0233,,,"Robust to uniform padding bias, measures localization quality."
+Layer 2: COTe,Excess,GT-raw,0.5567,0.6030,,,Slightly sensitive to padding borders.
+Layer 2: COTe,Excess,GT-tight,0.6157,0.6732,,,Slightly sensitive to padding borders.
+Layer 3: LED,Missing,GT-raw,4,2,,,Count-based error metric.
+Layer 3: LED,Missing,GT-tight,3,1,,,Count-based error metric.
+Layer 3: LED,Hallucination,GT-raw,20,13,,,Count-based error metric.
+Layer 3: LED,Hallucination,GT-tight,18,6,,,Count-based error metric.
+Layer 3: LED,Size-Error,GT-raw,10,12,,,Count-based error metric.
+Layer 3: LED,Size-Error,GT-tight,7,10,,,Count-based error metric.
+Layer 3: LED,Split,GT-raw,0,2,,,Count-based error metric.
+Layer 3: LED,Split,GT-tight,0,3,,,Count-based error metric.
+Layer 3: LED,Merge,GT-raw,0,0,,,Count-based error metric.
+Layer 3: LED,Merge,GT-tight,0,0,,,Count-based error metric.
+Layer 3: LED,Overlap-Pred,GT-raw,0,1,,,Count-based error metric.
+Layer 3: LED,Overlap-Pred,GT-tight,0,1,,,Count-based error metric.
+Layer 3: LED,Duplicate,GT-raw,0,0,,,Count-based error metric.
+Layer 3: LED,Duplicate,GT-tight,0,0,,,Count-based error metric.
+Layer 3: LED,Misclassification,GT-raw,1,0,,,Count-based error metric.
+Layer 3: LED,Misclassification,GT-tight,3,1,,,Count-based error metric.
+Layer 4: Reading Order,ROKT,GT-raw,1.0000,1.0000,,,"Calculated on IoU >= 0.30 matched segments, unaffected by minor padding."
+Layer 4: Reading Order,ROKT,GT-tight,1.0000,1.0000,,,"Calculated on IoU >= 0.30 matched segments, unaffected by minor padding."
+Layer 4: Reading Order,ROA,GT-raw,1.0000,1.0000,,,"Calculated on IoU >= 0.30 matched segments, unaffected by minor padding."
+Layer 4: Reading Order,ROA,GT-tight,1.0000,1.0000,,,"Calculated on IoU >= 0.30 matched segments, unaffected by minor padding."

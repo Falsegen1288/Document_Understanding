@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "smoke_test_00001",
+  "domain": "smoke_test",
+  "source_engine": "reportlab_platypus",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 12345,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/smoke_test/images/smoke_test_00001_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "st00001_p1_e000",
+          "type": "title",
+          "bbox": [
+            78.0,
+            78.0,
+            534.0,
+            100.0
+          ],
+          "text": "Smoke Test Title",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "st00001_p1_e001",
+          "type": "text",
+          "bbox": [
+            78.0,
+            126.0,
+            534.0,
+            138.0
+          ],
+          "text": "This is a tracked paragraph of body text.",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "st00001_p1_e002",
+          "type": "table",
+          "bbox": [
+            84.0,
+            163.0,
+            272.0,
+            189.0
+          ],
+          "text": null,
+          "reading_order": 2,
+          "attributes": {
+            "n_rows": 2,
+            "n_cols": 2,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  84.0,
+                  163.0,
+                  172.0,
+                  171.0
+                ],
+                "text": "Col 1"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  184.0,
+                  163.0,
+                  272.0,
+                  171.0
+                ],
+                "text": "Col 2"
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "bbox": [
+                  84.0,
+                  181.0,
+                  172.0,
+                  189.0
+                ],
+                "text": "Val 1"
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "bbox": [
+                  184.0,
+                  181.0,
+                  272.0,
+                  189.0
+                ],
+                "text": "Val 2"
+              }
+            ],
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

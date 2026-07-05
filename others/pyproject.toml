@@ -1,0 +1,16 @@
+[project]
+name = "document-understanding"
+version = "0.1.0"
+description = "Modular PDF document understanding experiments for layout, OCR, tables, and figures."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.0",
+    "Pillow>=10.0.0",
+    "PyMuPDF>=1.24.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

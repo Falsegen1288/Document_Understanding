@@ -1,0 +1,456 @@
+{
+  "e0043": {
+    "html": "<table>\n  <thead>\n    <tr><th>Feature</th><th>VitalScan Standard</th><th>VitalScan Pro 9000</th><th>VitalScan Elite</th></tr>\n  </thead>\n  <tbody>\n    <tr><th>Display Size</th><td>10&quot; TFT</td><td>15&quot; TFT Touch</td><td>21&quot; TFT Touch</td></tr>\n    <tr><th>ECG Leads</th><td>3-lead</td><td>12-lead</td><td>12-lead + ST</td></tr>\n    <tr><th>SpO2</th><td>Standard</td><td>Masimo SET</td><td>Masimo SET+Trend</td></tr>\n    <tr><th>NIBP</th><td>Standard</td><td>Standard + STAT</td><td>Continuous CNIBP</td></tr>\n    <tr><th>EtCO2</th><td>N/A</td><td>Optional Module</td><td>Built-in</td></tr>\n    <tr><th>Battery</th><td>2 hours</td><td>4 hours</td><td>6 hours</td></tr>\n    <tr><th>EMR Connect</th><td>USB only</td><td>Wi-Fi + Ethernet</td><td>Wi-Fi+HL7+DICOM</td></tr>\n    <tr><th>Alarm Channels</th><td>32</td><td>128</td><td>256</td></tr>\n    <tr><th>Trend Storage</th><td>24 hours</td><td>72 hours</td><td>14 days</td></tr>\n    <tr><th>Touchscreen</th><td>No</td><td>Capacitive</td><td>Multi-touch</td></tr>\n    <tr><th>Weight</th><td>2.8 kg</td><td>4.2 kg</td><td>7.1 kg</td></tr>\n    <tr><th>Price (EUR)</th><td>1,950</td><td>4,850</td><td>9,400</td></tr>\n    <tr><th>Warranty</th><td>1 year</td><td>2 years</td><td>3 years</td></tr>\n  </tbody>\n</table>",
+    "markdown": "| Feature | VitalScan Standard | VitalScan Pro 9000 | VitalScan Elite |\n|---|---|---|---|\n| Display Size | 10\" TFT | 15\" TFT Touch | 21\" TFT Touch |\n| ECG Leads | 3-lead | 12-lead | 12-lead + ST |\n| SpO2 | Standard | Masimo SET | Masimo SET+Trend |\n| NIBP | Standard | Standard + STAT | Continuous CNIBP |\n| EtCO2 | N/A | Optional Module | Built-in |\n| Battery | 2 hours | 4 hours | 6 hours |\n| EMR Connect | USB only | Wi-Fi + Ethernet | Wi-Fi+HL7+DICOM |\n| Alarm Channels | 32 | 128 | 256 |\n| Trend Storage | 24 hours | 72 hours | 14 days |\n| Touchscreen | No | Capacitive | Multi-touch |\n| Weight | 2.8 kg | 4.2 kg | 7.1 kg |\n| Price (EUR) | 1,950 | 4,850 | 9,400 |\n| Warranty | 1 year | 2 years | 3 years |",
+    "cell_json": {
+      "table_id": "e0043",
+      "n_rows": 14,
+      "n_cols": 4,
+      "has_header_row": true,
+      "has_header_col": true,
+      "merged_cells": [],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "text": "Feature",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "text": "VitalScan Standard",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "text": "VitalScan Pro 9000",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "text": "VitalScan Elite",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "text": "Display Size",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "text": "10\" TFT",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "text": "15\" TFT Touch",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "text": "21\" TFT Touch",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "text": "ECG Leads",
+          "is_header": true
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "text": "3-lead",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "text": "12-lead",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "text": "12-lead + ST",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "text": "SpO2",
+          "is_header": true
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "text": "Standard",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "text": "Masimo SET",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "text": "Masimo SET+Trend",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "text": "NIBP",
+          "is_header": true
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "text": "Standard",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "text": "Standard + STAT",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "text": "Continuous CNIBP",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "text": "EtCO2",
+          "is_header": true
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "text": "N/A",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "text": "Optional Module",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "text": "Built-in",
+          "is_header": false
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "text": "Battery",
+          "is_header": true
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "text": "2 hours",
+          "is_header": false
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "text": "4 hours",
+          "is_header": false
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "text": "6 hours",
+          "is_header": false
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "text": "EMR Connect",
+          "is_header": true
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "text": "USB only",
+          "is_header": false
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "text": "Wi-Fi + Ethernet",
+          "is_header": false
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "text": "Wi-Fi+HL7+DICOM",
+          "is_header": false
+        },
+        {
+          "row": 8,
+          "col": 0,
+          "text": "Alarm Channels",
+          "is_header": true
+        },
+        {
+          "row": 8,
+          "col": 1,
+          "text": "32",
+          "is_header": false
+        },
+        {
+          "row": 8,
+          "col": 2,
+          "text": "128",
+          "is_header": false
+        },
+        {
+          "row": 8,
+          "col": 3,
+          "text": "256",
+          "is_header": false
+        },
+        {
+          "row": 9,
+          "col": 0,
+          "text": "Trend Storage",
+          "is_header": true
+        },
+        {
+          "row": 9,
+          "col": 1,
+          "text": "24 hours",
+          "is_header": false
+        },
+        {
+          "row": 9,
+          "col": 2,
+          "text": "72 hours",
+          "is_header": false
+        },
+        {
+          "row": 9,
+          "col": 3,
+          "text": "14 days",
+          "is_header": false
+        },
+        {
+          "row": 10,
+          "col": 0,
+          "text": "Touchscreen",
+          "is_header": true
+        },
+        {
+          "row": 10,
+          "col": 1,
+          "text": "No",
+          "is_header": false
+        },
+        {
+          "row": 10,
+          "col": 2,
+          "text": "Capacitive",
+          "is_header": false
+        },
+        {
+          "row": 10,
+          "col": 3,
+          "text": "Multi-touch",
+          "is_header": false
+        },
+        {
+          "row": 11,
+          "col": 0,
+          "text": "Weight",
+          "is_header": true
+        },
+        {
+          "row": 11,
+          "col": 1,
+          "text": "2.8 kg",
+          "is_header": false
+        },
+        {
+          "row": 11,
+          "col": 2,
+          "text": "4.2 kg",
+          "is_header": false
+        },
+        {
+          "row": 11,
+          "col": 3,
+          "text": "7.1 kg",
+          "is_header": false
+        },
+        {
+          "row": 12,
+          "col": 0,
+          "text": "Price (EUR)",
+          "is_header": true
+        },
+        {
+          "row": 12,
+          "col": 1,
+          "text": "1,950",
+          "is_header": false
+        },
+        {
+          "row": 12,
+          "col": 2,
+          "text": "4,850",
+          "is_header": false
+        },
+        {
+          "row": 12,
+          "col": 3,
+          "text": "9,400",
+          "is_header": false
+        },
+        {
+          "row": 13,
+          "col": 0,
+          "text": "Warranty",
+          "is_header": true
+        },
+        {
+          "row": 13,
+          "col": 1,
+          "text": "1 year",
+          "is_header": false
+        },
+        {
+          "row": 13,
+          "col": 2,
+          "text": "2 years",
+          "is_header": false
+        },
+        {
+          "row": 13,
+          "col": 3,
+          "text": "3 years",
+          "is_header": false
+        }
+      ]
+    },
+    "meta": {
+      "title": "Patient Monitor Series -- Feature Comparison",
+      "subtitle": "Choose the right monitor for your department",
+      "n_rows": 14,
+      "n_cols": 4,
+      "has_header_row": true,
+      "has_header_col": true,
+      "merged_cells": []
+    }
+  },
+  "e0074": {
+    "html": "<table>\n  <tbody>\n    <tr><th>Basic</th><td>Free</td><td>Email + parts &lt;72 hrs</td></tr>\n    <tr><th>Silver</th><td>EUR 299/yr</td><td>Phone + 1 PM visit</td></tr>\n    <tr><th>Gold</th><td>EUR 799/yr</td><td>24/7 + 2 PM + loan unit</td></tr>\n    <tr><th>Plat.</th><td>EUR 1,599/yr</td><td>Dedicated engineer</td></tr>\n  </tbody>\n</table>",
+    "markdown": "| Plan | Price | Coverage |\n|---|---|---|\n| Basic | Free | Email + parts <72 hrs |\n| Silver | EUR 299/yr | Phone + 1 PM visit |\n| Gold | EUR 799/yr | 24/7 + 2 PM + loan unit |\n| Plat. | EUR 1,599/yr | Dedicated engineer |",
+    "cell_json": {
+      "table_id": "e0074",
+      "n_rows": 4,
+      "n_cols": 3,
+      "has_header_row": false,
+      "has_header_col": true,
+      "merged_cells": [],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "text": "Basic",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "text": "Free",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "text": "Email + parts <72 hrs",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "text": "Silver",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "text": "EUR 299/yr",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "text": "Phone + 1 PM visit",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "text": "Gold",
+          "is_header": true
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "text": "EUR 799/yr",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "text": "24/7 + 2 PM + loan unit",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "text": "Plat.",
+          "is_header": true
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "text": "EUR 1,599/yr",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "text": "Dedicated engineer",
+          "is_header": false
+        }
+      ]
+    },
+    "meta": {
+      "title": "ServicePlus Plans",
+      "subtitle": null,
+      "n_rows": 4,
+      "n_cols": 3,
+      "has_header_row": false,
+      "has_header_col": true,
+      "merged_cells": []
+    }
+  }
+}

@@ -1,0 +1,2115 @@
+{
+  "document": "MedCore_Catalogue_v2.pdf",
+  "generator": "MedCore Synthetic Doc Generator v2",
+  "page_size_pts": {
+    "width": 595.28,
+    "height": 841.89
+  },
+  "page_size_mm": {
+    "width": 210,
+    "height": 297
+  },
+  "total_pages": 4,
+  "total_elements": 80,
+  "class_counts": {
+    "caption": 6,
+    "figure": 7,
+    "footer": 4,
+    "header": 4,
+    "list": 2,
+    "map": 1,
+    "paragraph": 14,
+    "price_tag": 6,
+    "product_card": 6,
+    "section_header": 8,
+    "spec_list": 6,
+    "table": 2,
+    "title": 14
+  },
+  "yolo_class_map": {
+    "title": 0,
+    "paragraph": 1,
+    "table": 2,
+    "figure": 3,
+    "caption": 4,
+    "header": 5,
+    "footer": 6,
+    "logo": 7,
+    "list": 8,
+    "section_header": 9,
+    "product_card": 10,
+    "price_tag": 11,
+    "spec_list": 12,
+    "map": 13
+  },
+  "pages": [
+    {
+      "page": 1,
+      "elements": [
+        {
+          "id": "e0001",
+          "page": 1,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475"
+        },
+        {
+          "id": "e0002",
+          "page": 1,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 80.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.905,
+            "w": 1.0,
+            "h": 0.095
+          },
+          "yolo": "6 0.5000 0.9525 1.0000 0.0950"
+        },
+        {
+          "id": "e0003",
+          "page": 1,
+          "class": "figure",
+          "class_id": 3,
+          "content": "Cover hero - surgical instruments on OR drape",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 280.0,
+            "w": 539.28,
+            "h": 521.89
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.6199
+          },
+          "yolo": "3 0.5000 0.3575 0.9059 0.6199"
+        },
+        {
+          "id": "e0004",
+          "page": 1,
+          "class": "title",
+          "class_id": 0,
+          "content": "2024-2025 Product Catalogue",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 250.0,
+            "w": 539.28,
+            "h": 26.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.6722,
+            "w": 0.9059,
+            "h": 0.0309
+          },
+          "yolo": "0 0.5000 0.6876 0.9059 0.0309"
+        },
+        {
+          "id": "e0005",
+          "page": 1,
+          "class": "title",
+          "class_id": 0,
+          "content": "Advanced Diagnostic & Surgical Instruments",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 228.0,
+            "w": 539.28,
+            "h": 18.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7078,
+            "w": 0.9059,
+            "h": 0.0214
+          },
+          "yolo": "0 0.5000 0.7185 0.9059 0.0214"
+        },
+        {
+          "id": "e0006",
+          "page": 1,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "For ICUs | OTs | Diagnostic Labs | General Practice",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 210.0,
+            "w": 539.28,
+            "h": 14.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7339,
+            "w": 0.9059,
+            "h": 0.0166
+          },
+          "yolo": "1 0.5000 0.7422 0.9059 0.0166"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "elements": [
+        {
+          "id": "e0007",
+          "page": 2,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475"
+        },
+        {
+          "id": "e0008",
+          "page": 2,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 28.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.9667,
+            "w": 1.0,
+            "h": 0.0333
+          },
+          "yolo": "6 0.5000 0.9834 1.0000 0.0333"
+        },
+        {
+          "id": "e0009",
+          "page": 2,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Section 1 Diagnostic Instruments",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 769.89,
+            "w": 539.28,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.038
+          },
+          "yolo": "9 0.5000 0.0665 0.9059 0.0380"
+        },
+        {
+          "id": "e0010",
+          "page": 2,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Warranty strip",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 28.0,
+            "w": 539.28,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.9477,
+            "w": 0.9059,
+            "h": 0.019
+          },
+          "yolo": "9 0.5000 0.9572 0.9059 0.0190"
+        },
+        {
+          "id": "e0011",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "VitalScan Pro 9000",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 410.94,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.2685 0.3023 0.4429 0.4192"
+        },
+        {
+          "id": "e0012",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-VSP-9000",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.2685 0.1016 0.4429 0.0178"
+        },
+        {
+          "id": "e0013",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 596.65,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.2685 0.2033 0.4429 0.1761"
+        },
+        {
+          "id": "e0014",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "VitalScan Pro 9000",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 576.65,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.296,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.2685 0.3055 0.4429 0.0190"
+        },
+        {
+          "id": "e0015",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 516.18,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3198,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.2685 0.3533 0.4429 0.0671"
+        },
+        {
+          "id": "e0016",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 448.65,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3916,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.2685 0.4294 0.4429 0.0755"
+        },
+        {
+          "id": "e0017",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 4,850",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 422.65,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.4718,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.2685 0.4849 0.4429 0.0261"
+        },
+        {
+          "id": "e0018",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "DermoScope Elite 3X",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 410.94,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.7315 0.3023 0.4429 0.4192"
+        },
+        {
+          "id": "e0019",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-DSE-3X",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.7315 0.1016 0.4429 0.0178"
+        },
+        {
+          "id": "e0020",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 596.65,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.7315 0.2033 0.4429 0.1761"
+        },
+        {
+          "id": "e0021",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "DermoScope Elite 3X",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 576.65,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.296,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.7315 0.3055 0.4429 0.0190"
+        },
+        {
+          "id": "e0022",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 516.18,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3198,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.7315 0.3533 0.4429 0.0671"
+        },
+        {
+          "id": "e0023",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 448.65,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3916,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.7315 0.4294 0.4429 0.0755"
+        },
+        {
+          "id": "e0024",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 1,299",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 422.65,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.4718,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.7315 0.4849 0.4429 0.0261"
+        },
+        {
+          "id": "e0025",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "AuraScan Digital Otoscope",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 48.0,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.2685 0.7334 0.4429 0.4192"
+        },
+        {
+          "id": "e0026",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-ASD-HD",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 385.94,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.2685 0.5327 0.4429 0.0178"
+        },
+        {
+          "id": "e0027",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 233.71,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.5463,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.2685 0.6344 0.4429 0.1761"
+        },
+        {
+          "id": "e0028",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "AuraScan Digital Otoscope",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 213.71,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7272,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.2685 0.7367 0.4429 0.0190"
+        },
+        {
+          "id": "e0029",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 153.24,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.7509,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.2685 0.7844 0.4429 0.0671"
+        },
+        {
+          "id": "e0030",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 85.71,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.8227,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.2685 0.8605 0.4429 0.0755"
+        },
+        {
+          "id": "e0031",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 389",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 59.71,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.9029,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.2685 0.9160 0.4429 0.0261"
+        },
+        {
+          "id": "e0032",
+          "page": 2,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "GlucoSense Pro",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 48.0,
+            "w": 263.64,
+            "h": 352.94
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.4192
+          },
+          "yolo": "10 0.7315 0.7334 0.4429 0.4192"
+        },
+        {
+          "id": "e0033",
+          "page": 2,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-GSP-LAB",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 385.94,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.5238,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.7315 0.5327 0.4429 0.0178"
+        },
+        {
+          "id": "e0034",
+          "page": 2,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 233.71,
+            "w": 263.64,
+            "h": 148.24
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.5463,
+            "w": 0.4429,
+            "h": 0.1761
+          },
+          "yolo": "3 0.7315 0.6344 0.4429 0.1761"
+        },
+        {
+          "id": "e0035",
+          "page": 2,
+          "class": "title",
+          "class_id": 0,
+          "content": "GlucoSense Pro",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 213.71,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.7272,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.7315 0.7367 0.4429 0.0190"
+        },
+        {
+          "id": "e0036",
+          "page": 2,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 153.24,
+            "w": 263.64,
+            "h": 56.47
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.7509,
+            "w": 0.4429,
+            "h": 0.0671
+          },
+          "yolo": "1 0.7315 0.7844 0.4429 0.0671"
+        },
+        {
+          "id": "e0037",
+          "page": 2,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 85.71,
+            "w": 263.64,
+            "h": 63.53
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.8227,
+            "w": 0.4429,
+            "h": 0.0755
+          },
+          "yolo": "12 0.7315 0.8605 0.4429 0.0755"
+        },
+        {
+          "id": "e0038",
+          "page": 2,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 245",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 59.71,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.9029,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.7315 0.9160 0.4429 0.0261"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "elements": [
+        {
+          "id": "e0039",
+          "page": 3,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475"
+        },
+        {
+          "id": "e0040",
+          "page": 3,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 28.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.9667,
+            "w": 1.0,
+            "h": 0.0333
+          },
+          "yolo": "6 0.5000 0.9834 1.0000 0.0333"
+        },
+        {
+          "id": "e0041",
+          "page": 3,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Section 2 Surgical Instruments",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 769.89,
+            "w": 539.28,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.038
+          },
+          "yolo": "9 0.5000 0.0665 0.9059 0.0380"
+        },
+        {
+          "id": "e0042",
+          "page": 3,
+          "class": "title",
+          "class_id": 0,
+          "content": "Monitor Comparison Table Title",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 310.0,
+            "w": 539.28,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.6056,
+            "w": 0.9059,
+            "h": 0.0261
+          },
+          "yolo": "0 0.5000 0.6187 0.9059 0.0261"
+        },
+        {
+          "id": "e0043",
+          "page": 3,
+          "class": "table",
+          "class_id": 2,
+          "content": "Patient Monitor Comparison Table",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 28.0,
+            "w": 539.28,
+            "h": 282.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.6318,
+            "w": 0.9059,
+            "h": 0.335
+          },
+          "yolo": "2 0.5000 0.7993 0.9059 0.3350",
+          "gt_table_status": "programmatic_verified",
+          "gt_table_html": "<table>\n  <thead>\n    <tr><th>Feature</th><th>VitalScan Standard</th><th>VitalScan Pro 9000</th><th>VitalScan Elite</th></tr>\n  </thead>\n  <tbody>\n    <tr><th>Display Size</th><td>10&quot; TFT</td><td>15&quot; TFT Touch</td><td>21&quot; TFT Touch</td></tr>\n    <tr><th>ECG Leads</th><td>3-lead</td><td>12-lead</td><td>12-lead + ST</td></tr>\n    <tr><th>SpO2</th><td>Standard</td><td>Masimo SET</td><td>Masimo SET+Trend</td></tr>\n    <tr><th>NIBP</th><td>Standard</td><td>Standard + STAT</td><td>Continuous CNIBP</td></tr>\n    <tr><th>EtCO2</th><td>N/A</td><td>Optional Module</td><td>Built-in</td></tr>\n    <tr><th>Battery</th><td>2 hours</td><td>4 hours</td><td>6 hours</td></tr>\n    <tr><th>EMR Connect</th><td>USB only</td><td>Wi-Fi + Ethernet</td><td>Wi-Fi+HL7+DICOM</td></tr>\n    <tr><th>Alarm Channels</th><td>32</td><td>128</td><td>256</td></tr>\n    <tr><th>Trend Storage</th><td>24 hours</td><td>72 hours</td><td>14 days</td></tr>\n    <tr><th>Touchscreen</th><td>No</td><td>Capacitive</td><td>Multi-touch</td></tr>\n    <tr><th>Weight</th><td>2.8 kg</td><td>4.2 kg</td><td>7.1 kg</td></tr>\n    <tr><th>Price (EUR)</th><td>1,950</td><td>4,850</td><td>9,400</td></tr>\n    <tr><th>Warranty</th><td>1 year</td><td>2 years</td><td>3 years</td></tr>\n  </tbody>\n</table>",
+          "gt_table_markdown": "| Feature | VitalScan Standard | VitalScan Pro 9000 | VitalScan Elite |\n|---|---|---|---|\n| Display Size | 10\" TFT | 15\" TFT Touch | 21\" TFT Touch |\n| ECG Leads | 3-lead | 12-lead | 12-lead + ST |\n| SpO2 | Standard | Masimo SET | Masimo SET+Trend |\n| NIBP | Standard | Standard + STAT | Continuous CNIBP |\n| EtCO2 | N/A | Optional Module | Built-in |\n| Battery | 2 hours | 4 hours | 6 hours |\n| EMR Connect | USB only | Wi-Fi + Ethernet | Wi-Fi+HL7+DICOM |\n| Alarm Channels | 32 | 128 | 256 |\n| Trend Storage | 24 hours | 72 hours | 14 days |\n| Touchscreen | No | Capacitive | Multi-touch |\n| Weight | 2.8 kg | 4.2 kg | 7.1 kg |\n| Price (EUR) | 1,950 | 4,850 | 9,400 |\n| Warranty | 1 year | 2 years | 3 years |",
+          "gt_table_cells": [
+            {
+              "row": 0,
+              "col": 0,
+              "text": "Feature",
+              "is_header": true
+            },
+            {
+              "row": 0,
+              "col": 1,
+              "text": "VitalScan Standard",
+              "is_header": true
+            },
+            {
+              "row": 0,
+              "col": 2,
+              "text": "VitalScan Pro 9000",
+              "is_header": true
+            },
+            {
+              "row": 0,
+              "col": 3,
+              "text": "VitalScan Elite",
+              "is_header": true
+            },
+            {
+              "row": 1,
+              "col": 0,
+              "text": "Display Size",
+              "is_header": true
+            },
+            {
+              "row": 1,
+              "col": 1,
+              "text": "10\" TFT",
+              "is_header": false
+            },
+            {
+              "row": 1,
+              "col": 2,
+              "text": "15\" TFT Touch",
+              "is_header": false
+            },
+            {
+              "row": 1,
+              "col": 3,
+              "text": "21\" TFT Touch",
+              "is_header": false
+            },
+            {
+              "row": 2,
+              "col": 0,
+              "text": "ECG Leads",
+              "is_header": true
+            },
+            {
+              "row": 2,
+              "col": 1,
+              "text": "3-lead",
+              "is_header": false
+            },
+            {
+              "row": 2,
+              "col": 2,
+              "text": "12-lead",
+              "is_header": false
+            },
+            {
+              "row": 2,
+              "col": 3,
+              "text": "12-lead + ST",
+              "is_header": false
+            },
+            {
+              "row": 3,
+              "col": 0,
+              "text": "SpO2",
+              "is_header": true
+            },
+            {
+              "row": 3,
+              "col": 1,
+              "text": "Standard",
+              "is_header": false
+            },
+            {
+              "row": 3,
+              "col": 2,
+              "text": "Masimo SET",
+              "is_header": false
+            },
+            {
+              "row": 3,
+              "col": 3,
+              "text": "Masimo SET+Trend",
+              "is_header": false
+            },
+            {
+              "row": 4,
+              "col": 0,
+              "text": "NIBP",
+              "is_header": true
+            },
+            {
+              "row": 4,
+              "col": 1,
+              "text": "Standard",
+              "is_header": false
+            },
+            {
+              "row": 4,
+              "col": 2,
+              "text": "Standard + STAT",
+              "is_header": false
+            },
+            {
+              "row": 4,
+              "col": 3,
+              "text": "Continuous CNIBP",
+              "is_header": false
+            },
+            {
+              "row": 5,
+              "col": 0,
+              "text": "EtCO2",
+              "is_header": true
+            },
+            {
+              "row": 5,
+              "col": 1,
+              "text": "N/A",
+              "is_header": false
+            },
+            {
+              "row": 5,
+              "col": 2,
+              "text": "Optional Module",
+              "is_header": false
+            },
+            {
+              "row": 5,
+              "col": 3,
+              "text": "Built-in",
+              "is_header": false
+            },
+            {
+              "row": 6,
+              "col": 0,
+              "text": "Battery",
+              "is_header": true
+            },
+            {
+              "row": 6,
+              "col": 1,
+              "text": "2 hours",
+              "is_header": false
+            },
+            {
+              "row": 6,
+              "col": 2,
+              "text": "4 hours",
+              "is_header": false
+            },
+            {
+              "row": 6,
+              "col": 3,
+              "text": "6 hours",
+              "is_header": false
+            },
+            {
+              "row": 7,
+              "col": 0,
+              "text": "EMR Connect",
+              "is_header": true
+            },
+            {
+              "row": 7,
+              "col": 1,
+              "text": "USB only",
+              "is_header": false
+            },
+            {
+              "row": 7,
+              "col": 2,
+              "text": "Wi-Fi + Ethernet",
+              "is_header": false
+            },
+            {
+              "row": 7,
+              "col": 3,
+              "text": "Wi-Fi+HL7+DICOM",
+              "is_header": false
+            },
+            {
+              "row": 8,
+              "col": 0,
+              "text": "Alarm Channels",
+              "is_header": true
+            },
+            {
+              "row": 8,
+              "col": 1,
+              "text": "32",
+              "is_header": false
+            },
+            {
+              "row": 8,
+              "col": 2,
+              "text": "128",
+              "is_header": false
+            },
+            {
+              "row": 8,
+              "col": 3,
+              "text": "256",
+              "is_header": false
+            },
+            {
+              "row": 9,
+              "col": 0,
+              "text": "Trend Storage",
+              "is_header": true
+            },
+            {
+              "row": 9,
+              "col": 1,
+              "text": "24 hours",
+              "is_header": false
+            },
+            {
+              "row": 9,
+              "col": 2,
+              "text": "72 hours",
+              "is_header": false
+            },
+            {
+              "row": 9,
+              "col": 3,
+              "text": "14 days",
+              "is_header": false
+            },
+            {
+              "row": 10,
+              "col": 0,
+              "text": "Touchscreen",
+              "is_header": true
+            },
+            {
+              "row": 10,
+              "col": 1,
+              "text": "No",
+              "is_header": false
+            },
+            {
+              "row": 10,
+              "col": 2,
+              "text": "Capacitive",
+              "is_header": false
+            },
+            {
+              "row": 10,
+              "col": 3,
+              "text": "Multi-touch",
+              "is_header": false
+            },
+            {
+              "row": 11,
+              "col": 0,
+              "text": "Weight",
+              "is_header": true
+            },
+            {
+              "row": 11,
+              "col": 1,
+              "text": "2.8 kg",
+              "is_header": false
+            },
+            {
+              "row": 11,
+              "col": 2,
+              "text": "4.2 kg",
+              "is_header": false
+            },
+            {
+              "row": 11,
+              "col": 3,
+              "text": "7.1 kg",
+              "is_header": false
+            },
+            {
+              "row": 12,
+              "col": 0,
+              "text": "Price (EUR)",
+              "is_header": true
+            },
+            {
+              "row": 12,
+              "col": 1,
+              "text": "1,950",
+              "is_header": false
+            },
+            {
+              "row": 12,
+              "col": 2,
+              "text": "4,850",
+              "is_header": false
+            },
+            {
+              "row": 12,
+              "col": 3,
+              "text": "9,400",
+              "is_header": false
+            },
+            {
+              "row": 13,
+              "col": 0,
+              "text": "Warranty",
+              "is_header": true
+            },
+            {
+              "row": 13,
+              "col": 1,
+              "text": "1 year",
+              "is_header": false
+            },
+            {
+              "row": 13,
+              "col": 2,
+              "text": "2 years",
+              "is_header": false
+            },
+            {
+              "row": 13,
+              "col": 3,
+              "text": "3 years",
+              "is_header": false
+            }
+          ],
+          "gt_table_meta": {
+            "title": "Patient Monitor Series -- Feature Comparison",
+            "subtitle": "Choose the right monitor for your department",
+            "n_rows": 14,
+            "n_cols": 4,
+            "has_header_row": true,
+            "has_header_col": true,
+            "merged_cells": []
+          }
+        },
+        {
+          "id": "e0044",
+          "page": 3,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "SurgSet Pro 42-Piece",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 340.0,
+            "w": 263.64,
+            "h": 423.89
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.5035
+          },
+          "yolo": "10 0.2685 0.3444 0.4429 0.5035"
+        },
+        {
+          "id": "e0045",
+          "page": 3,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-SS-PRO42",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.2685 0.1016 0.4429 0.0178"
+        },
+        {
+          "id": "e0046",
+          "page": 3,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 559.89,
+            "w": 263.64,
+            "h": 185.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.2197
+          },
+          "yolo": "3 0.2685 0.2251 0.4429 0.2197"
+        },
+        {
+          "id": "e0047",
+          "page": 3,
+          "class": "title",
+          "class_id": 0,
+          "content": "SurgSet Pro 42-Piece",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 539.89,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3397,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.2685 0.3492 0.4429 0.0190"
+        },
+        {
+          "id": "e0048",
+          "page": 3,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 497.89,
+            "w": 263.64,
+            "h": 38.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3635,
+            "w": 0.4429,
+            "h": 0.0451
+          },
+          "yolo": "1 0.2685 0.3860 0.4429 0.0451"
+        },
+        {
+          "id": "e0049",
+          "page": 3,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 443.89,
+            "w": 263.64,
+            "h": 50.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.4134,
+            "w": 0.4429,
+            "h": 0.0594
+          },
+          "yolo": "12 0.2685 0.4431 0.4429 0.0594"
+        },
+        {
+          "id": "e0050",
+          "page": 3,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 1,870 / set",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 417.89,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.4775,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.2685 0.4906 0.4429 0.0261"
+        },
+        {
+          "id": "e0051",
+          "page": 3,
+          "class": "product_card",
+          "class_id": 10,
+          "content": "LaparoTroc 5mm Trocar Set",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 340.0,
+            "w": 263.64,
+            "h": 423.89
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.5035
+          },
+          "yolo": "10 0.7315 0.3444 0.4429 0.5035"
+        },
+        {
+          "id": "e0052",
+          "page": 3,
+          "class": "caption",
+          "class_id": 4,
+          "content": "MC-LT-5MM",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 748.89,
+            "w": 263.64,
+            "h": 15.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.0926,
+            "w": 0.4429,
+            "h": 0.0178
+          },
+          "yolo": "4 0.7315 0.1016 0.4429 0.0178"
+        },
+        {
+          "id": "e0053",
+          "page": 3,
+          "class": "figure",
+          "class_id": 3,
+          "content": "product_image",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 559.89,
+            "w": 263.64,
+            "h": 185.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.1152,
+            "w": 0.4429,
+            "h": 0.2197
+          },
+          "yolo": "3 0.7315 0.2251 0.4429 0.2197"
+        },
+        {
+          "id": "e0054",
+          "page": 3,
+          "class": "title",
+          "class_id": 0,
+          "content": "LaparoTroc 5mm Trocar Set",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 539.89,
+            "w": 263.64,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3397,
+            "w": 0.4429,
+            "h": 0.019
+          },
+          "yolo": "0 0.7315 0.3492 0.4429 0.0190"
+        },
+        {
+          "id": "e0055",
+          "page": 3,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "description",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 497.89,
+            "w": 263.64,
+            "h": 38.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.3635,
+            "w": 0.4429,
+            "h": 0.0451
+          },
+          "yolo": "1 0.7315 0.3860 0.4429 0.0451"
+        },
+        {
+          "id": "e0056",
+          "page": 3,
+          "class": "spec_list",
+          "class_id": 12,
+          "content": "specifications",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 443.89,
+            "w": 263.64,
+            "h": 50.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.4134,
+            "w": 0.4429,
+            "h": 0.0594
+          },
+          "yolo": "12 0.7315 0.4431 0.4429 0.0594"
+        },
+        {
+          "id": "e0057",
+          "page": 3,
+          "class": "price_tag",
+          "class_id": 11,
+          "content": "EUR 3,250 / set",
+          "bbox_pt": {
+            "x": 303.64,
+            "y": 417.89,
+            "w": 263.64,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.5101,
+            "y": 0.4775,
+            "w": 0.4429,
+            "h": 0.0261
+          },
+          "yolo": "11 0.7315 0.4906 0.4429 0.0261"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "elements": [
+        {
+          "id": "e0058",
+          "page": 4,
+          "class": "header",
+          "class_id": 5,
+          "content": "Page header",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 801.89,
+            "w": 595.28,
+            "h": 40.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.0475
+          },
+          "yolo": "5 0.5000 0.0238 1.0000 0.0475"
+        },
+        {
+          "id": "e0059",
+          "page": 4,
+          "class": "footer",
+          "class_id": 6,
+          "content": "Page footer",
+          "bbox_pt": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 595.28,
+            "h": 28.0
+          },
+          "bbox_norm": {
+            "x": 0.0,
+            "y": 0.9667,
+            "w": 1.0,
+            "h": 0.0333
+          },
+          "yolo": "6 0.5000 0.9834 1.0000 0.0333"
+        },
+        {
+          "id": "e0060",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Ordering - Warranty - Contact",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 769.89,
+            "w": 539.28,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0475,
+            "w": 0.9059,
+            "h": 0.038
+          },
+          "yolo": "9 0.5000 0.0665 0.9059 0.0380"
+        },
+        {
+          "id": "e0061",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Bottom promo band",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 28.0,
+            "w": 539.28,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.9406,
+            "w": 0.9059,
+            "h": 0.0261
+          },
+          "yolo": "9 0.5000 0.9537 0.9059 0.0261"
+        },
+        {
+          "id": "e0062",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "How to Order",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 741.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.0926,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "9 0.1924 0.1057 0.2908 0.0261"
+        },
+        {
+          "id": "e0063",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 1 - Request Quote",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 721.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1235,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.1330 0.2908 0.0190"
+        },
+        {
+          "id": "e0064",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 1 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 685.89,
+            "w": 173.09,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.1473,
+            "w": 0.2908,
+            "h": 0.038
+          },
+          "yolo": "1 0.1924 0.1663 0.2908 0.0380"
+        },
+        {
+          "id": "e0065",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 2 - Invoice",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 665.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.19,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.1996 0.2908 0.0190"
+        },
+        {
+          "id": "e0066",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 2 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 635.89,
+            "w": 173.09,
+            "h": 26.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.2138,
+            "w": 0.2908,
+            "h": 0.0309
+          },
+          "yolo": "1 0.1924 0.2292 0.2908 0.0309"
+        },
+        {
+          "id": "e0067",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 3 - Payment",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 615.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.2494,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.2589 0.2908 0.0190"
+        },
+        {
+          "id": "e0068",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 3 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 579.89,
+            "w": 173.09,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.2732,
+            "w": 0.2908,
+            "h": 0.038
+          },
+          "yolo": "1 0.1924 0.2922 0.2908 0.0380"
+        },
+        {
+          "id": "e0069",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "Step 4 - Delivery",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 559.89,
+            "w": 173.09,
+            "h": 16.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.316,
+            "w": 0.2908,
+            "h": 0.019
+          },
+          "yolo": "0 0.1924 0.3255 0.2908 0.0190"
+        },
+        {
+          "id": "e0070",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Step 4 body",
+          "bbox_pt": {
+            "x": 28.0,
+            "y": 523.89,
+            "w": 173.09,
+            "h": 32.0
+          },
+          "bbox_norm": {
+            "x": 0.047,
+            "y": 0.3397,
+            "w": 0.2908,
+            "h": 0.038
+          },
+          "yolo": "1 0.1924 0.3587 0.2908 0.0380"
+        },
+        {
+          "id": "e0071",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Warranty and Support",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 741.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.0926,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "9 0.5000 0.1057 0.2908 0.0261"
+        },
+        {
+          "id": "e0072",
+          "page": 4,
+          "class": "list",
+          "class_id": 8,
+          "content": "Standard warranty coverage list",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 667.89,
+            "w": 173.09,
+            "h": 70.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.1235,
+            "w": 0.2908,
+            "h": 0.0831
+          },
+          "yolo": "8 0.5000 0.1651 0.2908 0.0831"
+        },
+        {
+          "id": "e0073",
+          "page": 4,
+          "class": "title",
+          "class_id": 0,
+          "content": "ServicePlus Plans title",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 639.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.2138,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "0 0.5000 0.2269 0.2908 0.0261"
+        },
+        {
+          "id": "e0074",
+          "page": 4,
+          "class": "table",
+          "class_id": 2,
+          "content": "ServicePlus plans table",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 523.89,
+            "w": 173.09,
+            "h": 110.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.2471,
+            "w": 0.2908,
+            "h": 0.1307
+          },
+          "yolo": "2 0.5000 0.3124 0.2908 0.1307",
+          "gt_table_status": "programmatic_verified",
+          "gt_table_html": "<table>\n  <tbody>\n    <tr><th>Basic</th><td>Free</td><td>Email + parts &lt;72 hrs</td></tr>\n    <tr><th>Silver</th><td>EUR 299/yr</td><td>Phone + 1 PM visit</td></tr>\n    <tr><th>Gold</th><td>EUR 799/yr</td><td>24/7 + 2 PM + loan unit</td></tr>\n    <tr><th>Plat.</th><td>EUR 1,599/yr</td><td>Dedicated engineer</td></tr>\n  </tbody>\n</table>",
+          "gt_table_markdown": "| Plan | Price | Coverage |\n|---|---|---|\n| Basic | Free | Email + parts <72 hrs |\n| Silver | EUR 299/yr | Phone + 1 PM visit |\n| Gold | EUR 799/yr | 24/7 + 2 PM + loan unit |\n| Plat. | EUR 1,599/yr | Dedicated engineer |",
+          "gt_table_cells": [
+            {
+              "row": 0,
+              "col": 0,
+              "text": "Basic",
+              "is_header": true
+            },
+            {
+              "row": 0,
+              "col": 1,
+              "text": "Free",
+              "is_header": false
+            },
+            {
+              "row": 0,
+              "col": 2,
+              "text": "Email + parts <72 hrs",
+              "is_header": false
+            },
+            {
+              "row": 1,
+              "col": 0,
+              "text": "Silver",
+              "is_header": true
+            },
+            {
+              "row": 1,
+              "col": 1,
+              "text": "EUR 299/yr",
+              "is_header": false
+            },
+            {
+              "row": 1,
+              "col": 2,
+              "text": "Phone + 1 PM visit",
+              "is_header": false
+            },
+            {
+              "row": 2,
+              "col": 0,
+              "text": "Gold",
+              "is_header": true
+            },
+            {
+              "row": 2,
+              "col": 1,
+              "text": "EUR 799/yr",
+              "is_header": false
+            },
+            {
+              "row": 2,
+              "col": 2,
+              "text": "24/7 + 2 PM + loan unit",
+              "is_header": false
+            },
+            {
+              "row": 3,
+              "col": 0,
+              "text": "Plat.",
+              "is_header": true
+            },
+            {
+              "row": 3,
+              "col": 1,
+              "text": "EUR 1,599/yr",
+              "is_header": false
+            },
+            {
+              "row": 3,
+              "col": 2,
+              "text": "Dedicated engineer",
+              "is_header": false
+            }
+          ],
+          "gt_table_meta": {
+            "title": "ServicePlus Plans",
+            "subtitle": null,
+            "n_rows": 4,
+            "n_cols": 3,
+            "has_header_row": false,
+            "has_header_col": true,
+            "merged_cells": []
+          }
+        },
+        {
+          "id": "e0075",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Calibration services",
+          "bbox_pt": {
+            "x": 211.09,
+            "y": 467.89,
+            "w": 173.09,
+            "h": 50.0
+          },
+          "bbox_norm": {
+            "x": 0.3546,
+            "y": 0.3848,
+            "w": 0.2908,
+            "h": 0.0594
+          },
+          "yolo": "1 0.5000 0.4145 0.2908 0.0594"
+        },
+        {
+          "id": "e0076",
+          "page": 4,
+          "class": "section_header",
+          "class_id": 9,
+          "content": "Get In Touch",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 741.89,
+            "w": 173.09,
+            "h": 22.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.0926,
+            "w": 0.2908,
+            "h": 0.0261
+          },
+          "yolo": "9 0.8076 0.1057 0.2908 0.0261"
+        },
+        {
+          "id": "e0077",
+          "page": 4,
+          "class": "map",
+          "class_id": 13,
+          "content": "World map regional offices",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 627.89,
+            "w": 173.09,
+            "h": 110.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.1235,
+            "w": 0.2908,
+            "h": 0.1307
+          },
+          "yolo": "13 0.8076 0.1889 0.2908 0.1307"
+        },
+        {
+          "id": "e0078",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "HQ address",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 561.89,
+            "w": 173.09,
+            "h": 60.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.2613,
+            "w": 0.2908,
+            "h": 0.0713
+          },
+          "yolo": "1 0.8076 0.2970 0.2908 0.0713"
+        },
+        {
+          "id": "e0079",
+          "page": 4,
+          "class": "list",
+          "class_id": 8,
+          "content": "Regional offices list",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 485.89,
+            "w": 173.09,
+            "h": 70.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.3397,
+            "w": 0.2908,
+            "h": 0.0831
+          },
+          "yolo": "8 0.8076 0.3813 0.2908 0.0831"
+        },
+        {
+          "id": "e0080",
+          "page": 4,
+          "class": "paragraph",
+          "class_id": 1,
+          "content": "Sales contact details",
+          "bbox_pt": {
+            "x": 394.18,
+            "y": 427.89,
+            "w": 173.09,
+            "h": 52.0
+          },
+          "bbox_norm": {
+            "x": 0.6622,
+            "y": 0.43,
+            "w": 0.2908,
+            "h": 0.0618
+          },
+          "yolo": "1 0.8076 0.4609 0.2908 0.0618"
+        }
+      ]
+    }
+  ],
+  "table_gt_generation": {
+    "method": "programmatic_extraction_from_synthesis_text_dump + visual_bbox_verification",
+    "source": "per-page .txt dumps embedded in MedCore_Catalogue_v2.pdf (zip container) + manual visual crop verification of both table bboxes to confirm exact row/column structure, header presence, and absence of merged cells.",
+    "tables_found": [
+      "e0043",
+      "e0074"
+    ],
+    "notes": [
+      "e0043 has a true header row (4 column labels) and a header column (bolded 'Feature' labels) — 14 total rows including header, 4 columns, no merged cells, confirmed by direct visual inspection of the cropped table region.",
+      "e0074 has NO header row in the source image — it begins immediately after the 'ServicePlus Plans' section title with the first data row ('Basic'). A 'headers' field (Plan/Price/Coverage) is included in the JSON for tooling convenience (e.g. Markdown rendering needs a header row to be valid), but `has_header_row` is explicitly set to False so structure-aware metrics (TEDS/GriTS) are not penalized for, or credited with, a header row that isn't actually present in the source."
+    ]
+  }
+}

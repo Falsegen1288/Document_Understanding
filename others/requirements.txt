@@ -1,0 +1,50 @@
+# Core & Config
+requests>=2.31.0
+python-dotenv>=1.0.0
+tabulate>=0.9.0
+Pillow>=10.0.0
+pyyaml>=6.0.1
+
+# PDF Processing
+pdf2image>=1.16.3
+PyMuPDF>=1.24.0
+pdfplumber>=0.11.0
+
+# Layout Detection & Analysis
+ultralytics>=8.2.0
+layoutparser>=0.3.4
+docling>=2.0.0
+
+# Text OCR
+easyocr>=1.7.0
+pytesseract>=0.3.10
+
+
+# Table Extraction
+camelot-py[cv]>=0.11.0
+opencv-python-headless>=4.9.0
+transformers>=4.40.0
+torch>=2.2.0
+torchvision>=0.17.0
+timm>=1.0.0
+
+# Figure Analysis (API clients)
+groq>=0.9.0
+google-generativeai>=0.8.0
+openai>=1.40.0
+
+# Notebooks & Visualisation
+ipykernel>=6.29.0
+matplotlib>=3.8.0
+pandas>=2.2.0
+
+# Web Application Server
+fastapi>=0.110.0
+uvicorn>=0.28.0
+sqlalchemy>=2.0.0
+celery>=5.3.0
+redis>=5.0.0
+python-multipart>=0.0.9
+landingai-ade>=0.1.0
+
+

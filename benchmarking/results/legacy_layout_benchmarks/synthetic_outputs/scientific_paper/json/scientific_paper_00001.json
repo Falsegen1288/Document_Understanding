@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "scientific_paper_00001",
+  "domain": "scientific_paper",
+  "source_engine": "reportlab_platypus",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200001,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/scientific_paper/images/scientific_paper_00001_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "sp00001_p1_e001",
+          "type": "title",
+          "bbox": [
+            74.56254241583795,
+            71.11882115012327,
+            533.2249706893812,
+            93.11882115012327
+          ],
+          "text": "Player present agent political class themselves",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p1_e002",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            103.11882115012327,
+            533.2249706893812,
+            142.11882115012327
+          ],
+          "text": "Suzanne Pacheco* and Shawn Martinez\u2020<br/>*Department of Computer Science, Gallagher Ltd<br/>\u2020Research Laboratory, Campbell, Miles and Taylor",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p1_e003",
+          "type": "section_header",
+          "bbox": [
+            74.56254241583795,
+            157.11882115012327,
+            533.2249706893812,
+            170.11882115012327
+          ],
+          "text": "Abstract",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p1_e004",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            174.11882115012327,
+            533.2249706893812,
+            218.11882115012327
+          ],
+          "text": "Understanding structured layouts in academic and financial documents remains a persistent challenge in doc processing. In this study, we propose a programmatic generator targeting 5 domains. Unlike existing rule-based models, our architecture links split flowables across pages to preserve reading continuity. Initial benchmarks show that training with our synthetic dataset improves bounding box grounding accuracy by 14%.",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p1_e000",
+          "type": "page_footer",
+          "bbox": [
+            303.75,
+            694.5992424164187,
+            308.25,
+            701.3492424164187
+          ],
+          "text": "1",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/scientific_paper/images/scientific_paper_00001_p2.png",
+      "layout_elements": [
+        {
+          "element_id": "sp00001_p2_e001",
+          "type": "section_header",
+          "bbox": [
+            74.56254241583795,
+            71.11882115012327,
+            533.2249706893812,
+            85.11882115012327
+          ],
+          "text": "1. Introduction",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e002",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            91.11882115012327,
+            533.2249706893812,
+            137.11882115012327
+          ],
+          "text": "Recent advancements in deep learning models have significantly advanced the state of the art in document understanding. However, training robust neural networks for layout detection requires extensive annotated datasets. Manual labelling of document bounding boxes is labor-intensive and prone to human errors. Synthetic data generators offer a viable alternative by providing unlimited samples with pre-determined coordinate data.",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e003",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            143.11882115012327,
+            533.2249706893812,
+            189.11882115012327
+          ],
+          "text": "Our approach relies on ReportLab's document rendering engine. We subclass foundational flowable elements to hook into their canvas draw routines. During the compilation of the PDF, the precise positioning coordinates are computed relative to the page height. This method captures the exact pixels where text, tables, and images are drawn, bypassing errors introduced by font substitution and line-wrap calculations.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e004",
+          "type": "section_header",
+          "bbox": [
+            74.56254241583795,
+            199.11882115012327,
+            533.2249706893812,
+            213.11882115012327
+          ],
+          "text": "2. Methodology",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e005",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            219.11882115012327,
+            533.2249706893812,
+            265.11882115012327
+          ],
+          "text": "We describe the architecture of our generator across multiple domains. In the scientific paper domain, the dual-column layout presents a unique challenge for reading order reconstruction. Traditional top-to-bottom geometric sorting fails because it mixes left and right columns. We implement a column-aware sort key that buckets coordinates relative to the page midpoint before sorting vertically within each column.",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e006",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            271.11882115012327,
+            533.2249706893812,
+            317.11882115012327
+          ],
+          "text": "Furthermore, table splitting across pages requires special correlation. When a table overflows the available vertical space, the engine splits the flowable. We assign a unique identifier to the original parent block. The child fragments inherit this key, allowing downstream ingestion scripts to reassemble the split components. This structure is essential for training chunking algorithms in retrieval-augmented generation pipelines.",
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e007",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            323.11882115012327,
+            533.2249706893812,
+            334.61882115012327
+          ],
+          "text": "For our mathematical formulation, we define the following relationship:",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e008",
+          "type": "formula",
+          "bbox": [
+            74.56254241583795,
+            340.61882115012327,
+            134.32254241583794,
+            353.81882115012326
+          ],
+          "text": null,
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e009",
+          "type": "section_header",
+          "bbox": [
+            74.56254241583795,
+            367.81882115012326,
+            533.2249706893812,
+            381.81882115012326
+          ],
+          "text": "3. Experimental Evaluation",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e010",
+          "type": "text",
+          "bbox": [
+            74.56254241583795,
+            387.81882115012326,
+            533.2249706893812,
+            433.81882115012326
+          ],
+          "text": "In conclusion, our pipeline offers a complete framework for synthetic document engineering. The resulting dataset contains high-fidelity documents spanning commercial, financial, medical, and scientific domains. Future research will explore adding complex graphics, multi-page vector drawings, and advanced OCR noise models to further simulate physical scans while maintaining precise coordinate ground-truth.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e011",
+          "type": "picture",
+          "bbox": [
+            74.56254241583795,
+            439.81882115012326,
+            294.5625424158379,
+            571.8188211501233
+          ],
+          "text": null,
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e012",
+          "type": "caption",
+          "bbox": [
+            74.56254241583795,
+            575.8188211501233,
+            533.2249706893812,
+            585.8188211501233
+          ],
+          "text": "Figure 1: Comparison of baseline models versus our layout detection generator.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "sp00001_p2_e000",
+          "type": "page_footer",
+          "bbox": [
+            303.75,
+            694.5992424164187,
+            308.25,
+            701.3492424164187
+          ],
+          "text": "2",
+          "reading_order": 12,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

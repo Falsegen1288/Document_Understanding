@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00013",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200013,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00013_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00013_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            36.799392000000005,
+            34.898880000000005,
+            575.200608,
+            49.24362
+          ],
+          "text": "VERDANT\nVOL. 3 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e001",
+          "type": "title",
+          "bbox": [
+            36.795,
+            84.6225,
+            576.3225,
+            107.6625
+          ],
+          "text": "VERDANT / SKINCARE & WELLNESS",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e002",
+          "type": "text",
+          "bbox": [
+            36.795,
+            110.5425,
+            576.3225,
+            120.1425
+          ],
+          "text": "Curated selection of premium skincare & wellness for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e003",
+          "type": "picture",
+          "bbox": [
+            45.435,
+            140.3025,
+            196.4775,
+            230.5425
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e008",
+          "type": "picture",
+          "bbox": [
+            231.0375,
+            140.3025,
+            382.08,
+            230.5425
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e013",
+          "type": "picture",
+          "bbox": [
+            416.64,
+            140.3025,
+            567.6825,
+            230.5425
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e004",
+          "type": "title",
+          "bbox": [
+            44.955,
+            238.7025,
+            196.9575,
+            249.93
+          ],
+          "text": "Nectar Body Butter",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e009",
+          "type": "title",
+          "bbox": [
+            230.5575,
+            238.7025,
+            382.56,
+            249.93
+          ],
+          "text": "Elysian Clay Mask",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e014",
+          "type": "title",
+          "bbox": [
+            416.16,
+            238.7025,
+            568.1625,
+            249.93
+          ],
+          "text": "Hydra-Luxe Serum",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e005",
+          "type": "text",
+          "bbox": [
+            44.955,
+            253.77,
+            196.9575,
+            271.23
+          ],
+          "text": "Rich moisturizing cream with shea butter and sweet almond oil.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e010",
+          "type": "text",
+          "bbox": [
+            230.5575,
+            253.77,
+            382.56,
+            271.23
+          ],
+          "text": "Purifying clay mask with activated charcoal and bentonite.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e015",
+          "type": "text",
+          "bbox": [
+            416.16,
+            253.77,
+            568.1625,
+            299.07
+          ],
+          "text": "Intense hydration serum with hyaluronic acid and peptide complex.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e006",
+          "type": "table",
+          "bbox": [
+            44.955,
+            276.99,
+            196.9575,
+            299.07
+          ],
+          "text": "Skin Type\tAll Types\nVolume\t50 ml",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Skin Type",
+                "bbox": [
+                  44.955,
+                  278.91,
+                  113.355,
+                  285.39
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "All Types",
+                "bbox": [
+                  113.355,
+                  278.91,
+                  196.9575,
+                  285.39
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Volume",
+                "bbox": [
+                  44.955,
+                  289.71,
+                  113.355,
+                  296.43
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "50 ml",
+                "bbox": [
+                  113.355,
+                  289.71,
+                  196.9575,
+                  296.43
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e011",
+          "type": "table",
+          "bbox": [
+            230.5575,
+            276.99,
+            382.56,
+            299.07
+          ],
+          "text": "Cruelty Free\tYes\nOrganic\t98.5% Certified",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Cruelty Free",
+                "bbox": [
+                  230.5575,
+                  278.91,
+                  298.9575,
+                  285.39
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Yes",
+                "bbox": [
+                  298.9575,
+                  278.91,
+                  382.56,
+                  285.39
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Organic",
+                "bbox": [
+                  230.5575,
+                  289.71,
+                  298.9575,
+                  296.43
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "98.5% Certified",
+                "bbox": [
+                  298.9575,
+                  289.71,
+                  382.56,
+                  296.43
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e007",
+          "type": "text",
+          "bbox": [
+            44.955,
+            309.15,
+            79.5,
+            320.19
+          ],
+          "text": "$860.00",
+          "reading_order": 14,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e012",
+          "type": "text",
+          "bbox": [
+            230.5575,
+            309.15,
+            267.705,
+            320.19
+          ],
+          "text": "$1433.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e016",
+          "type": "text",
+          "bbox": [
+            416.16,
+            309.15,
+            449.7075,
+            320.19
+          ],
+          "text": "$949.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00013_p1_e017",
+          "type": "page_footer",
+          "bbox": [
+            36.799392000000005,
+            754.867392,
+            575.200608,
+            754.967392
+          ],
+          "text": "\u00a9 2026 VERDANT. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

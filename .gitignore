@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated data and outputs
+outputs/
+models/
+data/**/*.pdf
+data/**/*.png
+data/**/*.jpg
+data/**/*.jpeg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local storage cache (SQL databases, uploads, page PNGs, JSON results)
+storage/
+
+# Node packages
+node_modules/
+layout_annotator/backend/uploads/
+
+

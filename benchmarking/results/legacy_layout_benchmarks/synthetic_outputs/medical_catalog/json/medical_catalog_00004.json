@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "medical_catalog_00004",
+  "domain": "medical_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200004,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/medical_catalog/images/medical_catalog_00004_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "mc00004_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            35.711568,
+            36.410447999999995,
+            576.288432,
+            45.857052
+          ],
+          "text": "MED-TECH\nREF 928 / CAT-2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e001",
+          "type": "title",
+          "bbox": [
+            35.7075,
+            82.7475,
+            577.575,
+            105.7875
+          ],
+          "text": "MED-TECH / SURGICAL RETRACTORS",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e002",
+          "type": "text",
+          "bbox": [
+            35.7075,
+            108.6675,
+            577.575,
+            118.2675
+          ],
+          "text": "Clinical-grade surgical instruments and medical equipment manufactured to ISO 13485 standards.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e003",
+          "type": "picture",
+          "bbox": [
+            44.3475,
+            138.4275,
+            196.17,
+            228.6675
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e008",
+          "type": "picture",
+          "bbox": [
+            230.73,
+            138.4275,
+            382.5525,
+            228.6675
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e012",
+          "type": "picture",
+          "bbox": [
+            417.1125,
+            138.4275,
+            568.935,
+            228.6675
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e004",
+          "type": "title",
+          "bbox": [
+            43.8675,
+            236.8275,
+            196.65,
+            248.055
+          ],
+          "text": "Army-Navy Retractor",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e009",
+          "type": "title",
+          "bbox": [
+            230.25,
+            236.8275,
+            383.0325,
+            248.055
+          ],
+          "text": "Richardson Appendectomy Retractor",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e013",
+          "type": "title",
+          "bbox": [
+            416.6325,
+            236.8275,
+            569.415,
+            248.055
+          ],
+          "text": "Senn Handheld Retractor",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e005",
+          "type": "text",
+          "bbox": [
+            43.8675,
+            251.895,
+            196.65,
+            269.355
+          ],
+          "text": "Double-ended handheld retractor used for exposing superficial wounds.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e010",
+          "type": "text",
+          "bbox": [
+            230.25,
+            251.895,
+            383.0325,
+            297.195
+          ],
+          "text": "Large loop handle retractor with single right-angled blade for laparotomy.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e014",
+          "type": "text",
+          "bbox": [
+            416.6325,
+            251.895,
+            569.415,
+            269.355
+          ],
+          "text": "Double-ended retractor with three sharp prongs on one side and a solid blade on the other.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e006",
+          "type": "table",
+          "bbox": [
+            43.8675,
+            275.115,
+            196.65,
+            297.195
+          ],
+          "text": "Material\tSurgical Steel\nBlades\tDouble-ended",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  43.8675,
+                  277.035,
+                  112.6125,
+                  283.515
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Surgical Steel",
+                "bbox": [
+                  112.6125,
+                  277.035,
+                  196.65,
+                  283.515
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Blades",
+                "bbox": [
+                  43.8675,
+                  287.835,
+                  112.6125,
+                  294.555
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Double-ended",
+                "bbox": [
+                  112.6125,
+                  287.835,
+                  196.65,
+                  294.555
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e015",
+          "type": "table",
+          "bbox": [
+            416.6325,
+            275.115,
+            569.415,
+            297.195
+          ],
+          "text": "Material\tSurgical Steel\nProngs\t3 Sharp",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  416.6325,
+                  277.035,
+                  485.3775,
+                  283.515
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Surgical Steel",
+                "bbox": [
+                  485.3775,
+                  277.035,
+                  569.415,
+                  283.515
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Prongs",
+                "bbox": [
+                  416.6325,
+                  287.835,
+                  485.3775,
+                  294.555
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "3 Sharp",
+                "bbox": [
+                  485.3775,
+                  287.835,
+                  569.415,
+                  294.555
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e007",
+          "type": "text",
+          "bbox": [
+            43.8675,
+            307.275,
+            75.3675,
+            318.315
+          ],
+          "text": "$173.00",
+          "reading_order": 14,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e011",
+          "type": "text",
+          "bbox": [
+            230.25,
+            307.275,
+            259.2675,
+            318.315
+          ],
+          "text": "$54.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e016",
+          "type": "text",
+          "bbox": [
+            416.6325,
+            307.275,
+            449.9325,
+            318.315
+          ],
+          "text": "$329.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "mc00004_p1_e017",
+          "type": "page_footer",
+          "bbox": [
+            35.711568,
+            757.096464,
+            576.288432,
+            757.196464
+          ],
+          "text": "\u00a9 2026 MED-TECH. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

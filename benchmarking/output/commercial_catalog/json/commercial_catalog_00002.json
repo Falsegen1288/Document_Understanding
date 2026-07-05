@@ -1,0 +1,1322 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00002",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200002,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00002_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00002_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            37.510704,
+            34.40707199999999,
+            574.489296,
+            46.735428000000006
+          ],
+          "text": "ELYSIAN\nVOL. 8 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e001",
+          "type": "title",
+          "bbox": [
+            37.5075,
+            81.6225,
+            574.305,
+            104.6625
+          ],
+          "text": "ELYSIAN / SMART HOME TECH",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e002",
+          "type": "text",
+          "bbox": [
+            37.5075,
+            107.5425,
+            574.305,
+            117.1425
+          ],
+          "text": "Curated selection of premium smart home tech for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e003",
+          "type": "picture",
+          "bbox": [
+            46.1475,
+            137.3025,
+            196.275,
+            227.5425
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e008",
+          "type": "picture",
+          "bbox": [
+            230.835,
+            137.3025,
+            380.97,
+            227.5425
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e013",
+          "type": "picture",
+          "bbox": [
+            415.53,
+            137.3025,
+            565.6575,
+            227.5425
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e004",
+          "type": "title",
+          "bbox": [
+            45.6675,
+            235.7025,
+            196.755,
+            246.93
+          ],
+          "text": "Nexa Thermostat",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e009",
+          "type": "title",
+          "bbox": [
+            230.355,
+            235.7025,
+            381.45,
+            246.93
+          ],
+          "text": "SoundSphere Pro",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e014",
+          "type": "title",
+          "bbox": [
+            415.05,
+            235.7025,
+            566.1375,
+            246.93
+          ],
+          "text": "AeroGlow Ambient Light",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e005",
+          "type": "text",
+          "bbox": [
+            45.6675,
+            250.77,
+            196.755,
+            268.23
+          ],
+          "text": "Sleek temperature controller with AI-driven scheduling and energy tracking.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e010",
+          "type": "text",
+          "bbox": [
+            230.355,
+            250.77,
+            381.45,
+            279.27
+          ],
+          "text": "360-degree wireless speaker with spatial audio and acoustic tuning.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e015",
+          "type": "text",
+          "bbox": [
+            415.05,
+            250.77,
+            566.1375,
+            268.23
+          ],
+          "text": "Smart lighting panel with voice control and adaptive color gradients.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e006",
+          "type": "table",
+          "bbox": [
+            45.6675,
+            273.99,
+            196.755,
+            307.11
+          ],
+          "text": "Compatibility\tHomeKit, Alexa\nConnectivity\tWi-Fi, BLE\nPower\t12V DC / USB-C",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Compatibility",
+                "bbox": [
+                  45.6675,
+                  275.91,
+                  113.655,
+                  282.39
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "HomeKit, Alexa",
+                "bbox": [
+                  113.655,
+                  275.91,
+                  196.755,
+                  282.39
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Connectivity",
+                "bbox": [
+                  45.6675,
+                  286.71,
+                  113.655,
+                  293.43
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Wi-Fi, BLE",
+                "bbox": [
+                  113.655,
+                  286.71,
+                  196.755,
+                  293.43
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Power",
+                "bbox": [
+                  45.6675,
+                  297.75,
+                  113.655,
+                  304.47
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "12V DC / USB-C",
+                "bbox": [
+                  113.655,
+                  297.75,
+                  196.755,
+                  304.47
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e016",
+          "type": "table",
+          "bbox": [
+            415.05,
+            273.99,
+            566.1375,
+            307.11
+          ],
+          "text": "Warranty\t2 Years\nConnectivity\tWi-Fi, BLE\nPower\t12V DC / USB-C",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Warranty",
+                "bbox": [
+                  415.05,
+                  275.91,
+                  483.0375,
+                  282.39
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "2 Years",
+                "bbox": [
+                  483.0375,
+                  275.91,
+                  566.1375,
+                  282.39
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Connectivity",
+                "bbox": [
+                  415.05,
+                  286.71,
+                  483.0375,
+                  293.43
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Wi-Fi, BLE",
+                "bbox": [
+                  483.0375,
+                  286.71,
+                  566.1375,
+                  293.43
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Power",
+                "bbox": [
+                  415.05,
+                  297.75,
+                  483.0375,
+                  304.47
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "12V DC / USB-C",
+                "bbox": [
+                  483.0375,
+                  297.75,
+                  566.1375,
+                  304.47
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e011",
+          "type": "table",
+          "bbox": [
+            230.355,
+            285.03,
+            381.45,
+            307.11
+          ],
+          "text": "Warranty\t2 Years\nCompatibility\tHomeKit, Alexa",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Warranty",
+                "bbox": [
+                  230.355,
+                  286.95,
+                  298.3425,
+                  293.43
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "2 Years",
+                "bbox": [
+                  298.3425,
+                  286.95,
+                  381.45,
+                  293.43
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Compatibility",
+                "bbox": [
+                  230.355,
+                  297.75,
+                  298.3425,
+                  304.47
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "HomeKit, Alexa",
+                "bbox": [
+                  298.3425,
+                  297.75,
+                  381.45,
+                  304.47
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e007",
+          "type": "text",
+          "bbox": [
+            45.6675,
+            317.19,
+            77.7975,
+            328.23
+          ],
+          "text": "$512.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e012",
+          "type": "text",
+          "bbox": [
+            230.355,
+            317.19,
+            267.465,
+            328.23
+          ],
+          "text": "$1262.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e017",
+          "type": "text",
+          "bbox": [
+            415.05,
+            317.19,
+            448.62,
+            328.23
+          ],
+          "text": "$965.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e018",
+          "type": "picture",
+          "bbox": [
+            46.1475,
+            362.31,
+            196.275,
+            452.55
+          ],
+          "text": null,
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e022",
+          "type": "picture",
+          "bbox": [
+            230.835,
+            362.31,
+            380.97,
+            452.55
+          ],
+          "text": null,
+          "reading_order": 19,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e027",
+          "type": "picture",
+          "bbox": [
+            415.53,
+            362.31,
+            565.6575,
+            452.55
+          ],
+          "text": null,
+          "reading_order": 20,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e019",
+          "type": "title",
+          "bbox": [
+            45.6675,
+            460.71,
+            196.755,
+            471.9375
+          ],
+          "text": "Vortex Smart Hub",
+          "reading_order": 21,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e023",
+          "type": "title",
+          "bbox": [
+            230.355,
+            460.71,
+            381.45,
+            471.9375
+          ],
+          "text": "Iris Smart Camera",
+          "reading_order": 22,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e028",
+          "type": "title",
+          "bbox": [
+            415.05,
+            460.71,
+            566.1375,
+            471.9375
+          ],
+          "text": "OmniCharge Dock",
+          "reading_order": 23,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e020",
+          "type": "text",
+          "bbox": [
+            45.6675,
+            475.7775,
+            196.755,
+            532.1175
+          ],
+          "text": "Central command center with touchscreen and integrated voice assistant.",
+          "reading_order": 24,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e024",
+          "type": "text",
+          "bbox": [
+            230.355,
+            475.7775,
+            381.45,
+            493.2375
+          ],
+          "text": "High-definition security camera with facial recognition and night vision.",
+          "reading_order": 25,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e029",
+          "type": "text",
+          "bbox": [
+            415.05,
+            475.7775,
+            566.1375,
+            493.2375
+          ],
+          "text": "Multi-device wireless charging station with magnetic alignment.",
+          "reading_order": 26,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e025",
+          "type": "table",
+          "bbox": [
+            230.355,
+            498.9975,
+            381.45,
+            532.1175
+          ],
+          "text": "Connectivity\tWi-Fi, BLE\nCompatibility\tHomeKit, Alexa\nPower\t12V DC / USB-C",
+          "reading_order": 27,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Connectivity",
+                "bbox": [
+                  230.355,
+                  500.9175,
+                  298.3425,
+                  507.3975
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Wi-Fi, BLE",
+                "bbox": [
+                  298.3425,
+                  500.9175,
+                  381.45,
+                  507.3975
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Compatibility",
+                "bbox": [
+                  230.355,
+                  511.7175,
+                  298.3425,
+                  518.4375
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "HomeKit, Alexa",
+                "bbox": [
+                  298.3425,
+                  511.7175,
+                  381.45,
+                  518.4375
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Power",
+                "bbox": [
+                  230.355,
+                  522.7575,
+                  298.3425,
+                  529.4775
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "12V DC / USB-C",
+                "bbox": [
+                  298.3425,
+                  522.7575,
+                  381.45,
+                  529.4775
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e030",
+          "type": "table",
+          "bbox": [
+            415.05,
+            498.9975,
+            566.1375,
+            532.1175
+          ],
+          "text": "Power\t12V DC / USB-C\nConnectivity\tWi-Fi, BLE\nCompatibility\tHomeKit, Alexa",
+          "reading_order": 28,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Power",
+                "bbox": [
+                  415.05,
+                  500.9175,
+                  483.0375,
+                  507.3975
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "12V DC / USB-C",
+                "bbox": [
+                  483.0375,
+                  500.9175,
+                  566.1375,
+                  507.3975
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Connectivity",
+                "bbox": [
+                  415.05,
+                  511.7175,
+                  483.0375,
+                  518.4375
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Wi-Fi, BLE",
+                "bbox": [
+                  483.0375,
+                  511.7175,
+                  566.1375,
+                  518.4375
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Compatibility",
+                "bbox": [
+                  415.05,
+                  522.7575,
+                  483.0375,
+                  529.4775
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "HomeKit, Alexa",
+                "bbox": [
+                  483.0375,
+                  522.7575,
+                  566.1375,
+                  529.4775
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e021",
+          "type": "text",
+          "bbox": [
+            45.6675,
+            542.1975,
+            79.56,
+            553.2375
+          ],
+          "text": "$926.00",
+          "reading_order": 29,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e026",
+          "type": "text",
+          "bbox": [
+            230.355,
+            542.1975,
+            263.985,
+            553.2375
+          ],
+          "text": "$655.00",
+          "reading_order": 30,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e031",
+          "type": "text",
+          "bbox": [
+            415.05,
+            542.1975,
+            449.6775,
+            553.2375
+          ],
+          "text": "$1147.00",
+          "reading_order": 31,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e032",
+          "type": "picture",
+          "bbox": [
+            46.1475,
+            587.3175,
+            196.275,
+            677.5575
+          ],
+          "text": null,
+          "reading_order": 32,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e037",
+          "type": "picture",
+          "bbox": [
+            230.835,
+            587.3175,
+            380.97,
+            677.5575
+          ],
+          "text": null,
+          "reading_order": 33,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e042",
+          "type": "picture",
+          "bbox": [
+            415.53,
+            587.3175,
+            565.6575,
+            677.5575
+          ],
+          "text": null,
+          "reading_order": 34,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e033",
+          "type": "title",
+          "bbox": [
+            45.6675,
+            685.7175,
+            196.755,
+            696.945
+          ],
+          "text": "Meridian Minimalist",
+          "reading_order": 35,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e038",
+          "type": "title",
+          "bbox": [
+            230.355,
+            685.7175,
+            381.45,
+            696.945
+          ],
+          "text": "Lumiere Facial Oil",
+          "reading_order": 36,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e043",
+          "type": "title",
+          "bbox": [
+            415.05,
+            685.7175,
+            566.1375,
+            696.945
+          ],
+          "text": "Helix Bookshelf",
+          "reading_order": 37,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e034",
+          "type": "text",
+          "bbox": [
+            45.6675,
+            700.785,
+            196.755,
+            720.555
+          ],
+          "text": "Ultra-thin dress watch with simple dial layout.",
+          "reading_order": 38,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e039",
+          "type": "text",
+          "bbox": [
+            230.355,
+            700.785,
+            381.45,
+            709.515
+          ],
+          "text": "Nourishing facial oil with organic rosehip and squalane.",
+          "reading_order": 39,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e044",
+          "type": "text",
+          "bbox": [
+            415.05,
+            700.785,
+            566.1375,
+            709.515
+          ],
+          "text": "Modular steel bookshelf with asymmetric oak shelves.",
+          "reading_order": 40,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e040",
+          "type": "table",
+          "bbox": [
+            230.355,
+            715.275,
+            381.45,
+            748.395
+          ],
+          "text": "Skin Type\tAll Types\nVolume\t50 ml\nOrganic\t98.5% Certified",
+          "reading_order": 41,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Skin Type",
+                "bbox": [
+                  230.355,
+                  717.195,
+                  298.3425,
+                  723.675
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "All Types",
+                "bbox": [
+                  298.3425,
+                  717.195,
+                  381.45,
+                  723.675
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Volume",
+                "bbox": [
+                  230.355,
+                  727.995,
+                  298.3425,
+                  734.715
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "50 ml",
+                "bbox": [
+                  298.3425,
+                  727.995,
+                  381.45,
+                  734.715
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Organic",
+                "bbox": [
+                  230.355,
+                  739.035,
+                  298.3425,
+                  745.755
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "98.5% Certified",
+                "bbox": [
+                  298.3425,
+                  739.035,
+                  381.45,
+                  745.755
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e045",
+          "type": "table",
+          "bbox": [
+            415.05,
+            715.275,
+            566.1375,
+            748.395
+          ],
+          "text": "Origin\tMade in Denmark\nAssembly\tRequired\nDimensions\t85x90x105 cm",
+          "reading_order": 42,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  415.05,
+                  717.195,
+                  483.0375,
+                  723.675
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Made in Denmark",
+                "bbox": [
+                  483.0375,
+                  717.195,
+                  566.1375,
+                  723.675
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Assembly",
+                "bbox": [
+                  415.05,
+                  727.995,
+                  483.0375,
+                  734.715
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Required",
+                "bbox": [
+                  483.0375,
+                  727.995,
+                  566.1375,
+                  734.715
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Dimensions",
+                "bbox": [
+                  415.05,
+                  739.035,
+                  483.0375,
+                  745.755
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "85x90x105 cm",
+                "bbox": [
+                  483.0375,
+                  739.035,
+                  566.1375,
+                  745.755
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e035",
+          "type": "table",
+          "bbox": [
+            45.6675,
+            726.315,
+            196.755,
+            748.395
+          ],
+          "text": "Case Size\t40 mm\nGlass\tSapphire Crystal",
+          "reading_order": 43,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Case Size",
+                "bbox": [
+                  45.6675,
+                  728.235,
+                  113.655,
+                  734.715
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "40 mm",
+                "bbox": [
+                  113.655,
+                  728.235,
+                  196.755,
+                  734.715
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Glass",
+                "bbox": [
+                  45.6675,
+                  739.035,
+                  113.655,
+                  745.755
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Sapphire Crystal",
+                "bbox": [
+                  113.655,
+                  739.035,
+                  196.755,
+                  745.755
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e047",
+          "type": "page_footer",
+          "bbox": [
+            37.510704,
+            755.7856559999999,
+            574.489296,
+            755.8856559999999
+          ],
+          "text": "\u00a9 2026 ELYSIAN. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 44,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e036",
+          "type": "text",
+          "bbox": [
+            45.6675,
+            758.475,
+            81.0525,
+            769.515
+          ],
+          "text": "$1231.00",
+          "reading_order": 45,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e041",
+          "type": "text",
+          "bbox": [
+            230.355,
+            758.475,
+            264.015,
+            769.515
+          ],
+          "text": "$499.00",
+          "reading_order": 46,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00002_p1_e046",
+          "type": "text",
+          "bbox": [
+            415.05,
+            758.475,
+            447.255,
+            769.515
+          ],
+          "text": "$156.00",
+          "reading_order": 47,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

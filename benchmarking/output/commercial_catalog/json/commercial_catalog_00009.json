@@ -1,0 +1,546 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00009",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200009,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00009_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00009_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            35.577552000000004,
+            35.027471999999996,
+            576.422448,
+            47.855028000000004
+          ],
+          "text": "APEX\nVOL. 7 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e001",
+          "type": "title",
+          "bbox": [
+            35.5725,
+            83.3625,
+            577.1325,
+            106.4025
+          ],
+          "text": "APEX / PRECISION TIMEPIECES",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e002",
+          "type": "text",
+          "bbox": [
+            35.5725,
+            109.2825,
+            577.1325,
+            118.8825
+          ],
+          "text": "Curated selection of premium precision timepieces for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e003",
+          "type": "picture",
+          "bbox": [
+            44.2125,
+            139.0425,
+            195.93,
+            229.2825
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e008",
+          "type": "picture",
+          "bbox": [
+            230.49,
+            139.0425,
+            382.2075,
+            229.2825
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e013",
+          "type": "picture",
+          "bbox": [
+            416.7675,
+            139.0425,
+            568.4925,
+            229.2825
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e004",
+          "type": "title",
+          "bbox": [
+            43.7325,
+            237.4425,
+            196.41,
+            248.67
+          ],
+          "text": "Solara Eco-Drive",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e009",
+          "type": "title",
+          "bbox": [
+            230.01,
+            237.4425,
+            382.6875,
+            248.67
+          ],
+          "text": "Vanguard Diver",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e014",
+          "type": "title",
+          "bbox": [
+            416.2875,
+            237.4425,
+            568.9725,
+            248.67
+          ],
+          "text": "Meridian Minimalist",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e005",
+          "type": "text",
+          "bbox": [
+            43.7325,
+            252.51,
+            196.41,
+            269.97
+          ],
+          "text": "Solar-powered watch with titanium case and sapphire crystal.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e010",
+          "type": "text",
+          "bbox": [
+            230.01,
+            252.51,
+            382.6875,
+            269.97
+          ],
+          "text": "Water-resistant diving watch with rotating ceramic bezel.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e015",
+          "type": "text",
+          "bbox": [
+            416.2875,
+            252.51,
+            568.9725,
+            269.97
+          ],
+          "text": "Ultra-thin dress watch with simple dial layout.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e006",
+          "type": "table",
+          "bbox": [
+            43.7325,
+            275.73,
+            196.41,
+            308.85
+          ],
+          "text": "Water Resist\t100m (10 ATM)\nCase Size\t40 mm\nGlass\tSapphire Crystal",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Water Resist",
+                "bbox": [
+                  43.7325,
+                  277.65,
+                  112.4325,
+                  284.13
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "100m (10 ATM)",
+                "bbox": [
+                  112.4325,
+                  277.65,
+                  196.41,
+                  284.13
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Case Size",
+                "bbox": [
+                  43.7325,
+                  288.45,
+                  112.4325,
+                  295.17
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "40 mm",
+                "bbox": [
+                  112.4325,
+                  288.45,
+                  196.41,
+                  295.17
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Glass",
+                "bbox": [
+                  43.7325,
+                  299.49,
+                  112.4325,
+                  306.21
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Sapphire Crystal",
+                "bbox": [
+                  112.4325,
+                  299.49,
+                  196.41,
+                  306.21
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e011",
+          "type": "table",
+          "bbox": [
+            230.01,
+            275.73,
+            382.6875,
+            308.85
+          ],
+          "text": "Caliber\tCal. 9015 Auto\nGlass\tSapphire Crystal\nCase Size\t40 mm",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Caliber",
+                "bbox": [
+                  230.01,
+                  277.65,
+                  298.71,
+                  284.13
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Cal. 9015 Auto",
+                "bbox": [
+                  298.71,
+                  277.65,
+                  382.6875,
+                  284.13
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Glass",
+                "bbox": [
+                  230.01,
+                  288.45,
+                  298.71,
+                  295.17
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Sapphire Crystal",
+                "bbox": [
+                  298.71,
+                  288.45,
+                  382.6875,
+                  295.17
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Case Size",
+                "bbox": [
+                  230.01,
+                  299.49,
+                  298.71,
+                  306.21
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "40 mm",
+                "bbox": [
+                  298.71,
+                  299.49,
+                  382.6875,
+                  306.21
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e016",
+          "type": "table",
+          "bbox": [
+            416.2875,
+            275.73,
+            568.9725,
+            308.85
+          ],
+          "text": "Glass\tSapphire Crystal\nCase Size\t40 mm\nWater Resist\t100m (10 ATM)",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Glass",
+                "bbox": [
+                  416.2875,
+                  277.65,
+                  484.995,
+                  284.13
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Sapphire Crystal",
+                "bbox": [
+                  484.995,
+                  277.65,
+                  568.9725,
+                  284.13
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Case Size",
+                "bbox": [
+                  416.2875,
+                  288.45,
+                  484.995,
+                  295.17
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "40 mm",
+                "bbox": [
+                  484.995,
+                  288.45,
+                  568.9725,
+                  295.17
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Water Resist",
+                "bbox": [
+                  416.2875,
+                  299.49,
+                  484.995,
+                  306.21
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "100m (10 ATM)",
+                "bbox": [
+                  484.995,
+                  299.49,
+                  568.9725,
+                  306.21
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e007",
+          "type": "text",
+          "bbox": [
+            43.7325,
+            318.93,
+            76.2,
+            329.97
+          ],
+          "text": "$142.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e012",
+          "type": "text",
+          "bbox": [
+            230.01,
+            318.93,
+            261.99,
+            329.97
+          ],
+          "text": "$913.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e017",
+          "type": "text",
+          "bbox": [
+            416.2875,
+            318.93,
+            451.8675,
+            329.97
+          ],
+          "text": "$1124.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00009_p1_e018",
+          "type": "page_footer",
+          "bbox": [
+            35.577552000000004,
+            757.788624,
+            576.422448,
+            757.888624
+          ],
+          "text": "\u00a9 2026 APEX. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

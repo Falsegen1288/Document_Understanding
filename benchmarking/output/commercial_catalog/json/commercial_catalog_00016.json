@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00016",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200016,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00016_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00016_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            34.410624,
+            35.136143999999994,
+            577.589376,
+            49.231356000000005
+          ],
+          "text": "AERO\nVOL. 7 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e001",
+          "type": "title",
+          "bbox": [
+            34.41,
+            84.8475,
+            577.6725,
+            107.8875
+          ],
+          "text": "AERO / MODERN FURNITURE",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e002",
+          "type": "text",
+          "bbox": [
+            34.41,
+            110.7675,
+            577.6725,
+            120.3675
+          ],
+          "text": "Curated selection of premium modern furniture for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e003",
+          "type": "picture",
+          "bbox": [
+            43.05,
+            140.5275,
+            195.3375,
+            230.7675
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e008",
+          "type": "picture",
+          "bbox": [
+            229.8975,
+            140.5275,
+            382.185,
+            230.7675
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e013",
+          "type": "picture",
+          "bbox": [
+            416.745,
+            140.5275,
+            569.0325,
+            230.7675
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e004",
+          "type": "title",
+          "bbox": [
+            42.57,
+            238.9275,
+            195.8175,
+            250.155
+          ],
+          "text": "Harkness Lounge Chair",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e009",
+          "type": "title",
+          "bbox": [
+            229.4175,
+            238.9275,
+            382.665,
+            250.155
+          ],
+          "text": "Strata Coffee Table",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e014",
+          "type": "title",
+          "bbox": [
+            416.265,
+            238.9275,
+            569.5125,
+            250.155
+          ],
+          "text": "Nouveau Sideboard",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e005",
+          "type": "text",
+          "bbox": [
+            42.57,
+            253.995,
+            195.8175,
+            271.455
+          ],
+          "text": "Ergonomic leather lounge chair with polished walnut wood frame.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e010",
+          "type": "text",
+          "bbox": [
+            229.4175,
+            253.995,
+            382.665,
+            282.495
+          ],
+          "text": "Sculptural concrete coffee table with dual-level storage shelves.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e015",
+          "type": "text",
+          "bbox": [
+            416.265,
+            253.995,
+            569.5125,
+            310.335
+          ],
+          "text": "Minimalist oak sideboard with matte black steel hardware and soft-close doors.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e006",
+          "type": "table",
+          "bbox": [
+            42.57,
+            277.215,
+            195.8175,
+            310.335
+          ],
+          "text": "Origin\tMade in Denmark\nAssembly\tRequired\nDimensions\t85x90x105 cm",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  42.57,
+                  279.135,
+                  111.525,
+                  285.615
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Made in Denmark",
+                "bbox": [
+                  111.525,
+                  279.135,
+                  195.8175,
+                  285.615
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Assembly",
+                "bbox": [
+                  42.57,
+                  289.935,
+                  111.525,
+                  296.655
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Required",
+                "bbox": [
+                  111.525,
+                  289.935,
+                  195.8175,
+                  296.655
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Dimensions",
+                "bbox": [
+                  42.57,
+                  300.975,
+                  111.525,
+                  307.695
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "85x90x105 cm",
+                "bbox": [
+                  111.525,
+                  300.975,
+                  195.8175,
+                  307.695
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e011",
+          "type": "table",
+          "bbox": [
+            229.4175,
+            288.255,
+            382.665,
+            310.335
+          ],
+          "text": "Dimensions\t85x90x105 cm\nMaterial\tOak Wood",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Dimensions",
+                "bbox": [
+                  229.4175,
+                  290.175,
+                  298.3725,
+                  296.655
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "85x90x105 cm",
+                "bbox": [
+                  298.3725,
+                  290.175,
+                  382.665,
+                  296.655
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  229.4175,
+                  300.975,
+                  298.3725,
+                  307.695
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  298.3725,
+                  300.975,
+                  382.665,
+                  307.695
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e007",
+          "type": "text",
+          "bbox": [
+            42.57,
+            320.415,
+            77.01,
+            331.455
+          ],
+          "text": "$230.00",
+          "reading_order": 14,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e012",
+          "type": "text",
+          "bbox": [
+            229.4175,
+            320.415,
+            264.795,
+            331.455
+          ],
+          "text": "$1261.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e016",
+          "type": "text",
+          "bbox": [
+            416.265,
+            320.415,
+            448.23,
+            331.455
+          ],
+          "text": "$185.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00016_p1_e017",
+          "type": "page_footer",
+          "bbox": [
+            34.410624,
+            755.4374399999999,
+            577.589376,
+            755.53744
+          ],
+          "text": "\u00a9 2026 AERO. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00017",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200017,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00017_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00017_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            37.518192,
+            36.972,
+            574.481808,
+            49.022999999999996
+          ],
+          "text": "AERO\nVOL. 1 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e001",
+          "type": "title",
+          "bbox": [
+            37.515,
+            86.475,
+            574.6725,
+            109.515
+          ],
+          "text": "AERO / SKINCARE & WELLNESS",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e002",
+          "type": "text",
+          "bbox": [
+            37.515,
+            112.395,
+            574.6725,
+            121.995
+          ],
+          "text": "Curated selection of premium skincare & wellness for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e003",
+          "type": "picture",
+          "bbox": [
+            46.155,
+            142.155,
+            196.4025,
+            232.395
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e007",
+          "type": "picture",
+          "bbox": [
+            230.9625,
+            142.155,
+            381.2175,
+            232.395
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e012",
+          "type": "picture",
+          "bbox": [
+            415.7775,
+            142.155,
+            566.025,
+            232.395
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e004",
+          "type": "title",
+          "bbox": [
+            45.675,
+            240.555,
+            196.8825,
+            251.7825
+          ],
+          "text": "Aurora Eye Cream",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e008",
+          "type": "title",
+          "bbox": [
+            230.4825,
+            240.555,
+            381.6975,
+            251.7825
+          ],
+          "text": "Nectar Body Butter",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e013",
+          "type": "title",
+          "bbox": [
+            415.2975,
+            240.555,
+            566.505,
+            251.7825
+          ],
+          "text": "Elysian Clay Mask",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e005",
+          "type": "text",
+          "bbox": [
+            45.675,
+            255.6225,
+            196.8825,
+            311.9625
+          ],
+          "text": "Brightening eye cream with vitamin C and caffeine extract.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e009",
+          "type": "text",
+          "bbox": [
+            230.4825,
+            255.6225,
+            381.6975,
+            273.0825
+          ],
+          "text": "Rich moisturizing cream with shea butter and sweet almond oil.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e014",
+          "type": "text",
+          "bbox": [
+            415.2975,
+            255.6225,
+            566.505,
+            311.9625
+          ],
+          "text": "Purifying clay mask with activated charcoal and bentonite.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e010",
+          "type": "table",
+          "bbox": [
+            230.4825,
+            278.8425,
+            381.6975,
+            311.9625
+          ],
+          "text": "Skin Type\tAll Types\nOrganic\t98.5% Certified\nCruelty Free\tYes",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Skin Type",
+                "bbox": [
+                  230.4825,
+                  280.7625,
+                  298.5225,
+                  287.2425
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "All Types",
+                "bbox": [
+                  298.5225,
+                  280.7625,
+                  381.6975,
+                  287.2425
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Organic",
+                "bbox": [
+                  230.4825,
+                  291.5625,
+                  298.5225,
+                  298.2825
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "98.5% Certified",
+                "bbox": [
+                  298.5225,
+                  291.5625,
+                  381.6975,
+                  298.2825
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Cruelty Free",
+                "bbox": [
+                  230.4825,
+                  302.6025,
+                  298.5225,
+                  309.3225
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Yes",
+                "bbox": [
+                  298.5225,
+                  302.6025,
+                  381.6975,
+                  309.3225
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e006",
+          "type": "text",
+          "bbox": [
+            45.675,
+            322.0425,
+            81.93,
+            333.0825
+          ],
+          "text": "$1061.00",
+          "reading_order": 13,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e011",
+          "type": "text",
+          "bbox": [
+            230.4825,
+            322.0425,
+            263.3475,
+            333.0825
+          ],
+          "text": "$105.00",
+          "reading_order": 14,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e015",
+          "type": "text",
+          "bbox": [
+            415.2975,
+            322.0425,
+            448.8825,
+            333.0825
+          ],
+          "text": "$225.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e016",
+          "type": "picture",
+          "bbox": [
+            46.155,
+            367.1625,
+            196.4025,
+            457.4025
+          ],
+          "text": null,
+          "reading_order": 16,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e021",
+          "type": "picture",
+          "bbox": [
+            230.9625,
+            367.1625,
+            381.2175,
+            457.4025
+          ],
+          "text": null,
+          "reading_order": 17,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e025",
+          "type": "picture",
+          "bbox": [
+            415.7775,
+            367.1625,
+            566.025,
+            457.4025
+          ],
+          "text": null,
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e017",
+          "type": "title",
+          "bbox": [
+            45.675,
+            465.5625,
+            196.8825,
+            476.79
+          ],
+          "text": "Sol-Shield SPF 50",
+          "reading_order": 19,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e022",
+          "type": "title",
+          "bbox": [
+            230.4825,
+            465.5625,
+            381.6975,
+            476.79
+          ],
+          "text": "Hydra-Luxe Serum",
+          "reading_order": 20,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e026",
+          "type": "title",
+          "bbox": [
+            415.2975,
+            465.5625,
+            566.505,
+            476.79
+          ],
+          "text": "Lumiere Facial Oil",
+          "reading_order": 21,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e018",
+          "type": "text",
+          "bbox": [
+            45.675,
+            480.63,
+            196.8825,
+            500.4
+          ],
+          "text": "Broad-spectrum mineral sunscreen with lightweight matte finish.",
+          "reading_order": 22,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e023",
+          "type": "text",
+          "bbox": [
+            230.4825,
+            480.63,
+            381.6975,
+            528.24
+          ],
+          "text": "Intense hydration serum with hyaluronic acid and peptide complex.",
+          "reading_order": 23,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e027",
+          "type": "text",
+          "bbox": [
+            415.2975,
+            480.63,
+            566.505,
+            489.36
+          ],
+          "text": "Nourishing facial oil with organic rosehip and squalane.",
+          "reading_order": 24,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e028",
+          "type": "table",
+          "bbox": [
+            415.2975,
+            495.12,
+            566.505,
+            528.24
+          ],
+          "text": "Skin Type\tAll Types\nVolume\t50 ml\nCruelty Free\tYes",
+          "reading_order": 25,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Skin Type",
+                "bbox": [
+                  415.2975,
+                  497.04,
+                  483.3375,
+                  503.52
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "All Types",
+                "bbox": [
+                  483.3375,
+                  497.04,
+                  566.505,
+                  503.52
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Volume",
+                "bbox": [
+                  415.2975,
+                  507.84,
+                  483.3375,
+                  514.56
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "50 ml",
+                "bbox": [
+                  483.3375,
+                  507.84,
+                  566.505,
+                  514.56
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Cruelty Free",
+                "bbox": [
+                  415.2975,
+                  518.88,
+                  483.3375,
+                  525.6
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Yes",
+                "bbox": [
+                  483.3375,
+                  518.88,
+                  566.505,
+                  525.6
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e019",
+          "type": "table",
+          "bbox": [
+            45.675,
+            506.16,
+            196.8825,
+            528.24
+          ],
+          "text": "Cruelty Free\tYes\nVolume\t50 ml",
+          "reading_order": 26,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Cruelty Free",
+                "bbox": [
+                  45.675,
+                  508.08,
+                  113.715,
+                  514.56
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Yes",
+                "bbox": [
+                  113.715,
+                  508.08,
+                  196.8825,
+                  514.56
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Volume",
+                "bbox": [
+                  45.675,
+                  518.88,
+                  113.715,
+                  525.6
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "50 ml",
+                "bbox": [
+                  113.715,
+                  518.88,
+                  196.8825,
+                  525.6
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e020",
+          "type": "text",
+          "bbox": [
+            45.675,
+            538.32,
+            77.8275,
+            549.36
+          ],
+          "text": "$891.00",
+          "reading_order": 27,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e024",
+          "type": "text",
+          "bbox": [
+            230.4825,
+            538.32,
+            263.9325,
+            549.36
+          ],
+          "text": "$333.00",
+          "reading_order": 28,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e029",
+          "type": "text",
+          "bbox": [
+            415.2975,
+            538.32,
+            449.7675,
+            549.36
+          ],
+          "text": "$280.00",
+          "reading_order": 29,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00017_p1_e030",
+          "type": "page_footer",
+          "bbox": [
+            37.518192,
+            754.448232,
+            574.481808,
+            754.548232
+          ],
+          "text": "\u00a9 2026 AERO. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 30,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+id,doc_type,download_url
+Medical_001,radiology_report_with_mri_image,https://raw.githubusercontent.com/CatchTheTornado/text-extract-api/main/examples/example-mri.pdf
+Medical_002,lab_report,https://sterlingaccuris.com/static-assets/pdfs/sterling-accuris-pathology-sample-report-unlocked.pdf?srsltid=AfmBOoopef-2zvrUHjLabHjM2IhQ_qq5iB8xbeILHMY-cgaTJymqf837
+Medical_003,vaccine_consent_form,https://raw.githubusercontent.com/Azure-Samples/document-intelligence-code-samples/main/Data/custom-vaccine/cosent-form-test-document.pdf
+Medical_004,surgical_instruments_catalogue,https://www.henryschein.com/assets/Medical/8260792.pdf
+Medical_005,common_surgical_instruments,https://www.facs.org/media/wgcmalet/common_surgical_instruments_module.pdf
+Medical_006,medical_reports,file:///C:/Users/user/Downloads/20_Medical_Reports_KAI.pdf

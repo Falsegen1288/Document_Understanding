@@ -1,0 +1,5 @@
+GT_Variant,Model,ROKT,ROA
+GT-raw,DocLayoutYOLO,1.0,1.0
+GT-raw,Nemotron,1.0,1.0
+GT-tight,DocLayoutYOLO,1.0,1.0
+GT-tight,Nemotron,1.0,1.0

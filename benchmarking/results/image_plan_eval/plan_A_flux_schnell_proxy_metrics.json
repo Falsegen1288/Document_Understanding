@@ -1,0 +1,8 @@
+{
+  "plan": "A_flux_schnell_proxy",
+  "FID_vs_ref": 999.0,
+  "CLIP_S": 0.0,
+  "diversity_LPIPS": 0.0,
+  "speed_sec_per_image": 30.0,
+  "cost_usd_per_1000": 0.0
+}

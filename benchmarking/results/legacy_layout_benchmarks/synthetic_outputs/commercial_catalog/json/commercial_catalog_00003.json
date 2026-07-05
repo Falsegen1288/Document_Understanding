@@ -1,0 +1,911 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "commercial_catalog_00003",
+  "domain": "commercial_catalog",
+  "source_engine": "playwright_html",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200003,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/commercial_catalog/images/commercial_catalog_00003_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "cc00003_p1_e000",
+          "type": "page_header",
+          "bbox": [
+            37.618656,
+            34.887216,
+            574.381344,
+            49.052783999999996
+          ],
+          "text": "STRATA\nVOL. 9 / 2026",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e001",
+          "type": "title",
+          "bbox": [
+            37.6125,
+            84.42,
+            577.035,
+            107.46
+          ],
+          "text": "STRATA / MODERN FURNITURE",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e002",
+          "type": "text",
+          "bbox": [
+            37.6125,
+            110.34,
+            577.035,
+            119.94
+          ],
+          "text": "Curated selection of premium modern furniture for contemporary living.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e003",
+          "type": "picture",
+          "bbox": [
+            46.2525,
+            140.1,
+            197.2575,
+            230.34
+          ],
+          "text": null,
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e008",
+          "type": "picture",
+          "bbox": [
+            231.8175,
+            140.1,
+            382.8225,
+            230.34
+          ],
+          "text": null,
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e013",
+          "type": "picture",
+          "bbox": [
+            417.3825,
+            140.1,
+            568.395,
+            230.34
+          ],
+          "text": null,
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e004",
+          "type": "title",
+          "bbox": [
+            45.7725,
+            238.5,
+            197.7375,
+            249.7275
+          ],
+          "text": "Nouveau Sideboard",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e009",
+          "type": "title",
+          "bbox": [
+            231.3375,
+            238.5,
+            383.3025,
+            249.7275
+          ],
+          "text": "Harkness Lounge Chair",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e014",
+          "type": "title",
+          "bbox": [
+            416.9025,
+            238.5,
+            568.875,
+            249.7275
+          ],
+          "text": "Apex Desk",
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e005",
+          "type": "text",
+          "bbox": [
+            45.7725,
+            253.5675,
+            197.7375,
+            282.0675
+          ],
+          "text": "Minimalist oak sideboard with matte black steel hardware and soft-close doors.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e010",
+          "type": "text",
+          "bbox": [
+            231.3375,
+            253.5675,
+            383.3025,
+            282.0675
+          ],
+          "text": "Ergonomic leather lounge chair with polished walnut wood frame.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e015",
+          "type": "text",
+          "bbox": [
+            416.9025,
+            253.5675,
+            568.875,
+            271.0275
+          ],
+          "text": "Height-adjustable standing desk with solid bamboo top and cable routing.",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e016",
+          "type": "table",
+          "bbox": [
+            416.9025,
+            276.7875,
+            568.875,
+            309.9075
+          ],
+          "text": "Material\tOak Wood\nDimensions\t85x90x105 cm\nAssembly\tRequired",
+          "reading_order": 12,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  416.9025,
+                  278.7075,
+                  485.2875,
+                  285.1875
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  485.2875,
+                  278.7075,
+                  568.875,
+                  285.1875
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Dimensions",
+                "bbox": [
+                  416.9025,
+                  289.5075,
+                  485.2875,
+                  296.2275
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "85x90x105 cm",
+                "bbox": [
+                  485.2875,
+                  289.5075,
+                  568.875,
+                  296.2275
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Assembly",
+                "bbox": [
+                  416.9025,
+                  300.5475,
+                  485.2875,
+                  307.2675
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "Required",
+                "bbox": [
+                  485.2875,
+                  300.5475,
+                  568.875,
+                  307.2675
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e006",
+          "type": "table",
+          "bbox": [
+            45.7725,
+            287.8275,
+            197.7375,
+            309.9075
+          ],
+          "text": "Origin\tMade in Denmark\nMaterial\tOak Wood",
+          "reading_order": 13,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  45.7725,
+                  289.7475,
+                  114.15,
+                  296.2275
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Made in Denmark",
+                "bbox": [
+                  114.15,
+                  289.7475,
+                  197.7375,
+                  296.2275
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  45.7725,
+                  300.5475,
+                  114.15,
+                  307.2675
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  114.15,
+                  300.5475,
+                  197.7375,
+                  307.2675
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e011",
+          "type": "table",
+          "bbox": [
+            231.3375,
+            287.8275,
+            383.3025,
+            309.9075
+          ],
+          "text": "Material\tOak Wood\nOrigin\tMade in Denmark",
+          "reading_order": 14,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  231.3375,
+                  289.7475,
+                  299.715,
+                  296.2275
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  299.715,
+                  289.7475,
+                  383.3025,
+                  296.2275
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  231.3375,
+                  300.5475,
+                  299.715,
+                  307.2675
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Made in Denmark",
+                "bbox": [
+                  299.715,
+                  300.5475,
+                  383.3025,
+                  307.2675
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e007",
+          "type": "text",
+          "bbox": [
+            45.7725,
+            319.9875,
+            81.9,
+            331.0275
+          ],
+          "text": "$1180.00",
+          "reading_order": 15,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e012",
+          "type": "text",
+          "bbox": [
+            231.3375,
+            319.9875,
+            264.2925,
+            331.0275
+          ],
+          "text": "$160.00",
+          "reading_order": 16,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e017",
+          "type": "text",
+          "bbox": [
+            416.9025,
+            319.9875,
+            451.3875,
+            331.0275
+          ],
+          "text": "$220.00",
+          "reading_order": 17,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e018",
+          "type": "picture",
+          "bbox": [
+            46.2525,
+            365.1075,
+            197.2575,
+            455.3475
+          ],
+          "text": null,
+          "reading_order": 18,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e023",
+          "type": "picture",
+          "bbox": [
+            231.8175,
+            365.1075,
+            382.8225,
+            455.3475
+          ],
+          "text": null,
+          "reading_order": 19,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e028",
+          "type": "picture",
+          "bbox": [
+            417.3825,
+            365.1075,
+            568.395,
+            455.3475
+          ],
+          "text": null,
+          "reading_order": 20,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e019",
+          "type": "title",
+          "bbox": [
+            45.7725,
+            463.5075,
+            197.7375,
+            474.735
+          ],
+          "text": "Strata Coffee Table",
+          "reading_order": 21,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e024",
+          "type": "title",
+          "bbox": [
+            231.3375,
+            463.5075,
+            383.3025,
+            474.735
+          ],
+          "text": "Stella Sofa",
+          "reading_order": 22,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e029",
+          "type": "title",
+          "bbox": [
+            416.9025,
+            463.5075,
+            568.875,
+            474.735
+          ],
+          "text": "Helix Bookshelf",
+          "reading_order": 23,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e020",
+          "type": "text",
+          "bbox": [
+            45.7725,
+            478.575,
+            197.7375,
+            498.345
+          ],
+          "text": "Sculptural concrete coffee table with dual-level storage shelves.",
+          "reading_order": 24,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e025",
+          "type": "text",
+          "bbox": [
+            231.3375,
+            478.575,
+            383.3025,
+            498.345
+          ],
+          "text": "Three-seater fabric sofa with high-density foam and tapered oak legs.",
+          "reading_order": 25,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e030",
+          "type": "text",
+          "bbox": [
+            416.9025,
+            478.575,
+            568.875,
+            487.305
+          ],
+          "text": "Modular steel bookshelf with asymmetric oak shelves.",
+          "reading_order": 26,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e031",
+          "type": "table",
+          "bbox": [
+            416.9025,
+            493.065,
+            568.875,
+            526.185
+          ],
+          "text": "Material\tOak Wood\nOrigin\tMade in Denmark\nDimensions\t85x90x105 cm",
+          "reading_order": 27,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  416.9025,
+                  494.985,
+                  485.2875,
+                  501.465
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  485.2875,
+                  494.985,
+                  568.875,
+                  501.465
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  416.9025,
+                  505.785,
+                  485.2875,
+                  512.505
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Made in Denmark",
+                "bbox": [
+                  485.2875,
+                  505.785,
+                  568.875,
+                  512.505
+                ]
+              },
+              {
+                "row": 2,
+                "col": 0,
+                "text": "Dimensions",
+                "bbox": [
+                  416.9025,
+                  516.825,
+                  485.2875,
+                  523.545
+                ]
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "text": "85x90x105 cm",
+                "bbox": [
+                  485.2875,
+                  516.825,
+                  568.875,
+                  523.545
+                ]
+              }
+            ],
+            "n_rows": 3,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e021",
+          "type": "table",
+          "bbox": [
+            45.7725,
+            504.105,
+            197.7375,
+            526.185
+          ],
+          "text": "Origin\tMade in Denmark\nAssembly\tRequired",
+          "reading_order": 28,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Origin",
+                "bbox": [
+                  45.7725,
+                  506.025,
+                  114.15,
+                  512.505
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Made in Denmark",
+                "bbox": [
+                  114.15,
+                  506.025,
+                  197.7375,
+                  512.505
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Assembly",
+                "bbox": [
+                  45.7725,
+                  516.825,
+                  114.15,
+                  523.545
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Required",
+                "bbox": [
+                  114.15,
+                  516.825,
+                  197.7375,
+                  523.545
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e026",
+          "type": "table",
+          "bbox": [
+            231.3375,
+            504.105,
+            383.3025,
+            526.185
+          ],
+          "text": "Material\tOak Wood\nAssembly\tRequired",
+          "reading_order": 29,
+          "attributes": {
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "Material",
+                "bbox": [
+                  231.3375,
+                  506.025,
+                  299.715,
+                  512.505
+                ]
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "text": "Oak Wood",
+                "bbox": [
+                  299.715,
+                  506.025,
+                  383.3025,
+                  512.505
+                ]
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "text": "Assembly",
+                "bbox": [
+                  231.3375,
+                  516.825,
+                  299.715,
+                  523.545
+                ]
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "text": "Required",
+                "bbox": [
+                  299.715,
+                  516.825,
+                  383.3025,
+                  523.545
+                ]
+              }
+            ],
+            "n_rows": 2,
+            "n_cols": 2,
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e022",
+          "type": "text",
+          "bbox": [
+            45.7725,
+            536.265,
+            83.8275,
+            547.305
+          ],
+          "text": "$1084.00",
+          "reading_order": 30,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e027",
+          "type": "text",
+          "bbox": [
+            231.3375,
+            536.265,
+            270.135,
+            547.305
+          ],
+          "text": "$1002.00",
+          "reading_order": 31,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e032",
+          "type": "text",
+          "bbox": [
+            416.9025,
+            536.265,
+            454.8525,
+            547.305
+          ],
+          "text": "$1306.00",
+          "reading_order": 32,
+          "attributes": {
+            "role": "price_tag",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "cc00003_p1_e033",
+          "type": "page_footer",
+          "bbox": [
+            37.618656,
+            757.480008,
+            574.381344,
+            757.580008
+          ],
+          "text": "\u00a9 2026 STRATA. All rights reserved. Trade pricing available.\nPage 1",
+          "reading_order": 33,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

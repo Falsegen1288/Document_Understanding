@@ -1,0 +1,35 @@
+models:
+  groq:
+  - meta-llama/llama-4-scout-17b-16e-instruct
+  - qwen/qwen3.6-27b
+  local:
+  - moondream:latest
+  - qwen2.5vl:3b
+paths:
+  env_file: D:/antigravity/benchmarking/.env
+  gt_file: D:/antigravity/benchmarking/ground_truth/image/MedCore_GT_v2.json
+  image_dir: D:/antigravity/benchmarking/data/image_pool/medical_instruments
+  predictions_dir: D:/antigravity/benchmarking/results/image/predictions
+  results_dir: D:/antigravity/benchmarking/results/image
+prompts:
+  attribute_extraction: "Analyze this product image and extract its structured specifications.\
+    \ Return ONLY a valid JSON object matching the following schema. Do not include\
+    \ any markdown formatting, explanation, or code block fences (like ```json).\n\
+    \nExpected JSON Schema:\n{\n  \"product_name\": \"string (the brand name or name\
+    \ of the product)\",\n  \"subcategory\": \"string or null (e.g., Dermatoscope,\
+    \ Patient Monitor, Otoscope, etc.)\",\n  \"material\": \"string or null (e.g.\
+    \ 316L Stainless Steel, medical polymer, etc. - only if visible or specified in\
+    \ packaging)\",\n  \"key_specs\": {\n    \"spec_key_1\": \"spec_value_1\",\n \
+    \   \"spec_key_2\": \"spec_value_2\"\n  },\n  \"certifications\": [\"array of\
+    \ strings, e.g. CE, ISO 13485, IEC 60601, ISO 17664\"],\n  \"intended_setting\"\
+    : [\"array of strings, e.g. ICU, Operation Theatre, Diagnostic Lab, General Practice\"\
+    ]\n}\n\nRules:\n1. Do not extract or guess \"price_eur\" or \"price_unit\", as\
+    \ price is not visible.\n2. Extract only details visible in the image or product\
+    \ labeling.\n3. Use null for any string fields and empty object/list for key_specs/certifications/intended_setting\
+    \ if you cannot determine them.\n4. Return ONLY the raw JSON string. Do not wrap\
+    \ it in markdown fences.\n"
+  captioning: 'Describe this product image in one or two sentences, focusing on what
+    the item is, its material/appearance, and any visible identifying features. Do
+    not include the product name if uncertain.
+
+    '

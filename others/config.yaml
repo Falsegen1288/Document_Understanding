@@ -1,0 +1,8 @@
+# Active algorithm selection per pipeline step
+# Options available for each step are listed below
+
+layout_detection: doclayout_yolo  # doclayout_yolo | nemotron_parse | landingai_ade
+text_extraction: pymupdf          # pymupdf | pdfplumber
+ocr: easyocr                      # easyocr | tesseract
+table_extraction: docling_tableformer # docling_tableformer | tatr
+image_extraction: groq_llama      # groq_llama | groq_qwen | local_qwen | local_moondream

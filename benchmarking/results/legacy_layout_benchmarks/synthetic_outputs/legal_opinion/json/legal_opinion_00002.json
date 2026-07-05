@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "legal_opinion_00002",
+  "domain": "legal_opinion",
+  "source_engine": "reportlab_platypus",
+  "bbox_convention": {
+    "origin": "top-left",
+    "units": "pt",
+    "dpi_for_px_assets": 150,
+    "box_type": "content"
+  },
+  "generation_seed": 4200002,
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/legal_opinion/images/legal_opinion_00002_p1.png",
+      "layout_elements": [
+        {
+          "element_id": "lo00002_p1_e002",
+          "type": "title",
+          "bbox": [
+            83.78566697721301,
+            183.83014104286917,
+            526.4251023343754,
+            198.83014104286917
+          ],
+          "text": "UNITED STATES DISTRICT COURT FOR THE NORTHERN DISTRICT",
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e003",
+          "type": "table",
+          "bbox": [
+            89.78566697721301,
+            215.83014104286917,
+            545.785666977213,
+            323.8301410428692
+          ],
+          "text": null,
+          "reading_order": 1,
+          "attributes": {
+            "n_rows": 1,
+            "n_cols": 2,
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "bbox": [
+                  89.78566697721301,
+                  215.83014104286917,
+                  311.785666977213,
+                  323.8301410428692
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'd523ed1f-23a1-463d-beb5-4c79690d5ca4'\n'_gt_text': '<b>SANDRA GREEN</b>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Appellant</i>,<br/><br/>v.<br/><br/><b>MARGARET CONNER</b>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Appellee</i>.'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>SANDRA GREEN</b>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Appellant</i>,<br/><br/>v.<br/><br/><b>MARGARET CONNER</b>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Appellee</i>.'\n'frags': [[41.660000000000004, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='SANDRA GREEN', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'SANDRA')], [38.06, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='SANDRA GREEN', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'GREEN'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text=',', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ',')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [51.39, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='i', _fkind=0, bold=0, fontName='Times-Italic', fontSize=10, greek=0, italic=1, link=[], rise=0, text='Appellant', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'Appellant'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text=',', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ',')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [7.5, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='v.', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'v.')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [59.44, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='MARGARET CONNER', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'MARGARET')], [45.83, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='MARGARET CONNER', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'CONNER'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text=',', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ',')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [47.49, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '\\xa0'), (ParaFrag(__tag__='i', _fkind=0, bold=0, fontName='Times-Italic', fontSize=10, greek=0, italic=1, link=[], rise=0, text='Appellee', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'Appellee'), (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='.', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '.')]]\n'style': <ParagraphStyle 'LegalCaption'>\n'bulletText': None\n'debug': 0\n'width': 222\n'_wrapWidths': [222, 222]\n'_width_max': 107.77\n'height': 98\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaLines(kind=1, lines=[FragLine(ascent=6.83, descent=-2.17, extraSpace=139.78, fontSize=10, lineBreak=True, maxWidth=222, sFW=0, wordCount=2, words=[ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='SANDRA GREEN', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text=',', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=170.61, fontSize=10, lineBreak=True, maxWidth=222, sFW=2, wordCount=1, words=[ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='i', _fkind=0, bold=0, fontName='Times-Italic', fontSize=10, greek=0, italic=1, link=[], rise=0, text='Appellant', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text=',', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=222, fontSize=10, lineBreak=True, maxWidth=222, sFW=4, wordCount=0, words=[ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=214.5, fontSize=10, lineBreak=True, maxWidth=222, sFW=5, wordCount=1, words=[ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='v.', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=222, fontSize=10, lineBreak=True, maxWidth=222, sFW=7, wordCount=0, words=[ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=114.23, fontSize=10, lineBreak=True, maxWidth=222, sFW=8, wordCount=2, words=[ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='MARGARET CONNER', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text=',', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=174.51, fontSize=10, lineBreak=False, maxWidth=222, sFW=11, wordCount=1, words=[ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='\\xa0', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='i', _fkind=0, bold=0, fontName='Times-Italic', fontSize=10, greek=0, italic=1, link=[], rise=0, text='Appellee', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='.', textColor=Color(.117647,.160784,.231373,1), us_lines=[])])])\n) #TrackedParagraph,)"
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "bbox": [
+                  323.785666977213,
+                  215.83014104286917,
+                  545.7856669772129,
+                  323.8301410428692
+                ],
+                "text": "(TrackedParagraph(\n'canonical_type': 'text'\n'_gt_id': 'bea04e5a-356b-4a47-96db-c79647ecf363'\n'_gt_text': '<b>Docket No. 18-9177</b><br/><br/>Decided: 2001-06-24<br/><br/>Opinion Filed.'\n'_gt_attributes': {}\n'_gt_parent_id': None\n'_gt_padding': None\n'caseSensitive': 1\n'encoding': 'utf8'\n'text': '<b>Docket No. 18-9177</b><br/><br/>Decided: 2001-06-24<br/><br/>Opinion Filed.'\n'frags': [[29.990000000000002, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Docket No. 18-9177', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'Docket')], [14.719999999999999, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Docket No. 18-9177', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'No.')], [33.33, (ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Docket No. 18-9177', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '18-9177')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [36.1, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Decided: 2001-06-24', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'Decided:')], [46.660000000000004, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Decided: 2001-06-24', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '2001-06-24')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [0, (ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), '')], [32.78, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Opinion Filed.', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'Opinion')], [23.060000000000002, (ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Opinion Filed.', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), 'Filed.')]]\n'style': <ParagraphStyle 'LegalCaption'>\n'bulletText': None\n'debug': 0\n'width': 222\n'_wrapWidths': [222, 222]\n'_width_max': 85.26\n'height': 70\n'_splitLongWordCount': 0\n'_hyphenations': 0\n'blPara': ParaLines(kind=1, lines=[FragLine(ascent=6.76, descent=-2.05, extraSpace=138.96, fontSize=10, lineBreak=True, maxWidth=222, sFW=0, wordCount=3, words=[ParaFrag(__tag__='b', _fkind=0, bold=1, fontName='Times-Bold', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Docket No. 18-9177', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=222, fontSize=10, lineBreak=True, maxWidth=222, sFW=3, wordCount=0, words=[ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=136.74, fontSize=10, lineBreak=True, maxWidth=222, sFW=4, wordCount=2, words=[ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Decided: 2001-06-24', textColor=Color(.117647,.160784,.231373,1), us_lines=[]), ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=222, fontSize=10, lineBreak=True, maxWidth=222, sFW=7, wordCount=0, words=[ParaFrag(__tag__='br', _fkind=3, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, lineBreak=True, link=[], rise=0, text='', textColor=Color(.117647,.160784,.231373,1), us_lines=[])]), FragLine(ascent=6.83, descent=-2.17, extraSpace=163.66, fontSize=10, lineBreak=False, maxWidth=222, sFW=8, wordCount=2, words=[ParaFrag(__tag__='para', _fkind=0, bold=0, fontName='Times-Roman', fontSize=10, greek=0, italic=0, link=[], rise=0, text='Opinion Filed.', textColor=Color(.117647,.160784,.231373,1), us_lines=[])])])\n) #TrackedParagraph,)"
+              }
+            ],
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e000",
+          "type": "picture",
+          "bbox": [
+            202.30986160680465,
+            292.30986160680465,
+            377.8703332398007,
+            467.8703332398007
+          ],
+          "text": "DRAFT",
+          "reading_order": 2,
+          "attributes": {
+            "role": "watermark",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e006",
+          "type": "section_header",
+          "bbox": [
+            83.78566697721301,
+            357.8301410428692,
+            526.4251023343754,
+            371.8301410428692
+          ],
+          "text": "OPINION OF THE COURT",
+          "reading_order": 3,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e007",
+          "type": "text",
+          "bbox": [
+            83.78566697721301,
+            377.8301410428692,
+            526.4251023343754,
+            457.8301410428692
+          ],
+          "text": "This appeal arises from an order of the District Court granting summary judgment in favor of the appellee. The appellant contends that the court erred in finding no genuine dispute of material fact regarding the contractual ambiguity. Upon review of the record and the relevant precedents, we find the appellant's arguments persuasive.",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e008",
+          "type": "text",
+          "bbox": [
+            83.78566697721301,
+            467.8301410428692,
+            526.4251023343754,
+            527.8301410428692
+          ],
+          "text": "Under the doctrine of promissory estoppel, a party may be bound by a promise if they should have reasonably expected the other party to rely on it, and the other party did in fact rely to their detriment. Here, the evidence shows that the appellee made explicit representations concerning the partnership agreement.",
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e009",
+          "type": "section_header",
+          "bbox": [
+            83.78566697721301,
+            541.8301410428692,
+            526.4251023343754,
+            555.8301410428692
+          ],
+          "text": "I. BACKGROUND",
+          "reading_order": 6,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e010",
+          "type": "text",
+          "bbox": [
+            83.78566697721301,
+            561.8301410428692,
+            526.4251023343754,
+            641.8301410428692
+          ],
+          "text": "We review a grant of summary judgment de novo, applying the same standard as the district court. Summary judgment is appropriate only if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law. We must view the facts in the light most favorable to the non-moving party.",
+          "reading_order": 7,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e011",
+          "type": "text",
+          "bbox": [
+            83.78566697721301,
+            651.8301410428692,
+            526.4251023343754,
+            711.8301410428692
+          ],
+          "text": null,
+          "reading_order": 8,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": true
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e004",
+          "type": "text",
+          "bbox": [
+            6,
+            684.0,
+            228,
+            782.0
+          ],
+          "text": "<b>SANDRA GREEN</b>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Appellant</i>,<br/><br/>v.<br/><br/><b>MARGARET CONNER</b>,<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Appellee</i>.",
+          "reading_order": 9,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e005",
+          "type": "text",
+          "bbox": [
+            240,
+            684.0,
+            462,
+            754.0
+          ],
+          "text": "<b>Docket No. 18-9177</b><br/><br/>Decided: 2001-06-24<br/><br/>Opinion Filed.",
+          "reading_order": 10,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p1_e001",
+          "type": "page_footer",
+          "bbox": [
+            236.2275,
+            749.8377672304363,
+            375.77250000000004,
+            756.5877672304363
+          ],
+          "text": "854 U.S. 942 (D.C. Cir. 1894) | Page 1",
+          "reading_order": 11,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "dimensions_pt": [
+        612.0,
+        792.0
+      ],
+      "dimensions_px": [
+        1275,
+        1650
+      ],
+      "image_path": "output/legal_opinion/images/legal_opinion_00002_p2.png",
+      "layout_elements": [
+        {
+          "element_id": "lo00002_p2_e002",
+          "type": "text",
+          "bbox": [
+            83.78566697721301,
+            183.83014104286917,
+            526.4251023343754,
+            203.83014104286917
+          ],
+          "text": null,
+          "reading_order": 0,
+          "attributes": {
+            "is_continued_from": "lo00002_p1_e011",
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p2_e003",
+          "type": "section_header",
+          "bbox": [
+            83.78566697721301,
+            217.83014104286917,
+            526.4251023343754,
+            231.83014104286917
+          ],
+          "text": "II. DISCUSSION",
+          "reading_order": 1,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p2_e004",
+          "type": "text",
+          "bbox": [
+            83.78566697721301,
+            237.83014104286917,
+            526.4251023343754,
+            297.8301410428692
+          ],
+          "text": "For the foregoing reasons, we conclude that the District Court erred in its application of state contract law. Genuine disputes of material fact remain concerning the intent of the parties. Accordingly, the judgment of the District Court is reversed, and the case is remanded for further proceedings consistent with this opinion.",
+          "reading_order": 2,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p2_e000",
+          "type": "picture",
+          "bbox": [
+            202.30986160680465,
+            292.30986160680465,
+            377.8703332398007,
+            467.8703332398007
+          ],
+          "text": "DRAFT",
+          "reading_order": 3,
+          "attributes": {
+            "role": "watermark",
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p2_e005",
+          "type": "footnote",
+          "bbox": [
+            83.78566697721301,
+            337.8301410428692,
+            526.4251023343754,
+            359.8301410428692
+          ],
+          "text": "<sup>1</sup> Under state law, a promise is binding if the promisor makes a clear representation and the promisee relies upon it to their detriment. See, e.g., Jonathan Hart v. Walker, Hunter and Eaton, 552 F.2d 565 (9th Cir. 1916).",
+          "reading_order": 4,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        },
+        {
+          "element_id": "lo00002_p2_e001",
+          "type": "page_footer",
+          "bbox": [
+            236.2275,
+            749.8377672304363,
+            375.77250000000004,
+            756.5877672304363
+          ],
+          "text": "854 U.S. 942 (D.C. Cir. 1894) | Page 2",
+          "reading_order": 5,
+          "attributes": {
+            "is_continued_from": null,
+            "is_continued_on_next_page": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+id,doc_type,download_url
+Scientific_001,conference_paper_double_column,https://raw.githubusercontent.com/allenai/papermage/main/tests/fixtures/2020.acl-main.447.pdf
+Scientific_002,conference_paper_double_column,https://raw.githubusercontent.com/allenai/papermage/main/tests/fixtures/2023.eacl-main.121.pdf
+Scientific_003,conference_paper_double_column,https://raw.githubusercontent.com/DS4SD/docling/main/tests/data/pdf/2206.01062.pdf
+Scientific_004,journal_paper_single_column,https://raw.githubusercontent.com/DS4SD/docling/main/tests/data/pdf/2203.01017v2.pdf
+Scientific_005,arxiv_preprint_single_column,https://raw.githubusercontent.com/allenai/papermage/main/tests/fixtures/1903.10676.pdf
+Scientific_006,research_paper,file:///C:/Users/user/Downloads/Researchpaper_KAI.pdf

@@ -1,0 +1,6 @@
+{
+  "name": "Obsidian Precision",
+  "description": "A high-density industrial analytics hub for multimodal document segmentation, table extraction, OCR deep scanning, and bounding box validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
