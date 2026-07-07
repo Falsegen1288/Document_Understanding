@@ -533,6 +533,37 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
     doc_output_dir = os.path.join(output_root, doc_stem)
     os.makedirs(doc_output_dir, exist_ok=True)
     
+    # A1-Lite Ingestion Manifest generation and duplicate check
+    from ingestion import generate_manifest, find_existing_manifest
+    manifest = generate_manifest(pdf_path)
+    content_hash = manifest["content_hash"]
+    doc_id = manifest["doc_id"]
+    
+    # Check if identical file (same content_hash) has already been processed
+    existing_doc_id, existing_manifest_path = find_existing_manifest(content_hash, output_root)
+    if existing_doc_id and os.path.exists(os.path.dirname(existing_manifest_path)):
+        print(f"\n[INGESTION] Document already ingested! content_hash: {content_hash} | doc_id: {existing_doc_id}")
+        print(f"[INGESTION] Skipping pipeline run for {pdf_path}")
+        return os.path.dirname(existing_manifest_path)
+        
+    # Check if same filename but different content_hash exists (edited/updated file)
+    manifest_filename = os.path.join(doc_output_dir, "manifest.json")
+    if os.path.exists(manifest_filename):
+        try:
+            with open(manifest_filename, "r", encoding="utf-8") as f:
+                old_manifest = json.load(f)
+            if old_manifest.get("content_hash") != content_hash:
+                print(f"\n[INGESTION] [IMPORTANT] Updated version of previously seen filename detected: {os.path.basename(pdf_path)}")
+                print(f"  Old doc_id: {old_manifest.get('doc_id')} | New doc_id: {doc_id}")
+        except Exception:
+            pass
+            
+    # Save the manifest to outputs/{doc_stem}/manifest.json
+    with open(manifest_filename, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+    print(f"  [INGESTION] Generated manifest for {os.path.basename(pdf_path)} -> doc_id: {doc_id}")
+
+    
     print("\n" + "=" * 60)
     print(f" PIPELINE EXECUTION FOR: {doc_stem}")
     print(f" Source PDF: {pdf_path}")
@@ -607,7 +638,58 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
             ]
             detected_elements.append(r)
             
+    # Step 1: Deduplicate overlapping elements
+    print(f"\n[DEDUPLICATION] Running element deduplication...")
+    before_count = len(detected_elements)
+    
+    def compute_iou(box1, box2):
+        x_left = max(box1[0], box2[0])
+        y_top = max(box1[1], box2[1])
+        x_right = min(box1[2], box2[2])
+        y_bottom = min(box1[3], box2[3])
+        if x_right < x_left or y_bottom < y_top:
+            return 0.0
+        intersection_area = (x_right - x_left) * (y_bottom - y_top)
+        area1 = (box1[2] - box1[0]) * (box1[3] - box1[1])
+        area2 = (box2[2] - box2[0]) * (box2[3] - box2[1])
+        union_area = area1 + area2 - intersection_area
+        if union_area == 0:
+            return 0.0
+        return intersection_area / union_area
+
+    by_page = {}
+    for el in detected_elements:
+        by_page.setdefault(el["page"], []).append(el)
+        
+    deduped_elements = []
+    for page_no, page_els in by_page.items():
+        dropped_indices = set()
+        for i in range(len(page_els)):
+            if i in dropped_indices:
+                continue
+            for j in range(i + 1, len(page_els)):
+                if j in dropped_indices:
+                    continue
+                box1 = page_els[i]["bbox"]
+                box2 = page_els[j]["bbox"]
+                identical = (box1 == box2)
+                iou = compute_iou(box1, box2)
+                if identical or iou > 0.85:
+                    conf1 = page_els[i].get("confidence", 0.0)
+                    conf2 = page_els[j].get("confidence", 0.0)
+                    if conf1 >= conf2:
+                        dropped_indices.add(j)
+                    else:
+                        dropped_indices.add(i)
+                        break
+        for idx, el in enumerate(page_els):
+            if idx not in dropped_indices:
+                deduped_elements.append(el)
+    detected_elements = deduped_elements
+    after_count = len(detected_elements)
+    print(f"  [DEDUPLICATION] Before: {before_count} | After: {after_count} | Removed: {before_count - after_count} elements.")
     print(f"  [OK] Bounding box segmentation detected {len(detected_elements)} elements using {layout_engine}.")
+
 
 
     # 3. Table Extraction
@@ -669,6 +751,13 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
                 bbox[3] * (img_h / pdf_h)
             ]
             cropped_img = page_img.crop(crop_box)
+            fig_crop_filename = f"page_{page_no}_figure_{int(bbox[0])}_{int(bbox[1])}.png"
+            fig_crop_path = os.path.join(doc_output_dir, fig_crop_filename)
+            try:
+                cropped_img.save(fig_crop_path)
+            except Exception as fig_err:
+                print(f"    [WARNING] Figure crop saving failed: {fig_err}")
+
             
             # Context pre-extraction for the current page
             _pre_extract_page_text(page_no, detected_elements, doc, pdf_path, cfg, has_digital_text, page_images)
@@ -739,8 +828,10 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
                 "similarity_score": round(sim_score, 3),
                 "domain": domain,
                 "heading": heading,
-                "table_crop_path": table_crop_path
+                "table_crop_path": table_crop_path,
+                "image_path": fig_crop_path
             })
+
             # Cache visual caption as element content
             element["content"] = desc_text
             
@@ -803,10 +894,251 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
         element["content"] = content
         final_elements.append(element)
 
+    # 5.5 Post-processing and Mapping (Steps 2, 3, 4, 5)
+    print("\n[POST-PROCESSING] Cleaning text, assigning IDs, mapping types and tables/figures...")
+    import re
+    # Load manifest info to get collision-safe doc_id
+    manifest_filename = os.path.join(doc_output_dir, "manifest.json")
+    with open(manifest_filename, "r", encoding="utf-8") as f:
+        manifest = json.load(f)
+    doc_id = manifest["doc_id"]
+
+    
+    def get_bbox_overlap(box1, box2):
+        x_left = max(box1[0], box2[0])
+        y_top = max(box1[1], box2[1])
+        x_right = min(box1[2], box2[2])
+        y_bottom = min(box1[3], box2[3])
+        if x_right < x_left or y_bottom < y_top:
+            return 0.0
+        intersection_area = (x_right - x_left) * (y_bottom - y_top)
+        area1 = (box1[2] - box1[0]) * (box1[3] - box1[1])
+        area2 = (box2[2] - box2[0]) * (box2[3] - box2[1])
+        union_area = area1 + area2 - intersection_area
+        if union_area == 0:
+            return 0.0
+        return intersection_area / union_area
+
+    def map_element_type(act_type, content):
+        mapping = {
+            "title": "title",
+            "plain text": "paragraph",
+            "figure": "figure",
+            "figure_caption": "paragraph",
+            "table": "table",
+            "table_caption": "paragraph",
+            "table_footnote": "paragraph",
+            "isolate_formula": "formula",
+            "formula_caption": "paragraph",
+            "abandon": "boilerplate"
+        }
+        mapped = mapping.get(act_type, "paragraph")
+        
+        # Heuristic to detect headings/appendix titles in captions/text
+        if mapped != "title" and content:
+            cleaned_text = content.strip()
+            is_section_header = False
+            # E.g. "E\nTraining corpus", "E Training corpus"
+            if re.match(r'^[A-Z]\s*\n?\s+[a-zA-Z]', cleaned_text):
+                is_section_header = True
+            elif re.match(r'^Appendix\s+[A-Z]', cleaned_text):
+                is_section_header = True
+            
+            if is_section_header:
+                return "title"
+                
+        return mapped
+
+    def get_heading_level_and_clean_text(text, last_level):
+        t_clean = text.strip()
+        match = re.match(r'^([0-9a-zA-Z]+(?:\.[0-9a-zA-Z]+)*)\s+(.*)', t_clean)
+        if match:
+            prefix, rest = match.groups()
+            parts = prefix.split('.')
+            parts = [p for p in parts if p.strip()]
+            is_prefix = False
+            if len(parts) > 1:
+                is_prefix = True
+            elif len(parts) == 1:
+                p = parts[0]
+                if p.isdigit() or (p.isupper() and len(p) <= 3):
+                    is_prefix = True
+            if is_prefix:
+                return len(parts), prefix, rest.strip()
+        return last_level, "", t_clean
+
+    def sort_page_reading_order(page_elements):
+        # Sort page elements by y0 first to get initial top-to-bottom order
+        sorted_by_y0 = sorted(page_elements, key=lambda el: el["bbox"][1])
+        
+        slices = []
+        current_slice = []
+        for el in sorted_by_y0:
+            x0, y0, x1, y1 = el["bbox"]
+            is_full_width = (x0 < 240 and x1 > 350)
+            if is_full_width:
+                if current_slice:
+                    slices.append((False, current_slice))
+                    current_slice = []
+                slices.append((True, [el]))
+            else:
+                current_slice.append(el)
+        if current_slice:
+            slices.append((False, current_slice))
+            
+        final_order = []
+        for is_full, slice_els in slices:
+            if is_full:
+                final_order.extend(slice_els)
+            else:
+                left_col = []
+                right_col = []
+                for el in slice_els:
+                    cx = (el["bbox"][0] + el["bbox"][2]) / 2
+                    if cx < 295:
+                        left_col.append(el)
+                    else:
+                        right_col.append(el)
+                left_col = sorted(left_col, key=lambda e: e["bbox"][1])
+                right_col = sorted(right_col, key=lambda e: e["bbox"][1])
+                final_order.extend(left_col)
+                final_order.extend(right_col)
+        return final_order
+
+    # Step 4: Hyphenation OCR artifact cleanup on all contents
+    for el in final_elements:
+        if "content" in el and el["content"]:
+            el["content"] = re.sub(r'(\w+)-\s+(\w+)', r'\1\2', el["content"])
+
+    # Remap table_markdown
+    for el in final_elements:
+        if el["type"] == "table":
+            val = ""
+            if "extracted" in el and isinstance(el["extracted"], dict):
+                val = el["extracted"].get("markdown", "") or ""
+            if not val.strip():
+                val = "| Table |\n| --- |\n| (No tabular data extracted) |"
+            el["table_markdown"] = val
+            if el["table_markdown"]:
+                el["table_markdown"] = re.sub(r'(\w+)-\s+(\w+)', r'\1\2', el["table_markdown"])
+
+    # Remap figure image_caption and image_path
+    for el in final_elements:
+        if el["type"] == "figure":
+            best_caption = ""
+            best_img_path = ""
+            for fig in extracted_figures:
+                if fig["page"] == el["page"]:
+                    overlap = get_bbox_overlap(el["bbox"], fig["bbox"])
+                    if overlap > 0.1:
+                        best_caption = fig["caption"] or ""
+                        best_img_path = fig.get("image_path", "") or ""
+                        break
+            if not best_caption.strip():
+                best_caption = "Visual representation from the document."
+            if not best_img_path or not os.path.exists(best_img_path):
+                # Fallback to page image frame
+                page_img_path = page_images[el["page"] - 1]
+                best_img_path = page_img_path
+            el["image_caption"] = best_caption
+            el["image_path"] = best_img_path
+
+    # Assign reading_order per page (column-aware)
+    elements_by_page = {}
+    for el in final_elements:
+        elements_by_page.setdefault(el["page"], []).append(el)
+        
+    sorted_final_elements = []
+    for page_no in sorted(elements_by_page.keys()):
+        page_els = elements_by_page[page_no]
+        sorted_page_els = sort_page_reading_order(page_els)
+        for r_idx, el in enumerate(sorted_page_els):
+            el["reading_order"] = r_idx
+        sorted_final_elements.extend(sorted_page_els)
+    final_elements = sorted_final_elements
+
+    # Assign element_id, page_number, element_type, and text
+    for idx, el in enumerate(final_elements):
+        el["element_id"] = f"{doc_id}_{idx:04d}"
+        el["page_number"] = el["page"]
+        el["element_type"] = map_element_type(el["type"], el.get("content"))
+        
+        # Populate text
+        if el["element_type"] in ["title", "paragraph", "header", "footer", "list_item", "formula"]:
+            el["text"] = el.get("content", "")
+        else:
+            el["text"] = None
+
+        # Step 2: Normalize whitespace (replace \n and repeated spaces with a single space) in title text
+        if el["element_type"] == "title":
+            if el["text"]:
+                el["text"] = re.sub(r'\s+', ' ', el["text"]).strip()
+            if el["content"]:
+                el["content"] = re.sub(r'\s+', ' ', el["content"]).strip()
+
+    # Step 5: Construct section_path hierarchy state machine
+    stack = []
+    last_level = 1
+    for el in final_elements:
+        if el["element_type"] == "title":
+            text = el.get("text", "") or ""
+            level, prefix, clean_text = get_heading_level_and_clean_text(text, last_level)
+            while len(stack) >= level:
+                stack.pop()
+            stack.append(text)
+            el["section_path"] = list(stack)
+            last_level = level
+        else:
+            el["section_path"] = list(stack)
+
+    # Ensure all elements have the exact same set of 15 keys for schema consistency (Check 10)
+    all_keys = [
+        "type", "bbox", "confidence", "page", "content", "extracted",
+        "table_markdown", "image_caption", "image_path", "reading_order",
+        "element_id", "page_number", "element_type", "text", "section_path"
+    ]
+    for el in final_elements:
+        # Clean replacement characters in string fields
+        if "content" in el and isinstance(el["content"], str):
+            el["content"] = el["content"].replace("\ufffd", "")
+        if "text" in el and isinstance(el["text"], str):
+            el["text"] = el["text"].replace("\ufffd", "")
+        if "table_markdown" in el and isinstance(el["table_markdown"], str):
+            el["table_markdown"] = el["table_markdown"].replace("\ufffd", "")
+        if "image_caption" in el and isinstance(el["image_caption"], str):
+            el["image_caption"] = el["image_caption"].replace("\ufffd", "")
+            
+        for k in all_keys:
+            if k not in el:
+                el[k] = None
+
+    # Print section_path for Scientific_001 titles as sanity check
+    if doc_id == "Scientific_001":
+        print("\n===== SANITY CHECK: Section Paths for Scientific_001 titles =====")
+        for el in final_elements:
+            if el["element_type"] == "title":
+                print(f"  Title: '{el.get('text', '').strip()}' -> Path: {el.get('section_path')}")
+        print("=================================================================\n")
+
+
+
     # 6. Save Outputs
     print("\n[STEP 6] Packaging structured JSON & annotated PDF...")
     
+    # Filter boilerplate elements out of main elements list into discarded_elements
+    filtered_elements = [el for el in final_elements if el["element_type"] != "boilerplate"]
+    discarded_elements = [el for el in final_elements if el["element_type"] == "boilerplate"]
+    print(f"  [Boilerplate Filter] Document {doc_id} elements before: {len(final_elements)}")
+    print(f"  [Boilerplate Filter] Elements kept: {len(filtered_elements)} | Discarded: {len(discarded_elements)}")
+
     document_json = {
+        "doc_id": doc_id,
+        "content_hash": manifest["content_hash"],
+        "source_filename": manifest["source_filename"],
+        "source_path": manifest["source_path"],
+        "access_tags": manifest["access_tags"],
+        "ingested_at": manifest["ingested_at"],
+        "file_modified_at": manifest["file_modified_at"],
         "metadata": {
             "filename": os.path.basename(pdf_path),
             "page_count": page_count,
@@ -814,7 +1146,11 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
             "scanned": not has_digital_text,
             "elapsed_seconds": round(time.time() - start_time, 2)
         },
-        "elements": final_elements,
+        "elements": filtered_elements,
+        "discarded_elements": discarded_elements,
+
+
+
         "tables": [{
             "table_index": t["table_index"],
             "page": t["page"],
