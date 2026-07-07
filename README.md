@@ -30,13 +30,28 @@ To build a hallucination-free **Multimodal Document Q&A / RAG system**, we canno
 This repository represents **Stage 1 (Layout-Aware Ingestion & Grounding Foundation)** of our end-to-end Multimodal Document Q&A Roadmap:
 
 ```mermaid
-graph TD
-    classDef active fill:#e91e63,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef future fill:#3f51b5,stroke:#fff,stroke-width:1px,color:#fff;
+flowchart TD
+    A1["A1 · Ingestion<br/>Manifest, doc_id, content-hash,<br/>access tags (RBAC/ABAC)"]
+    A2["A2 · Layout Extraction<br/>Bbox detection, NMS dedup,<br/>column-aware reading order"]
+    A3["A3 · Enrichment<br/>Table markdown + image path/caption,<br/>boilerplate separated out"]
+    A4["A4 · Chunking<br/>Structure-aware + contextual retrieval<br/>+ hierarchical for tables/figures"]
+    A5["A5 · Embedding<br/>BGE-M3 (dense+sparse) for text/tables<br/>+ multimodal (Qwen3-VL) for images"]
+    A6["A6 · Metadata Tagging<br/>Access control tags,<br/>doc type/date/department"]
+    A7["A7 · Storage<br/>Vector DB (Weaviate/pgvector)<br/>+ hybrid search via RRF fusion"]
+    A8["A8 · GT QA + Evaluation<br/>RAGAS (iteration) + DeepEval (CI gate)<br/>+ TruLens (monitoring)"]
+    B["Phase B ·<br/>Online Query Pipeline"]
 
-    S1["Stage 1: Document Ingest & Grounding (Current Repository)"]:::active --> S2["Stage 2: Multiverse Chunking, Embedding & Storage Evaluation"]:::future
-    S2 --> S3["Stage 3: Hybrid Vector & Knowledge Graph Indexing"]:::future
-    S3 --> S4["Stage 4: Multimodal Agentic RAG & Q&A"]:::future
+    A1 --> A2 --> A3 --> A4 --> A5 --> A6 --> A7 --> A8 --> B
+
+    classDef ingest fill:#E1F5EE,stroke:#0F6E56,color:#04342C
+    classDef embed fill:#EEEDFE,stroke:#534AB7,color:#26215C
+    classDef eval fill:#FAECE7,stroke:#993C1D,color:#4A1B0C
+    classDef next fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+
+    class A1,A2,A3,A4 ingest
+    class A5,A6,A7 embed
+    class A8 eval
+    class B next
 ```
 
 1. **Stage 1: Document Ingest & Grounding (Active)**: Ingests PDFs, extracts bounding boxes, routes scanned regions to OCR, recovers tables, runs 2D visual grounding, and packages structured JSON.
