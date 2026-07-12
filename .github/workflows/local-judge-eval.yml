@@ -1,0 +1,65 @@
+name: Local Judge RAG Eval
+
+on:
+  push:
+    paths:
+      - "run_chunking_eval.py"
+      - "local_judge_pipeline.py"
+  workflow_dispatch: {}
+
+jobs:
+  evaluate:
+    runs-on: self-hosted   # must have GPU + vLLM/Ollama installed
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: .venv_stable\Scripts\pip install -r requirements.txt
+        shell: powershell
+
+      - name: Start local judge server
+        run: |
+          Start-Process -NoNewWindow -FilePath "ollama" `
+            -ArgumentList "serve" `
+            -RedirectStandardOutput "judge_server.log" -RedirectStandardError "judge_server_err.log"
+        shell: powershell
+
+      - name: Wait for health check
+        run: |
+          $ready = $false
+          for ($i = 0; $i -lt 30; $i++) {
+            try {
+              Invoke-RestMethod -Uri "http://localhost:11434/v1/models" -Method GET | Out-Null
+              $ready = $true
+              break
+            } catch {
+              Start-Sleep -Seconds 10
+            }
+          }
+          if (-not $ready) { throw "Judge server failed health check after 5 minutes" }
+        shell: powershell
+
+      - name: Validation run (3 questions)
+        run: |
+          $env:LOCAL_JUDGE_BASE_URL="http://localhost:11434/v1"
+          $env:LOCAL_JUDGE_MODEL="qwen2.5:3b"
+          .venv_stable\Scripts\python run_chunking_eval.py --strategy naive_baseline --limit 3
+        shell: powershell
+
+      - name: Full evaluation run
+        run: |
+          $env:LOCAL_JUDGE_BASE_URL="http://localhost:11434/v1"
+          $env:LOCAL_JUDGE_MODEL="qwen2.5:3b"
+          .venv_stable\Scripts\python run_chunking_eval.py --strategy all
+        shell: powershell
+
+      - name: Upload logs and results as artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-run-${{ github.run_id }}
+          path: |
+            judge_server.log
+            judge_server_err.log
+            outputs/
