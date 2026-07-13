@@ -442,6 +442,9 @@ async def run_evaluation(strategy: str, qa_pairs: list[dict], bge_model):
             {"role": "user", "content": f"Context:\n{context_str}\n\nQuestion:\n{question}\n\nAnswer:"}
         ]
         
+        prompt_str = json.dumps(gen_messages, sort_keys=True)
+        was_cached = get_gen_cache(prompt_str) is not None
+        
         logger.info(f"[{i}/{len(qa_pairs)}] Generating answer for {q_id} with {GENERATOR_MODEL}...")
         generated_answer = await call_groq_with_retry_async(model=GENERATOR_MODEL, messages=gen_messages, temperature=0.0)
         logger.info(f"[{i}/{len(qa_pairs)}] Generated answer for {q_id}: {generated_answer[:100]}...")
@@ -497,7 +500,9 @@ async def run_evaluation(strategy: str, qa_pairs: list[dict], bge_model):
         )))
         
         # Respect Groq token rate limit by sleeping exactly 9.0 seconds after launching the task
-        await asyncio.sleep(9.0)
+        # only if we actually queried the API (i.e. not cached).
+        if not was_cached:
+            await asyncio.sleep(9.0)
         
     # Await all background judge tasks
     await asyncio.gather(*judge_tasks)
