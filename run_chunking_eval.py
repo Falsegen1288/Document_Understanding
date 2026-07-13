@@ -454,10 +454,24 @@ async def run_evaluation(strategy: str, qa_pairs: list[dict], bge_model):
         relevant_chunks = chunks_by_doc[stem]
         retrieved = retrieve_hybrid_rrf(question, relevant_chunks, bge_model, top_k=10)
         
-        # Dynamically limit retrieved chunks if context exceeds 14,000 chars (~3,500 tokens)
+        # Dynamically limit retrieved chunks using tiktoken to stay strictly under 4,800 tokens total
         # to guarantee we remain under the 6,000 TPM Groq limit
         retrieved_texts = [c["text"] for c in retrieved]
-        while len(retrieved_texts) > 1 and sum(len(t) for t in retrieved_texts) > 14000:
+        import tiktoken
+        try:
+            encoding = tiktoken.get_encoding("cl100k_base")
+        except Exception:
+            encoding = None
+            
+        def get_total_tokens(texts):
+            context_str_temp = "\n\n".join(texts)
+            # System prompt + template + question is roughly 150 tokens
+            if encoding:
+                return len(encoding.encode(context_str_temp)) + len(encoding.encode(question)) + 150
+            else:
+                return (len(context_str_temp) + len(question)) // 3 + 150
+
+        while len(retrieved_texts) > 1 and get_total_tokens(retrieved_texts) > 4800:
             retrieved_texts.pop()
             retrieved.pop()
             
