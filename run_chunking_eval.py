@@ -269,12 +269,28 @@ def embed_and_build_indices(chunks: list[dict], bge_model) -> list[dict]:
             logger.warning(f"Failed to load cached embeddings: {e}")
 
     texts = [c["text"] for c in chunks]
-    logger.info(f"Encoding {len(chunks)} chunks with BGE-M3...")
+    logger.info(f"Encoding {len(chunks)} chunks with length-sorted BGE-M3 (max_length=512)...")
     
-    # Run encoding in batch
-    encoded = bge_model.encode(texts, return_dense=True, return_sparse=True)
-    dense_vecs = encoded["dense_vecs"]
-    sparse_weights = encoded["lexical_weights"]
+    # Sort texts by length to minimize padding overhead in batches
+    indexed_texts = sorted(enumerate(texts), key=lambda x: len(x[1]))
+    sorted_texts = [x[1] for x in indexed_texts]
+    
+    # Run encoding in batch with max_length=512 to prevent quadratic CPU attention scaling
+    encoded = bge_model.encode(
+        sorted_texts, 
+        batch_size=16, 
+        max_length=512, 
+        return_dense=True, 
+        return_sparse=True
+    )
+    
+    # Restore original order
+    dense_vecs = [None] * len(texts)
+    sparse_weights = [None] * len(texts)
+    
+    for sorted_idx, (orig_idx, _) in enumerate(indexed_texts):
+        dense_vecs[orig_idx] = encoded["dense_vecs"][sorted_idx]
+        sparse_weights[orig_idx] = encoded["lexical_weights"][sorted_idx]
     
     enriched_chunks = []
     for i, chunk in enumerate(chunks):
@@ -292,7 +308,7 @@ def embed_and_build_indices(chunks: list[dict], bge_model) -> list[dict]:
 
 def retrieve_hybrid_rrf(query: str, chunks: list[dict], bge_model, top_k=10, rrf_k=60) -> list[dict]:
     """Perform hybrid retrieval using RRF over dense and sparse representations."""
-    q_encoded = bge_model.encode([query], return_dense=True, return_sparse=True)
+    q_encoded = bge_model.encode([query], batch_size=1, max_length=512, return_dense=True, return_sparse=True)
     q_dense = q_encoded["dense_vecs"][0]
     q_sparse = q_encoded["lexical_weights"][0]
     
