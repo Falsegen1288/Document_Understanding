@@ -110,7 +110,7 @@ def set_gen_cache(prompt: str, response: str):
     except Exception as e:
         logger.warning(f"Failed to write to generator cache: {e}")
 
-def call_groq_with_retry(model, messages, temperature=0.0, max_retries=7, **kwargs):
+def call_groq_with_retry(model, messages, temperature=0.0, max_retries=15, **kwargs):
     prompt_str = json.dumps(messages, sort_keys=True)
     cached = get_gen_cache(prompt_str)
     if cached is not None:
@@ -133,7 +133,7 @@ def call_groq_with_retry(model, messages, temperature=0.0, max_retries=7, **kwar
         except Exception as e:
             err_str = str(e).lower()
             if "rate limit" in err_str or "429" in err_str or "tp_limit" in err_str:
-                sleep_time = 15.0
+                sleep_time = 45.0
                 match = re.search(r"please try again in ([\d\.]+)s", err_str)
                 if match:
                     sleep_time = float(match.group(1)) + 1.5
@@ -144,7 +144,7 @@ def call_groq_with_retry(model, messages, temperature=0.0, max_retries=7, **kwar
                 raise e
     raise RuntimeError("Failed to call Groq after maximum retries due to rate limiting.")
 
-async def call_groq_with_retry_async(model, messages, temperature=0.0, max_retries=7, **kwargs):
+async def call_groq_with_retry_async(model, messages, temperature=0.0, max_retries=15, **kwargs):
     prompt_str = json.dumps(messages, sort_keys=True)
     cached = get_gen_cache(prompt_str)
     if cached is not None:
@@ -166,7 +166,7 @@ async def call_groq_with_retry_async(model, messages, temperature=0.0, max_retri
         except Exception as e:
             err_str = str(e).lower()
             if "rate limit" in err_str or "429" in err_str or "tp_limit" in err_str:
-                sleep_time = 15.0
+                sleep_time = 45.0
                 match = re.search(r"please try again in ([\d\.]+)s", err_str)
                 if match:
                     sleep_time = float(match.group(1)) + 1.5
