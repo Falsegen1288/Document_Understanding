@@ -351,6 +351,17 @@ def retrieve_hybrid_rrf(query: str, chunks: list[dict], bge_model, top_k=10, rrf
 # Main Evaluation Harness
 # ---------------------------------------------------------------------------
 async def run_evaluation(strategy: str, qa_pairs: list[dict], bge_model):
+    output_path = Path(f"outputs/evaluation_results_{strategy}.json")
+    if output_path.exists():
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                existing_results = json.load(f)
+            if len(existing_results) == len(qa_pairs):
+                logger.info(f"Strategy {strategy} already evaluated with {len(existing_results)} questions. Loading from disk.")
+                return compute_averages(existing_results)
+        except Exception as e:
+            logger.warning(f"Failed to load existing results for {strategy}: {e}")
+
     logger.info(f"==================================================")
     logger.info(f"Starting Evaluation for Strategy: {strategy}")
     logger.info(f"==================================================")
