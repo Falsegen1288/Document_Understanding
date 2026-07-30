@@ -173,7 +173,25 @@ All models evaluated in this suite are open-source (or open-weights), allowing f
 | **qwen/qwen3.6-27b** | 3 | [GitHub](https://github.com/QwenLM/Qwen) | Groq API | 0.0133 | 0.0759 | 0.7197 | 0.3019 | 5.20s | N/A (Cloud) |
 | **moondream:latest** | 4 | [GitHub](https://github.com/vikhyat/moondream) | Local VLM | 0.0195 | 0.1895 | 0.5547 | 0.0278 | 14.88s | **2143 MB** |
 
-### 5. Chunking & Embedding Retrieval Benchmark Scorecard
+### 5. Chunking Strategy Benchmark Scorecard
+*Evaluated across 5 document chunking strategies on 37 Ground-Truth Document Questions (factual text, figure description, table lookup):*
+
+| Strategy | Usability Rank | Recall@K | MRR (Mean Reciprocal Rank) | Factual Text Recall | Figure Description Recall | Table Lookup Recall | Downstream LLM Accuracy |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **`section_hierarchical`** | **1** | **0.8378** (83.78%) | 0.7085 | 0.6667 | **1.0000** (100%) | **1.0000** (100%) | **100.0%** (30/30) |
+| **`element_atomic`** | **2** | 0.8108 (81.08%) | **0.7275** | **0.6667** | **1.0000** (100%) | 0.8000 (80%) | **100.0%** (29/29) |
+| **`hybrid_semantic`** | **3** | 0.7838 (78.38%) | 0.6717 | 0.5556 | **1.0000** (100%) | **1.0000** (100%) | 100.0% |
+| **`geometric_grounding`** | **4** | 0.7297 (72.97%) | 0.5852 | 0.5556 | 0.9286 (92.9%) | 0.8000 (80%) | — |
+| **`naive_baseline`** | **5** | 0.6486 (64.86%) | 0.5492 | 0.5556 | 0.8571 (85.7%) | 0.4000 (40%) | 95.24% (20/21) |
+
+#### Core Takeaways from Chunking Benchmarks:
+1. **`section_hierarchical` Leads Overall Recall (83.78%)**: Preserving heading section paths (`section_path`) prevents cross-section context dilution and yields **100% recall on both figure descriptions and table lookups**.
+2. **`element_atomic` Achieves Top MRR (0.7275)**: Treating individual layout-detected bounding box elements as atomic chunks maximizes retrieval precision and ranks target contexts higher.
+3. **Naive Chunking Collapses on Tables (40% Recall)**: Arbitrary character/word splitting breaks borderless table structures, whereas structure-aware chunking doubles table retrieval accuracy.
+
+---
+
+### 6. Embedding Model & Retrieval Strategy Scorecard
 *Evaluated across 54 ground-truth Q&A pairs using 4-stage Reciprocal Rank Fusion ($k=60$) and downstream Ragas/DeepEval faithfulness scoring (`qwen3-32b` judge):*
 
 | Rank | Model | Strategy | Representation Type | Spec Hit Rate@5 | Overall Hit Rate@5 | Downstream Faithfulness |
@@ -187,7 +205,7 @@ All models evaluated in this suite are open-source (or open-weights), allowing f
 | **7** | **bge-m3** | **3-way hybrid** | Dense + Sparse + ColBERT | 0.50 | 0.166 | 0.090 |
 | **8** | **granite-vision-embedding** | **text_only** | Vision-Language (Text Only) | 0.50 | 0.363 | 0.000 |
 
-#### Core Takeaways from Chunking & Embedding Benchmarks:
+#### Core Takeaways from Embedding & Retrieval Benchmarks:
 1. **Part-Number Preservation**: Subword tokenizers fragment alphanumeric codes (e.g. `352952`). A custom regex tokenizer preserving full part-number strings hits **100% Spec Hit Rate@5**.
 2. **Faithfulness Gain from Lexical Precision**: Downstream LLM faithfulness jumps from `0.090` (dense-only) to `0.454` (Qwen3-8B + BM25 hybrid) by preventing LLM spec hallucinations.
 3. **RRF Hybrid Resilience**: Fusing dense semantic representations with BM25 lexical matches ($k=60$) provides superior coverage across mixed technical queries.
