@@ -1,0 +1,125 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 4,
+  "boundary_candidates": [
+    {
+      "element_idx": 49,
+      "type": "title",
+      "content_preview": "2.6\nLinking bibliographies to papers",
+      "source": "title"
+    },
+    {
+      "element_idx": 51,
+      "type": "title",
+      "content_preview": "2.4\nAssembling the corpus",
+      "source": "title"
+    },
+    {
+      "element_idx": 56,
+      "type": "title",
+      "content_preview": "2.5\nFiltering paper clusters",
+      "source": "title"
+    },
+    {
+      "element_idx": 63,
+      "type": "title",
+      "content_preview": "3\nThe S2ORC dataset",
+      "source": "title"
+    },
+    {
+      "element_idx": 44,
+      "type": "plain text",
+      "content_preview": "canonical metadata values. We break ties by min-\nimizing the total number of sou",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 46,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 47,
+      "type": "plain text",
+      "content_preview": "In cases where the title and authors are not pro-\nvided by any publishers, we de",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 48,
+      "type": "table_caption",
+      "content_preview": "Table 2: Post-processing data quality ﬁlters for papers",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 53,
+      "type": "isolate_formula",
+      "content_preview": "Stitle = 2 × J × C\nJ + C",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 54,
+      "type": "formula_caption",
+      "content_preview": "(1)",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 55,
+      "type": "plain text",
+      "content_preview": "where the Jaccard index J and containment metric\nC are computed from the n-grams",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 57,
+      "type": "isolate_formula",
+      "content_preview": "J = |N1 ∩N2|\n|N1 ∪N2|\nC =\n|N1 ∩N2|\nmin (|N1|, |N2|)",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 58,
+      "type": "isolate_formula",
+      "content_preview": "J = |N1 ∩N2|\n|N1 ∪N2|",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 59,
+      "type": "plain text",
+      "content_preview": "We further ﬁlter paper clusters to remove papers\nwith (i) no title, (ii) no auth",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 60,
+      "type": "isolate_formula",
+      "content_preview": "C =\n|N1 ∩N2|\nmin (|N1|, |N2|)",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 61,
+      "type": "plain text",
+      "content_preview": "For each bibliography entry, the bibliography-\npaper pair with the highest simil",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 46,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 48,
+          "gap": 8.9,
+          "content_preview": "Table 2: Post-processing data quality ﬁlters for papers"
+        },
+        {
+          "element_idx": 45,
+          "gap": 10.9,
+          "content_preview": "do not provide signiﬁcant value to our dataset in\ntheir current state. Although "
+        },
+        {
+          "element_idx": 47,
+          "gap": 29.6,
+          "content_preview": "In cases where the title and authors are not pro-\nvided by any publishers, we de"
+        }
+      ]
+    }
+  ]
+}

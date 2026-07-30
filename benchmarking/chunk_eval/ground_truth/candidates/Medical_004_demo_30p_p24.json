@@ -1,0 +1,137 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 24,
+  "boundary_candidates": [
+    {
+      "element_idx": 257,
+      "type": "title",
+      "content_preview": "KNIFE HANDLES\nSpecialty",
+      "source": "title"
+    },
+    {
+      "element_idx": 259,
+      "type": "title",
+      "content_preview": "GOULIAN DEPTH GAUGE AND GUARDS",
+      "source": "title"
+    },
+    {
+      "element_idx": 263,
+      "type": "title",
+      "content_preview": "WECPREP BLADES",
+      "source": "title"
+    },
+    {
+      "element_idx": 267,
+      "type": "title",
+      "content_preview": "HOLINGER LARYNGEAL KNIFE HANDLE",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 261,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 260,
+          "gap": 5.7,
+          "content_preview": "2-3/8\" (6 cm)."
+        },
+        {
+          "element_idx": 259,
+          "gap": 27.3,
+          "content_preview": "GOULIAN DEPTH GAUGE AND GUARDS"
+        },
+        {
+          "element_idx": 264,
+          "gap": 51.1,
+          "content_preview": "Single edge carbon steel blade. Use with 050200 \nand 050230."
+        }
+      ]
+    },
+    {
+      "anchor_idx": 262,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 259,
+          "gap": 27.7,
+          "content_preview": "GOULIAN DEPTH GAUGE AND GUARDS"
+        },
+        {
+          "element_idx": 257,
+          "gap": 79.4,
+          "content_preview": "KNIFE HANDLES\nSpecialty"
+        },
+        {
+          "element_idx": 260,
+          "gap": 80.4,
+          "content_preview": "2-3/8\" (6 cm)."
+        }
+      ]
+    },
+    {
+      "anchor_idx": 265,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 263,
+          "gap": 20.4,
+          "content_preview": "WECPREP BLADES"
+        },
+        {
+          "element_idx": 264,
+          "gap": 51.9,
+          "content_preview": "Single edge carbon steel blade. Use with 050200 \nand 050230."
+        },
+        {
+          "element_idx": 258,
+          "gap": 65.2,
+          "content_preview": "24"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 266,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 264,
+          "gap": 6.3,
+          "content_preview": "Single edge carbon steel blade. Use with 050200 \nand 050230."
+        },
+        {
+          "element_idx": 267,
+          "gap": 120.7,
+          "content_preview": "HOLINGER LARYNGEAL KNIFE HANDLE"
+        },
+        {
+          "element_idx": 263,
+          "gap": 126.2,
+          "content_preview": "WECPREP BLADES"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 269,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 268,
+          "gap": 5.2,
+          "content_preview": "For use with surgical blades no. 10, 11, 12 and 15."
+        },
+        {
+          "element_idx": 267,
+          "gap": 26.9,
+          "content_preview": "HOLINGER LARYNGEAL KNIFE HANDLE"
+        },
+        {
+          "element_idx": 271,
+          "gap": 152.1,
+          "content_preview": "|"
+        }
+      ]
+    }
+  ]
+}

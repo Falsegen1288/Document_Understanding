@@ -1,0 +1,110 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 28,
+  "boundary_candidates": [
+    {
+      "element_idx": 328,
+      "type": "title",
+      "content_preview": "FORCEPS AND CLAMPS\nTubing Clamps",
+      "source": "title"
+    },
+    {
+      "element_idx": 331,
+      "type": "title",
+      "content_preview": "VORSE TUBING OCCLUDING CLAMPS",
+      "source": "title"
+    },
+    {
+      "element_idx": 335,
+      "type": "title",
+      "content_preview": "VORSE TUBING OCCLUDING CLAMPS WITH SAFETY GUARD",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 333,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 332,
+          "gap": 9.5,
+          "content_preview": "Heavy construction with jaws designed for positive \nocclusion of Silastic®, Tygo"
+        },
+        {
+          "element_idx": 330,
+          "gap": 10.3,
+          "content_preview": "VORSE TUBING OCCLUDING CLAMPS"
+        },
+        {
+          "element_idx": 331,
+          "gap": 10.3,
+          "content_preview": "VORSE TUBING OCCLUDING CLAMPS"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 334,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 332,
+          "gap": 5.0,
+          "content_preview": "Heavy construction with jaws designed for positive \nocclusion of Silastic®, Tygo"
+        },
+        {
+          "element_idx": 330,
+          "gap": 55.2,
+          "content_preview": "VORSE TUBING OCCLUDING CLAMPS"
+        },
+        {
+          "element_idx": 331,
+          "gap": 55.2,
+          "content_preview": "VORSE TUBING OCCLUDING CLAMPS"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 337,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 335,
+          "gap": 9.8,
+          "content_preview": "VORSE TUBING OCCLUDING CLAMPS WITH SAFETY GUARD"
+        },
+        {
+          "element_idx": 336,
+          "gap": 17.8,
+          "content_preview": "The familiar Vorse-type tube-occluding clamp supplied \nwith a safety guard to pr"
+        },
+        {
+          "element_idx": 329,
+          "gap": 25.7,
+          "content_preview": "28"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 338,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 336,
+          "gap": 5.7,
+          "content_preview": "The familiar Vorse-type tube-occluding clamp supplied \nwith a safety guard to pr"
+        },
+        {
+          "element_idx": 335,
+          "gap": 78.7,
+          "content_preview": "VORSE TUBING OCCLUDING CLAMPS WITH SAFETY GUARD"
+        },
+        {
+          "element_idx": 329,
+          "gap": 247.7,
+          "content_preview": "28"
+        }
+      ]
+    }
+  ]
+}

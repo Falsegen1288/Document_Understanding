@@ -1,0 +1,47 @@
+{
+  "doc_stem": "Researchpaper_KAI",
+  "page": 1,
+  "boundary_candidates": [
+    {
+      "element_idx": 0,
+      "type": "title",
+      "content_preview": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+      "source": "title"
+    },
+    {
+      "element_idx": 4,
+      "type": "title",
+      "content_preview": "Abstract",
+      "source": "title"
+    },
+    {
+      "element_idx": 10,
+      "type": "title",
+      "content_preview": "1. Introduction",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 5,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 7,
+          "gap": 7.4,
+          "content_preview": "Figure 1. (a) The proposed Swin Transformer builds hierarchical\nfeature maps by "
+        },
+        {
+          "element_idx": 6,
+          "gap": 22.0,
+          "content_preview": "This paper presents a new vision Transformer, called\nSwin Transformer, that capa"
+        },
+        {
+          "element_idx": 2,
+          "gap": 30.6,
+          "content_preview": "iu1,v-yutlin,yuecao,hanhu,v-yixwe,zhez,stevelin,bainguo}@microsoft.com"
+        }
+      ]
+    }
+  ]
+}

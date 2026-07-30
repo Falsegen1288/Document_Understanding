@@ -1,0 +1,53 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 2,
+  "boundary_candidates": [
+    {
+      "element_idx": 20,
+      "type": "title",
+      "content_preview": "2\nConstructing the corpus",
+      "source": "title"
+    },
+    {
+      "element_idx": 15,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 16,
+      "type": "plain text",
+      "content_preview": "Table 1: A comparison of S2ORC with other publicly-available academic text corpo",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 17,
+      "type": "plain text",
+      "content_preview": "†Saier and F¨arber (2020) is an update to this work which now includes full text",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 15,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 16,
+          "gap": 7.9,
+          "content_preview": "Table 1: A comparison of S2ORC with other publicly-available academic text corpo"
+        },
+        {
+          "element_idx": 17,
+          "gap": 120.9,
+          "content_preview": "†Saier and F¨arber (2020) is an update to this work which now includes full text"
+        },
+        {
+          "element_idx": 18,
+          "gap": 153.9,
+          "content_preview": "Yet, existing corpora are not without their limi-\ntations. Some cover a small nu"
+        }
+      ]
+    }
+  ]
+}

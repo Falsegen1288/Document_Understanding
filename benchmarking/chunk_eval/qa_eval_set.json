@@ -1,0 +1,372 @@
+[
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "factual_text",
+    "question": "What section number is associated with the topic 'Care and Cleaning'?",
+    "reference_answer": "10",
+    "source_element_indices": [
+      5
+    ],
+    "source_page": 2
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "factual_text",
+    "question": "On which page can information about 'Scissors' be found?",
+    "reference_answer": "101",
+    "source_element_indices": [
+      8
+    ],
+    "source_page": 2
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "factual_text",
+    "question": "What page number is associated with the topic 'Instrumentation for Laryngoscopes'?",
+    "reference_answer": "416",
+    "source_element_indices": [
+      10
+    ],
+    "source_page": 2
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "factual_text",
+    "question": "What page number is associated with Tracheostomy Tubes?",
+    "reference_answer": "469",
+    "source_element_indices": [
+      11
+    ],
+    "source_page": 3
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "factual_text",
+    "question": "What page number is associated with the section on Bulldog and Micro Vessel Clamps?",
+    "reference_answer": "560",
+    "source_element_indices": [
+      15
+    ],
+    "source_page": 3
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "factual_text",
+    "question": "What page number is associated with the KMedic® Jet Wire Twister?",
+    "reference_answer": "821",
+    "source_element_indices": [
+      17
+    ],
+    "source_page": 3
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "figure_description",
+    "question": "What is the color of the surgical drape on which the surgical instruments are arranged in the image?",
+    "reference_answer": "blue",
+    "source_element_indices": [
+      2
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "figure_description",
+    "question": "What type of section or rendering is the anatomical illustration of the human abdominal cavity presented as in the figure?",
+    "reference_answer": "a sagittal section or a translucent rendering",
+    "source_element_indices": [
+      31
+    ],
+    "source_page": 6
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "figure_description",
+    "question": "What types of handle designs are exhibited by the Pilling surgical instruments featured in the figure?",
+    "reference_answer": "ring-handled and thumb-handled configurations",
+    "source_element_indices": [
+      40
+    ],
+    "source_page": 7
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "figure_description",
+    "question": "What items are displayed on the computer monitor in the N-COMPASS Instrument Management System's workflow?",
+    "reference_answer": "images of surgical instruments, such as forceps and retractors",
+    "source_element_indices": [
+      157
+    ],
+    "source_page": 15
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "figure_description",
+    "question": "What features of surgical instrument jaws are visually represented in the figure to facilitate precise identification and utilization in clinical settings?",
+    "reference_answer": "jaw surfaces, serrations, curvature, angle, and cross-sectional patterns",
+    "source_element_indices": [
+      198
+    ],
+    "source_page": 18
+  },
+  {
+    "doc_stem": "Medical_004_demo_30p",
+    "question_type": "figure_description",
+    "question": "What specific parameters are highlighted as key factors in surgical procedures within the illustration of surgical instrument components?",
+    "reference_answer": "spread, depth, width, and degrees of curvature",
+    "source_element_indices": [
+      204
+    ],
+    "source_page": 19
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "factual_text",
+    "question": "Which authors have the same affiliation symbol †",
+    "reference_answer": "Ze Liu, Yutong Lin, Yixuan Wei",
+    "source_element_indices": [
+      1
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "factual_text",
+    "question": "What are the local parts of the email addresses listed, assuming the domain is @microsoft.com?",
+    "reference_answer": "iu1, v-yutlin, yuecao, hanhu, v-yixwe, zhez, stevelin, bainguo",
+    "source_element_indices": [
+      2
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "factual_text",
+    "question": "What is the top-1 accuracy achieved by the Swin Transformer on the ImageNet-1K image classification task?",
+    "reference_answer": "87.3",
+    "source_element_indices": [
+      6
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "factual_text",
+    "question": "What have architectural advances in CNNs led to in the field of vision tasks?",
+    "reference_answer": "performance improvements that have broadly lifted the entire field",
+    "source_element_indices": [
+      8
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "factual_text",
+    "question": "What two specific tasks have the Transformer demonstrated promising results on in the computer vision domain?",
+    "reference_answer": "image classification and joint vision-language modeling",
+    "source_element_indices": [
+      9
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "factual_text",
+    "question": "Which neural network architecture has dominated modeling in computer vision and what was the starting point of its revolutionary performance?",
+    "reference_answer": "Convolutional neural networks (CNNs), starting with AlexNet",
+    "source_element_indices": [
+      11
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "figure_description",
+    "question": "What is the primary difference in feature representation between Swin Transformer and standard Vision Transformer?",
+    "reference_answer": "Swin Transformer generates features at multiple resolutions for multi-scale analysis, while Vision Transformer uses a uniform scale optimized for classification.",
+    "source_element_indices": [
+      5
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "figure_description",
+    "question": "How does the window configuration change from one layer to the next in the shifted window partitioning strategy?",
+    "reference_answer": "The window configuration is shifted relative to the previous layer, establishing new local window arrangements.",
+    "source_element_indices": [
+      15
+    ],
+    "source_page": 2
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "figure_description",
+    "question": "What modules are applied alternately in the Successive Swin Transformer Blocks as shown in Part (b) of the figure?",
+    "reference_answer": "W-MSA and SW-MSA modules",
+    "source_element_indices": [
+      38
+    ],
+    "source_page": 4
+  },
+  {
+    "doc_stem": "Researchpaper_KAI",
+    "question_type": "figure_description",
+    "question": "What operation is performed after creating overlapping windows in the efficient batch computation approach for self-attention within shifted window partitioning?",
+    "reference_answer": "Masked multi-head self-attention (MSA) is computed in parallel across the shifted windows",
+    "source_element_indices": [
+      60
+    ],
+    "source_page": 5
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "factual_text",
+    "question": "What is the email domain of the authors Kyle Lo and Lucy Lu Wang?",
+    "reference_answer": "allenai.org",
+    "source_element_indices": [
+      1
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "factual_text",
+    "question": "What is the email domain of the authors Kylel and Lucyw?",
+    "reference_answer": "allenai.org",
+    "source_element_indices": [
+      2
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "factual_text",
+    "question": "How many open access papers have structured full text in the S2ORC corpus?",
+    "reference_answer": "8.1M",
+    "source_element_indices": [
+      5
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "factual_text",
+    "question": "What resources are mentioned as being used for deriving large text corpora for tasks such as summarization and language modeling?",
+    "reference_answer": "PubMed Central, CiteSeerX, and the ACL Anthology",
+    "source_element_indices": [
+      7
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "factual_text",
+    "question": "What do academic papers contain aside from text, according to the given information?",
+    "reference_answer": "tables, figures, equations, footnotes, and other papers",
+    "source_element_indices": [
+      9
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "factual_text",
+    "question": "What are the names of the citation graphs mentioned in the text as having widespread application in bibliometrics, science-of-science, information retrieval, and network analysis?",
+    "reference_answer": "AMiner’s Open Academic Graph, the Microsoft Academic Graph (MAG), and the Semantic Scholar literature graph",
+    "source_element_indices": [
+      10
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "table_lookup",
+    "question": "How many papers had less than 100 characters of text according to the post-processing data quality filters?",
+    "reference_answer": "80.0M",
+    "source_element_indices": [
+      67
+    ],
+    "source_page": 5
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "table_lookup",
+    "question": "What percentage of papers have bibliographies?",
+    "reference_answer": "34.1%",
+    "source_element_indices": [
+      83
+    ],
+    "source_page": 6
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "table_lookup",
+    "question": "What is the number of paragraphs in the body according to LATEX?",
+    "reference_answer": "93.3",
+    "source_element_indices": [
+      92
+    ],
+    "source_page": 6
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "table_lookup",
+    "question": "What is the accuracy of paper clustering for titles in the sampled evaluation sets?",
+    "reference_answer": "0.93",
+    "source_element_indices": [
+      107
+    ],
+    "source_page": 7
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "table_lookup",
+    "question": "How many PDFs were filtered out due to having more than 50 pages before GROBID processing?",
+    "reference_answer": "2.27M",
+    "source_element_indices": [
+      219
+    ],
+    "source_page": 14
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "figure_description",
+    "question": "What type of arrow is used to depict the linkage between inline citations in the full-text and corresponding bibliography entries in the S2ORC corpus figure?",
+    "reference_answer": "A red arrow",
+    "source_element_indices": [
+      3
+    ],
+    "source_page": 1
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "figure_description",
+    "question": "Which two fields have the highest percentages of papers in the S2ORC corpus, and what are their respective percentages?",
+    "reference_answer": "Medicine and Biology, with percentages surpassing 20% and 15%, respectively",
+    "source_element_indices": [
+      68
+    ],
+    "source_page": 5
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "figure_description",
+    "question": "What does the scatter plot in the figure primarily illustrate about the research papers across various disciplines?",
+    "reference_answer": "The distribution of research papers, with colors denoting specific fields and revealing clustering patterns, particularly dense concentrations in areas like Computation and Language.",
+    "source_element_indices": [
+      103
+    ],
+    "source_page": 7
+  },
+  {
+    "doc_stem": "Scientific_001",
+    "question_type": "figure_description",
+    "question": "What types of data are denoted by different colors in the S2ORC dataset scatter plot?",
+    "reference_answer": "numeric_citation, word, and pdf_reference",
+    "source_element_indices": [
+      228
+    ],
+    "source_page": 14
+  }
+]

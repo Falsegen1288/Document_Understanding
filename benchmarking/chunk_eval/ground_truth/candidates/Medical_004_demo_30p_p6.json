@@ -1,0 +1,12 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 6,
+  "boundary_candidates": [],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 31,
+      "anchor_type": "figure",
+      "nearest_text": []
+    }
+  ]
+}

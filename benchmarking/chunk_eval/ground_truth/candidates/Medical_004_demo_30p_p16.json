@@ -1,0 +1,56 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 16,
+  "boundary_candidates": [
+    {
+      "element_idx": 172,
+      "type": "title",
+      "content_preview": "SCALES AND GAUGES",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 178,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 174,
+          "gap": 1.0,
+          "content_preview": "FAHRENHEIT AND \nCENTIGRADE SCALES"
+        },
+        {
+          "element_idx": 180,
+          "gap": 86.9,
+          "content_preview": "Pillinginstruments.com"
+        },
+        {
+          "element_idx": 182,
+          "gap": 87.1,
+          "content_preview": "Pillinginstruments.com"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 179,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 176,
+          "gap": 5.0,
+          "content_preview": "CONVERSION SCALE"
+        },
+        {
+          "element_idx": 175,
+          "gap": 22.8,
+          "content_preview": "16"
+        },
+        {
+          "element_idx": 172,
+          "gap": 38.5,
+          "content_preview": "SCALES AND GAUGES"
+        }
+      ]
+    }
+  ]
+}

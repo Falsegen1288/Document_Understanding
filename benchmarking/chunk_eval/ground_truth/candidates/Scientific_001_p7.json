@@ -1,0 +1,122 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 7,
+  "boundary_candidates": [
+    {
+      "element_idx": 108,
+      "type": "title",
+      "content_preview": "6\nApplications of S2ORC",
+      "source": "title"
+    },
+    {
+      "element_idx": 98,
+      "type": "plain text",
+      "content_preview": "et al., 2010; Duma and Klein, 2014; Jeong et al.,\n2019) and document-level (Yu e",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 99,
+      "type": "plain text",
+      "content_preview": "pus contains 16.4B tokens, nearly ﬁve times\nlarger than the corpus for SCIBERT.",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 101,
+      "type": "figure_caption",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 102,
+      "type": "plain text",
+      "content_preview": "We follow a similar setup to Beltagy et al.\n(2019)\nfor\nboth\npretraining\nand\nﬁne-",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 103,
+      "type": "figure",
+      "content_preview": "The figure presents a scatter plot illustrating the distribution of research pap",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 104,
+      "type": "plain text",
+      "content_preview": "We search over an equal-sized grid of hyperpa-\nrameters as Beltagy et al. (2019)",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 105,
+      "type": "figure_caption",
+      "content_preview": "Figure 3: Word2vec embeddings associated with 20k\npapers in six AI-related arXiv",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 106,
+      "type": "plain text",
+      "content_preview": "The results in Table 5 show that S2ORC-\nSCIBERT outperforms SCIBERT on many task",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 107,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 111,
+      "type": "table_caption",
+      "content_preview": "Table 7: Sampled papers in clusters from t-SNE em-\nbedding space in Figure 3. Re",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 113,
+      "type": "plain text",
+      "content_preview": "Other tasks that leverage citation contexts in-",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 103,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 101,
+          "gap": 3.5,
+          "content_preview": ""
+        },
+        {
+          "element_idx": 105,
+          "gap": 8.5,
+          "content_preview": "Figure 3: Word2vec embeddings associated with 20k\npapers in six AI-related arXiv"
+        },
+        {
+          "element_idx": 104,
+          "gap": 18.9,
+          "content_preview": "We search over an equal-sized grid of hyperpa-\nrameters as Beltagy et al. (2019)"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 107,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 111,
+          "gap": 9.0,
+          "content_preview": "Table 7: Sampled papers in clusters from t-SNE em-\nbedding space in Figure 3. Re"
+        },
+        {
+          "element_idx": 109,
+          "gap": 19.0,
+          "content_preview": "S2ORC can be used for many NLP and analysis\ntasks over academic text. We give a "
+        },
+        {
+          "element_idx": 106,
+          "gap": 19.0,
+          "content_preview": "The results in Table 5 show that S2ORC-\nSCIBERT outperforms SCIBERT on many task"
+        }
+      ]
+    }
+  ]
+}

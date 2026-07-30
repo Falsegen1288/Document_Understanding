@@ -1,0 +1,57 @@
+[
+  {
+    "strategy": "naive_baseline",
+    "recall_at_k": 0.6486486486486487,
+    "mrr": 0.5491533191129965,
+    "total_questions": 37,
+    "recall_by_question_type": {
+      "factual_text": 0.5555555555555556,
+      "figure_description": 0.8571428571428571,
+      "table_lookup": 0.4
+    }
+  },
+  {
+    "strategy": "element_atomic",
+    "recall_at_k": 0.8108108108108109,
+    "mrr": 0.7275364762577038,
+    "total_questions": 37,
+    "recall_by_question_type": {
+      "factual_text": 0.6666666666666666,
+      "figure_description": 1.0,
+      "table_lookup": 0.8
+    }
+  },
+  {
+    "strategy": "section_hierarchical",
+    "recall_at_k": 0.8378378378378378,
+    "mrr": 0.7084853821695927,
+    "total_questions": 37,
+    "recall_by_question_type": {
+      "factual_text": 0.6666666666666666,
+      "figure_description": 1.0,
+      "table_lookup": 1.0
+    }
+  },
+  {
+    "strategy": "geometric_grounding",
+    "recall_at_k": 0.7297297297297297,
+    "mrr": 0.5851678160640424,
+    "total_questions": 37,
+    "recall_by_question_type": {
+      "factual_text": 0.5555555555555556,
+      "figure_description": 0.9285714285714286,
+      "table_lookup": 0.8
+    }
+  },
+  {
+    "strategy": "hybrid_semantic",
+    "recall_at_k": 0.7837837837837838,
+    "mrr": 0.6717366271142016,
+    "total_questions": 37,
+    "recall_by_question_type": {
+      "factual_text": 0.5555555555555556,
+      "figure_description": 1.0,
+      "table_lookup": 1.0
+    }
+  }
+]

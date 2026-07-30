@@ -31,7 +31,7 @@ LOCAL_JUDGE_BASE_URL = os.environ.get("LOCAL_JUDGE_BASE_URL", "http://localhost:
 LOCAL_JUDGE_MODEL = os.environ.get("LOCAL_JUDGE_MODEL", "Qwen/Qwen2.5-32B-Instruct-AWQ")
 CACHE_DB = os.environ.get("LOCAL_JUDGE_CACHE_DB", "local_judge_cache.db")
 
-_client = AsyncOpenAI(base_url=LOCAL_JUDGE_BASE_URL, api_key="not-needed")
+_client = AsyncOpenAI(base_url=LOCAL_JUDGE_BASE_URL, api_key="not-needed", timeout=180.0)
 
 # Cap in-flight requests to something sane for the GPU/VRAM rather than an
 # artificial token quota -- vLLM's scheduler handles the actual batching.
@@ -220,11 +220,30 @@ async def score_question_consolidated(
             raw = await _call_local_judge(prompt, json_mode=True)
             data = json.loads(raw)
             
+            # Normalize keys to be robust to LLM variations
+            mappings = {
+                "ragas_answer_relevance": "ragas_answer_relevancy",
+                "deepeval_answer_relevance": "deepeval_answer_relevancy",
+                "deepeval_context_precision": "deepeval_contextual_precision",
+                "deepeval_context_recall": "deepeval_contextual_recall",
+                "deepeval_contextual_relevance": "deepeval_answer_relevancy",
+                "deepeeval_contextual_precision": "deepeval_contextual_precision",
+                "deepeeval_contextual_recall": "deepeval_contextual_recall",
+                "deepeeval_faithfulness": "deepeval_faithfulness",
+                "deepeeval_answer_relevancy": "deepeval_answer_relevancy",
+                "deepeeval_answer_relevance": "deepeval_answer_relevancy",
+                "deeepelv_answer_relevancy": "deepeval_answer_relevancy",
+                "deeepelv_faithfulness": "deepeval_faithfulness"
+            }
+            for src, dst in mappings.items():
+                if src in data and dst not in data:
+                    data[dst] = data[src]
+            
             # Validate all required keys are present, numeric, and bounded
             valid = True
             for k in REQUIRED_METRIC_KEYS:
                 if k not in data:
-                    logger.warning(f"Missing key '{k}' in consolidated judge output on attempt {attempt + 1}")
+                    logger.warning(f"Missing key '{k}' in consolidated judge output on attempt {attempt + 1}. Got keys: {list(data.keys())}")
                     valid = False
                     break
                 val = data[k]

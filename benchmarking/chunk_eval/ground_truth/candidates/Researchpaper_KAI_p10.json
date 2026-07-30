@@ -1,0 +1,107 @@
+{
+  "doc_stem": "Researchpaper_KAI",
+  "page": 10,
+  "boundary_candidates": [
+    {
+      "element_idx": 148,
+      "type": "title",
+      "content_preview": "A2.3. Semantic segmentation on ADE20K",
+      "source": "title"
+    },
+    {
+      "element_idx": 154,
+      "type": "title",
+      "content_preview": "A3.2. Different Optimizers for ResNe(X)t on COCO",
+      "source": "title"
+    },
+    {
+      "element_idx": 157,
+      "type": "title",
+      "content_preview": "A3. More Experiments",
+      "source": "title"
+    },
+    {
+      "element_idx": 158,
+      "type": "title",
+      "content_preview": "A3. More Experiments",
+      "source": "title"
+    },
+    {
+      "element_idx": 159,
+      "type": "title",
+      "content_preview": "A3.3. Swin MLP-Mixer",
+      "source": "title"
+    },
+    {
+      "element_idx": 160,
+      "type": "title",
+      "content_preview": "A3.1. Image classiﬁcation with different input size",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 144,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 145,
+          "gap": 0.0,
+          "content_preview": "Table 7. Detailed architecture speciﬁcations."
+        },
+        {
+          "element_idx": 147,
+          "gap": 29.3,
+          "content_preview": "model as initialization. We adopt stochastic depth with ra-\ntio of 0.2 for all S"
+        },
+        {
+          "element_idx": 148,
+          "gap": 62.9,
+          "content_preview": "A2.3. Semantic segmentation on ADE20K"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 146,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 150,
+          "gap": 0.3,
+          "content_preview": "Table 8. Swin Transformers with different input image size on\nImageNet-1K classi"
+        },
+        {
+          "element_idx": 145,
+          "gap": 18.6,
+          "content_preview": "Table 7. Detailed architecture speciﬁcations."
+        },
+        {
+          "element_idx": 149,
+          "gap": 21.4,
+          "content_preview": "ADE20K [83] is a widely-used semantic segmentation\ndataset, covering a broad ran"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 151,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 153,
+          "gap": 0.2,
+          "content_preview": "Table 9. Comparison of the SGD and AdamW optimizers for\nResNe(X)t backbones on C"
+        },
+        {
+          "element_idx": 150,
+          "gap": 11.1,
+          "content_preview": "Table 8. Swin Transformers with different input image size on\nImageNet-1K classi"
+        },
+        {
+          "element_idx": 152,
+          "gap": 20.8,
+          "content_preview": "In training, we employ the AdamW [44] optimizer with\nan initial learning rate of"
+        }
+      ]
+    }
+  ]
+}

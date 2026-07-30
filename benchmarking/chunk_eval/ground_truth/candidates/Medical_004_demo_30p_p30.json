@@ -1,0 +1,158 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 30,
+  "boundary_candidates": [
+    {
+      "element_idx": 358,
+      "type": "title",
+      "content_preview": "FORCEPS AND CLAMPS\nTowel Clamps",
+      "source": "title"
+    },
+    {
+      "element_idx": 361,
+      "type": "title",
+      "content_preview": "BACKHAUS TOWEL CLAMPS",
+      "source": "title"
+    },
+    {
+      "element_idx": 365,
+      "type": "title",
+      "content_preview": "BACKHAUS TOWEL FORCEPS",
+      "source": "title"
+    },
+    {
+      "element_idx": 370,
+      "type": "title",
+      "content_preview": "BACKHAUS TOWEL FORCEPS EBONIZED",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 363,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 360,
+          "gap": 10.8,
+          "content_preview": "BACKHAUS TOWEL CLAMPS"
+        },
+        {
+          "element_idx": 361,
+          "gap": 10.8,
+          "content_preview": "BACKHAUS TOWEL CLAMPS"
+        },
+        {
+          "element_idx": 362,
+          "gap": 23.0,
+          "content_preview": "Weck® Pattern, bright finish."
+        }
+      ]
+    },
+    {
+      "anchor_idx": 364,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 362,
+          "gap": 5.3,
+          "content_preview": "Weck® Pattern, bright finish."
+        },
+        {
+          "element_idx": 360,
+          "gap": 70.1,
+          "content_preview": "BACKHAUS TOWEL CLAMPS"
+        },
+        {
+          "element_idx": 361,
+          "gap": 70.1,
+          "content_preview": "BACKHAUS TOWEL CLAMPS"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 368,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 365,
+          "gap": 12.2,
+          "content_preview": "BACKHAUS TOWEL FORCEPS"
+        },
+        {
+          "element_idx": 366,
+          "gap": 12.2,
+          "content_preview": "BACKHAUS TOWEL FORCEPS"
+        },
+        {
+          "element_idx": 367,
+          "gap": 22.6,
+          "content_preview": "Pilling® Pattern, satin finish."
+        }
+      ]
+    },
+    {
+      "anchor_idx": 369,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 367,
+          "gap": 5.8,
+          "content_preview": "Pilling® Pattern, satin finish."
+        },
+        {
+          "element_idx": 365,
+          "gap": 67.0,
+          "content_preview": "BACKHAUS TOWEL FORCEPS"
+        },
+        {
+          "element_idx": 366,
+          "gap": 67.0,
+          "content_preview": "BACKHAUS TOWEL FORCEPS"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 372,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 370,
+          "gap": 9.7,
+          "content_preview": "BACKHAUS TOWEL FORCEPS EBONIZED"
+        },
+        {
+          "element_idx": 371,
+          "gap": 28.7,
+          "content_preview": "Ebonized for laser surgery."
+        },
+        {
+          "element_idx": 374,
+          "gap": 48.7,
+          "content_preview": ""
+        }
+      ]
+    },
+    {
+      "anchor_idx": 373,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 371,
+          "gap": 5.6,
+          "content_preview": "Ebonized for laser surgery."
+        },
+        {
+          "element_idx": 370,
+          "gap": 26.8,
+          "content_preview": "BACKHAUS TOWEL FORCEPS EBONIZED"
+        },
+        {
+          "element_idx": 375,
+          "gap": 143.4,
+          "content_preview": "Pillinginstruments.com"
+        }
+      ]
+    }
+  ]
+}

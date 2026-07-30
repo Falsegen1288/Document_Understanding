@@ -1,0 +1,176 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 23,
+  "boundary_candidates": [
+    {
+      "element_idx": 234,
+      "type": "title",
+      "content_preview": "KNIFE HANDLES\nGeneral",
+      "source": "title"
+    },
+    {
+      "element_idx": 235,
+      "type": "title",
+      "content_preview": "KNIFE HANDLES\nGeneral",
+      "source": "title"
+    },
+    {
+      "element_idx": 238,
+      "type": "title",
+      "content_preview": "ROUND SHAFT BEAVER BLADE HANDLES",
+      "source": "title"
+    },
+    {
+      "element_idx": 241,
+      "type": "title",
+      "content_preview": "Specialty",
+      "source": "title"
+    },
+    {
+      "element_idx": 242,
+      "type": "title",
+      "content_preview": "WEBSTER SKIN GRAFT KNIFE HANDLE",
+      "source": "title"
+    },
+    {
+      "element_idx": 248,
+      "type": "title",
+      "content_preview": "GOULIAN SKIN GRAFT KNIFE SET",
+      "source": "title"
+    },
+    {
+      "element_idx": 249,
+      "type": "title",
+      "content_preview": "GOULIAN SKIN GRAFT KNIFE SET",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 239,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 237,
+          "gap": 9.7,
+          "content_preview": "ROUND SHAFT BEAVER BLADE HANDLES"
+        },
+        {
+          "element_idx": 238,
+          "gap": 9.7,
+          "content_preview": "ROUND SHAFT BEAVER BLADE HANDLES"
+        },
+        {
+          "element_idx": 236,
+          "gap": 31.6,
+          "content_preview": "23"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 240,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 237,
+          "gap": 11.3,
+          "content_preview": "ROUND SHAFT BEAVER BLADE HANDLES"
+        },
+        {
+          "element_idx": 238,
+          "gap": 11.3,
+          "content_preview": "ROUND SHAFT BEAVER BLADE HANDLES"
+        },
+        {
+          "element_idx": 241,
+          "gap": 29.6,
+          "content_preview": "Specialty"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 244,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 242,
+          "gap": 8.7,
+          "content_preview": "WEBSTER SKIN GRAFT KNIFE HANDLE"
+        },
+        {
+          "element_idx": 243,
+          "gap": 8.7,
+          "content_preview": "WEBSTER SKIN GRAFT KNIFE HANDLE"
+        },
+        {
+          "element_idx": 246,
+          "gap": 9.3,
+          "content_preview": "Use with blade no. 450205, 7-3/8\" (18.5"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 247,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 245,
+          "gap": 5.2,
+          "content_preview": "Use with blade no. 450205, 7-3/8\" (18.5 cm)."
+        },
+        {
+          "element_idx": 246,
+          "gap": 5.8,
+          "content_preview": "Use with blade no. 450205, 7-3/8\" (18.5"
+        },
+        {
+          "element_idx": 242,
+          "gap": 27.7,
+          "content_preview": "WEBSTER SKIN GRAFT KNIFE HANDLE"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 251,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 250,
+          "gap": 10.1,
+          "content_preview": "Includes: 1 handle 7-1/4\" (18.5 cm), 5 single edge \nblades 2-1/4\" (5.5 cm), 3 de"
+        },
+        {
+          "element_idx": 249,
+          "gap": 12.2,
+          "content_preview": "GOULIAN SKIN GRAFT KNIFE SET"
+        },
+        {
+          "element_idx": 248,
+          "gap": 12.3,
+          "content_preview": "GOULIAN SKIN GRAFT KNIFE SET"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 252,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 250,
+          "gap": 5.2,
+          "content_preview": "Includes: 1 handle 7-1/4\" (18.5 cm), 5 single edge \nblades 2-1/4\" (5.5 cm), 3 de"
+        },
+        {
+          "element_idx": 236,
+          "gap": 32.2,
+          "content_preview": "23"
+        },
+        {
+          "element_idx": 248,
+          "gap": 63.3,
+          "content_preview": "GOULIAN SKIN GRAFT KNIFE SET"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 5,
+  "boundary_candidates": [
+    {
+      "element_idx": 78,
+      "type": "title",
+      "content_preview": "4\nEvaluation",
+      "source": "title"
+    },
+    {
+      "element_idx": 67,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 68,
+      "type": "figure",
+      "content_preview": "The figure illustrates the distribution of papers across various fields, with th",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 69,
+      "type": "table_caption",
+      "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 70,
+      "type": "plain text",
+      "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 71,
+      "type": "figure_caption",
+      "content_preview": "Figure 2: Distribution of papers by Microsoft Aca-\ndemic ﬁeld of study.",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 72,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 73,
+      "type": "plain text",
+      "content_preview": "Table 4. On average, LATEX parses contain many\nmore “paragraphs” of body text, b",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 75,
+      "type": "plain text",
+      "content_preview": "*LATEX preserves line breaks rather than paragraph breaks.\n†The lower number of ",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 77,
+      "type": "plain text",
+      "content_preview": "vast majority of these PDFs are successfully pro-\ncessed using GROBID, and we ex",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 67,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 69,
+          "gap": 8.3,
+          "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall"
+        },
+        {
+          "element_idx": 70,
+          "gap": 8.3,
+          "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall"
+        },
+        {
+          "element_idx": 71,
+          "gap": 67.5,
+          "content_preview": "Figure 2: Distribution of papers by Microsoft Aca-\ndemic ﬁeld of study."
+        }
+      ]
+    },
+    {
+      "anchor_idx": 68,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 71,
+          "gap": 11.8,
+          "content_preview": "Figure 2: Distribution of papers by Microsoft Aca-\ndemic ﬁeld of study."
+        },
+        {
+          "element_idx": 69,
+          "gap": 20.3,
+          "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall"
+        },
+        {
+          "element_idx": 70,
+          "gap": 20.3,
+          "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 72,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 74,
+          "gap": 9.3,
+          "content_preview": "Table 4: Extraction and linking statistics over PDF and\nLATEX parses. Reported v"
+        },
+        {
+          "element_idx": 69,
+          "gap": 13.9,
+          "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall"
+        },
+        {
+          "element_idx": 70,
+          "gap": 13.9,
+          "content_preview": "Table 3: Statistics on paper provenance. We note that\ncategories are not mutuall"
+        }
+      ]
+    }
+  ]
+}

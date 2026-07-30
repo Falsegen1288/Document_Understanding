@@ -1,0 +1,113 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 13,
+  "boundary_candidates": [
+    {
+      "element_idx": 195,
+      "type": "title",
+      "content_preview": "A\nBackground & Terminology",
+      "source": "title"
+    },
+    {
+      "element_idx": 200,
+      "type": "title",
+      "content_preview": "B\nPDF ﬁlters",
+      "source": "title"
+    },
+    {
+      "element_idx": 209,
+      "type": "title",
+      "content_preview": "“ABC (2019) present model 1, which\noutperforms model 2 (XYZ (2019)).”",
+      "source": "title"
+    },
+    {
+      "element_idx": 210,
+      "type": "title",
+      "content_preview": "C\nThe paper clustering problem",
+      "source": "title"
+    },
+    {
+      "element_idx": 198,
+      "type": "plain text",
+      "content_preview": "“In Figure 3, we show the relationship\nbetween A and B.”",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 202,
+      "type": "plain text",
+      "content_preview": "There is often variation in the representation\nof certain ﬁelds.\nFor example, Au",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 203,
+      "type": "plain text",
+      "content_preview": "Numbers of PDFs removed by these ﬁlters are\ngiven in Table 8.",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 204,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 205,
+      "type": "plain text",
+      "content_preview": "An inline citation is a mention span within the\npaper’s abstract or body text th",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 206,
+      "type": "table_caption",
+      "content_preview": "Table 8: PDFs ﬁltered out before GROBID processing",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 207,
+      "type": "table_footnote",
+      "content_preview": "Table 8: PDFs ﬁltered out before GROBID processing",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 208,
+      "type": "plain text",
+      "content_preview": "“ABC (2019) present model 1, which\noutperforms model 2 (XYZ (2019)).”",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 212,
+      "type": "plain text",
+      "content_preview": "In this example, the narrative inline citation\nABC (2019) appears as a noun phra",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 213,
+      "type": "plain text",
+      "content_preview": "In this work, each “paper” of interest is actu-\nally a collection (or cluster) o",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 204,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 206,
+          "gap": 8.0,
+          "content_preview": "Table 8: PDFs ﬁltered out before GROBID processing"
+        },
+        {
+          "element_idx": 207,
+          "gap": 8.0,
+          "content_preview": "Table 8: PDFs ﬁltered out before GROBID processing"
+        },
+        {
+          "element_idx": 203,
+          "gap": 10.2,
+          "content_preview": "Numbers of PDFs removed by these ﬁlters are\ngiven in Table 8."
+        }
+      ]
+    }
+  ]
+}

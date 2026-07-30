@@ -1,0 +1,122 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 6,
+  "boundary_candidates": [
+    {
+      "element_idx": 85,
+      "type": "title",
+      "content_preview": "5\nPretraining BERT on S2ORC",
+      "source": "title"
+    },
+    {
+      "element_idx": 83,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 84,
+      "type": "figure_caption",
+      "content_preview": "Table 5: S2ORC-SCIBERT test results are comparable with reported SCIBERT test re",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 87,
+      "type": "plain text",
+      "content_preview": "To demonstrate the suitability of S2ORC for lan-\nguage model pretraining, we tra",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 89,
+      "type": "plain text",
+      "content_preview": "For bibliography linking, we randomly sample\nS2ORC papers (500 GROBID PDF parses",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 90,
+      "type": "plain text",
+      "content_preview": "• Domain: Beltagy et al. (2019) report a pre-\ntraining corpus consisting of 82% ",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 91,
+      "type": "plain text",
+      "content_preview": "We present these evaluation results in Table 6\nand detail valuation criteria in ",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 92,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 93,
+      "type": "plain text",
+      "content_preview": "• Preprocessing:\nS2ORC identiﬁes ﬁgure\ncaptions, table text and captions, header",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 94,
+      "type": "table_caption",
+      "content_preview": "Table 6: Accuracy of paper clustering and bibliography\nlinking for titles and au",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 95,
+      "type": "table_footnote",
+      "content_preview": "Table 6: Accuracy of paper clustering and bibliography\nlinking for titles and au",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 96,
+      "type": "plain text",
+      "content_preview": "• Size: The resulting S2ORC pretraining cor-",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 83,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 84,
+          "gap": 7.7,
+          "content_preview": "Table 5: S2ORC-SCIBERT test results are comparable with reported SCIBERT test re"
+        },
+        {
+          "element_idx": 85,
+          "gap": 100.8,
+          "content_preview": "5\nPretraining BERT on S2ORC"
+        },
+        {
+          "element_idx": 86,
+          "gap": 101.4,
+          "content_preview": "tecting inline citations using a corpus of 5k Cite-\nSeer papers, and found GROBI"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 92,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 94,
+          "gap": 8.7,
+          "content_preview": "Table 6: Accuracy of paper clustering and bibliography\nlinking for titles and au"
+        },
+        {
+          "element_idx": 95,
+          "gap": 8.7,
+          "content_preview": "Table 6: Accuracy of paper clustering and bibliography\nlinking for titles and au"
+        },
+        {
+          "element_idx": 91,
+          "gap": 26.2,
+          "content_preview": "We present these evaluation results in Table 6\nand detail valuation criteria in "
+        }
+      ]
+    }
+  ]
+}

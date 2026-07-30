@@ -1,0 +1,128 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 14,
+  "boundary_candidates": [
+    {
+      "element_idx": 223,
+      "type": "title",
+      "content_preview": "D\nS2ORC evaluation criteria",
+      "source": "title"
+    },
+    {
+      "element_idx": 216,
+      "type": "plain text",
+      "content_preview": "own papers; for example, most authors would con-\nsider their arXiv preprint and ",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 218,
+      "type": "table_caption",
+      "content_preview": "E\nTraining corpus sizes for other\nlanguage models",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 219,
+      "type": "table",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 220,
+      "type": "plain text",
+      "content_preview": "There are issues with deﬁning a paper to be a\ncollection of documents. For examp",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 221,
+      "type": "plain text",
+      "content_preview": "Table 9: Reported and estimated (several papers report\ncorpus size in terms of b",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 222,
+      "type": "table_footnote",
+      "content_preview": "Table 9: Reported and estimated (several papers report\ncorpus size in terms of b",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 225,
+      "type": "plain text",
+      "content_preview": "Paper cluster quality\nFor each paper cluster,\nwe compare the selected canonical ",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 226,
+      "type": "figure_caption",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 227,
+      "type": "plain text",
+      "content_preview": "",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 228,
+      "type": "figure",
+      "content_preview": "The figure presents a two-dimensional representation of the S2ORC dataset, showc",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 229,
+      "type": "plain text",
+      "content_preview": "Paper-Bibliography linking\nFor each paper-\nbibliography pair, we compare the sel",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 230,
+      "type": "figure_caption",
+      "content_preview": "Figure 4: Visualization of contextual representations\nfrom layer 9 of S2ORC-SCIB",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 219,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 221,
+          "gap": 9.0,
+          "content_preview": "Table 9: Reported and estimated (several papers report\ncorpus size in terms of b"
+        },
+        {
+          "element_idx": 222,
+          "gap": 9.0,
+          "content_preview": "Table 9: Reported and estimated (several papers report\ncorpus size in terms of b"
+        },
+        {
+          "element_idx": 220,
+          "gap": 15.9,
+          "content_preview": "There are issues with deﬁning a paper to be a\ncollection of documents. For examp"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 228,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 226,
+          "gap": 9.0,
+          "content_preview": ""
+        },
+        {
+          "element_idx": 227,
+          "gap": 9.0,
+          "content_preview": ""
+        },
+        {
+          "element_idx": 230,
+          "gap": 10.6,
+          "content_preview": "Figure 4: Visualization of contextual representations\nfrom layer 9 of S2ORC-SCIB"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "doc_stem": "Researchpaper_KAI",
+  "page": 4,
+  "boundary_candidates": [
+    {
+      "element_idx": 51,
+      "type": "title",
+      "content_preview": "3.2. Shifted Window based Self-Attention",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 38,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 39,
+          "gap": 0.0,
+          "content_preview": "(b) Two Successive Swin Transformer Blocks"
+        },
+        {
+          "element_idx": 40,
+          "gap": 3.8,
+          "content_preview": "Figure 3. (a) The architecture of a Swin Transformer (Swin-T); (b) two successiv"
+        },
+        {
+          "element_idx": 41,
+          "gap": 45.7,
+          "content_preview": "with the same feature map resolutions as those of typical\nconvolutional networks"
+        }
+      ]
+    }
+  ]
+}

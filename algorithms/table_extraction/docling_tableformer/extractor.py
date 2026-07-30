@@ -90,7 +90,7 @@ def extract_tables(pdf_path: str, pages: list[int] | None = None) -> list[dict]:
                     doc = result.document
                     for item in doc.tables:
                         prov = getattr(item, "prov", [])
-                        page_no = prov[0].page_no + 1 if prov else p
+                        page_no = prov[0].page_no if prov else p
                         
                         try:
                             markdown = item.export_to_markdown(doc=doc) if hasattr(item, "export_to_markdown") else (item.to_markdown() if hasattr(item, "to_markdown") else "")
@@ -125,7 +125,7 @@ def extract_tables(pdf_path: str, pages: list[int] | None = None) -> list[dict]:
             
             for item in doc.tables:
                 prov = getattr(item, "prov", [])
-                page_no = prov[0].page_no + 1 if prov else 1
+                page_no = prov[0].page_no if prov else 1
                 
                 try:
                     markdown = item.export_to_markdown(doc=doc) if hasattr(item, "export_to_markdown") else (item.to_markdown() if hasattr(item, "to_markdown") else "")

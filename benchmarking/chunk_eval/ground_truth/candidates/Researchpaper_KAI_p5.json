@@ -1,0 +1,47 @@
+{
+  "doc_stem": "Researchpaper_KAI",
+  "page": 5,
+  "boundary_candidates": [
+    {
+      "element_idx": 64,
+      "type": "title",
+      "content_preview": "3.3. Architecture Variants",
+      "source": "title"
+    },
+    {
+      "element_idx": 71,
+      "type": "title",
+      "content_preview": "4. Experiments",
+      "source": "title"
+    },
+    {
+      "element_idx": 74,
+      "type": "title",
+      "content_preview": "4.1. Image Classiﬁcation on ImageNet-1K",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 60,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 63,
+          "gap": 4.2,
+          "content_preview": "Figure 4. Illustration of an efﬁcient batch computation approach\nfor self-attent"
+        },
+        {
+          "element_idx": 61,
+          "gap": 24.4,
+          "content_preview": "We observe signiﬁcant improvements over counterparts\nwithout this bias term or t"
+        },
+        {
+          "element_idx": 62,
+          "gap": 24.4,
+          "content_preview": "The learnt relative position bias in pre-training can be\nalso used to initialize"
+        }
+      ]
+    }
+  ]
+}

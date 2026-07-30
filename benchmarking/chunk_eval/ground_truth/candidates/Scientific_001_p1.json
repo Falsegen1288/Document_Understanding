@@ -1,0 +1,65 @@
+{
+  "doc_stem": "Scientific_001",
+  "page": 1,
+  "boundary_candidates": [
+    {
+      "element_idx": 0,
+      "type": "title",
+      "content_preview": "S2ORC: The Semantic Scholar Open Research Corpus",
+      "source": "title"
+    },
+    {
+      "element_idx": 4,
+      "type": "title",
+      "content_preview": "Abstract",
+      "source": "title"
+    },
+    {
+      "element_idx": 8,
+      "type": "title",
+      "content_preview": "1\nIntroduction",
+      "source": "title"
+    },
+    {
+      "element_idx": 3,
+      "type": "figure",
+      "content_preview": "The figure illustrates the interconnected components of the S2ORC corpus, visual",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 6,
+      "type": "figure_caption",
+      "content_preview": "Figure 1: Inline citations and references to ﬁgures and\ntables are annotated in ",
+      "source": "semantic_split"
+    },
+    {
+      "element_idx": 7,
+      "type": "plain text",
+      "content_preview": "PubMed Central,3 CiteSeerX (Giles et al., 1998),4\nand the ACL Anthology (Bird et",
+      "source": "semantic_split"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 3,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 6,
+          "gap": 8.4,
+          "content_preview": "Figure 1: Inline citations and references to ﬁgures and\ntables are annotated in "
+        },
+        {
+          "element_idx": 5,
+          "gap": 32.5,
+          "content_preview": "We introduce S2ORC,1 a large corpus of\n81.1M\nEnglish-language\nacademic\npapers\nsp"
+        },
+        {
+          "element_idx": 1,
+          "gap": 45.8,
+          "content_preview": "Kyle Lo†∗\nLucy Lu Wang†∗\nMark Neumann†\nRodney Kinney†\nDaniel S. Weld†‡\n†Allen In"
+        }
+      ]
+    }
+  ]
+}

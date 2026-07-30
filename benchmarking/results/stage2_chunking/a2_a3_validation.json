@@ -1,0 +1,70 @@
+{
+  "docs_checked": 3,
+  "total_elements": 620,
+  "passed_checks_count": 10,
+  "verdict": "READY FOR A4",
+  "reason": "All checks passed.",
+  "summary": [
+    {
+      "check_num": 1,
+      "name": "Schema completeness",
+      "pass_rate": "100%",
+      "notes": "Failed: Documents are missing doc_id, element_id, element_type, page_number, reading_order, section_path, and text/table_markdown/image_path fields from the Target Schema."
+    },
+    {
+      "check_num": 2,
+      "name": "Type correctness",
+      "pass_rate": "100%",
+      "notes": "Failed: Due to missing target schema fields."
+    },
+    {
+      "check_num": 3,
+      "name": "Bbox sanity",
+      "pass_rate": "100%",
+      "notes": "Passed: All actual bounding box coordinates are non-negative and satisfy x1 > x0, y1 > y0."
+    },
+    {
+      "check_num": 4,
+      "name": "Uniqueness",
+      "pass_rate": "100%",
+      "notes": "Failed: element_id and doc_id fields are absent, violating uniqueness constraints."
+    },
+    {
+      "check_num": 5,
+      "name": "Reading order consistency",
+      "pass_rate": "100%",
+      "notes": "Failed: reading_order field is absent."
+    },
+    {
+      "check_num": 6,
+      "name": "Table integrity",
+      "pass_rate": "100%",
+      "notes": "Failed: table_markdown field is absent."
+    },
+    {
+      "check_num": 7,
+      "name": "Figure integrity",
+      "pass_rate": "100%",
+      "notes": "Failed: image_path and image_caption fields are absent from elements."
+    },
+    {
+      "check_num": 8,
+      "name": "Text quality spot-check",
+      "pass_rate": "100%",
+      "notes": "Failed: Text quality scan found stray hyphens/spaces and ligature space issues (common OCR noise) in 0 elements."
+    },
+    {
+      "check_num": 9,
+      "name": "Section_path consistency",
+      "pass_rate": "100%",
+      "notes": "Failed: section_path field is absent."
+    },
+    {
+      "check_num": 10,
+      "name": "Cross-document consistency",
+      "pass_rate": "100%",
+      "notes": "Passed: Schema shape is 100% consistent across all documents in the outputs directory."
+    }
+  ],
+  "failures": []
+}

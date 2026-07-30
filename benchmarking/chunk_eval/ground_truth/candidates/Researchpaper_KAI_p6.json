@@ -1,0 +1,35 @@
+{
+  "doc_stem": "Researchpaper_KAI",
+  "page": 6,
+  "boundary_candidates": [
+    {
+      "element_idx": 89,
+      "type": "title",
+      "content_preview": "4.2. Object Detection on COCO",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 82,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 87,
+          "gap": 0.0,
+          "content_preview": "Table 1. Comparison of different backbones on ImageNet-1K clas-\nsiﬁcation. Throu"
+        },
+        {
+          "element_idx": 84,
+          "gap": 21.8,
+          "content_preview": "• Pre-training on ImageNet-22K and ﬁne-tuning on\nImageNet-1K.\nWe\nalso\npre-train\n"
+        },
+        {
+          "element_idx": 83,
+          "gap": 21.9,
+          "content_preview": "weight decay of 0.05 are used. We include most of\nthe augmentation and regulariz"
+        }
+      ]
+    }
+  ]
+}

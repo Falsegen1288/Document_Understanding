@@ -1,0 +1,87 @@
+models:
+  bge-m3:
+    backend_class: MultiVectorBackend
+    hf_model_id: BAAI/bge-m3
+    revision: 5617a9f61b028005a4858fdac845db406aefb181
+    modality: dense+sparse
+    dim: 1024
+    max_batch: 12
+    device: cuda
+    supports_query_doc_prefix: false
+    cost_per_1m_tokens: 0.0
+
+  qwen3-embedding-8b-fp16:
+    backend_class: LocalSTBackend
+    hf_model_id: Qwen/Qwen3-Embedding-8B
+    revision: 1d8ad4ca9b3dd8059ad90a75d4983776a23d44af
+    modality: dense
+    dim: 4096
+    max_batch: 4
+    device: cpu
+    supports_query_doc_prefix: true
+    query_prefix: "Instruct: Given a query, retrieve relevant documents\nQuery: "
+    doc_prefix: ""
+    quantization: null
+    cost_per_1m_tokens: 0.0
+
+  qwen3-embedding-8b-4bit:
+    backend_class: LocalSTBackend
+    hf_model_id: Qwen/Qwen3-Embedding-8B
+    revision: 1d8ad4ca9b3dd8059ad90a75d4983776a23d44af
+    modality: dense
+    dim: 4096
+    max_batch: 4
+    device: cpu
+    supports_query_doc_prefix: true
+    query_prefix: "Instruct: Given a query, retrieve relevant documents\nQuery: "
+    doc_prefix: ""
+    quantization: null
+    cost_per_1m_tokens: 0.0
+
+  nv-embed-v2-fp16:
+    backend_class: LocalSTBackend
+    hf_model_id: nvidia/NV-Embed-v2
+    revision: 3fa59658547db50a1e8e3346cf057fd0c77ed6ef
+    modality: dense
+    dim: 4096
+    max_batch: 4
+    device: cpu
+    supports_query_doc_prefix: true
+    query_prefix: "Instruct: Retrieve relevant passages\nQuery: "
+    doc_prefix: ""
+    quantization: null
+    cost_per_1m_tokens: 0.0
+
+  nomic-embed-text:
+    backend_class: LocalSTBackend
+    hf_model_id: nomic-ai/nomic-embed-text-v1.5
+    revision: e9b6763023c676ca8431644204f50c2b100d9aab
+    modality: dense
+    dim: 768
+    max_batch: 32
+    device: cuda
+    supports_query_doc_prefix: true
+    query_prefix: "search_query: "
+    doc_prefix: "search_document: "
+    quantization: null
+    cost_per_1m_tokens: 0.0
+
+  granite-vision-embedding:
+    backend_class: VisionEmbeddingBackend
+    hf_model_id: ibm-granite/granite-vision-embedding
+    modality: dense
+    dim: 128
+    max_batch: 8
+    device: cuda
+    requires_image_input: true
+    cost_per_1m_tokens: 0.0
+
+  qwen3-vl:
+    backend_class: VisionEmbeddingBackend
+    hf_model_id: Qwen/Qwen3-VL
+    modality: dense
+    dim: 3584
+    max_batch: 8
+    device: cuda
+    requires_image_input: true
+    cost_per_1m_tokens: 0.0

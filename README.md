@@ -147,8 +147,10 @@ All models evaluated in this suite are open-source (or open-weights), allowing f
 
 | Model | Usability Rank | Reference Link | TEDS (Overall) | TEDS (Structure) | GriTS (Top) | Cell F1 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Docling TableFormer** | 1 | [GitHub](https://github.com/docling-project/docling) | 0.7295 | 0.7295 | 0.9828 | **0.9828** |
-| **Table Transformer (TATR)** | 2 | [GitHub](https://github.com/microsoft/table-transformer) | **0.7444** | **0.8684** | **1.0000** | 0.4213 |
+| **GLM-OCR (Official Prompt)** | 1 | [Hugging Face](https://huggingface.co/zai-org/GLM-OCR) | **0.9996** | **1.0000** | **1.0000** | **1.0000** |
+| **EasyOCR + Structure** | 2 | [GitHub](https://github.com/JaidedAI/EasyOCR) | 0.9816 | 1.0000 | — | 0.8720 |
+| **Table Transformer (TATR)** | 3 | [GitHub](https://github.com/microsoft/table-transformer) | 0.7444 | 0.8684 | **1.0000** | 0.4213 |
+| **Docling TableFormer** | 4 | [GitHub](https://github.com/docling-project/docling) | 0.7295 | 0.7295 | 0.9828 | 0.9828 |
 
 ### 3. Text OCR (Scanned Document Engine) Scorecard
 *Evaluated on non-digital image inputs to capture character error rates (CER) and word error rates (WER):*
@@ -157,6 +159,9 @@ All models evaluated in this suite are open-source (or open-weights), allowing f
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **EasyOCR** | 1 | [GitHub](https://github.com/JaidedAI/EasyOCR) | **10.78%** | 23.08% | **8.06%** | 19.73% | 31.25% |
 | **Tesseract OCR** | 2 | [GitHub](https://github.com/tesseract-ocr/tesseract) | 13.28% | **18.32%** | 11.11% | **17.13%** | **68.75%** |
+| **GLM-OCR (Page-Level)** | 3 | [Hugging Face](https://huggingface.co/zai-org/GLM-OCR) | 48.94%* | 64.41%* | — | — | — |
+
+*\*Note: GLM-OCR CER was evaluated end-to-end on full 300 DPI page streams (absorbing line ordering & Markdown formatting), whereas EasyOCR/Tesseract were evaluated on 64 cropped element boxes.*
 
 ### 4. Vision Language Model (Figure Analysis & Captioning) Scorecard
 *Evaluated on medical instrument catalogs and figures to rate description quality and attribute accuracy:*
@@ -167,6 +172,25 @@ All models evaluated in this suite are open-source (or open-weights), allowing f
 | **qwen2.5vl:3b** | 2 | [GitHub](https://github.com/QwenLM/Qwen2.5-VL) | Local VLM | **0.0685** | 0.2650 | 0.8171 | 0.2722 | 41.90s | 3921 MB |
 | **qwen/qwen3.6-27b** | 3 | [GitHub](https://github.com/QwenLM/Qwen) | Groq API | 0.0133 | 0.0759 | 0.7197 | 0.3019 | 5.20s | N/A (Cloud) |
 | **moondream:latest** | 4 | [GitHub](https://github.com/vikhyat/moondream) | Local VLM | 0.0195 | 0.1895 | 0.5547 | 0.0278 | 14.88s | **2143 MB** |
+
+### 5. Chunking & Embedding Retrieval Benchmark Scorecard
+*Evaluated across 54 ground-truth Q&A pairs using 4-stage Reciprocal Rank Fusion ($k=60$) and downstream Ragas/DeepEval faithfulness scoring (`qwen3-32b` judge):*
+
+| Rank | Model | Strategy | Representation Type | Spec Hit Rate@5 | Overall Hit Rate@5 | Downstream Faithfulness |
+| :---: | :--- | :--- | :--- | :---: | :---: | :---: |
+| **1** | **qwen3-embedding-8b-4bit** | **bm25_hybrid** | Dense (4-bit) + Lexical | **1.00** | **0.518** | **0.454** |
+| **2** | **baseline** | **bm25_only** | Pure Lexical (Regex Tokenizer) | **1.00** | **0.722** | 0.272 |
+| **3** | **bge-m3** | **bm25_hybrid** | Multi-Vector + Lexical | **1.00** | 0.444 | 0.181 |
+| **4** | **nv-embed-v2-fp16** | **bm25_hybrid** | Dense (FP16) + Lexical | **1.00** | 0.500 | 0.181 |
+| **5** | **bge-m3** | **dense_only** | Multi-Vector (Dense Only) | **1.00** | 0.240 | 0.090 |
+| **6** | **nomic-embed-text** | **bm25_hybrid** | Dense + Lexical | **1.00** | 0.462 | 0.000 |
+| **7** | **bge-m3** | **3-way hybrid** | Dense + Sparse + ColBERT | 0.50 | 0.166 | 0.090 |
+| **8** | **granite-vision-embedding** | **text_only** | Vision-Language (Text Only) | 0.50 | 0.363 | 0.000 |
+
+#### Core Takeaways from Chunking & Embedding Benchmarks:
+1. **Part-Number Preservation**: Subword tokenizers fragment alphanumeric codes (e.g. `352952`). A custom regex tokenizer preserving full part-number strings hits **100% Spec Hit Rate@5**.
+2. **Faithfulness Gain from Lexical Precision**: Downstream LLM faithfulness jumps from `0.090` (dense-only) to `0.454` (Qwen3-8B + BM25 hybrid) by preventing LLM spec hallucinations.
+3. **RRF Hybrid Resilience**: Fusing dense semantic representations with BM25 lexical matches ($k=60$) provides superior coverage across mixed technical queries.
 
 ---
 
@@ -233,8 +257,33 @@ docker-compose down
 
 ---
 
+## Stage 2 Retrieval Architecture Decision (`embedding_bench`)
+
+The production retrieval architecture for Stage 2 has been approved for deployment based on empirical benchmarking across heterogeneous document domains:
+
+```text
+query → [catalog-code pattern detector: regex heuristic, zero VRAM, zero model calls]
+           ├─ matches (alphanumeric/SKU/REF-style codes) → BM25-only
+           └─ natural language / conceptual query        → nomic-embed-text or bge-m3 (cuda)
+                                                             + BM25, RRF hybrid
+```
+
+### Production Architectural Principles
+1. **Catalog Codes $\rightarrow$ BM25 Engine**: Pure BM25 outperforms every dense/hybrid/SPLADE model on exact catalog part numbers. Dense embeddings actively degrade accuracy by clustering distinct SKU codes into generic vector neighborhood clusters.
+2. **SPLADE Exclusion**: Tokenizer inspection confirmed SPLADE subword tokenization fragments alphanumeric codes (e.g. `352952` $\rightarrow$ `['352', '##9', '##52']`), creating high false-positive expansion noise.
+3. **Prose / Conceptual $\rightarrow$ Hybrid Dense+BM25**: Technical prose and scientific literature route to `nomic-embed-text` or `bge-m3` fused with BM25 via Reciprocal Rank Fusion (RRF).
+4. **7B CPU Model Exclusion**: Heavy 7B-class models (`qwen3-embedding-8b-4bit`, `nv-embed-v2-fp16`) are excluded due to high CPU latency (850–1450ms p95 encode).
+
+> [!CAUTION]
+> **Directional-Only Notice**: Current metrics are directional only ($N=18$ per corpus). Three verification threads remain unresolved: (A) the causal explanation for the pre/post ground-truth-correction discrepancy has not been independently confirmed by re-slicing the original uncorrected run per corpus; (B) faithfulness spot-check values do not reconcile with reported arm-level averages; (C) the specific queries said to offset router Hit@1 gains have not been identified. None of these affect the architecture decision above, but none of the current numeric values should be treated as final.
+
+For full benchmark documentation, model scorecards, and deprecation logs, see [`embedding_bench/README.md`](file:///D:/Downloads/Document_Understanding/embedding_bench/README.md).
+
+---
+
 ## Conclusion & Next Steps
 
 This Unified Document Understanding & Layout Benchmarking Platform provides a robust, high-fidelity Stage 1 foundation. By treating document ingestion as a 2D spatial grid recovery process rather than a linear scan, it preserves reading order, structures tables, and grounds VLM captions. 
 
-The immediate next phase is **Stage 2 (Multiverse Chunking, Embedding & Storage Evaluation)**. We will benchmark different chunking strategies against multiple embedding architectures and vector stores, validating retrieval pipelines using RAGAS and DeepEval. This establishes the quantitative groundwork for building hybrid graph-vector indices and multimodal agents.
+The immediate next milestone is expanding the ground-truth QA bank from $N=18$ to $N \ge 30$ per document corpus ($N \ge 90$ total) before locking production RRF fusion weights ($k$) or per-corpus model selection.
+

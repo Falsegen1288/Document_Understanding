@@ -1,0 +1,13 @@
+folder_rules:
+  "data/medical/":
+    confidentiality: "restricted"
+    department: "clinical"
+    allowed_roles: ["clinician", "admin"]
+  "data/scientific/":
+    confidentiality: "internal"
+    department: "research"
+    allowed_roles: ["all"]
+default:
+  confidentiality: "internal"
+  department: null
+  allowed_roles: ["all"]

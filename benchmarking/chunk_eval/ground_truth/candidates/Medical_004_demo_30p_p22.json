@@ -1,0 +1,62 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 22,
+  "boundary_candidates": [
+    {
+      "element_idx": 223,
+      "type": "title",
+      "content_preview": "KNIFE HANDLES\nGeneral",
+      "source": "title"
+    },
+    {
+      "element_idx": 226,
+      "type": "title",
+      "content_preview": "KNIFE HANDLES",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 227,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 225,
+          "gap": 7.8,
+          "content_preview": "KNIFE HANDLES"
+        },
+        {
+          "element_idx": 226,
+          "gap": 7.8,
+          "content_preview": "KNIFE HANDLES"
+        },
+        {
+          "element_idx": 228,
+          "gap": 15.8,
+          "content_preview": "Correctly fit knife handle to standard surgical blades. \nThe distal ends are tap"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 229,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 228,
+          "gap": 5.2,
+          "content_preview": "Correctly fit knife handle to standard surgical blades. \nThe distal ends are tap"
+        },
+        {
+          "element_idx": 223,
+          "gap": 133.9,
+          "content_preview": "KNIFE HANDLES\nGeneral"
+        },
+        {
+          "element_idx": 225,
+          "gap": 151.5,
+          "content_preview": "KNIFE HANDLES"
+        }
+      ]
+    }
+  ]
+}

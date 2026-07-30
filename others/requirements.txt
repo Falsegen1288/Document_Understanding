@@ -47,4 +47,6 @@ redis>=5.0.0
 python-multipart>=0.0.9
 landingai-ade>=0.1.0
 
-
+# Stage 2 Chunking
+tiktoken>=0.7.0
+sentence-transformers>=3.0.0

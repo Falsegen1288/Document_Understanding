@@ -1,0 +1,62 @@
+{
+  "doc_stem": "Researchpaper_KAI",
+  "page": 8,
+  "boundary_candidates": [
+    {
+      "element_idx": 116,
+      "type": "title",
+      "content_preview": "4.4. Ablation Study",
+      "source": "title"
+    },
+    {
+      "element_idx": 122,
+      "type": "title",
+      "content_preview": "5. Conclusion",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 107,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 109,
+          "gap": 0.8,
+          "content_preview": "Table 5. Real speed of different self-attention computation meth-\nods and implem"
+        },
+        {
+          "element_idx": 110,
+          "gap": 25.7,
+          "content_preview": "Table 4. Ablation study on the shifted windows approach and dif-\nferent position"
+        },
+        {
+          "element_idx": 111,
+          "gap": 40.5,
+          "content_preview": "on COCO, and +2.3/+2.9 mIoU on ADE20K in relation to\nthose without position enco"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 108,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 110,
+          "gap": 0.6,
+          "content_preview": "Table 4. Ablation study on the shifted windows approach and dif-\nferent position"
+        },
+        {
+          "element_idx": 109,
+          "gap": 27.0,
+          "content_preview": "Table 5. Real speed of different self-attention computation meth-\nods and implem"
+        },
+        {
+          "element_idx": 111,
+          "gap": 40.8,
+          "content_preview": "on COCO, and +2.3/+2.9 mIoU on ADE20K in relation to\nthose without position enco"
+        }
+      ]
+    }
+  ]
+}

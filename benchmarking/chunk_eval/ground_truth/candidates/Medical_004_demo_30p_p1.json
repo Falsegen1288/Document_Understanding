@@ -1,0 +1,41 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 1,
+  "boundary_candidates": [
+    {
+      "element_idx": 0,
+      "type": "title",
+      "content_preview": "",
+      "source": "title"
+    },
+    {
+      "element_idx": 1,
+      "type": "title",
+      "content_preview": "surgical insTrumenTs caTalog",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 2,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 3,
+          "gap": 20.3,
+          "content_preview": ""
+        },
+        {
+          "element_idx": 1,
+          "gap": 29.0,
+          "content_preview": "surgical insTrumenTs caTalog"
+        },
+        {
+          "element_idx": 0,
+          "gap": 104.1,
+          "content_preview": ""
+        }
+      ]
+    }
+  ]
+}

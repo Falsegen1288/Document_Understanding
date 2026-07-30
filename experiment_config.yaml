@@ -1,0 +1,45 @@
+# Stage 2 A4 Chunking Experiment Control Stack Configuration
+# This file pins down the fixed downstream components to ensure fair comparison
+# across all chunking strategies.
+
+environment_pin:
+  python_version: "3.12.2"
+  ragas: "0.4.3"
+  deepeval: "4.0.7"
+  langchain_core: "0.2.43"
+  langchain_groq: "0.1.10"
+  no_manual_site_packages_patches: true
+
+embedding_model:
+  name: "BAAI/bge-m3"
+  type: "dense_sparse"
+  justification: "MIT licensed, supports dense and sparse embeddings in a single model, and matches our corpus's requirement for exact-term matching (e.g., item codes, medical terms, citation IDs) alongside semantic search."
+
+vector_store:
+  name: "numpy_in_memory"
+  type: "serverless_memory"
+  justification: "Fastest to stand up locally on the current system (zero infrastructure setup, no local postgres/docker service needed), and implements exact cosine similarity over the 54-pair golden QA bank."
+
+retrieval:
+  top_k: 10
+  reranking: false
+  hybrid_fusion: "RRF (Reciprocal Rank Fusion) with k=60"
+  justification: "Top-k is set to 10 for the initial retrieval to capture all relevant context for the small golden QA bank. A reranking stage is omitted to keep the chunking performance signal isolated and clean. Reciprocal Rank Fusion (RRF) with constant k=60 fuses dense (cosine similarity) and sparse rankings, avoiding scale-mismatch bias."
+
+generator_llm:
+  model_id: "llama-3.1-8b-instant"
+  family: "Llama"
+  provider: "groq"
+  justification: "Control generator."
+
+judge_llm:
+  model_id: "qwen/qwen3-32b"
+  family: "Qwen"
+  provider: "groq"
+  justification: "A highly capable Llama 3 70B model hosted on Groq with a higher TPM limit (12,000) than Qwen (8,000), avoiding 413 Payload Too Large limits on large evaluation prompts while maintaining family separation (Qwen generator vs Llama judge)."
+
+fixed_parameters:
+  max_chunk_size: 800  # Target token count
+  chunk_overlap: 80    # Overlap token count (10%)
+  embedding_batch_size: 32
+  justification: "800 tokens allows large tables and figures to remain intact as atomic units, and 10% overlap ensures semantic continuity at boundaries without excessive duplicate indexing."

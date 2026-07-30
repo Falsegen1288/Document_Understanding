@@ -1,0 +1,41 @@
+{
+  "doc_stem": "Researchpaper_KAI",
+  "page": 2,
+  "boundary_candidates": [
+    {
+      "element_idx": 21,
+      "type": "title",
+      "content_preview": "2. Related Work",
+      "source": "title"
+    },
+    {
+      "element_idx": 22,
+      "type": "title",
+      "content_preview": "2. Related Work",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 15,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 16,
+          "gap": 2.7,
+          "content_preview": "Figure 2. An illustration of the shifted window approach for com-\nputing self-at"
+        },
+        {
+          "element_idx": 14,
+          "gap": 20.8,
+          "content_preview": "backbone for computer vision, as it does for NLP and\nas CNNs do in vision. We ob"
+        },
+        {
+          "element_idx": 17,
+          "gap": 99.6,
+          "content_preview": "shifted window approach has much lower latency than the\nsliding window method, y"
+        }
+      ]
+    }
+  ]
+}

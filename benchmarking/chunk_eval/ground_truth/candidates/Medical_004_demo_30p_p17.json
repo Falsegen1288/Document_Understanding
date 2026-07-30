@@ -1,0 +1,77 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 17,
+  "boundary_candidates": [
+    {
+      "element_idx": 184,
+      "type": "title",
+      "content_preview": "SCALES AND GAUGES",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 187,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 186,
+          "gap": 2.1,
+          "content_preview": "COMPARATIVE SCALES OR GAUGES"
+        },
+        {
+          "element_idx": 184,
+          "gap": 35.9,
+          "content_preview": "SCALES AND GAUGES"
+        },
+        {
+          "element_idx": 191,
+          "gap": 133.5,
+          "content_preview": "Pillinginstruments.com"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 188,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 186,
+          "gap": 2.4,
+          "content_preview": "COMPARATIVE SCALES OR GAUGES"
+        },
+        {
+          "element_idx": 184,
+          "gap": 36.1,
+          "content_preview": "SCALES AND GAUGES"
+        },
+        {
+          "element_idx": 185,
+          "gap": 51.9,
+          "content_preview": "17"
+        }
+      ]
+    },
+    {
+      "anchor_idx": 189,
+      "anchor_type": "table",
+      "nearest_text": [
+        {
+          "element_idx": 185,
+          "gap": 54.7,
+          "content_preview": "17"
+        },
+        {
+          "element_idx": 184,
+          "gap": 60.1,
+          "content_preview": "SCALES AND GAUGES"
+        },
+        {
+          "element_idx": 186,
+          "gap": 81.4,
+          "content_preview": "COMPARATIVE SCALES OR GAUGES"
+        }
+      ]
+    }
+  ]
+}

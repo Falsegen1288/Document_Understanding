@@ -1,0 +1,53 @@
+{
+  "doc_stem": "Medical_004_demo_30p",
+  "page": 15,
+  "boundary_candidates": [
+    {
+      "element_idx": 159,
+      "type": "title",
+      "content_preview": "CROSS REFERENCE LIST",
+      "source": "title"
+    },
+    {
+      "element_idx": 162,
+      "type": "title",
+      "content_preview": "N-COMPASS SERVICES PROVIDED BY TELEFLEX:",
+      "source": "title"
+    },
+    {
+      "element_idx": 165,
+      "type": "title",
+      "content_preview": "PRICING/BUDGETING",
+      "source": "title"
+    },
+    {
+      "element_idx": 167,
+      "type": "title",
+      "content_preview": "REPORTS",
+      "source": "title"
+    }
+  ],
+  "grounding_candidates": [
+    {
+      "anchor_idx": 157,
+      "anchor_type": "figure",
+      "nearest_text": [
+        {
+          "element_idx": 158,
+          "gap": 0.0,
+          "content_preview": "The N-COMPASS Instrument Management \nSystem is a software-based management \ntool"
+        },
+        {
+          "element_idx": 159,
+          "gap": 19.1,
+          "content_preview": "CROSS REFERENCE LIST"
+        },
+        {
+          "element_idx": 160,
+          "gap": 19.1,
+          "content_preview": "CROSS REFERENCE LIST"
+        }
+      ]
+    }
+  ]
+}
