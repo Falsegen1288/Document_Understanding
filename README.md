@@ -275,30 +275,6 @@ docker-compose down
 
 ---
 
-## Stage 2 Retrieval Architecture Decision (`embedding_bench`)
-
-The production retrieval architecture for Stage 2 has been approved for deployment based on empirical benchmarking across heterogeneous document domains:
-
-```text
-query → [catalog-code pattern detector: regex heuristic, zero VRAM, zero model calls]
-           ├─ matches (alphanumeric/SKU/REF-style codes) → BM25-only
-           └─ natural language / conceptual query        → nomic-embed-text or bge-m3 (cuda)
-                                                             + BM25, RRF hybrid
-```
-
-### Production Architectural Principles
-1. **Catalog Codes $\rightarrow$ BM25 Engine**: Pure BM25 outperforms every dense/hybrid/SPLADE model on exact catalog part numbers. Dense embeddings actively degrade accuracy by clustering distinct SKU codes into generic vector neighborhood clusters.
-2. **SPLADE Exclusion**: Tokenizer inspection confirmed SPLADE subword tokenization fragments alphanumeric codes (e.g. `352952` $\rightarrow$ `['352', '##9', '##52']`), creating high false-positive expansion noise.
-3. **Prose / Conceptual $\rightarrow$ Hybrid Dense+BM25**: Technical prose and scientific literature route to `nomic-embed-text` or `bge-m3` fused with BM25 via Reciprocal Rank Fusion (RRF).
-4. **7B CPU Model Exclusion**: Heavy 7B-class models (`qwen3-embedding-8b-4bit`, `nv-embed-v2-fp16`) are excluded due to high CPU latency (850–1450ms p95 encode).
-
-> [!CAUTION]
-> **Directional-Only Notice**: Current metrics are directional only ($N=18$ per corpus). Three verification threads remain unresolved: (A) the causal explanation for the pre/post ground-truth-correction discrepancy has not been independently confirmed by re-slicing the original uncorrected run per corpus; (B) faithfulness spot-check values do not reconcile with reported arm-level averages; (C) the specific queries said to offset router Hit@1 gains have not been identified. None of these affect the architecture decision above, but none of the current numeric values should be treated as final.
-
-For full benchmark documentation, model scorecards, and deprecation logs, see [`embedding_bench/README.md`](file:///D:/Downloads/Document_Understanding/embedding_bench/README.md).
-
----
-
 ## Conclusion & Next Steps
 
 This Unified Document Understanding & Layout Benchmarking Platform provides a robust, high-fidelity Stage 1 foundation. By treating document ingestion as a 2D spatial grid recovery process rather than a linear scan, it preserves reading order, structures tables, and grounds VLM captions. 
