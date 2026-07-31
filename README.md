@@ -285,9 +285,17 @@ docker-compose down
 
 ---
 
-## Conclusion & Next Steps
+## Conclusion & Next Steps: Stage 4 — Guardrails, Verification & Benchmark Credibility
 
-This Unified Document Understanding & Layout Benchmarking Platform provides a robust, high-fidelity Stage 1 foundation. By treating document ingestion as a 2D spatial grid recovery process rather than a linear scan, it preserves reading order, structures tables, and grounds VLM captions. 
+This Unified Document Understanding & Layout Benchmarking Platform establishes a robust 2D spatial grounding foundation. Our next phase focuses on deploying production-grade guardrails and rigorous benchmark verification:
 
-The immediate next milestone is expanding the ground-truth QA bank from $N=18$ to $N \ge 30$ per document corpus ($N \ge 90$ total) before locking production RRF fusion weights ($k$) or per-corpus model selection.
+1. **Guardrail Stack Deployment**:
+   - Ship retrieval-confidence abstention gates, NLI grounding verification, numeric consistency checks, and repetition/degeneration guards.
+
+2. **Institutionalized Cross-Benchmark Credibility**:
+   - Validate performance against **TAT-DQA** and **UniDoc-Bench** with strict harness-verification discipline—auditing near-perfect scores before trusting them.
+
+3. **Production Observability & Continuous Evaluation**:
+   - Stand up serving infrastructure, real-time observability, and a production feedback loop to continuously expand the ground-truth evaluation set.
+
 
