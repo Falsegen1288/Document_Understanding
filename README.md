@@ -1,11 +1,21 @@
 # Unified Document Understanding & Layout Benchmarking Platform
 
+> [!IMPORTANT]
+> ### 📌 Featured Intern Reports
+> Access all project intern reports and weekly slide decks directly:
+> - 📁 **[All Intern Reports Folder](./All%20intern%20reports)**
+>   - 📄 [kaliber_Week2.pdf](./All%20intern%20reports/kaliber_Week2.pdf)
+>   - 📄 [Kaliber - Week 3.pdf](./All%20intern%20reports/Kaliber%20-%20Week%203.pdf)
+>   - 📄 [kaliber week 4.pdf](./All%20intern%20reports/kaliber%20week%204.pdf)
+>   - 📄 [Kaliber ppt week 5-6.pdf](./All%20intern%20reports/Kaliber%20ppt%20week%205-6.pdf)
+
 A consolidated, production-ready enterprise suite for layout segmentation, OCR routing, high-fidelity table structure reconstruction, coordinate-based visual grounding, and manual ground-truth annotation. 
 
 This repository houses three previously separate research modules in a unified, clean, and symmetric workspace:
 1. **Document Ingest Pipeline & GUI** (`obsidian-precision/`)
 2. **Visual Annotator Tool** (`layout_annotator/`)
 3. **Consolidated Benchmarking Workspace** (`benchmarking/`)
+
 
 ---
 
