@@ -285,9 +285,9 @@ docker-compose down
 
 ---
 
-## Conclusion & Next Steps: Stage 4 — Guardrails, Verification & Benchmark Credibility
+## Conclusion & Next Steps: Guardrails, Verification & Benchmark Credibility
 
-This Unified Document Understanding & Layout Benchmarking Platform establishes a robust 2D spatial grounding foundation. Our next phase focuses on deploying production-grade guardrails and rigorous benchmark verification:
+This Unified Document Understanding & Layout Benchmarking Platform establishes a robust 2D spatial grounding foundation. Our next phase focuses on deploying production-grade guardrails, rigorous benchmark verification, and industrial scaling:
 
 1. **Guardrail Stack Deployment**:
    - Ship retrieval-confidence abstention gates, NLI grounding verification, numeric consistency checks, and repetition/degeneration guards.
@@ -295,7 +295,8 @@ This Unified Document Understanding & Layout Benchmarking Platform establishes a
 2. **Institutionalized Cross-Benchmark Credibility**:
    - Validate performance against **TAT-DQA** and **UniDoc-Bench** with strict harness-verification discipline—auditing near-perfect scores before trusting them.
 
-3. **Production Observability & Continuous Evaluation**:
-   - Stand up serving infrastructure, real-time observability, and a production feedback loop to continuously expand the ground-truth evaluation set.
+3. **Industrial-Scale Deployment, Optimization & Infrastructure**:
+   - Stand up enterprise-grade serving, system latency optimization, GPU/CPU resource scaling, model quantization, and robust production deployment pipelines.
+
 
 
