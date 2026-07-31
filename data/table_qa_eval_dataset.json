@@ -1,0 +1,282 @@
+[
+  {
+    "query_id": "qa_01",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the max operating voltage for part SKU-4471?",
+    "ground_truth_value": "5.0V",
+    "ground_truth_citation": {
+      "row_label": "SKU-4471",
+      "column_label": "Max Operating Voltage",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [220.0, 140.0, 300.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_02",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the outer diameter of SKU-4473 micro-guide catheter?",
+    "ground_truth_value": "1.1 mm",
+    "ground_truth_citation": {
+      "row_label": "SKU-4473",
+      "column_label": "Outer Diameter",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [300.0, 180.0, 380.0, 200.0]
+    }
+  },
+  {
+    "query_id": "qa_03",
+    "query_type": "unit_variant",
+    "query": "Which sterilization method is used for part SKU-4471 rated at 5 volts?",
+    "ground_truth_value": "Ethylene Oxide",
+    "ground_truth_citation": {
+      "row_label": "SKU-4471",
+      "column_label": "Sterilization Method",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [470.0, 140.0, 550.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_04",
+    "query_type": "unit_variant",
+    "query": "Find the operating voltage for balloon dilatation catheter SKU-4474 (24 volts).",
+    "ground_truth_value": "24.0V",
+    "ground_truth_citation": {
+      "row_label": "SKU-4474",
+      "column_label": "Max Operating Voltage",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [220.0, 200.0, 300.0, 220.0]
+    }
+  },
+  {
+    "query_id": "qa_05",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the battery capacity of model LAP-X2?",
+    "ground_truth_value": "99 Wh",
+    "ground_truth_citation": {
+      "row_label": "LAP-X2",
+      "column_label": "Battery Capacity",
+      "table_id": "tbl_laptop_02",
+      "section_path": "Hardware Specifications > Enterprise Laptop Models",
+      "page": 12,
+      "bbox": [380.0, 140.0, 460.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_06",
+    "query_type": "exact_cell_lookup",
+    "query": "What processor type is installed in LAP-X1?",
+    "ground_truth_value": "Intel Core i7-13700H",
+    "ground_truth_citation": {
+      "row_label": "LAP-X1",
+      "column_label": "Processor Type",
+      "table_id": "tbl_laptop_02",
+      "section_path": "Hardware Specifications > Enterprise Laptop Models",
+      "page": 12,
+      "bbox": [120.0, 120.0, 220.0, 140.0]
+    }
+  },
+  {
+    "query_id": "qa_07",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the flow coefficient Cv for valve series VALVE-V200?",
+    "ground_truth_value": "28.0",
+    "ground_truth_citation": {
+      "row_label": "VALVE-V200",
+      "column_label": "Flow Coefficient Cv",
+      "table_id": "tbl_valve_03",
+      "section_path": "Engineering Specifications > Control Valve Performance",
+      "page": 8,
+      "bbox": [250.0, 210.0, 340.0, 230.0]
+    }
+  },
+  {
+    "query_id": "qa_08",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the max pressure rating for VALVE-V500?",
+    "ground_truth_value": "600 PSI",
+    "ground_truth_citation": {
+      "row_label": "VALVE-V500",
+      "column_label": "Max Pressure Rating",
+      "table_id": "tbl_valve_03",
+      "section_path": "Engineering Specifications > Control Valve Performance",
+      "page": 8,
+      "bbox": [150.0, 230.0, 250.0, 230.0]
+    }
+  },
+  {
+    "query_id": "qa_09",
+    "query_type": "predicate_range",
+    "query": "List catheters with operating voltage >= 10V.",
+    "ground_truth_value": "12.0V",
+    "ground_truth_citation": {
+      "row_label": "SKU-4472",
+      "column_label": "Max Operating Voltage",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [220.0, 160.0, 300.0, 180.0]
+    }
+  },
+  {
+    "query_id": "qa_10",
+    "query_type": "unit_variant",
+    "query": "What is the maximum operating temperature for ablation catheter SKU-4472?",
+    "ground_truth_value": "-10 to 70 °C",
+    "ground_truth_citation": {
+      "row_label": "SKU-4472",
+      "column_label": "Operating Temp Range",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [380.0, 160.0, 470.0, 180.0]
+    }
+  },
+  {
+    "query_id": "qa_11",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the system memory for LAP-LITE?",
+    "ground_truth_value": "16 GB",
+    "ground_truth_citation": {
+      "row_label": "LAP-LITE",
+      "column_label": "System Memory",
+      "table_id": "tbl_laptop_02",
+      "section_path": "Hardware Specifications > Enterprise Laptop Models",
+      "page": 12,
+      "bbox": [220.0, 160.0, 300.0, 180.0]
+    }
+  },
+  {
+    "query_id": "qa_12",
+    "query_type": "nested_attribute",
+    "query": "What is the body material of control valve VALVE-V100?",
+    "ground_truth_value": "316 Stainless Steel",
+    "ground_truth_citation": {
+      "row_label": "VALVE-V100",
+      "column_label": "Body Material",
+      "table_id": "tbl_valve_03",
+      "section_path": "Engineering Specifications > Control Valve Performance",
+      "page": 8,
+      "bbox": [340.0, 190.0, 440.0, 210.0]
+    }
+  },
+  {
+    "query_id": "qa_13",
+    "query_type": "unit_variant",
+    "query": "What is the max storage capacity for LAP-X2 laptop?",
+    "ground_truth_value": "4 TB",
+    "ground_truth_citation": {
+      "row_label": "LAP-X2",
+      "column_label": "Max Storage",
+      "table_id": "tbl_laptop_02",
+      "section_path": "Hardware Specifications > Enterprise Laptop Models",
+      "page": 12,
+      "bbox": [300.0, 140.0, 380.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_14",
+    "query_type": "exact_cell_lookup",
+    "query": "What catheter type corresponds to SKU-4472?",
+    "ground_truth_value": "Ablation High-Density",
+    "ground_truth_citation": {
+      "row_label": "SKU-4472",
+      "column_label": "Catheter Type",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [120.0, 160.0, 220.0, 180.0]
+    }
+  },
+  {
+    "query_id": "qa_15",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the max temperature rating for VALVE-V500?",
+    "ground_truth_value": "500 °C",
+    "ground_truth_citation": {
+      "row_label": "VALVE-V500",
+      "column_label": "Max Temp Rating",
+      "table_id": "tbl_valve_03",
+      "section_path": "Engineering Specifications > Control Valve Performance",
+      "page": 8,
+      "bbox": [440.0, 230.0, 540.0, 230.0]
+    }
+  },
+  {
+    "query_id": "qa_16",
+    "query_type": "nested_attribute",
+    "query": "Is LAP-X2 rated for outdoor use?",
+    "ground_truth_value": "Yes (IP65 Rugged)",
+    "ground_truth_citation": {
+      "row_label": "LAP-X2",
+      "column_label": "Outdoor Rating",
+      "table_id": "tbl_laptop_02",
+      "section_path": "Hardware Specifications > Enterprise Laptop Models",
+      "page": 12,
+      "bbox": [460.0, 140.0, 560.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_17",
+    "query_type": "unit_variant",
+    "query": "Find max operating voltage for diagnostic catheter SKU-4471 in volts.",
+    "ground_truth_value": "5.0V",
+    "ground_truth_citation": {
+      "row_label": "SKU-4471",
+      "column_label": "Max Operating Voltage",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [220.0, 140.0, 300.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_18",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the outer diameter of catheter SKU-4471?",
+    "ground_truth_value": "2.1 mm",
+    "ground_truth_citation": {
+      "row_label": "SKU-4471",
+      "column_label": "Outer Diameter",
+      "table_id": "tbl_medical_01",
+      "section_path": "Catheter Specifications > Electrical & Physical Properties",
+      "page": 4,
+      "bbox": [300.0, 140.0, 380.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_19",
+    "query_type": "exact_cell_lookup",
+    "query": "What processor is included in LAP-X2?",
+    "ground_truth_value": "AMD Ryzen 9 7940HS",
+    "ground_truth_citation": {
+      "row_label": "LAP-X2",
+      "column_label": "Processor Type",
+      "table_id": "tbl_laptop_02",
+      "section_path": "Hardware Specifications > Enterprise Laptop Models",
+      "page": 12,
+      "bbox": [120.0, 140.0, 220.0, 160.0]
+    }
+  },
+  {
+    "query_id": "qa_20",
+    "query_type": "exact_cell_lookup",
+    "query": "What is the flow coefficient Cv for control valve VALVE-V100?",
+    "ground_truth_value": "12.5",
+    "ground_truth_citation": {
+      "row_label": "VALVE-V100",
+      "column_label": "Flow Coefficient Cv",
+      "table_id": "tbl_valve_03",
+      "section_path": "Engineering Specifications > Control Valve Performance",
+      "page": 8,
+      "bbox": [250.0, 190.0, 340.0, 210.0]
+    }
+  }
+]
