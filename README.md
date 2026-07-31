@@ -90,11 +90,13 @@ The ingestion pipeline executes sequentially across six distinct, modular stages
 
 ```text
 Document_Understanding/
+├── All intern reports/      # Featured Intern Progress Reports & Presentation Decks
 ├── algorithms/              # Core Document_Understanding algorithms
 │   ├── layout_detection/    #   Layout segmenters (YOLOv10, Nemotron-Parse, LandingAI)
 │   ├── text_extraction/     #   Text extraction & OCR (PyMuPDF, EasyOCR, Tesseract)
 │   ├── table_extraction/    #   Table structure recovery (IBM Docling TableFormer, TATR)
 │   └── image_extraction/    #   VLM Crop Captioning (Groq Llama-4-Scout, Local Ollama)
+
 │
 ├── benchmarking/            # Consolidated Benchmarking & Results (from D:\)
 │   ├── src/                 #   Benchmarking React SPA app
