@@ -1,0 +1,41 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260812_100918",
+  "num_queries": 30,
+  "metrics": {
+    "oracle_scoped": {
+      "f1": 0.1935,
+      "set_em": 0.0333,
+      "semantic_score": 0.4
+    },
+    "true_e2e": {
+      "f1": 0.0621,
+      "set_em": 0.0,
+      "semantic_score": 0.2083
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": true
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.012,
+    "embedding": 10.2491,
+    "retrieval": 1.1827,
+    "reranking": 0.0003,
+    "reading": 460.7359,
+    "total": 1479.6431
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 30
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": true
+  },
+  "notes": []
+}

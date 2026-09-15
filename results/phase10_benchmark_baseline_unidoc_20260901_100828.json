@@ -1,0 +1,92 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260901_100828",
+  "num_queries": 5,
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.8,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.8667,
+      "ndcg@10": 0.9
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0,
+        "f1": 0.0467,
+        "precision": 0.0249,
+        "recall": 0.5227,
+        "set_em": 0.0,
+        "numeric_em": 0.2571,
+        "rouge_l": 0.032,
+        "char_similarity": 0.0414,
+        "containment": 0.2,
+        "semantic_score": 0.2,
+        "headline_score": 0.1961
+      },
+      "true_e2e": {
+        "exact_match": 0.0,
+        "f1": 0.0488,
+        "precision": 0.05,
+        "recall": 0.0476,
+        "set_em": 0.0,
+        "numeric_em": 0.0571,
+        "rouge_l": 0.0488,
+        "char_similarity": 0.1075,
+        "containment": 0.0,
+        "semantic_score": 0.0,
+        "headline_score": 0.0163
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0,
+      "f1": 0.0467,
+      "precision": 0.0249,
+      "recall": 0.5227,
+      "set_em": 0.0,
+      "numeric_em": 0.2571,
+      "rouge_l": 0.032,
+      "char_similarity": 0.0414,
+      "containment": 0.2,
+      "semantic_score": 0.2,
+      "headline_score": 0.1961
+    },
+    "true_e2e": {
+      "exact_match": 0.0,
+      "f1": 0.0488,
+      "precision": 0.05,
+      "recall": 0.0476,
+      "set_em": 0.0,
+      "numeric_em": 0.0571,
+      "rouge_l": 0.0488,
+      "char_similarity": 0.1075,
+      "containment": 0.0,
+      "semantic_score": 0.0,
+      "headline_score": 0.0163
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0001,
+    "embedding": 12.2649,
+    "retrieval": 0.1507,
+    "reranking": 0.0002,
+    "reading": 136.3011,
+    "total": 193.6323
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 5
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}

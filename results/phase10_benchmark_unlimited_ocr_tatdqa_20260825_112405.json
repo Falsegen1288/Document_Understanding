@@ -1,0 +1,90 @@
+{
+  "pipeline": "unlimited_ocr",
+  "dataset": "tatdqa",
+  "timestamp": "20260825_112405",
+  "num_queries": 1644,
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.0414,
+      "hit@5": 0.07,
+      "hit@10": 0.0839,
+      "mrr": 0.0552,
+      "ndcg@10": 0.0611
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0109,
+        "f1": 0.1009,
+        "precision": 0.0941,
+        "recall": 0.1515,
+        "set_em": 0.0128,
+        "numeric_em": 0.14,
+        "rouge_l": 0.0329,
+        "char_similarity": 0.0729,
+        "containment": 0.073,
+        "semantic_score": 0.1013
+      },
+      "true_e2e": {
+        "exact_match": 0.0,
+        "f1": 0.0054,
+        "precision": 0.0051,
+        "recall": 0.0174,
+        "set_em": 0.0,
+        "numeric_em": 0.0135,
+        "rouge_l": 0.002,
+        "char_similarity": 0.0249,
+        "containment": 0.0076,
+        "semantic_score": 0.0054
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0109,
+      "f1": 0.1009,
+      "precision": 0.0941,
+      "recall": 0.1515,
+      "set_em": 0.0128,
+      "numeric_em": 0.14,
+      "rouge_l": 0.0329,
+      "char_similarity": 0.0729,
+      "containment": 0.073,
+      "semantic_score": 0.1013
+    },
+    "true_e2e": {
+      "exact_match": 0.0,
+      "f1": 0.0054,
+      "precision": 0.0051,
+      "recall": 0.0174,
+      "set_em": 0.0,
+      "numeric_em": 0.0135,
+      "rouge_l": 0.002,
+      "char_similarity": 0.0249,
+      "containment": 0.0076,
+      "semantic_score": 0.0054
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": true
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0031,
+    "embedding": 14.647,
+    "retrieval": 47.6019,
+    "reranking": 0.0179,
+    "reading": 1877.0027,
+    "total": 4571.5588
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": null
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": true
+  },
+  "notes": [
+    "OCR/layout/table-extraction stages skipped: TAT-DQA is pre-parsed JSON"
+  ]
+}

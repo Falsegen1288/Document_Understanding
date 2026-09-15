@@ -1,0 +1,134 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260909_152714",
+  "num_queries": 5,
+  "predictions": [
+    {
+      "query_id": "unidoc_qa_0000",
+      "query": "How did the Real GDP index of Peru evolve between 1970 and 2010 based on data from the Banco Central de Reserva del Perú?",
+      "ground_truth": "Peru's Real GDP index increased from 100 in 1970 to approximately 400 in 2010, showing significant growth over the period according to data from the Banco Central de Reserva del Perú.",
+      "oracle_prediction": "Calculated",
+      "e2e_prediction": "Calculated",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0001",
+      "query": "How has the RIT Capital discount or premium rate changed in the years before May 2021, as noted by BSE Limited?",
+      "ground_truth": "The trend shows fluctuations, with notable dips below -10% and peaks close to 10%.",
+      "oracle_prediction": "Prasad Shanbhag",
+      "e2e_prediction": "What",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0002",
+      "query": "According to the analysis by Research Affiliates, which asset class shows the highest percentage variance in exposure levels?",
+      "ground_truth": "The largest percentage difference in exposure levels, according to the analysis by Research Affiliates, is 164% for the EAFE asset class.",
+      "oracle_prediction": "but the popular strategies may in fact be unconsciously boosting exposure to an expensive asset class with highly",
+      "e2e_prediction": "According to Figure 1 from Research Affiliates, the asset class with the highest percentage difference (variance) in exposure levels between popular and unpopular funds is U.S. Large, showing a difference of 128%.",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0003",
+      "query": "Can you identify the GWAC percentages for home loans from the years 2009 and 2010 based on the given information?",
+      "ground_truth": "In 2009, the GWAC values are 4.60%, 4.95%, and 5.43%. In 2010, they are 4.95% and 5.36%.",
+      "oracle_prediction": "What",
+      "e2e_prediction": "What",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0004",
+      "query": "What phrase is associated with the auditing company Keefe McCullough for HANDY, Inc.?",
+      "ground_truth": "CPA’s + Trusted Advisors",
+      "oracle_prediction": "We",
+      "e2e_prediction": "Mentions",
+      "retrieval_success": true
+    }
+  ],
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0,
+        "f1": 0.0615,
+        "precision": 0.0667,
+        "recall": 0.0571,
+        "set_em": 0.0,
+        "numeric_em": 0.0,
+        "rouge_l": 0.0513,
+        "char_similarity": 0.0896,
+        "containment": 0.0,
+        "semantic_score": 0.0,
+        "headline_score": 0.0062
+      },
+      "true_e2e": {
+        "exact_match": 0.0,
+        "f1": 0.0981,
+        "precision": 0.0813,
+        "recall": 0.1238,
+        "set_em": 0.0,
+        "numeric_em": 0.0,
+        "rouge_l": 0.0453,
+        "char_similarity": 0.1178,
+        "containment": 0.0,
+        "semantic_score": 0.0,
+        "headline_score": 0.0098
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0,
+      "f1": 0.0615,
+      "precision": 0.0667,
+      "recall": 0.0571,
+      "set_em": 0.0,
+      "numeric_em": 0.0,
+      "rouge_l": 0.0513,
+      "char_similarity": 0.0896,
+      "containment": 0.0,
+      "semantic_score": 0.0,
+      "headline_score": 0.0062
+    },
+    "true_e2e": {
+      "exact_match": 0.0,
+      "f1": 0.0981,
+      "precision": 0.0813,
+      "recall": 0.1238,
+      "set_em": 0.0,
+      "numeric_em": 0.0,
+      "rouge_l": 0.0453,
+      "char_similarity": 0.1178,
+      "containment": 0.0,
+      "semantic_score": 0.0,
+      "headline_score": 0.0098
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0002,
+    "embedding": 11.5477,
+    "retrieval": 0.1153,
+    "reranking": 0.0,
+    "reading": 14.6005,
+    "total": 205.3514
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 5
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}

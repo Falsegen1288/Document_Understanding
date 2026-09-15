@@ -9,21 +9,38 @@ from PIL import Image
 
 _reader = None
 _loaded_langs = None
+RECOGNITION_CALL_COUNT = 0
+
+
+def get_recognition_call_count() -> int:
+    return RECOGNITION_CALL_COUNT
+
 
 def _load_reader(langs: list[str]):
-    """Lazy initialize the EasyOCR Reader."""
+    """Lazy initialize and cache the EasyOCR Reader."""
     global _reader, _loaded_langs
-    # Only re-initialize if the languages list changes
-    if _reader is None or _loaded_langs != sorted(langs):
+    if _reader is None:
         try:
+            import torch
             import easyocr
-            print(f"[OCR] Initializing EasyOCR Reader with languages: {langs}...")
-            _reader = easyocr.Reader(langs)
+            gpu_avail = torch.cuda.is_available() and torch.cuda.device_count() > 0
+            print(f"[EASYOCR INSTANTIATION] Instantiating SINGLE GLOBAL EasyOCR Reader instance (gpu={gpu_avail}) for languages: {langs}...", flush=True)
+            try:
+                _reader = easyocr.Reader(langs, gpu=gpu_avail)
+            except Exception as e_gpu:
+                print(f"[EASYOCR GPU FALLBACK] GPU init failed ({e_gpu}). Falling back to CPU mode (gpu=False)...", flush=True)
+                _reader = easyocr.Reader(langs, gpu=False)
+
             _loaded_langs = sorted(langs)
         except ImportError:
-            print("[ERROR] easyocr is not installed. Please run: pip install easyocr")
+            print("[ERROR] easyocr is not installed. Please run: pip install easyocr", flush=True)
             return None
+    else:
+
+        print(f"[EASYOCR REUSE] Reusing cached global EasyOCR Reader instance (Call #{RECOGNITION_CALL_COUNT + 1})!", flush=True)
     return _reader
+
+
 
 def extract_text(image: Image.Image, langs: list[str] | None = None) -> dict:
     """
@@ -36,6 +53,7 @@ def extract_text(image: Image.Image, langs: list[str] | None = None) -> dict:
     Returns:
         Dict containing full text and block coordinates.
     """
+    global RECOGNITION_CALL_COUNT
     if langs is None:
         langs = ["en"]
         
@@ -46,7 +64,12 @@ def extract_text(image: Image.Image, langs: list[str] | None = None) -> dict:
     try:
         # Convert image to numpy array (EasyOCR requirement)
         img_np = np.array(image)
+        RECOGNITION_CALL_COUNT += 1
+        page_id = RECOGNITION_CALL_COUNT
+        print(f"[READTEXT_CALL START] page={page_id} img_shape={img_np.shape}", flush=True)
         results = reader.readtext(img_np)
+        print(f"[READTEXT_CALL END] page={page_id} num_detections={len(results)}", flush=True)
+
         
         blocks = []
         full_text_parts = []

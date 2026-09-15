@@ -19,6 +19,7 @@ PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(0, PROJECT_ROOT)
 
 from algorithms.config import OUTPUT_DIR
+from algorithms.image_extraction.gemini.extractor import GENERALIZED_MASTER_FIGURE_PROMPT
 
 # ── BBox Drawing Colors ──────────────────────────────────────────────────────
 COLOR_MAP = {
@@ -55,7 +56,7 @@ def load_config() -> dict:
 
 # ── Context-Grounded Captioning Helpers ────────────────────────────────────────
 
-def _pre_extract_page_text(page_no, detected_elements, doc, pdf_path, cfg, has_digital_text, page_images):
+def _pre_extract_page_text(page_no, detected_elements, doc, pdf_path, cfg, has_digital_text, page_images, force_ocr_all_pages=False):
     """Pre-extract/OCR text for all non-visual elements on a specific page."""
     print(f"  [CONTEXT] Pre-extracting text/OCR context for page {page_no}...")
     for element in detected_elements:
@@ -68,7 +69,8 @@ def _pre_extract_page_text(page_no, detected_elements, doc, pdf_path, cfg, has_d
         content = element.get("content", "").strip()
         if not content:
             bbox = element["bbox"]
-            if has_digital_text:
+            if has_digital_text and not force_ocr_all_pages:
+
                 fitz_page = doc[page_no - 1]
                 rect = fitz.Rect(bbox[0], bbox[1], bbox[2], bbox[3])
                 if cfg["text_extraction"] == "pymupdf":
@@ -409,25 +411,23 @@ def compile_grounded_context_and_prompt(page_no, figure_bbox, detected_elements,
     if not table_markdown and not adjacent_paragraph:
         grounded_context += f"### SURROUNDING PAGE TEXT:\n{ocr_text_same_page[:1000]}"
 
-    # Assemble structured VLM prompt
-    prompt = f"""You are a document understanding assistant. Describe the provided figure crop so that the caption is semantically anchored to the document's own vocabulary, headings, and data tables.
+    # Assemble structured VLM prompt using the Generalized Master Prompt
+    prompt = f"""{GENERALIZED_MASTER_FIGURE_PROMPT}
 
-[SURROUNDING GEOMETRIC CONTEXT]
+[SURROUNDING GEOMETRIC & DOCUMENT CONTEXT]
 - Document Title: {document_title}
 - Document Domain: {domain}
 - Target Local Heading: {nearest_heading}
 """
     if table_markdown:
-        prompt += f"- Adjacent Specifications Table:\n{table_markdown}\n"
+        prompt += f"- Adjacent Table on this Page:\n{table_markdown}\n"
     if adjacent_paragraph:
-        prompt += f"- Local Product Description:\n{adjacent_paragraph}\n"
+        prompt += f"- Local Text Context on this Page:\n{adjacent_paragraph}\n"
     prompt += f"- Key Terms from Page: {terms_str}\n"
     prompt += f"""
-[INSTRUCTION]
+[DOMAIN-SPECIFIC EMPHASIS]
 {domain_inst}
-Do not repeat what the text already says; instead, focus on describing what the figure adds visually (elements, loops, labels, axes, trends, or structures).
-Refer to exact product codes or sizing from the table if visible in the image crop, but maintain focus on visual verification.
-Keep the final caption concise and professional (2-3 sentences max).
+Do not hallucinate data that is not visibly rendered in the image.
 """
     return prompt, grounded_context, nearest_heading, domain, best_table_el
 
@@ -526,7 +526,7 @@ Return ONLY the rewritten final caption. Do not include any intro, outro, or exp
 
 # ── Master Pipeline ──────────────────────────────────────────────────────────
 
-def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
+def run_pipeline(pdf_path: str, output_root: str, overrides: dict, force_ocr_all_pages: bool = False) -> str:
     """Run document extraction on a PDF using configured algorithms."""
     start_time = time.time()
     doc_stem = os.path.splitext(os.path.basename(pdf_path))[0]
@@ -595,11 +595,13 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
 
     # Check for digitally embedded text
     has_digital_text = False
-    for page in doc:
-        if page.get_text("text").strip():
-            has_digital_text = True
-            break
-    print(f"  [INFO] Native embedded text found: {has_digital_text}")
+    if not force_ocr_all_pages:
+        for page in doc:
+            if page.get_text("text").strip():
+                has_digital_text = True
+                break
+    print(f"  [INFO] Native embedded text found: {has_digital_text} (force_ocr_all_pages={force_ocr_all_pages})")
+
 
     # 2. Layout Detection
     print("\n[STEP 2] Running layout detection...")
@@ -760,7 +762,7 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
 
             
             # Context pre-extraction for the current page
-            _pre_extract_page_text(page_no, detected_elements, doc, pdf_path, cfg, has_digital_text, page_images)
+            _pre_extract_page_text(page_no, detected_elements, doc, pdf_path, cfg, has_digital_text, page_images, force_ocr_all_pages=force_ocr_all_pages)
             
             # Compile grounded prompt
             grounded_prompt, context_text, heading, domain, matched_table = compile_grounded_context_and_prompt(
@@ -790,7 +792,11 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
             desc_text = ""
             engine = cfg["image_extraction"]
             
-            if engine == "groq_llama":
+            if engine in ["gemini", "gemini_flash", "gemini_36"]:
+                from algorithms.image_extraction.gemini.extractor import describe_figure as gemini_desc
+                res = gemini_desc(cropped_img, prompt=grounded_prompt)
+                desc_text = res.get("description", "")
+            elif engine == "groq_llama":
                 from algorithms.image_extraction.groq.extractor import describe_figure as groq_desc
                 res = groq_desc(cropped_img, prompt=grounded_prompt, model="meta-llama/llama-4-scout-17b-16e-instruct")
                 desc_text = res.get("description", "")
@@ -807,8 +813,8 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
                 res = local_desc(cropped_img, prompt=grounded_prompt, model="moondream:latest")
                 desc_text = res.get("description", "")
             else:
-                from algorithms.image_extraction.groq.extractor import describe_figure as groq_desc
-                res = groq_desc(cropped_img, prompt=grounded_prompt)
+                from algorithms.image_extraction.gemini.extractor import describe_figure as gemini_desc
+                res = gemini_desc(cropped_img, prompt=grounded_prompt)
                 desc_text = res.get("description", "")
 
                 
@@ -1091,11 +1097,42 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict) -> str:
         else:
             el["section_path"] = list(stack)
 
-    # Ensure all elements have the exact same set of 15 keys for schema consistency (Check 10)
+    # Build bidirectional cross_references connecting figures, tables, and text on each page
+    page_to_elements = {}
+    for el in final_elements:
+        page_to_elements.setdefault(el["page_number"], []).append(el)
+
+    for page_no, p_els in page_to_elements.items():
+        page_tbl_ids = [e["element_id"] for e in p_els if e["element_type"] == "table"]
+        page_fig_ids = [e["element_id"] for e in p_els if e["element_type"] == "figure"]
+        page_txt_ids = [e["element_id"] for e in p_els if e["element_type"] in ["title", "paragraph", "header", "footer", "list_item", "formula"]]
+
+        for el in p_els:
+            el_type = el["element_type"]
+            if el_type == "figure":
+                el["cross_references"] = {
+                    "page_number": page_no,
+                    "connected_table_ids": page_tbl_ids,
+                    "connected_text_ids": page_txt_ids,
+                }
+            elif el_type == "table":
+                el["cross_references"] = {
+                    "page_number": page_no,
+                    "connected_figure_ids": page_fig_ids,
+                    "connected_text_ids": page_txt_ids,
+                }
+            else:
+                el["cross_references"] = {
+                    "page_number": page_no,
+                    "connected_figure_ids": page_fig_ids,
+                    "connected_table_ids": page_tbl_ids,
+                }
+
+    # Ensure all elements have the exact same set of 16 keys for schema consistency (Check 10)
     all_keys = [
         "type", "bbox", "confidence", "page", "content", "extracted",
         "table_markdown", "image_caption", "image_path", "reading_order",
-        "element_id", "page_number", "element_type", "text", "section_path"
+        "element_id", "page_number", "element_type", "text", "section_path", "cross_references"
     ]
     for el in final_elements:
         # Clean replacement characters in string fields

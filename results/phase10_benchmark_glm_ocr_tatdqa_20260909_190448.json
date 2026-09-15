@@ -1,0 +1,334 @@
+{
+  "pipeline": "glm_ocr",
+  "dataset": "tatdqa",
+  "timestamp": "20260909_190448",
+  "num_queries": 30,
+  "predictions": [
+    {
+      "query_id": "9513d7f6a63213f1a018c3cfb429ac51",
+      "query": "What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?",
+      "ground_truth": "55%, 50%",
+      "oracle_prediction": "55%, 50%",
+      "e2e_prediction": "55%, 50%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "15cd3644a86e8daa20923764f700bc62",
+      "query": "What are the respective proportion of cost of revenue as a percentage of revenue in 2018 and 2019?",
+      "ground_truth": "50%, 43%",
+      "oracle_prediction": "50%, 43%",
+      "e2e_prediction": "50%, 43%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "6534e51ad485657e5d8dfc4ed5329926",
+      "query": "What are the respective proportion of gross profit as a percentage of revenue in 2018 and 2019?",
+      "ground_truth": "50%, 57%",
+      "oracle_prediction": "50%, 57%",
+      "e2e_prediction": "50%, 57%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "1194b30d85fa5c35b867687d6bba2f20",
+      "query": "What is the total proportion of cost of revenue as a percentage of revenue in 2017 and 2018?",
+      "ground_truth": "105",
+      "oracle_prediction": "105%",
+      "e2e_prediction": "55% (2017) and 50% (2018)",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "6e0925fed96d9b292b9047a7262f4074",
+      "query": "What is the average proportion of cost of revenue as a percentage of the total revenue in 2017 and 2018?",
+      "ground_truth": "52.5",
+      "oracle_prediction": "52.5%",
+      "e2e_prediction": "52.5%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "1d7876dacd735a3a8d3a36a01ec3556c",
+      "query": "What is the average proportion of cost of revenue as a percentage of the total revenue in 2018 and 2019?",
+      "ground_truth": "46.5",
+      "oracle_prediction": "46.5%",
+      "e2e_prediction": "46.5%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "0888dfda29a8c21ca3b875ffef88fe49",
+      "query": "What are the financial items listed in the table?",
+      "ground_truth": "Salaries and fees, Incentive schemes, Other benefits",
+      "oracle_prediction": "Salaries and fees, Incentive schemes, Other benefits",
+      "e2e_prediction": "Indirect taxes receivable, Unbilled revenues, Trade receivables, Accrued interest, Other receivables",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "1cce8de01908a2404087d8bb1448aead",
+      "query": "What does the table show?",
+      "ground_truth": "Aggregate emoluments of the Directors of the Company",
+      "oracle_prediction": "Directors",
+      "e2e_prediction": "Appropriation of earnings (in thousand NT dollars) and Cash dividend per share (NT dollars)",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "9fcb2a41fd52b7de61a9ff78ab6f3bc6",
+      "query": "How much is the 2019 salaries and fees ?",
+      "ground_truth": "4",
+      "oracle_prediction": "4 €m",
+      "e2e_prediction": "4 €m",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "95e2398e9b6e0566c1153e31d29b41de",
+      "query": "What is the average salaries and fees between 2018 and 2019?",
+      "ground_truth": "4",
+      "oracle_prediction": "4",
+      "e2e_prediction": "4",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "9625280562c9fc108f9b6990e40bbce9",
+      "query": "What is the average incentive schemes between 2018 and 2019?",
+      "ground_truth": "2.5",
+      "oracle_prediction": "2.5",
+      "e2e_prediction": "2.5 €m",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "e638b59fbc7dd89bb1594802f1c3a7c4",
+      "query": "What is the difference between average salaries and fees and average incentive schemes from 2018 to 2019?",
+      "ground_truth": "1.5",
+      "oracle_prediction": "2019.0",
+      "e2e_prediction": "2019.0",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "0133459a8bc056f7a1ebfad68f91f424",
+      "query": "What was the legal reserve amount in 2019?",
+      "ground_truth": "$963,947",
+      "oracle_prediction": "$963,947",
+      "e2e_prediction": "$963,947",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "d484e2cbda0916116a8694aefa898890",
+      "query": "What is the implication for reserving debit elements?",
+      "ground_truth": "the special reserve in the amount equal to the reversal may be released for earnings distribution or offsetting accumulated deficits.",
+      "oracle_prediction": "Such special reserve is prohibited from distribution",
+      "e2e_prediction": "Such special reserve is prohibited from distribution",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "5e1379daa2f432845b385564ce4d1629",
+      "query": "What was the cash dividend per share in 2019?",
+      "ground_truth": "$0.75",
+      "oracle_prediction": "$0.75",
+      "e2e_prediction": "$0.75",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "e8b35351d5bb7e0821bf3cac436ab06f",
+      "query": "What is the average Legal reserve within Appropriation of earnings?",
+      "ground_truth": "835623",
+      "oracle_prediction": "2018.0",
+      "e2e_prediction": "$835,623 thousand NT dollars",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "eaefe9fcf68f6d1d30638b45076cf27e",
+      "query": "What is the increase/ (decrease) in Legal reserve within Appropriation of earnings from 2018 to 2019?",
+      "ground_truth": "256648",
+      "oracle_prediction": "$963,947 - $707,299 (or $256,648)",
+      "e2e_prediction": "$256,648",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "e478bd888fd0103fc8c9abaafed27546",
+      "query": "What is the increase/ (decrease) in Cash dividends within Appropriation of earnings from 2018 to 2019?",
+      "ground_truth": "2849050",
+      "oracle_prediction": "To find the increase/decrease in Cash dividends from 2018 to 2019:\n9,765,155 - 6,916,105 = 2,849,050 (thousand NT dollars)\n\nAnswer: $2,849,050 thousand NT dollars",
+      "e2e_prediction": "$2,849,050",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "8375d5669c02a9c64e08a0467ad372db",
+      "query": "What are the 3 dates listed in the table in chronological order?",
+      "ground_truth": "January 1, 2018, December 31, 2018, December 31, 2019",
+      "oracle_prediction": "January 1, 2018, December 31, 2018, December 31, 2019",
+      "e2e_prediction": "January 1, 2018, December 31, 2018, December 31, 2019",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "0d53aa8f15951215692bf8e15e4a8a1d",
+      "query": "What financial items are listed in the table?",
+      "ground_truth": "Indirect taxes receivable, Unbilled revenues, Trade receivables, Accrued interest, Other receivables",
+      "oracle_prediction": "Indirect taxes receivable, Unbilled revenues, Trade receivables, Accrued interest, Other receivables",
+      "e2e_prediction": "Indirect taxes receivable, Unbilled revenues, Trade receivables, Accrued interest, Other receivables",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "def3eb90ee5706a4ea4e340adaa97ef5",
+      "query": "How much is the other receivables as at December 31, 2019?",
+      "ground_truth": "6,665",
+      "oracle_prediction": "$6,665",
+      "e2e_prediction": "6,665",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "ea8d737bd10ada37d60de65ecb6e74db",
+      "query": "What is the average trade receivables for 2018 and 2019?",
+      "ground_truth": "10425.5",
+      "oracle_prediction": "31.0",
+      "e2e_prediction": "10,425.5",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "d6d8532a30f0ce046e030933af379336",
+      "query": "What is the average indirect taxes receivable for 2018 and 2019 ?",
+      "ground_truth": "20297.5",
+      "oracle_prediction": "19,797.5",
+      "e2e_prediction": "To find the average indirect taxes receivable for 2018 and 2019, we use the values from the table:\n- Indirect taxes receivable on December 31, 2018: $3,774 (in thousands)\n- Indirect taxes receivable on December 31, 2019: $36,821 (in thousands)\n\nCalculation:\n$(36,821 + 3,774) / 2 = 40,595 / 2 = 20,297.5$\n\n20,297.5",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "f44b1a66d7faf972ceb66e589db3babb",
+      "query": "What is the average other receivables for 2018 and 2019?",
+      "ground_truth": "7642.5",
+      "oracle_prediction": "To find the average other receivables for 2018 and 2019 using the provided context:\n- Other receivables on December 31, 2019 = $6,665\n- Other receivables on December 31, 2018 = $8,620\n\nCalculation: $(6,665 + 8,620) / 2 = 7,642.5$\n\n7,642.5",
+      "e2e_prediction": "7,642.5",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "cbb02cde95d4c3fd11c024365f73a1f5",
+      "query": "What was the unfavorable claim reserve development in 2018?",
+      "ground_truth": "$81.6 million",
+      "oracle_prediction": "$81.6 million",
+      "e2e_prediction": "$81.6 million",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "6e1d1948dfce647d26e335cfc5d102fa",
+      "query": "What was the beginning balance in 2019?",
+      "ground_truth": "$ 738.7",
+      "oracle_prediction": "$ 738.7",
+      "e2e_prediction": "$ 738.7",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "b426a5f27831a93a8e0705710cc1d018",
+      "query": "What was the beginning balance in 2018?",
+      "ground_truth": "$ 243.5",
+      "oracle_prediction": "$ 243.5",
+      "e2e_prediction": "$ 243.5",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "ecc37810dedcbb4204d85f9522ed645b",
+      "query": "What was the change in the beginning balance from 2018 to 2019?",
+      "ground_truth": "495.2",
+      "oracle_prediction": "$495.2 million",
+      "e2e_prediction": "$495.2 million",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "c68b50dc8b50a05bc531dd74d05d3cf6",
+      "query": "What is the average recoverable from reinsurers value for 2018 and 2019?",
+      "ground_truth": "-118.5",
+      "oracle_prediction": "To find the average recoverable from reinsurers value for 2018 and 2019, we look at the \"recoverable from reinsurers\" values from the table. \n\nThere are two lines representing \"recoverable from reinsurers\" (excluding the business acquired row):\n1. **Less: recoverable from reinsurers (Beginning balance)**:\n   - 2019: (136.4)\n   - 2018: (100.6)\n\n2. **Add: recoverable from reinsurers (Ending balance)**:\n   - 2019: 131.0\n   - 2018: 136.4\n\nAlternatively, considering the total recoverable values at the ending balances:\n- 2019 Ending recoverable: 131.0\n- 2018 Ending recoverable: 136.4\nAverage = $(131.0 + 136.4) / 2 = 133.7$\n\nNOT_FOUND",
+      "e2e_prediction": "To find the average recoverable from reinsurers for 2018 and 2019, we look at the table showing the changes in liability for claims (Life, Accident and Health Reserves), specifically the \"recoverable from reinsurers\" rows:\n\n1. **Beginning balance less recoverable from reinsurers:**\n   - 2019: (136.4)\n   - 2018: (100.6)\n   *(Alternatively, ending recoverable from reinsurers: 2019 = 131.0, 2018 = 136.4)*\n\nLet's calculate the average using the absolute values or total figures if applicable. Looking at the \"Add: recoverable from reinsurers\" (Ending balance components):\n- 2019: 131.0\n- 2018: 136.4\nAverage = (131.0 + 136.4) / 2 = 133.7\n\nLooking at the beginning balance \"Less: recoverable from reinsurers\":\n- 2019: 136.4\n-",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "17c5bc7a76c352bd2dd29eed077e1ee1",
+      "query": "What is the percentage change in the Interest on liability for policy and contract claims from 2018 to 2019?",
+      "ground_truth": "148.86",
+      "oracle_prediction": "31.0",
+      "e2e_prediction": "31.0",
+      "retrieval_success": true
+    }
+  ],
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.9,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.9317,
+      "ndcg@10": 0.9483
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.5667,
+        "f1": 0.6299,
+        "precision": 0.6443,
+        "recall": 0.7284,
+        "set_em": 0.5667,
+        "numeric_em": 0.7333,
+        "rouge_l": 0.4704,
+        "char_similarity": 0.6219,
+        "containment": 0.7667,
+        "semantic_score": 0.7667,
+        "headline_score": 0.7463
+      },
+      "true_e2e": {
+        "exact_match": 0.6,
+        "f1": 0.6814,
+        "precision": 0.6646,
+        "recall": 0.7665,
+        "set_em": 0.4667,
+        "numeric_em": 0.7667,
+        "rouge_l": 0.4586,
+        "char_similarity": 0.6526,
+        "containment": 0.7667,
+        "semantic_score": 0.8167,
+        "headline_score": 0.7757
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.5667,
+      "f1": 0.6299,
+      "precision": 0.6443,
+      "recall": 0.7284,
+      "set_em": 0.5667,
+      "numeric_em": 0.7333,
+      "rouge_l": 0.4704,
+      "char_similarity": 0.6219,
+      "containment": 0.7667,
+      "semantic_score": 0.7667,
+      "headline_score": 0.7463
+    },
+    "true_e2e": {
+      "exact_match": 0.6,
+      "f1": 0.6814,
+      "precision": 0.6646,
+      "recall": 0.7665,
+      "set_em": 0.4667,
+      "numeric_em": 0.7667,
+      "rouge_l": 0.4586,
+      "char_similarity": 0.6526,
+      "containment": 0.7667,
+      "semantic_score": 0.8167,
+      "headline_score": 0.7757
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 1.5801,
+    "chunking": 0.0,
+    "embedding": 9.362,
+    "retrieval": 0.5757,
+    "reranking": 0.0002,
+    "reading": 847.1497,
+    "total": 1033.7235
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 30
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}

@@ -44,4 +44,20 @@ storage/
 node_modules/
 layout_annotator/backend/uploads/
 
+# Virtual environments
+.venv*/
+venv*/
 
+# Caches and runtime artifacts
+.cache/
+.deepeval/
+*.log
+*.db
+*.sqlite
+
+# Large binaries and wheels
+*.whl
+
+# Temporary and scratch files
+scratch/
+scratch_*.png

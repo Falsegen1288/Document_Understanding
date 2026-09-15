@@ -22,7 +22,10 @@ vector_store:
 
 retrieval:
   top_k: 10
-  reranking: false
+  reranking:
+    enabled: false
+    model: "BAAI/bge-reranker-v2-m3"
+    top_k: 10
   hybrid_fusion: "RRF (Reciprocal Rank Fusion) with k=60"
   justification: "Top-k is set to 10 for the initial retrieval to capture all relevant context for the small golden QA bank. A reranking stage is omitted to keep the chunking performance signal isolated and clean. Reciprocal Rank Fusion (RRF) with constant k=60 fuses dense (cosine similarity) and sparse rankings, avoiding scale-mismatch bias."
 

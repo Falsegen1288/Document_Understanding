@@ -1,0 +1,174 @@
+{
+  "pipeline": "baseline",
+  "dataset": "tatdqa",
+  "timestamp": "20260909_140620",
+  "num_queries": 10,
+  "predictions": [
+    {
+      "query_id": "9513d7f6a63213f1a018c3cfb429ac51",
+      "query": "What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?",
+      "ground_truth": "55%, 50%",
+      "oracle_prediction": "55%, 50%",
+      "e2e_prediction": "55%, 50%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "15cd3644a86e8daa20923764f700bc62",
+      "query": "What are the respective proportion of cost of revenue as a percentage of revenue in 2018 and 2019?",
+      "ground_truth": "50%, 43%",
+      "oracle_prediction": "50%, 43%",
+      "e2e_prediction": "50%, 43%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "6534e51ad485657e5d8dfc4ed5329926",
+      "query": "What are the respective proportion of gross profit as a percentage of revenue in 2018 and 2019?",
+      "ground_truth": "50%, 57%",
+      "oracle_prediction": "50%, 57%",
+      "e2e_prediction": "50%, 57%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "1194b30d85fa5c35b867687d6bba2f20",
+      "query": "What is the total proportion of cost of revenue as a percentage of revenue in 2017 and 2018?",
+      "ground_truth": "105",
+      "oracle_prediction": "105%",
+      "e2e_prediction": "105%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "6e0925fed96d9b292b9047a7262f4074",
+      "query": "What is the average proportion of cost of revenue as a percentage of the total revenue in 2017 and 2018?",
+      "ground_truth": "52.5",
+      "oracle_prediction": "52.5%",
+      "e2e_prediction": "52.5%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "1d7876dacd735a3a8d3a36a01ec3556c",
+      "query": "What is the average proportion of cost of revenue as a percentage of the total revenue in 2018 and 2019?",
+      "ground_truth": "46.5",
+      "oracle_prediction": "46.5%",
+      "e2e_prediction": "46.5%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "0888dfda29a8c21ca3b875ffef88fe49",
+      "query": "What are the financial items listed in the table?",
+      "ground_truth": "Salaries and fees, Incentive schemes, Other benefits",
+      "oracle_prediction": "Salaries and fees, Incentive schemes, Other benefits",
+      "e2e_prediction": "Revenue, Cost of revenue, Gross profit, Research and development, Selling, general and administrative, Loss from operations, Interest expense, Interest income and other expense, net, Loss before income taxes, Provision for income taxes, Net loss",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "1cce8de01908a2404087d8bb1448aead",
+      "query": "What does the table show?",
+      "ground_truth": "Aggregate emoluments of the Directors of the Company",
+      "oracle_prediction": "Directors",
+      "e2e_prediction": "Results",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "9fcb2a41fd52b7de61a9ff78ab6f3bc6",
+      "query": "How much is the 2019 salaries and fees ?",
+      "ground_truth": "4",
+      "oracle_prediction": "4",
+      "e2e_prediction": "4",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "95e2398e9b6e0566c1153e31d29b41de",
+      "query": "What is the average salaries and fees between 2018 and 2019?",
+      "ground_truth": "4",
+      "oracle_prediction": "4",
+      "e2e_prediction": "4",
+      "retrieval_success": true
+    }
+  ],
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.8,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.9,
+      "ndcg@10": 0.9262
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.9,
+        "f1": 0.9222,
+        "precision": 1.0,
+        "recall": 0.9125,
+        "set_em": 0.9,
+        "numeric_em": 0.9,
+        "rouge_l": 0.6222,
+        "char_similarity": 0.8523,
+        "containment": 1.0,
+        "semantic_score": 0.95,
+        "headline_score": 0.9547
+      },
+      "true_e2e": {
+        "exact_match": 0.8,
+        "f1": 0.8098,
+        "precision": 0.8059,
+        "recall": 0.8286,
+        "set_em": 0.8,
+        "numeric_em": 0.8,
+        "rouge_l": 0.5098,
+        "char_similarity": 0.7622,
+        "containment": 0.8,
+        "semantic_score": 0.8,
+        "headline_score": 0.801
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.9,
+      "f1": 0.9222,
+      "precision": 1.0,
+      "recall": 0.9125,
+      "set_em": 0.9,
+      "numeric_em": 0.9,
+      "rouge_l": 0.6222,
+      "char_similarity": 0.8523,
+      "containment": 1.0,
+      "semantic_score": 0.95,
+      "headline_score": 0.9547
+    },
+    "true_e2e": {
+      "exact_match": 0.8,
+      "f1": 0.8098,
+      "precision": 0.8059,
+      "recall": 0.8286,
+      "set_em": 0.8,
+      "numeric_em": 0.8,
+      "rouge_l": 0.5098,
+      "char_similarity": 0.7622,
+      "containment": 0.8,
+      "semantic_score": 0.8,
+      "headline_score": 0.801
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": true
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0,
+    "embedding": 12.2469,
+    "retrieval": 0.1817,
+    "reranking": 0.0001,
+    "reading": 29.5066,
+    "total": 46.6872
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 10
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": true
+  },
+  "notes": []
+}

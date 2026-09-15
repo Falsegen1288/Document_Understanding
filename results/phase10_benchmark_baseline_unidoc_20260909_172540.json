@@ -1,0 +1,134 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260909_172540",
+  "num_queries": 5,
+  "predictions": [
+    {
+      "query_id": "unidoc_qa_0000",
+      "query": "How did the Real GDP index of Peru evolve between 1970 and 2010 based on data from the Banco Central de Reserva del Perú?",
+      "ground_truth": "Peru's Real GDP index increased from 100 in 1970 to approximately 400 in 2010, showing significant growth over the period according to data from the Banco Central de Reserva del Perú.",
+      "oracle_prediction": "Based on data from the Banco Central de Reserva del Perú (where the index is set at 1970=100), Peru's Real GDP grew modestly through the 1970s and 1980s before experiencing significant expansion in the following decades. Specifically, the index rose from 100 in 1970 to approximately 135 by 1990, and then climbed further to reach 328 by 2010.",
+      "e2e_prediction": "Based on data from the Banco Central de Reserva del Perú (indexed with 1970=100), Peru's Real GDP stood at approximately 100 in 1970 and experienced slow, fluctuating growth through the 1970s and 1980s before stalling or declining during the hyperinflationary crisis around 1989–1990. Following economic stabilization and reforms in the 1990s, the Real GDP index expanded significantly, reaching approximately 186 by 2000 and continuing a strong upward trajectory to about 328 by 2010.",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0001",
+      "query": "How has the RIT Capital discount or premium rate changed in the years before May 2021, as noted by BSE Limited?",
+      "ground_truth": "The trend shows fluctuations, with notable dips below -10% and peaks close to 10%.",
+      "oracle_prediction": "Board",
+      "e2e_prediction": "Board",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0002",
+      "query": "According to the analysis by Research Affiliates, which asset class shows the highest percentage variance in exposure levels?",
+      "ground_truth": "The largest percentage difference in exposure levels, according to the analysis by Research Affiliates, is 164% for the EAFE asset class.",
+      "oracle_prediction": "According to the analysis by Research Affiliates shown in Figure 1, the EAFE asset class exhibits the highest percentage difference in average flow-weighted trailing three-year betas between popular and unpopular funds, reaching 164%.",
+      "e2e_prediction": "According to the analysis and Figure 1, EAFE shows the highest percentage difference in average flow-weighted trailing three-year betas between popular and unpopular funds, with a 164% variance. U.S. Large equities follow closely behind with a 128% difference.",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0003",
+      "query": "Can you identify the GWAC percentages for home loans from the years 2009 and 2010 based on the given information?",
+      "ground_truth": "In 2009, the GWAC values are 4.60%, 4.95%, and 5.43%. In 2010, they are 4.95% and 5.36%.",
+      "oracle_prediction": "Based on the provided tables, the GWAC percentages for home loans issued in 2009 and 2010 vary by specific coupon sections. For the 4.0% coupon section, the 2009 loan has a GWAC of 4.60%. In the 4.5% coupon section, both the 2009 and 2010 loans share a GWAC of 4.95%. Additionally, in the 5.0% coupon section, the 2010 loan has a GWAC of 5.36% while the 2009 loan is 5.43%.",
+      "e2e_prediction": "Based on the provided document, the GWAC percentage for home loans issued in 2010 is 4.95% under Section 2 (Coupon 4.5%) and 5.36% under Section 3 (Coupon 5.0%). For home loans issued in 2009, the GWAC is 4.95% under Section 2 (Coupon 4.5%) and 5.43% under Section 3 (Coupon 5.0%).",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0004",
+      "query": "What phrase is associated with the auditing company Keefe McCullough for HANDY, Inc.?",
+      "ground_truth": "CPA’s + Trusted Advisors",
+      "oracle_prediction": "The auditing company Keefe McCullough is associated with the phrase \"CPA's + Trusted Advisors\". This phrase appears alongside the firm's name and logo in the provided financial report documents.",
+      "e2e_prediction": "The auditing company Keefe McCullough, which provides services for HANDY, Inc., is associated with the phrase \"CPA's + Trusted Advisors\". This phrase appears as a tagline on their logos and documentation within the report.",
+      "retrieval_success": true
+    }
+  ],
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0,
+        "f1": 0.2783,
+        "precision": 0.2038,
+        "recall": 0.58,
+        "set_em": 0.0,
+        "numeric_em": 0.55,
+        "rouge_l": 0.1633,
+        "char_similarity": 0.1708,
+        "containment": 0.2,
+        "semantic_score": 0.75,
+        "headline_score": 0.4703
+      },
+      "true_e2e": {
+        "exact_match": 0.0,
+        "f1": 0.225,
+        "precision": 0.1563,
+        "recall": 0.5206,
+        "set_em": 0.0,
+        "numeric_em": 0.5214,
+        "rouge_l": 0.1254,
+        "char_similarity": 0.1835,
+        "containment": 0.2,
+        "semantic_score": 0.7,
+        "headline_score": 0.4418
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0,
+      "f1": 0.2783,
+      "precision": 0.2038,
+      "recall": 0.58,
+      "set_em": 0.0,
+      "numeric_em": 0.55,
+      "rouge_l": 0.1633,
+      "char_similarity": 0.1708,
+      "containment": 0.2,
+      "semantic_score": 0.75,
+      "headline_score": 0.4703
+    },
+    "true_e2e": {
+      "exact_match": 0.0,
+      "f1": 0.225,
+      "precision": 0.1563,
+      "recall": 0.5206,
+      "set_em": 0.0,
+      "numeric_em": 0.5214,
+      "rouge_l": 0.1254,
+      "char_similarity": 0.1835,
+      "containment": 0.2,
+      "semantic_score": 0.7,
+      "headline_score": 0.4418
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0002,
+    "embedding": 12.7222,
+    "retrieval": 0.1281,
+    "reranking": 0.0,
+    "reading": 32.6929,
+    "total": 231.0696
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 5
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}

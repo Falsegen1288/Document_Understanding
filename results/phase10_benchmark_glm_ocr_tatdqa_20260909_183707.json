@@ -1,0 +1,134 @@
+{
+  "pipeline": "glm_ocr",
+  "dataset": "tatdqa",
+  "timestamp": "20260909_183707",
+  "num_queries": 5,
+  "predictions": [
+    {
+      "query_id": "9513d7f6a63213f1a018c3cfb429ac51",
+      "query": "What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?",
+      "ground_truth": "55%, 50%",
+      "oracle_prediction": "55%, 50%",
+      "e2e_prediction": "55%, 50%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "15cd3644a86e8daa20923764f700bc62",
+      "query": "What are the respective proportion of cost of revenue as a percentage of revenue in 2018 and 2019?",
+      "ground_truth": "50%, 43%",
+      "oracle_prediction": "50%, 43%",
+      "e2e_prediction": "50%, 43%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "6534e51ad485657e5d8dfc4ed5329926",
+      "query": "What are the respective proportion of gross profit as a percentage of revenue in 2018 and 2019?",
+      "ground_truth": "50%, 57%",
+      "oracle_prediction": "50%, 57%",
+      "e2e_prediction": "50%, 57%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "1194b30d85fa5c35b867687d6bba2f20",
+      "query": "What is the total proportion of cost of revenue as a percentage of revenue in 2017 and 2018?",
+      "ground_truth": "105",
+      "oracle_prediction": "105%",
+      "e2e_prediction": "105%",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "6e0925fed96d9b292b9047a7262f4074",
+      "query": "What is the average proportion of cost of revenue as a percentage of the total revenue in 2017 and 2018?",
+      "ground_truth": "52.5",
+      "oracle_prediction": "52.5%",
+      "e2e_prediction": "52.5%",
+      "retrieval_success": true
+    }
+  ],
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "set_em": 1.0,
+        "numeric_em": 1.0,
+        "rouge_l": 0.6,
+        "char_similarity": 0.91,
+        "containment": 1.0,
+        "semantic_score": 1.0,
+        "headline_score": 1.0
+      },
+      "true_e2e": {
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "set_em": 1.0,
+        "numeric_em": 1.0,
+        "rouge_l": 0.6,
+        "char_similarity": 0.91,
+        "containment": 1.0,
+        "semantic_score": 1.0,
+        "headline_score": 1.0
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "set_em": 1.0,
+      "numeric_em": 1.0,
+      "rouge_l": 0.6,
+      "char_similarity": 0.91,
+      "containment": 1.0,
+      "semantic_score": 1.0,
+      "headline_score": 1.0
+    },
+    "true_e2e": {
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "set_em": 1.0,
+      "numeric_em": 1.0,
+      "rouge_l": 0.6,
+      "char_similarity": 0.91,
+      "containment": 1.0,
+      "semantic_score": 1.0,
+      "headline_score": 1.0
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": true
+    }
+  },
+  "latency_seconds": {
+    "ocr": 1.6296,
+    "chunking": 0.0,
+    "embedding": 9.8435,
+    "retrieval": 0.0884,
+    "reranking": 0.0,
+    "reading": 2.9658,
+    "total": 15.5472
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 5
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": true
+  },
+  "notes": []
+}

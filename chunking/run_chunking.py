@@ -12,6 +12,7 @@ from chunking.strategies.element_atomic import ElementAtomicChunker
 from chunking.strategies.section_hierarchical import SectionHierarchicalChunker
 from chunking.strategies.geometric_grounding import GeometricGroundingChunker
 from chunking.strategies.hybrid_semantic import HybridSemanticChunker
+from chunking.strategies.semantic_mesh import SemanticMeshChunker
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -23,6 +24,7 @@ STRATEGY_REGISTRY: dict[str, type] = {
     "section_hierarchical": SectionHierarchicalChunker,
     "geometric_grounding": GeometricGroundingChunker,
     "hybrid_semantic": HybridSemanticChunker,
+    "semantic_mesh": SemanticMeshChunker,
 }
 
 

@@ -1,0 +1,174 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260909_150806",
+  "num_queries": 10,
+  "predictions": [
+    {
+      "query_id": "unidoc_qa_0000",
+      "query": "How did the Real GDP index of Peru evolve between 1970 and 2010 based on data from the Banco Central de Reserva del Perú?",
+      "ground_truth": "Peru's Real GDP index increased from 100 in 1970 to approximately 400 in 2010, showing significant growth over the period according to data from the Banco Central de Reserva del Perú.",
+      "oracle_prediction": "Calculated",
+      "e2e_prediction": "Calculated",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0001",
+      "query": "How has the RIT Capital discount or premium rate changed in the years before May 2021, as noted by BSE Limited?",
+      "ground_truth": "The trend shows fluctuations, with notable dips below -10% and peaks close to 10%.",
+      "oracle_prediction": "Prasad Shanbhag",
+      "e2e_prediction": "Board",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0002",
+      "query": "According to the analysis by Research Affiliates, which asset class shows the highest percentage variance in exposure levels?",
+      "ground_truth": "The largest percentage difference in exposure levels, according to the analysis by Research Affiliates, is 164% for the EAFE asset class.",
+      "oracle_prediction": "but the popular strategies may in fact be unconsciously boosting exposure to an expensive asset class with highly",
+      "e2e_prediction": "but the popular strategies may in fact be unconsciously boosting exposure to an expensive asset class with highly",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0003",
+      "query": "Can you identify the GWAC percentages for home loans from the years 2009 and 2010 based on the given information?",
+      "ground_truth": "In 2009, the GWAC values are 4.60%, 4.95%, and 5.43%. In 2010, they are 4.95% and 5.36%.",
+      "oracle_prediction": "2005",
+      "e2e_prediction": "However",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0004",
+      "query": "What phrase is associated with the auditing company Keefe McCullough for HANDY, Inc.?",
+      "ground_truth": "CPA’s + Trusted Advisors",
+      "oracle_prediction": "We",
+      "e2e_prediction": "We",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0005",
+      "query": "According to the 2003 Executive Opinion Survey, how were countries ranked by the quality of their education systems?",
+      "ground_truth": "According to the 2003 Executive Opinion Survey, countries were ranked by the quality of their education systems as follows: Israel 12, Estonia 29, Czech Republic 32, Hungary 35, India 36, Russian Federation 39, Poland 44, Korea 47, Indonesia 49, China 50, Colombia 61, Chile 66, South Africa 68, Brazil 72, Mexico 74, Turkey 75, Argentina 77, Nigeria 79, and Venezuela 97.",
+      "oracle_prediction": "Russian Federation",
+      "e2e_prediction": "Step",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0006",
+      "query": "Where are the new crossing points located in the Falcon Zone that trends northwest-southeast at Hemi?",
+      "ground_truth": "The new intersections in the Falcon Zone are located at coordinates around 648000E, 7691640N and extend to around 647860E, 7690360N, with mineralisation defined over a strike length of 1.8km.",
+      "oracle_prediction": "De Grey Mining",
+      "e2e_prediction": "De Grey Mining",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0007",
+      "query": "Which factors are considered important for investment decisions concerning BA’s role, the quality of the product or service, and market appeal, according to the hierarchical structure?",
+      "ground_truth": "The criteria considered include BA’s involvement (support for small businesses, local investment, taking control of the business, reducing risks, management alignment with interests, involvement with entrepreneurial ventures), the quality of the product or service (potential sales, product superiority, proprietary features, high technology, difficulty of imitation), the entrepreneur/management team (investor’s background, track record, trustworthiness, commitment, market familiarity, risk management, clear business idea), market attractiveness (market size, growth potential, low entry cost, competitive advantage, low market risk, established distribution channels), and financial considerations (investment size, perceived financial rewards, clear exit opportunity, potential for high returns, investment liquidity).",
+      "oracle_prediction": "In",
+      "e2e_prediction": "In",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0008",
+      "query": "According to the Nahmani Grunder forecast as of April 2021, what were the anticipated percentage shifts for the S&P 500, Europe Stoxx 600, and MSCI EM indices in the year 2020?",
+      "ground_truth": "S&P 500: 26.0%, Europe Stoxx 600: 22.3%, MSCI EM: 20.4%",
+      "oracle_prediction": "Banks",
+      "e2e_prediction": "Banks",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0009",
+      "query": "In the analysis of the US market, what is the calculated covariance for VOL_DER and CPI_US?",
+      "ground_truth": "-27683.27",
+      "oracle_prediction": "Moreover",
+      "e2e_prediction": "Peru",
+      "retrieval_success": true
+    }
+  ],
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.9,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.95,
+      "ndcg@10": 0.9631
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0,
+        "f1": 0.0371,
+        "precision": 0.1333,
+        "recall": 0.0319,
+        "set_em": 0.0,
+        "numeric_em": 0.0286,
+        "rouge_l": 0.032,
+        "char_similarity": 0.0591,
+        "containment": 0.2,
+        "semantic_score": 0.0,
+        "headline_score": 0.0794
+      },
+      "true_e2e": {
+        "exact_match": 0.0,
+        "f1": 0.0308,
+        "precision": 0.0333,
+        "recall": 0.0286,
+        "set_em": 0.0,
+        "numeric_em": 0.0,
+        "rouge_l": 0.0256,
+        "char_similarity": 0.0504,
+        "containment": 0.1,
+        "semantic_score": 0.0,
+        "headline_score": 0.0381
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0,
+      "f1": 0.0371,
+      "precision": 0.1333,
+      "recall": 0.0319,
+      "set_em": 0.0,
+      "numeric_em": 0.0286,
+      "rouge_l": 0.032,
+      "char_similarity": 0.0591,
+      "containment": 0.2,
+      "semantic_score": 0.0,
+      "headline_score": 0.0794
+    },
+    "true_e2e": {
+      "exact_match": 0.0,
+      "f1": 0.0308,
+      "precision": 0.0333,
+      "recall": 0.0286,
+      "set_em": 0.0,
+      "numeric_em": 0.0,
+      "rouge_l": 0.0256,
+      "char_similarity": 0.0504,
+      "containment": 0.1,
+      "semantic_score": 0.0,
+      "headline_score": 0.0381
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": true
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0004,
+    "embedding": 11.0074,
+    "retrieval": 0.2353,
+    "reranking": 0.0003,
+    "reading": 3.1511,
+    "total": 257.8372
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 10
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": true
+  },
+  "notes": []
+}

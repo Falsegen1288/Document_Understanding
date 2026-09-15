@@ -1,0 +1,88 @@
+{
+  "pipeline": "unlimited_ocr",
+  "dataset": "unidoc",
+  "timestamp": "20260824_104446",
+  "num_queries": 664,
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.2666,
+      "hit@5": 0.2801,
+      "hit@10": 0.2861,
+      "mrr": 0.2731,
+      "ndcg@10": 0.2758
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0,
+        "f1": 0.024,
+        "precision": 0.112,
+        "recall": 0.0586,
+        "set_em": 0.0,
+        "numeric_em": 0.0634,
+        "rouge_l": 0.019,
+        "char_similarity": 0.0744,
+        "containment": 0.134,
+        "semantic_score": 0.025
+      },
+      "true_e2e": {
+        "exact_match": 0.0015,
+        "f1": 0.0129,
+        "precision": 0.0715,
+        "recall": 0.0294,
+        "set_em": 0.0015,
+        "numeric_em": 0.0351,
+        "rouge_l": 0.01,
+        "char_similarity": 0.0279,
+        "containment": 0.0949,
+        "semantic_score": 0.0129
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0,
+      "f1": 0.024,
+      "precision": 0.112,
+      "recall": 0.0586,
+      "set_em": 0.0,
+      "numeric_em": 0.0634,
+      "rouge_l": 0.019,
+      "char_similarity": 0.0744,
+      "containment": 0.134,
+      "semantic_score": 0.025
+    },
+    "true_e2e": {
+      "exact_match": 0.0015,
+      "f1": 0.0129,
+      "precision": 0.0715,
+      "recall": 0.0294,
+      "set_em": 0.0015,
+      "numeric_em": 0.0351,
+      "rouge_l": 0.01,
+      "char_similarity": 0.0279,
+      "containment": 0.0949,
+      "semantic_score": 0.0129
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0011,
+    "embedding": 12.9131,
+    "retrieval": 16.938,
+    "reranking": 0.0069,
+    "reading": 1649.4324,
+    "total": 3088.0604
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": null
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}

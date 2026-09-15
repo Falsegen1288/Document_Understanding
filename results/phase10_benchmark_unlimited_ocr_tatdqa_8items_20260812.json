@@ -1,0 +1,43 @@
+{
+  "pipeline": "unlimited_ocr",
+  "dataset": "tatdqa",
+  "timestamp": "20260812_162312",
+  "num_queries": 8,
+  "metrics": {
+    "oracle_scoped": {
+      "f1": 0.0,
+      "set_em": 0.0,
+      "semantic_score": 0.125
+    },
+    "true_e2e": {
+      "f1": 0.0,
+      "set_em": 0.0,
+      "semantic_score": 0.125
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": true
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0,
+    "embedding": 11.9955,
+    "retrieval": 0.1634,
+    "reranking": 0.0001,
+    "reading": 4.533,
+    "total": 37.4657
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 8
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": true
+  },
+  "notes": [
+    "OCR/layout/table-extraction stages skipped: TAT-DQA is pre-parsed JSON"
+  ]
+}

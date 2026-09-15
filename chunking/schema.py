@@ -20,6 +20,10 @@ class Chunk:
     token_count: int
     parent_section: Optional[str] = None
     source_element_indices: list[int] = field(default_factory=list)
+    page_span: list[int] = field(default_factory=list)
+    lineage: dict = field(default_factory=dict)
+    table_pointers: dict = field(default_factory=dict)
+    cross_references: dict = field(default_factory=dict)
     metadata: dict = field(default_factory=dict)
 
     def to_dict(self) -> dict:
@@ -35,6 +39,10 @@ class Chunk:
             "token_count": self.token_count,
             "parent_section": self.parent_section,
             "source_element_indices": self.source_element_indices,
+            "page_span": self.page_span if self.page_span else [self.page],
+            "lineage": self.lineage,
+            "table_pointers": self.table_pointers,
+            "cross_references": self.cross_references,
             "metadata": self.metadata,
         }
 

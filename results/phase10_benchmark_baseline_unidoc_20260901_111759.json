@@ -1,0 +1,92 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260901_111759",
+  "num_queries": 664,
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.8735,
+      "hit@5": 0.9307,
+      "hit@10": 0.9428,
+      "mrr": 0.8979,
+      "ndcg@10": 0.9079
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0,
+        "f1": 0.0415,
+        "precision": 0.2209,
+        "recall": 0.0365,
+        "set_em": 0.0,
+        "numeric_em": 0.0447,
+        "rouge_l": 0.0335,
+        "char_similarity": 0.0572,
+        "containment": 0.2349,
+        "semantic_score": 0.0425,
+        "headline_score": 0.1102
+      },
+      "true_e2e": {
+        "exact_match": 0.0015,
+        "f1": 0.0353,
+        "precision": 0.1683,
+        "recall": 0.0322,
+        "set_em": 0.0015,
+        "numeric_em": 0.0301,
+        "rouge_l": 0.029,
+        "char_similarity": 0.0577,
+        "containment": 0.1905,
+        "semantic_score": 0.0353,
+        "headline_score": 0.0886
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0,
+      "f1": 0.0415,
+      "precision": 0.2209,
+      "recall": 0.0365,
+      "set_em": 0.0,
+      "numeric_em": 0.0447,
+      "rouge_l": 0.0335,
+      "char_similarity": 0.0572,
+      "containment": 0.2349,
+      "semantic_score": 0.0425,
+      "headline_score": 0.1102
+    },
+    "true_e2e": {
+      "exact_match": 0.0015,
+      "f1": 0.0353,
+      "precision": 0.1683,
+      "recall": 0.0322,
+      "set_em": 0.0015,
+      "numeric_em": 0.0301,
+      "rouge_l": 0.029,
+      "char_similarity": 0.0577,
+      "containment": 0.1905,
+      "semantic_score": 0.0353,
+      "headline_score": 0.0886
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0178,
+    "embedding": 31.4328,
+    "retrieval": 156.5764,
+    "reranking": 0.0085,
+    "reading": 1084.3767,
+    "total": 3060.0961
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": null
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}

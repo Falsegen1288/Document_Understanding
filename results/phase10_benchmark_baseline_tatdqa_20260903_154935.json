@@ -1,0 +1,92 @@
+{
+  "pipeline": "baseline",
+  "dataset": "tatdqa",
+  "timestamp": "20260903_154935",
+  "num_queries": 1644,
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 0.0675,
+      "hit@5": 0.1429,
+      "hit@10": 0.1849,
+      "mrr": 0.1048,
+      "ndcg@10": 0.1205
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0085,
+        "f1": 0.0994,
+        "precision": 0.0924,
+        "recall": 0.1388,
+        "set_em": 0.0128,
+        "numeric_em": 0.1325,
+        "rouge_l": 0.0301,
+        "char_similarity": 0.154,
+        "containment": 0.0639,
+        "semantic_score": 0.0997,
+        "headline_score": 0.0937
+      },
+      "true_e2e": {
+        "exact_match": 0.0,
+        "f1": 0.0064,
+        "precision": 0.0053,
+        "recall": 0.0152,
+        "set_em": 0.0,
+        "numeric_em": 0.0152,
+        "rouge_l": 0.0022,
+        "char_similarity": 0.0656,
+        "containment": 0.0061,
+        "semantic_score": 0.0064,
+        "headline_score": 0.0081
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0085,
+      "f1": 0.0994,
+      "precision": 0.0924,
+      "recall": 0.1388,
+      "set_em": 0.0128,
+      "numeric_em": 0.1325,
+      "rouge_l": 0.0301,
+      "char_similarity": 0.154,
+      "containment": 0.0639,
+      "semantic_score": 0.0997,
+      "headline_score": 0.0937
+    },
+    "true_e2e": {
+      "exact_match": 0.0,
+      "f1": 0.0064,
+      "precision": 0.0053,
+      "recall": 0.0152,
+      "set_em": 0.0,
+      "numeric_em": 0.0152,
+      "rouge_l": 0.0022,
+      "char_similarity": 0.0656,
+      "containment": 0.0061,
+      "semantic_score": 0.0064,
+      "headline_score": 0.0081
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": true
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0004,
+    "embedding": 11.9149,
+    "retrieval": 39.7042,
+    "reranking": 0.0184,
+    "reading": 2603.1118,
+    "total": 5905.8636
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": null
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": true
+  },
+  "notes": []
+}

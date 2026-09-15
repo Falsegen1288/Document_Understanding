@@ -1,0 +1,134 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260909_135759",
+  "num_queries": 5,
+  "predictions": [
+    {
+      "query_id": "unidoc_qa_0000",
+      "query": "How did the Real GDP index of Peru evolve between 1970 and 2010 based on data from the Banco Central de Reserva del Perú?",
+      "ground_truth": "Peru's Real GDP index increased from 100 in 1970 to approximately 400 in 2010, showing significant growth over the period according to data from the Banco Central de Reserva del Perú.",
+      "oracle_prediction": "Calculated",
+      "e2e_prediction": "Real GDP in Peru grew at an average rate of 3½ percent per year during the 1970s, experienced minimal growth during the 1980s, and then expanded at a pace of 3¼ percent per annum during the 1990s and 5¼ percent yearly since 2000, resulting in the economy nearly quadrupling since 1990.",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0001",
+      "query": "How has the RIT Capital discount or premium rate changed in the years before May 2021, as noted by BSE Limited?",
+      "ground_truth": "The trend shows fluctuations, with notable dips below -10% and peaks close to 10%.",
+      "oracle_prediction": "Prasad Shanbhag",
+      "e2e_prediction": "This",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0002",
+      "query": "According to the analysis by Research Affiliates, which asset class shows the highest percentage variance in exposure levels?",
+      "ground_truth": "The largest percentage difference in exposure levels, according to the analysis by Research Affiliates, is 164% for the EAFE asset class.",
+      "oracle_prediction": "but the popular strategies may in fact be unconsciously boosting exposure to an expensive asset class with highly",
+      "e2e_prediction": "According to Figure 1 in the provided text, EAFE (developed international equities) shows the highest percentage difference in average flow-weighted trailing three-year betas between popular and unpopular funds at 164%. This is higher than the 128% difference observed for U.S. Large equities, which is the next highest variance listed.",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0003",
+      "query": "Can you identify the GWAC percentages for home loans from the years 2009 and 2010 based on the given information?",
+      "ground_truth": "In 2009, the GWAC values are 4.60%, 4.95%, and 5.43%. In 2010, they are 4.95% and 5.36%.",
+      "oracle_prediction": "The provided text references a table containing the Gross Weighted Average Coupon (GWAC) for loan cohorts from 2009 and 2010, but it does not explicitly state the specific GWAC percentages for those years in the narrative.",
+      "e2e_prediction": "The provided text does not contain the specific GWAC percentages for home loans from 2009 and 2010, as the table listing these values is not included in the context.",
+      "retrieval_success": true
+    },
+    {
+      "query_id": "unidoc_qa_0004",
+      "query": "What phrase is associated with the auditing company Keefe McCullough for HANDY, Inc.?",
+      "ground_truth": "CPA’s + Trusted Advisors",
+      "oracle_prediction": "The phrase associated with the auditing company Keefe McCullough is \"Independent Auditor’s Report,\" which they issued to the Board of Directors of Helping Abused, Neglected, Disadvantaged Youth (HANDY), Inc.",
+      "e2e_prediction": "The phrase associated with the auditing company Keefe McCullough for HANDY, Inc. is \"KEEFE McCULLOUGH,\" which appears as the signature of the firm in the independent auditor's reports dated November 8, 2017.",
+      "retrieval_success": true
+    }
+  ],
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "exact_match": 0.0,
+        "f1": 0.1068,
+        "precision": 0.1,
+        "recall": 0.1277,
+        "set_em": 0.0,
+        "numeric_em": 0.0571,
+        "rouge_l": 0.0739,
+        "char_similarity": 0.1316,
+        "containment": 0.0,
+        "semantic_score": 0.0,
+        "headline_score": 0.0221
+      },
+      "true_e2e": {
+        "exact_match": 0.0,
+        "f1": 0.1424,
+        "precision": 0.1087,
+        "recall": 0.2098,
+        "set_em": 0.0,
+        "numeric_em": 0.3571,
+        "rouge_l": 0.1041,
+        "char_similarity": 0.1788,
+        "containment": 0.0,
+        "semantic_score": 0.0571,
+        "headline_score": 0.1056
+      }
+    },
+    "oracle_scoped": {
+      "exact_match": 0.0,
+      "f1": 0.1068,
+      "precision": 0.1,
+      "recall": 0.1277,
+      "set_em": 0.0,
+      "numeric_em": 0.0571,
+      "rouge_l": 0.0739,
+      "char_similarity": 0.1316,
+      "containment": 0.0,
+      "semantic_score": 0.0,
+      "headline_score": 0.0221
+    },
+    "true_e2e": {
+      "exact_match": 0.0,
+      "f1": 0.1424,
+      "precision": 0.1087,
+      "recall": 0.2098,
+      "set_em": 0.0,
+      "numeric_em": 0.3571,
+      "rouge_l": 0.1041,
+      "char_similarity": 0.1788,
+      "containment": 0.0,
+      "semantic_score": 0.0571,
+      "headline_score": 0.1056
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0003,
+    "embedding": 12.6695,
+    "retrieval": 0.1142,
+    "reranking": 0.0,
+    "reading": 338.2956,
+    "total": 747.9021
+  },
+  "config": {
+    "chunk_strategy": "section_hierarchical",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 5
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}
