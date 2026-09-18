@@ -128,7 +128,7 @@ class LLMReader:
                     res = self.gemini_client.models.generate_content(
                         model=m,
                         contents=prompt,
-                        config=types.GenerateContentConfig(temperature=0.0, max_output_tokens=512)
+                        config=types.GenerateContentConfig(temperature=0.0, max_output_tokens=2048)
                     )
                     if res and res.text:
                         raw = res.text.strip()
