@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -8,6 +8,8 @@ dist/
 # Virtual environments
 .venv/
 venv/
+.venv*/
+venv*/
 
 # Secrets
 .env
@@ -44,10 +46,6 @@ storage/
 node_modules/
 layout_annotator/backend/uploads/
 
-# Virtual environments
-.venv*/
-venv*/
-
 # Caches and runtime artifacts
 .cache/
 .deepeval/
@@ -57,6 +55,11 @@ venv*/
 
 # Large binaries and wheels
 *.whl
+
+# Presentations and reports (managed separately in Google Drive)
+*.pptx
+*.ppt
+*.pdf
 
 # Temporary and scratch files
 scratch/

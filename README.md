@@ -1,10 +1,5 @@
 # Unified Document Understanding & Layout Benchmarking Platform
 
-> [!TIP]
-> ### 📊 Executive Architecture Presentation
-> Access the comprehensive, 25-slide technical architecture deck:
-> - 📄 **[Final_Document_Understanding_Architecture_v2.pptx](./Final_Document_Understanding_Architecture_v2.pptx)** — Complete system breakdown, component benchmarks, layout workspace integration, 5 deep-dive case studies, and enterprise Kubernetes/Celery scaling roadmaps.
-
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/Falsegen1288/Document_Understanding)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Vision API](https://img.shields.io/badge/Vision%20API-Gemini%203.6%20Flash-4285F4?logo=google)](https://ai.google.dev/)
@@ -499,7 +494,6 @@ flowchart LR
 
 ```text
 Document_Understanding/
-├── Final_Document_Understanding_Architecture_v2.pptx  # 📊 Master 25-Slide Executive Architecture Presentation
 ├── main.py                                           # 🚀 Quickstart 2: Ad-Hoc PDF Q&A & Pipeline Orchestrator
 ├── run_harness.py                                    # 🧪 Quickstart 1: Benchmark Evaluator (UniDoc/TAT-DQA/Custom)
 ├── ingestion.py                                      # Document Manifest & Ingestion Hashing Engine
