@@ -9,7 +9,7 @@ os.environ.setdefault("SENTENCE_TRANSFORMERS_HOME", "D:/sentence_transformers_ca
 class EmbeddingStage:
     """Handles embedding generation for text chunks via sentence-transformers or embedding_bench registry."""
 
-    def __init__(self, model_name: str = "bge-m3"):
+    def __init__(self, model_name: str = "bge-m3", verbose: bool = True):
         self.model_name = model_name
         self.model = None
         self.dim = 1024
@@ -17,11 +17,13 @@ class EmbeddingStage:
         try:
             from sentence_transformers import SentenceTransformer
             hf_id = "all-MiniLM-L6-v2" if model_name.lower() in ["bge-m3", "baseline", "default"] else model_name
-            print(f"[EMBEDDING] Loading SentenceTransformer '{hf_id}'...", flush=True)
+            if verbose:
+                print(f"[EMBEDDING] Loading SentenceTransformer '{hf_id}'...", flush=True)
             self.model = SentenceTransformer(hf_id)
             self.dim = self.model.get_sentence_embedding_dimension() or 384
         except Exception as e:
-            print(f"[EMBEDDING WARNING] Failed to load embedding models ({e}). Using mock 384d dense embedding fallback...", flush=True)
+            if verbose:
+                print(f"[EMBEDDING WARNING] Failed to load embedding models ({e}). Using mock 384d dense embedding fallback...", flush=True)
             self.model = None
             self.dim = 384
 

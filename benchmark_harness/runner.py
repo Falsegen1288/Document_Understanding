@@ -45,7 +45,59 @@ class BenchmarkRunner:
         # 2. Dataset Load & Adapter Transformation
         import random
         items = []
-        if self.config.dataset == "tatdqa":
+        if getattr(self.config, "dataset_file", None) or self.config.dataset == "custom":
+            custom_path = getattr(self.config, "dataset_file", None)
+            if not custom_path or not os.path.exists(custom_path):
+                raise FileNotFoundError(f"Custom benchmark dataset file missing or not found: {custom_path}")
+            print(f"[BENCHMARK] Loading custom ground-truth dataset from: {custom_path}", flush=True)
+            with open(custom_path, "r", encoding="utf-8-sig") as f:
+                raw_custom = json.load(f)
+
+            if isinstance(raw_custom, dict):
+                raw_items = raw_custom.get("items") or raw_custom.get("questions") or raw_custom.get("data") or [raw_custom]
+            elif isinstance(raw_custom, list):
+                raw_items = raw_custom
+            else:
+                raw_items = []
+
+            import fitz
+            for idx, item in enumerate(raw_items):
+                q = item.get("query") or item.get("question") or item.get("prompt") or ""
+                gt = item.get("ground_truth") or item.get("answer") or item.get("label") or item.get("target") or ""
+                if isinstance(gt, list):
+                    gt = ", ".join(str(x) for x in gt)
+                else:
+                    gt = str(gt)
+
+                doc_text = item.get("doc_text") or item.get("context") or item.get("document") or ""
+                doc_id = str(item.get("doc_id") or item.get("id") or f"doc_{idx}")
+                q_id = str(item.get("id") or item.get("uid") or f"q_{idx}")
+                q_type = str(item.get("query_type") or item.get("type") or "prose")
+                pdf_path = item.get("pdf_path") or item.get("pdf") or item.get("file")
+
+                if pdf_path and os.path.exists(pdf_path) and not doc_text:
+                    try:
+                        pdoc = fitz.open(pdf_path)
+                        doc_text = "\n\n".join(page.get_text() for page in pdoc)
+                        pdoc.close()
+                    except Exception as pe:
+                        print(f"[CUSTOM DATASET WARNING] Error reading {pdf_path}: {pe}", flush=True)
+
+                items.append({
+                    "id": q_id,
+                    "doc_id": doc_id,
+                    "query": q,
+                    "ground_truth": gt,
+                    "doc_text": doc_text,
+                    "query_type": q_type,
+                    "has_real_pdf": bool(pdf_path and os.path.exists(pdf_path))
+                })
+
+            if self.config.limit and self.config.limit > 0:
+                items = items[:self.config.limit]
+            print(f"[CUSTOM BENCHMARK LOAD] Successfully loaded {len(items)} queries.", flush=True)
+
+        elif self.config.dataset == "tatdqa":
             tat_path = "external_benchmarks/TAT-DQA/data/tatdqa_dataset_dev.json"
             if not os.path.exists(tat_path):
                 raise FileNotFoundError(f"TAT-DQA dataset file missing: {tat_path}")

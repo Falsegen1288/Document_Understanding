@@ -130,8 +130,9 @@ class SemanticMeshChunker(BaseChunker):
 
             # --- TABLE PROCESSING ---
             if el_type in TABLE_TYPES:
-                table_md = el.get("extracted", {}).get("markdown") if el.get("extracted") else el.get("content", "")
-                table_obj = el.get("extracted", {}).get("table")
+                table_extracted = el.get("extracted") if isinstance(el.get("extracted"), dict) else {}
+                table_md = table_extracted.get("markdown") or el.get("content", "")
+                table_obj = table_extracted.get("table")
                 rows = self._parse_table_rows(table_md, table_obj)
                 bbox = el.get("bbox", [0.0, 0.0, 0.0, 0.0])
                 table_id = self._make_chunk_id(doc_stem, page, seq)

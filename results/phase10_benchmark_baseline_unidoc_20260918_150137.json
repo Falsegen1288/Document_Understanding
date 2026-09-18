@@ -1,0 +1,189 @@
+{
+  "pipeline": "baseline",
+  "dataset": "unidoc",
+  "timestamp": "20260918_150137",
+  "num_queries": 1,
+  "predictions": [
+    {
+      "query_id": "unidoc_qa_0000",
+      "query": "How did the Real GDP index of Peru evolve between 1970 and 2010 based on data from the Banco Central de Reserva del Perú?",
+      "enhanced_query": "Peru Real GDP index Banco Central de Reserva del Peru 1970 2010 economic growth historical series",
+      "structured_directive": "Objective: Extract and summarize the evolution of the Real GDP index for Peru from 1970 to 2010 using data from the Banco Central de Reserva del Perú.\nData points: Identify key milestone years or the general trajectory (start value, end value, major peaks/troughs) of the Real GDP index within the 1970-2010 timeframe.\nCalculation/Synthesis: Describe the overall trend, percentage change, or growth pattern across this 40-year period.\nOutput formatting: Provide a concise 1-2 sentence explanatory summary outlining the evolution.",
+      "ground_truth": "Peru's Real GDP index increased from 100 in 1970 to approximately 400 in 2010, showing significant growth over the period according to data from the Banco Central de Reserva del Perú.",
+      "oracle_prediction": "Based on data from the Banco Central de Reserva del Perú, the Real GDP index (where 19",
+      "e2e_prediction": "Starting from a base index value of 100 in 1970, Peru's Real GDP index reached a peak of approximately 170 in 1988 before experiencing a severe economic contraction to a trough of around 130 in 1991. The economy then recovered through the 1990s and entered an accelerated growth phase after 2002, ultimately reaching an index level of approximately 300 by 2010.",
+      "retrieval_success": true,
+      "retrieval_context": [
+        "4 \nafter 1996, averaging under 3 percent per annum since then.12 And while real GDP had grown at an \naverage rate of 3½ percent per year during the 1970s, and then hardly at all during the 1980s, the \neconomy expanded at a pace of 3¼ percent per annum during the 1990s and then 5¼ percent yearly \nsince 2000.13 As a result, real GDP has nearly quadrupled since 1990. \n \nFIGURES 1 AND 2: PERU INFLATION AND REAL GDP \n   \n \nSource: Banco Central de Reserva del Perú. \nI. SEEKING REDRESS IN PERU \nA revised and updated constitutional text came into effect in 1993, and it strengthened property \nrights in Peru significantly. Under its Article 70, it was specified that any property seizures had to be \ncompensated in cash and, moreover, that the affected owners had the right to challenge in the courts \nwhatever reparation had been decided by a government during the expropriation process.14  \nAn earlier (1984) reform of the Civil Code had legalized the practice of indexation (Article \n1235) and provided that when “the value of an obligation is to be repaid, it shall be calculated to \nreflect the value it has at the time of payment, except as otherwise provided by the law or a contract” \n(Article 1236).15 Indeed, until the end of 2004, all Peruvian companies had to fully adjust for \ninflation in their balance sheets for accounting and taxation purposes, except for those authorized to \n                                               \n12 See Banco Central de Reserva del Perú (hereafter, BCRP), Estadísticas, \nhttps://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/inflacion. \n13 See BCRP, Estadísticas, https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/pbi-gasto.  \n14 See Constitución Política del Perú (1993), available at http://www.pcm.gob.pe/wp-\ncontent/uploads/2013/09/Constitucion-Política-del-Peru-1993.pdf. A constitutional text which had come into effect in \n1979, once the military returned to their barracks, already fortified property rights by specifying in its Article 125 that \nexpropriations had to be paid in cash and before they became effective, see Constitución Política del Perú (12 de julio de \n1979), available at \nhttp://www.leyes.congreso.gob.pe/Documentos/constituciones_ordenado/CONSTIT_1979/Cons1979_TEXTO_CO\nRREGIDO.pdf.  \n15 See Código Civil de Perú, available at http://www.abogadoperu.com/codigo-civil-peru-1984-abogado-\nley.php. For useful background, see Felipe Osterling Parodi and Mario Castillo Freyre, Estudio sobre las Obligaciones \nDinerarias en el Perú (México, DF: UNAM, 1995), available at \nhttp://www.castillofreyre.com/archivos/pdf/publicaciones/catalogo/obligaciones_dinerarias.pdf.",
+        "4. **KEY FINDINGS, TRENDS & ANNOTATIONS**:\n   - **Primary Takeaways / Narrative**: Discusses Peru's agrarian reform in the 1960s-1970s, where land values were settled using Agrarian Debt Bonds (*Bonos de la Deuda Agraria*). Mismanagement, hyperinflation, and massive currency devaluation in the 1970s and 1980s rendered these bonds worthless, leading the government and peasants to stop servicing the debt. The economy eventually stabilized in the 1990s under President Alberto Fujimori.\n   - **Footnotes transcribed verbatim**:\n     - *6 Caballero and Álvarez, op. cit., Table 8, p. 62.*\n     - *7 To calculate a proper average valuation for the 1969-79 period, it was assumed that bonds were issued in direct proportion to the amount of land expropriated in each year, and then the imputed face-value amounts were converted into US dollars at the average soles-oro/dollar exchange rate prevailing each year. Then the resulting total was compared to the dollar-equivalent annual average GDP. Additional bonds were issued in 1982, as mentioned below.*\n     - *8 Calculated from various issues of the Banco Central de Reserva del Peru's Annual Report (1975-1981), available at http://www.bcrp.gob.pe/publicaciones/memoria-anual.html.*\n     - *9 As reported at the time, \"The problems of the new enterprises, often unwieldy and beset by social conflicts, are compounded by the official pricing policy for agricultural produce, as implemented by the state purchasing and marketing agency, EPSA (Empresa Pública de Servicios Agropecuarios). In order to keep prices to the (predominantly urban) consumers low, the prices paid by EPSA to the producers in the reformed and private sectors are uniformly low. This discourages production, and reduces the profits available for reinvestment.\" See Harding, op. cit., p. 253.*\n     - *10 Caballero and Álvarez, op. cit., p. 54 and 71-72.*\n     - *11 The Banco Agrario was finally declared insolvent and shut down in 2008, see Resolución Suprema Nº 076-2008-EF, September 26, 2008, available at http://www.cepes.org.pe/apc-aa/archivos-aa/4a15e4303d8c04dde2018292e444138c/RS_076_2008_EF.pdf*\n   - **Page Number**: `3` at the bottom center.",
+        "3 \nMoreover, the 85 percent of recognized land values that were not remunerated in cash were \nsettled with long-term Agrarian Debt Bonds (Bonos de la Deuda Agraria), which committed future \ngovernments to honor fixed coupons of 6, 5 or 4 percent per annum on securities maturing in 20, 25 \nor 30 years, respectively.6 The face value of the bonds issued during 1969-79 was approximately 11.4 \nbillion soles de oro (the legal tender at the time), the equivalent of $250 million, or 2½ percent of GDP, \non a weighted-average basis.7 To put it in context, $250 million was the mean (and median) of just \none year’s worth of agricultural exports during the 1969-79 period.8 \nDuring the 1970s and 1980s, Peru was severely mismanaged by populist military and then \ncivilian regimes, and thus the country experienced violent economic cycles which included \nhyperinflation and systemic debt, banking and currency crises. Given that the coupons and principal \nof the Agrarian Debt Bonds were not explicitly protected from the ravages of high inflation and \nmassive currency devaluation, the bonds quickly became worthless. Adding insult to great injury, \nduring the late 1980s the Peruvian authorities started to ignore even their rapidly shrinking debt-\nservice obligations, and they eventually stopped making all payments due on these bonds.  \nOne likely reason why the government ceased to service the bonded debt is that peasant \nbeneficiaries of the land reform were supposed to pay for their plots on an installment plan, but \ndespite the shrinking burden of fixed payments given accelerating inflation and currency devaluation, \nmost did not meet their obligations because of mounting financial difficulties.9 In recognition of the \nproblem, in November of 1979, the outgoing military government passed a decree-law forgiving the \ndebt owed by the reform beneficiaries.10 This undermined the intermediary government bank (Banco \nAgrario), because it was supposed to use the payments received from reform beneficiaries to meet \nobligations to those whose land had been expropriated and who had been given Agrarian Debt \nBonds in compensation.11 \nThe economy was finally stabilized and constructively reformed during the 1990s, when \nPresident Alberto Fujimori was at the helm, and additionally by sensible governments since then. \nFor example, whereas inflation had galloped at a two-digit annual rate during the 1970s, and then at \na three- and even four-digit annual rate during the 1980s, it came down rapidly and to single digits \n                                               \n6 Caballero and Álvarez, op. cit., Table 8, p. 62. \n7 To calculate a proper average valuation for the 1969-79 period, it was assumed that bonds were issued in \ndirect proportion to the amount of land expropriated in each year, and then the imputed face-value amounts were \nconverted into US dollars at the average soles-oro/dollar exchange rate prevailing each year. Then the resulting total was \ncompared to the dollar-equivalent annual average GDP figure. Additional bonds were issued in 1982, as mentioned \nbelow. \n8 Calculated from various issues of the Banco Central de Reserva del Peru’s Annual Report (1975-1981), \navailable at http://www.bcrp.gob.pe/publicaciones/memoria-anual.html. \n9 As reported at the time, “The problems of the new enterprises, often unwieldy and beset by social conflicts, \nare compounded by the official pricing policy for agricultural produce, as implemented by the state purchasing and \nmarketing agency, EPSA (Empresa Pública de Servicios Agropecuarios). In order to keep prices to the (predominantly \nurban) consumers low, the prices paid by EPSA to the producers in the reformed and private sectors are uniformly low. \nThis discourages production, and reduces the profits available for reinvestment.” See Harding, op. cit., p. 253. \n10 Caballero and Álvarez, op. cit., p. 54 and 71-72. \n11 The Banco Agrario was finally declared insolvent and shut down in 2008, see Resolución Suprema Nº 076-\n2008-EF, September 26, 2008, available at http://www.cepes.org.pe/apc-aa/archivos-\naa/4a15e4303d8c04dde2018292e444138c/RS_076_2008_EF.pdf",
+        "7 \nFIGURES 3 AND 4: PERU FISCAL BALANCES AND PUBLIC DEBT \n   \n \nSource: Banco Central de Reserva del Perú. \n \nThese exceedingly favorable trends were recognized and rewarded by the leading credit-\nrating agencies. That is why, in terms of its long-term, foreign-currency ratings, Peru went from \nbeing considered a BB credit in 2000 (as per Fitch and Standard & Poor’s, Ba3 as per Moody’s) to \nan investment-grade credit in 2008/09, and on upwards to a BBB+ rating in recent years (Fitch and \nStandard & Poor’s) – or even higher (A3 as per Moody’s). Moreover, the country’s long-term, local-\ncurrency ratings have been pegged at the high A-/A3 level as per all three of the leading agencies.28 \nAfter waiting for over a decade to no avail for justice to be carried out, in October 2011, \nplaintiffs filed a petition with the Constitutional Tribunal seeking enforcement of its March 2001 \ndecision – the one which had declared Law #26597 unconstitutional and had endorsed the principle \nthat the Agrarian Reform Debt should be adjusted to reflect its fair value.  \nTwenty-one months later, in July 2013, the Tribunal handed down its ruling. It reaffirmed \nthe government’s obligation to pay the current value of the agrarian debt, and gave it six months to \nissue a decree-law regulating the procedure for the recording, valuation and forms of payment of the \nland-reform bonds. However, it sided with the government (the Ollanta Humala administration) \nwhen it came to how the obligations would be valued. The Ministry of Economy and Finance had \nargued that Peru could not afford to pay the current value of the land reform debt if it were to be \nadjusted for intervening domestic inflation, because doing so would impose too heavy a burden on \nits budget and affect its ability to provide essential services. Therefore, the Tribunal ordered that the \nadjusted value of the bonds be calculated in an unusual way – by indexing the existing obligations to \ntheir equivalents in foreign currency, and then applying an interest rate for U.S. Treasury bonds, in a \nmanner to be defined by the Ministry of Economy and Finance.29 \n                                               \n28 See Peru Ministry of Economy and Finance, Credit Ratings, available at \nhttp://www.mef.gob.pe/index.php?option=com_content&view=article&id=2892%3Acredit-\nratings&catid=429%3Arelations&Itemid=102039&lang=es \n29 See Resolución del Tribunal Constitucional, July 16, 2013, available at http://bonosagrarios.pe/wp-\ncontent/uploads/2015/03/TC-Exp.-00022-1996-Resolución-16-de-julio-de-2013.pdf, especially #25. However, a \ncriminal investigation is now underway as to how this decision was actually reached, because in September 2015 a senior \nmember of the Constitutional Tribunal filed a criminal complaint alleging that an original majority opinion that he signed, \nand that would have updated the bonds using the extent of cumulative domestic inflation rather than currency \ndevaluation, was doctored using liquid whiteout and falsely transformed into an alleged dissenting opinion. The former",
+        "#### Categorized Metadata Codes\n* **KEYWORDS:** Peru, Latin America, default, debt, sovereign, litigation, land reform, credit rating\n* **JEL CODES:** D23, E6, F3, F34, F51, F65, H63, K4, N26, Q15\n\n---\n\n### 4. KEY FINDINGS & ANNOTATIONS\n* **Historical Context:** In the 1970s, Peru's military dictatorship expropriated over 22 million acres of land (representing $1/3$ of total agricultural acreage) and compensated owners with Agrarian Debt Bonds worth less than $1/10$ of the market value.\n* **The Default Event:** Hyperinflation in the 1980s devalued the bonds to near-zero value.\n* **Legal Decisions:** \n  * In **2001**, the Constitutional Tribunal ruled that payments should resume using updated actuarial values.\n  * In **July 2013**, the Tribunal reaffirmed the obligation with a 6-month deadline.\n* **The Conflict:** Despite robust economic growth since the mid-1990s, the Peruvian government under Ollanta Humala established an adjustment formula that under-compensated bondholders, resulting in what the author terms a \"blatant unwillingness to pay\" that harms the country's creditworthiness.",
+        "---\n\n**2. TITLE, LABELS & UNITS**\n* **Page Header/Context:** None explicitly titled as a section header, but the text is a continuation from page 11 (marked at the bottom).\n* **Units & Measures:** Percentages (e.g., 2½%, 20%, 22.5%, 2%, 23%, 40%, 3%, 2.6%), Currency (US$4 billion, $40 billion), Years (1970s, 2013, 2014, 2015, 2017).\n\n---\n\n**3. VERBATIM DATA EXTRACTION**\n* **Not Applicable** (No charts, graphs, or structured data tables are present in this crop).\n\n---\n\n**4. KEY FINDINGS, TRENDS & ANNOTATIONS**\n\n* **Primary Content/Takeaways:** \n  * Discusses the impact of recognizing Peru's land-reform debt on its government balance sheet, noting it would increase public debt from around 20% of GDP to 22.5% of GDP.\n  * Compares Peru's ratio of public debt to GDP with the median of developing countries rated Baa1 to Baa3 by Moody’s.\n  * Quotes Standard & Poor’s regarding the nominal value of agriculture bonds issued in the 1970s and their estimated maximum amount by creditors (US$4 billion, about 2% of GDP).\n  * Quotes Moody’s Investors Service regarding the fiscal implications of recognizing the land-reform bonds and their assessment that the effect would be \"limited and manageable.\"\n\n* **Footnotes Transcribed Verbatim:**\n  * `45` Data for 2014 calculated from BCRP, Estadísticas, available at `https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/pbi-gasto` and `https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/tipo-de-cambio-nominal`.\n  * `46` Data for 2014 calculated from BCRP, Estadísticas, available at `https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/deuda-publica`.\n  * `47` Data for 2015, see Moody’s Investors Service, “Statistical Handbook: Country Credit,” May 2015, p. 99.\n  * `48` Standard & Poor’s, op. cit.\n  * `49` Moody’s Investors Service, “Government of Peru: FAQ on Peru’s Bonos de la Deuda Agraria,” December 18, 2015, p. 3.\n\n* **Page Number:** 11 (at the bottom center).",
+        "> ¹ The Peruvian experiment privileged about 56 percent of landless families – mostly the families of workers in large estates – and ended up creating a large number of cooperatives which proved largely unsuccessful for a variety of reasons; most were later subdivided into small farms which were likewise uneconomical. See Ministerio de Agricultura y Riego, “El proceso de reforma agraria” available at [http://minagri.gob.pe/portal/objetivos/70-marco-legal/titulacion-agraria-en-el-peru/413-el-proceso-de-reforma-agraria](http://minagri.gob.pe/portal/objetivos/70-marco-legal/titulacion-agraria-en-el-peru/413-el-proceso-de-reforma-agraria); José María Caballero and Elena Álvarez, *Aspectos Cuantitativos de la Reforma Agraria, 1969-1979* (Lima: Instituto de Estudios Peruanos, 1980), available at [http://archivo.iep.pe/textos/DDT/aspectoscuantitativos.pdf](http://archivo.iep.pe/textos/DDT/aspectoscuantitativos.pdf); and José Matos Mar and José Manuel Mejía, *La Reforma Agraria en el Perú* (Lima: Instituto de Estudios Peruanos, 1980), available at [http://archivo.iep.pe/textos/DDT/reformaagraria.pdf](http://archivo.iep.pe/textos/DDT/reformaagraria.pdf).\n> \n> ² Measured as the present value of agricultural production flows from expropriated lands, based on estimated historical cash flows of agricultural production generated by these lands plus the discounted cash flows of projected agricultural production. See Deloitte (Peru), “Comparative Analysis of Supreme Decree #017-2014-EF and #019-2014-EF and Economic Value of Land Expropriated During Peruvian Agrarian Reform,” March 2015, cited in the Brief filed by the Asociación de Bonistas de la Deuda Agraria del Perú (ABDA) with the Constitutional Tribunal, March 16, 2015, p. 5, available at [http://bonosagrarios.pe/wp-content/uploads/2015/03/Peticion-de-ABDA.pdf](http://bonosagrarios.pe/wp-content/uploads/2015/03/Peticion-de-ABDA.pdf).\n> \n> ³ “Government planners [became] convinced of the advantages of a centrally planned and controlled agricultural sector, with directives, credits, inputs, and so on emanating from central authorities to regional offices.” See Colin Harding, “Land Reform and Social Conflict in Peru,” in *The Peruvian Experiment: Continuity and Change Under Military Rule*, ed. by Abraham F. Lowenthal (Princeton, NJ: Princeton Univ. Press, 1975), pp. 252-53.\n> \n> ⁴ See *Constitución Política del Perú* (March 29, 1933), available at [http://www.leyes.congreso.gob.pe/Documentos/constituciones_ordenado/CONSTIT_1933/Cons1933_TEXTO.pdf](http://www.leyes.congreso.gob.pe/Documentos/constituciones_ordenado/CONSTIT_1933/Cons1933_TEXTO.pdf).\n> \n> ⁵ See Caballero and Álvarez, *op. cit.*, p. 64. As per Matos Mar and Mejía, *op. op.*, p. 180, land values assigned during the reform “do not represent the real value of the assets expropriated, the majority of which were depreciated excessively, despite their having still many years of useful lives.” See also p. 294.",
+        "### 4. KEY FINDINGS, TRENDS & ANNOTATIONS\n* **Overall Growth Trend:** Real GDP shows strong long-term expansion over the 45-year period, quadrupling from an index value of 100 in 1970 to approximately 400 by 2015.\n* **Significant Business Cycles:**\n  * **Late-1980s Recession:** After reaching a peak of ~170 in 1988, the economy contracted sharply to a trough of ~130 in 1991.\n  * **The 2002–2008 Boom:** The steepness of the curve increases significantly after 2002, indicating rapid economic expansion.\n  * **Global Financial Crisis (GFC) Impact:** Growth stalled between 2008 and 2010, creating a distinct flat plateau at the index level of ~300.\n  * **Post-2010 Recovery:** After 2010, strong upward momentum resumed, peaking at ~400 at the end of the charted period.",
+        "---\n\n### 2. TITLE, LABELS & UNITS\n* **Main Title:** Peru’s Selective Default: A Stain on Its Creditworthiness\n* **Author:** Arturo C. Porzecanski\n* **Author Affiliation & Role:** Distinguished Economist in Residence and Director, International Economic Relations Program\n* **Institutional Address:** \n  4400 Massachusetts Ave. NW\n  Washington DC 20016\n* **Contact Information:**\n  * **Author e-mail:** aporzeca@american.edu\n  * **Author URL:** http://www.american.edu/sis/faculty/aporzeca.cfm\n* **Date:** 28 January 2016\n* **Section Headers:** \n  * ABSTRACT\n  * KEYWORDS:\n  * JEL CODES:\n* **Metadata/Footer Labels:**\n  * Copyright notice: © Copyright 2016 Arturo C. Porzecanski\n  * Electronic copy distribution link: Electronic copy available at: http://ssrn.com/abstract=2728395\n\n---\n\n### 3. VERBATIM DATA EXTRACTION",
+        "---\n\n### 2. TITLE, LABELS & UNITS\n* **Main Descriptive Title/Legend:** `Real GDP (1970=100)` (located inside a boxed legend at the bottom center).\n* **Y-Axis (Vertical):** \n  * **Scale:** Index values ranging from `50` to `450` in increments of `50`.\n  * **Base Value:** 100 (established in the base year 1970).\n* **X-Axis (Horizontal):** \n  * **Variable:** Years (Time).\n  * **Labels:** Labeled every 5 years from `1970` to `2010`. Tick marks continue past 2010 to approximately `2015`.\n\n---\n\n### 3. VERBATIM DATA EXTRACTION\nThe following table contains visually estimated coordinates based on the intersections of the data series line with the gridlines and year tick marks:\n\n| Year (X-axis) | Real GDP Index (1970 = 100) | Contextual Milestone |\n| :--- | :--- | :--- |\n| **1970** | 100 | Base Year / Series Start |\n| **1975** | ~125 | Steady initial growth |\n| **1980** | ~140 | |\n| **1982** | ~150 | Local peak |\n| **1984** | ~135 | Local contraction trough |\n| **1988** | ~170 | Peak before significant recession |\n| **1991** | ~130 | Major trough |\n| **1995** | ~165 | Recovery phase |\n| **2000** | ~185 | |\n| **2002** | ~190 | Start of accelerated growth phase |\n| **2005** | ~230 | |\n| **2009** | ~300 | Financial crisis plateau/dip |\n| **2010** | ~300 | Post-crisis stabilization |\n| **2015** (approx.) | ~400 | Final data point |\n\n---"
+      ],
+      "llm_judge_score": 0.85,
+      "llm_judge_reasoning": "The predicted answer captures the overall timeframe and evolution of Peru's Real GDP index, though it states the 2010 value reached approximately 300 compared to the gold standard's 400, while providing helpful intermediate details."
+    }
+  ],
+  "tri_benchmark_scorecard": {
+    "custom_benchmark": {
+      "headline_score": 0.5558,
+      "llm_judge": 0.85,
+      "containment": 0.0,
+      "numeric_em": 0.75,
+      "set_em": 0.0,
+      "f1": 0.2826,
+      "rouge_l": 0.1957,
+      "char_similarity": 0.2881,
+      "retrieval_layer": {
+        "hit@1": 1.0,
+        "hit@5": 1.0,
+        "hit@10": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      }
+    },
+    "deepeval_benchmark": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_precision": 0.1625,
+      "valid_queries": 1,
+      "error_queries": 0
+    },
+    "ragas_benchmark": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.1,
+      "context_recall": 0.0,
+      "valid_queries": 1,
+      "error_queries": 0
+    }
+  },
+  "metrics": {
+    "retrieval_layer": {
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0,
+      "ndcg@10": 1.0
+    },
+    "qa_extraction_layer": {
+      "oracle_scoped": {
+        "numeric_em": 0.0,
+        "containment": 0.0,
+        "f1": 0.5,
+        "precision": 0.7059,
+        "recall": 0.3871,
+        "set_em": 0.0,
+        "rouge_l": 0.3333,
+        "char_similarity": 0.2514,
+        "llm_judge": 0.2,
+        "semantic_score": 0.2,
+        "headline_score": 0.13
+      },
+      "true_e2e": {
+        "numeric_em": 0.75,
+        "containment": 0.0,
+        "f1": 0.2826,
+        "precision": 0.2131,
+        "recall": 0.4194,
+        "set_em": 0.0,
+        "rouge_l": 0.1957,
+        "char_similarity": 0.2881,
+        "llm_judge": 0.85,
+        "semantic_score": 0.85,
+        "headline_score": 0.5558
+      }
+    },
+    "oracle_scoped": {
+      "numeric_em": 0.0,
+      "containment": 0.0,
+      "f1": 0.5,
+      "precision": 0.7059,
+      "recall": 0.3871,
+      "set_em": 0.0,
+      "rouge_l": 0.3333,
+      "char_similarity": 0.2514,
+      "llm_judge": 0.2,
+      "semantic_score": 0.2,
+      "headline_score": 0.13
+    },
+    "true_e2e": {
+      "numeric_em": 0.75,
+      "containment": 0.0,
+      "f1": 0.2826,
+      "precision": 0.2131,
+      "recall": 0.4194,
+      "set_em": 0.0,
+      "rouge_l": 0.1957,
+      "char_similarity": 0.2881,
+      "llm_judge": 0.85,
+      "semantic_score": 0.85,
+      "headline_score": 0.5558
+    },
+    "deepeval": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "contextual_precision": 0.1625,
+      "valid_queries": 1,
+      "total_queries": 1,
+      "error_queries": 0,
+      "individual_scores": [
+        {
+          "query": "How did the Real GDP index of Peru evolve between 1970 and 2010 based on data from the Banco Central de Reserva del Perú?",
+          "faithfulness": 1.0,
+          "faithfulness_reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions found. Great job!",
+          "answer_relevancy": 1.0,
+          "answer_relevancy_reason": "The score is 1.00 because the output directly and comprehensively addresses the input regarding Peru's Real GDP index without including any irrelevant statements.",
+          "contextual_precision": 0.1625,
+          "contextual_precision_reason": "The score is 0.16 because the relevant nodes were ranked far too low. Specifically, the eighth node, which 'mentions the long-term expansion of Real GDP, noting it quadrupled from an index value of 100 in 1970, which directly aligns with the expected output', and the tenth node, which 'provides the exact data extraction for the Real GDP index (1970=100), showing the progression of index values from 1970 to 2010 according to the data source', contain crucial information and should have been ranked much higher than the irrelevant nodes, such as the first node which 'discusses real GDP growth rates and references the Banco Central de Reserva del Perú, but it does not provide the specific index values from 1970 to 2010 needed for the expected output', and the second node which 'focuses on agrarian reform, land values, and debt bonds, containing no information about the Real GDP index evolution'."
+        }
+      ]
+    },
+    "ragas": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.1,
+      "context_recall": 0.0,
+      "valid_queries": 1,
+      "total_queries": 1,
+      "error_queries": 0,
+      "individual_scores": [
+        {
+          "query": "How did the Real GDP index of Peru evolve between 1970 and 2010 based on data from the Banco Central de Reserva del Perú?",
+          "faithfulness": 0.0,
+          "answer_relevancy": 0.0,
+          "context_precision": 0.1,
+          "context_recall": 0.0
+        }
+      ]
+    },
+    "sanity_check": {
+      "true_e2e_le_oracle": false
+    }
+  },
+  "latency_seconds": {
+    "ocr": 0.0,
+    "chunking": 0.0015,
+    "embedding": 13.7079,
+    "retrieval": 0.0543,
+    "reranking": 0.0,
+    "reading": 14.932,
+    "total": 140.7076
+  },
+  "config": {
+    "chunk_strategy": "semantic_mesh",
+    "embedding_model": "bge-m3",
+    "reranking_enabled": false,
+    "top_k": 10,
+    "limit": 1
+  },
+  "sanity_check": {
+    "true_e2e_le_oracle": false
+  },
+  "notes": []
+}

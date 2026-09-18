@@ -11,6 +11,14 @@ import argparse
 import json
 import time
 import yaml
+
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 import fitz  # PyMuPDF
 from PIL import Image
 
@@ -1230,23 +1238,154 @@ def run_pipeline(pdf_path: str, output_root: str, overrides: dict, force_ocr_all
     print("=" * 60)
     return json_path
 
+# ── Question Answering Orchestrator (Quickstart 2) ───────────────────────────
+
+def run_qa(
+    pdf_path: str,
+    query: str,
+    pipeline_mode: str = "baseline",
+    chunk_strategy: str = "semantic_mesh",
+    embedding_model: str = "bge-m3",
+    reader_model: str = "gemini-3.6-flash",
+    use_symbolic_math: bool = False,
+    raw_answer: bool = False,
+    output_root: str = OUTPUT_DIR,
+    overrides: dict = None
+) -> str:
+    """
+    Executes end-to-end Question Answering on an arbitrary PDF.
+    Caches document layout/OCR extraction in outputs/ to enable sub-second subsequent queries.
+    """
+    from benchmark_harness.stages.chunking import chunk_document
+    from benchmark_harness.stages.embedding import EmbeddingStage
+    from benchmark_harness.stages.retrieval import RRFHybridRetrieverStage
+    from benchmark_harness.stages.reading import ReadingStage
+    from src.routing.query_enhancer import QueryEnhancer
+
+    doc_stem = os.path.splitext(os.path.basename(pdf_path))[0]
+    expected_json = os.path.join(output_root, doc_stem, f"{doc_stem}.json")
+
+    # Step 1: Ensure structured ingestion JSON exists
+    if not os.path.exists(expected_json):
+        if not raw_answer:
+            print(f"[QA] Ingestion cache not found for '{doc_stem}'. Running extraction pipeline...")
+        run_pipeline(pdf_path, output_root, overrides or {})
+    elif not raw_answer:
+        print(f"[QA] Loading cached structured extraction from: {expected_json}")
+
+    with open(expected_json, "r", encoding="utf-8") as f:
+        document_json = json.load(f)
+
+    # Step 2: Semantic Chunking
+    if not raw_answer:
+        print(f"[QA] Chunking document with strategy: '{chunk_strategy}'...")
+    chunks = chunk_document(document_json, strategy_name=chunk_strategy)
+    for c in chunks:
+        c["doc_id"] = doc_stem
+        if not c["chunk_id"].startswith(doc_stem):
+            c["chunk_id"] = f"{doc_stem}_{c['chunk_id']}"
+
+    # Step 3: Embed & Index (RRF Hybrid: Dense + Sparse BM25)
+    if not raw_answer:
+        print(f"[QA] Indexing {len(chunks)} chunks into RRF Hybrid Retriever...")
+    emb_stage = EmbeddingStage(model_name=embedding_model, verbose=not raw_answer)
+    retriever = RRFHybridRetrieverStage(embedding_stage=emb_stage, use_qdrant=False)
+    retriever.index_chunks(chunks)
+
+    # Step 4: Query Enhancement & Retrieval
+    search_query = query
+    q_type = "prose"
+    try:
+        enhancer = QueryEnhancer(model=reader_model)
+        enhanced = enhancer.enhance(query)
+        search_query = enhanced.get("search_query") or query
+        q_type = enhanced.get("query_type") or "prose"
+    except Exception:
+        pass
+
+    retrieved = retriever.retrieve(search_query, top_k=6)
+    retrieved_cids = [cid for cid, _ in retrieved]
+    expanded_records = retriever.expand_context(retrieved_cids, max_total_chunks=10)
+
+    if expanded_records:
+        top_context_texts = [r.get("text", "") for r in expanded_records if r.get("text")]
+    else:
+        top_context_texts = [retriever.chunk_lookup[cid]["text"] for cid in retrieved_cids if cid in retriever.chunk_lookup]
+
+    if not top_context_texts:
+        top_context_texts = [el.get("text") or el.get("content", "") for el in document_json.get("elements", []) if el.get("text") or el.get("content")]
+
+    # Step 5: Answer Synthesis (Reading Stage)
+    if not raw_answer:
+        print(f"[QA] Synthesizing answer with Reader ({reader_model})...")
+    reader_stage = ReadingStage(
+        use_llm_reader=True,
+        use_pal_arithmetic=use_symbolic_math,
+        reader_model=reader_model
+    )
+    res = reader_stage.extract_answer(query, top_context_texts, query_type=q_type)
+    final_answer = res.get("primary_answer") or res.get("llm_answer") or res.get("extractive_answer") or "No answer could be determined from the document."
+
+    # Step 6: Output
+    if raw_answer:
+        print(final_answer)
+    else:
+        print("\n" + "=" * 70)
+        print(" DOCUMENT UNDERSTANDING Q&A RESULT")
+        print("=" * 70)
+        print(f" Document : {pdf_path}")
+        print(f" Query    : {query}")
+        print(f" Pipeline : {pipeline_mode.upper()} (Chunker: {chunk_strategy} | Embedder: {embedding_model} | Reader: {reader_model})")
+        print("-" * 70)
+        print(" ANSWER:")
+        print(final_answer)
+        print("-" * 70)
+        print(" TOP EVIDENCE SOURCES:")
+        evidence_shown = 0
+        for r in expanded_records[:3]:
+            cid = r.get("chunk_id", "chunk")
+            page = r.get("page", 1)
+            raw_prev = (r.get("text", "")[:120]).replace("\n", " ")
+            preview = raw_prev.encode("ascii", errors="replace").decode("ascii")
+            print(f"  [{cid} (p.{page})]: {preview}...")
+            evidence_shown += 1
+        if evidence_shown == 0 and top_context_texts:
+            c_prev = top_context_texts[0][:120].replace("\n", " ").encode("ascii", errors="replace").decode("ascii")
+            print(f"  [Context snippet]: {c_prev}...")
+        print("=" * 70 + "\n")
+
+    return final_answer
+
+
 # ── Command Line Entry Point ──────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Master Document Understanding End-to-End Extraction Pipeline CLI Orchestrator."
+        description="Master Document Understanding End-to-End Extraction & Q&A Pipeline CLI Orchestrator."
     )
     parser.add_argument("--pdf", required=True, help="Path to input PDF file to process.")
-    parser.add_argument("--layout", choices=["doclayout_yolo", "nemotron_parse", "landingai_ade"], help="Layout extraction option.")
-    parser.add_argument("--text", choices=["pymupdf", "pdfplumber"], help="Native text extraction option.")
-    parser.add_argument("--ocr", choices=["tesseract", "easyocr"], help="Scanned text OCR option.")
-    parser.add_argument("--table", choices=["docling_tableformer", "tatr"], help="Table extraction option.")
-    parser.add_argument("--image", choices=["groq_llama", "groq_qwen", "local_qwen", "local_moondream"], help="Embedded image extraction description option.")
+    parser.add_argument("--query", type=str, default=None, help="Query to ask about the PDF. If provided, executes Q&A mode.")
+    parser.add_argument("--pipeline", choices=["baseline", "custom"], default="baseline", help="Pipeline execution mode (default: baseline).")
+    parser.add_argument("--raw-answer", action="store_true", help="Print only the raw answer text to stdout (ideal for scripts/agents).")
+
+    # Algorithm component options
+    parser.add_argument("--layout", choices=["doclayout_yolo", "nemotron_parse", "landingai_ade"], default=None, help="Layout extraction option.")
+    parser.add_argument("--text", choices=["pymupdf", "pdfplumber"], default=None, help="Native text extraction option.")
+    parser.add_argument("--ocr", choices=["paddleocr", "tesseract", "easyocr"], default=None, help="Scanned text OCR option.")
+    parser.add_argument("--table", choices=["docling_tableformer", "tatr"], default=None, help="Table extraction option.")
+    parser.add_argument("--image", "--figures", dest="image", choices=["gemini", "groq_llama", "groq_qwen", "local_qwen", "local_moondream"], default=None, help="Embedded figure/image captioning option.")
+    parser.add_argument("--chunking", choices=["semantic_mesh", "section_hierarchical", "hybrid_semantic"], default="semantic_mesh", help="Chunking strategy (default: semantic_mesh).")
+    parser.add_argument("--embedding", type=str, default="bge-m3", help="Embedding model (default: bge-m3).")
+    parser.add_argument("--reader", type=str, default="gemini-3.6-flash", help="Reader model ID (default: gemini-3.6-flash).")
+    parser.add_argument("--use-symbolic-math", action="store_true", help="Enable symbolic arithmetic solver for financial calculations.")
     parser.add_argument("--output", default=OUTPUT_DIR, help=f"Directory to save outputs (default: {OUTPUT_DIR}).")
 
-    
     args = parser.parse_args()
-    
+
+    if not os.path.exists(args.pdf):
+        print(f"[ERROR] Input PDF not found: {args.pdf}")
+        sys.exit(1)
+
     overrides = {
         "layout_detection": args.layout,
         "text_extraction": args.text,
@@ -1254,16 +1393,27 @@ def main():
         "table_extraction": args.table,
         "image_extraction": args.image
     }
-    
-    if not os.path.exists(args.pdf):
-        print(f"[ERROR] Input PDF not found: {args.pdf}")
-        sys.exit(1)
-        
+
     try:
-        run_pipeline(args.pdf, args.output, overrides)
+        if args.query:
+            run_qa(
+                pdf_path=args.pdf,
+                query=args.query,
+                pipeline_mode=args.pipeline,
+                chunk_strategy=args.chunking,
+                embedding_model=args.embedding,
+                reader_model=args.reader,
+                use_symbolic_math=args.use_symbolic_math,
+                raw_answer=args.raw_answer,
+                output_root=args.output,
+                overrides=overrides
+            )
+        else:
+            run_pipeline(args.pdf, args.output, overrides)
     except Exception as e:
         print(f"[CRITICAL] Pipeline crashed: {e}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

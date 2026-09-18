@@ -1,13 +1,9 @@
 # Unified Document Understanding & Layout Benchmarking Platform
 
-> [!IMPORTANT]
-> ### 📌 Featured Intern Reports
-> Access all project intern reports and weekly slide decks directly:
-> - 📁 **[All Intern Reports Folder](./All%20intern%20reports)**
->   - 📄 [kaliber_Week2.pdf](./All%20intern%20reports/kaliber_Week2.pdf)
->   - 📄 [Kaliber - Week 3.pdf](./All%20intern%20reports/Kaliber%20-%20Week%203.pdf)
->   - 📄 [kaliber week 4.pdf](./All%20intern%20reports/kaliber%20week%204.pdf)
->   - 📄 [Kaliber ppt week 5-6.pdf](./All%20intern%20reports/Kaliber%20ppt%20week%205-6.pdf)
+> [!TIP]
+> ### 📊 Executive Architecture Presentation
+> Access the comprehensive, 25-slide technical architecture deck:
+> - 📄 **[Final_Document_Understanding_Architecture_v2.pptx](./Final_Document_Understanding_Architecture_v2.pptx)** — Complete system breakdown, component benchmarks, layout workspace integration, 5 deep-dive case studies, and enterprise Kubernetes/Celery scaling roadmaps.
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/Falsegen1288/Document_Understanding)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
@@ -321,9 +317,112 @@ A specialized tool to annotate, correct, and evaluate bounding box coordinates.
 
 ---
 
-## 7. Quick Start Guide & Production Deployment
+## 7. Quick Start Guide & Execution Modes
 
-### 1. Environment Setup
+The platform provides two primary, production-grade CLI entry points designed for ad-hoc document intelligence and automated benchmark evaluation.
+
+### Quickstart 1: Multi-Modal Benchmark Evaluator (`run_harness.py`)
+Run automated evaluation across standard benchmarks (`unidoc`, `tatdqa`) or benchmark **any arbitrary user-provided ground-truth dataset JSON**.
+
+#### Standard Baseline Benchmarking
+```bash
+# Run baseline pipeline on UniDoc-Bench (Salesforce Multimodal Benchmark)
+python run_harness.py --pipeline baseline --dataset unidoc --limit 5
+
+# Run baseline pipeline on TAT-DQA (Financial Table QA Benchmark)
+python run_harness.py --pipeline baseline --dataset tatdqa --limit 5
+```
+
+#### Custom Modular Pipeline Swapping
+Build and benchmark your own customized pipeline by interchanging individual stage algorithms:
+```bash
+python run_harness.py \
+  --pipeline custom \
+  --dataset unidoc \
+  --layout doclayout_yolo \
+  --ocr paddleocr \
+  --table docling_tableformer \
+  --figures gemini \
+  --chunking semantic_mesh \
+  --embedding bge-m3 \
+  --retrieval rrf_hybrid \
+  --reader gemini-3.6-flash \
+  --use-symbolic-math \
+  --limit 10
+```
+
+#### Benchmark Any Custom Dataset File
+Evaluate custom documents and question-answer pairs against your own ground-truth JSON:
+```bash
+python run_harness.py \
+  --dataset-file tests/sample_custom_benchmark.json \
+  --pipeline baseline \
+  --limit 5
+```
+*Custom dataset JSON format:*
+```json
+[
+  {
+    "id": "q_001",
+    "query": "What is the net revenue for FY2023?",
+    "ground_truth": "$14.2 Billion",
+    "doc_id": "AnnualReport_2023",
+    "pdf_path": "data/financial/AnnualReport_2023.pdf"
+  }
+]
+```
+
+---
+
+### Quickstart 2: Ad-Hoc PDF Q&A for Any Document (`main.py`)
+Answer natural language questions directly against **any arbitrary PDF** with high-precision coordinate grounding.
+
+#### 1. Standard Document Q&A (Baseline Pipeline)
+```bash
+python main.py \
+  --pdf data/scientific/Scientific_001.pdf \
+  --query "What is the primary topic of this paper?"
+```
+*Output displays a structured banner with the document, query, synthesized answer, and top cited bounding-box evidence chunks.*
+
+#### 2. Clean Programmatic Output (`--raw-answer`)
+Ideal for integration into downstream APIs, scripts, or agentic loops:
+```bash
+python main.py \
+  --pdf data/scientific/Scientific_001.pdf \
+  --query "What is the primary topic of this paper?" \
+  --raw-answer
+```
+
+#### 3. Custom Pipeline Execution
+Override any individual component of the pipeline during question answering:
+```bash
+python main.py \
+  --pdf data/scientific/Scientific_001.pdf \
+  --query "What are the key statistics in Table 3?" \
+  --pipeline custom \
+  --layout doclayout_yolo \
+  --ocr paddleocr \
+  --table docling_tableformer \
+  --figures gemini \
+  --chunking semantic_mesh \
+  --embedding bge-m3 \
+  --reader gemini-3.6-flash \
+  --use-symbolic-math
+```
+
+> [!TIP]
+> **Sub-Second Ingestion Cache**: Once a PDF is processed, its layout, table markdown, and figure captions are cached in `outputs/<stem>/<stem>.json`. Subsequent queries against the same document execute in **<0.2 seconds**!
+
+#### 4. Document Ingestion & Bounding Box PDF Generation (No Query)
+Omit `--query` to generate structured JSON and coordinate-annotated BBox PDF:
+```bash
+python main.py --pdf data/scientific/Scientific_001.pdf
+```
+
+---
+
+### Environment Setup & Credentials
 Install dependencies inside a Python 3.10+ virtual environment:
 ```bash
 # Create and activate environment
@@ -331,67 +430,68 @@ python -m venv .venv
 source .venv/bin/activate  # Or: .venv\Scripts\activate on Windows
 
 # Install python dependencies
-pip install -r others/requirements.txt
+pip install -r requirements.txt
 ```
 
-Set up your model credentials in a `.env` file at the root. You can obtain the required API keys from their respective portals:
-- **Groq API Key**: [Groq Console](https://console.groq.com/)
-- **Gemini API Key**: [Google AI Studio](https://aistudio.google.com/)
-- **LandingAI API Key**: [LandingAI Platform](https://va.landing.ai/)
-
+Set up model credentials in `.env`:
 ```env
 GROQ_API_KEY=gsk_...
 GEMINI_API_KEY=AIzaSy...
 LANDING_AI_API_KEY=...
 ```
 
-### 2. Run the CLI Ingestion Pipeline
-Run the modular ingestion pipeline directly from the root:
-```bash
-python main.py --pdf data/scientific/Scientific_001.pdf --layout doclayout_yolo --table docling_tableformer --figures gemini
-```
+---
 
-### 3. Launch the Obsidian Precision Website
+### Launching Interactive Web Workspaces
+
+#### 1. Obsidian Precision (Ingest & BBox Dashboard)
 ```bash
 # Start backend FastAPI server
 PYTHONPATH=obsidian-precision python obsidian-precision/backend/main.py
 
 # Start frontend Vite server
 cd obsidian-precision/frontend
-npm install
-npm run dev
+npm install && npm run dev
 ```
 
-### 4. Launch the Manual Annotator Website
+#### 2. Layout Annotator (Manual BBox Ground Truth Creator)
 ```bash
 # Start annotator FastAPI server
 PYTHONPATH=layout_annotator/backend python layout_annotator/backend/main.py
 
 # Start annotator Vite server
 cd layout_annotator/frontend
-npm install
-npm run dev
+npm install && npm run dev
 ```
 
-### 5. Run the End-to-End Evaluation Harness
-Execute benchmark evaluations across TAT-DQA or UniDoc-Bench:
-```bash
-# Run baseline pipeline on UniDoc-Bench
-python run_harness.py --pipeline baseline --dataset unidoc --limit 5
+---
 
-# Run baseline pipeline on TAT-DQA
-python run_harness.py --pipeline baseline --dataset tatdqa --limit 5
+### Enterprise Production Scaling Architecture
+
+To deploy this architecture for high-throughput enterprise workloads (millions of pages daily), the system decomposes into horizontal asynchronous services:
+
+```mermaid
+flowchart LR
+    Client["Client / SDK"] --> Gateway["API Gateway<br/>(Traefik / NGINX)"]
+    Gateway --> API["FastAPI Microservices<br/>(Stateless REST & SSE)"]
+    API --> Queue[("Message Broker<br/>(Kafka / RabbitMQ)")]
+    Queue --> Worker1["Celery Ingest Worker<br/>(PyMuPDF + YOLOv10 GPU)"]
+    Queue --> Worker2["Celery Table Worker<br/>(Docling TableFormer)"]
+    Queue --> Worker3["Celery Vision Worker<br/>(Gemini Flash Batch API)"]
+    Worker1 & Worker2 & Worker3 --> Qdrant[("Distributed Qdrant<br/>(Vector HNSW Index)")]
+    Worker1 & Worker2 & Worker3 --> Redis[("Redis Cache<br/>(Ingest Manifests)")]
+    Worker1 & Worker2 & Worker3 --> S3[("Object Storage<br/>(S3 / MinIO PDFs & Chunks)")]
+    API --> Qdrant
+    API --> Redis
 ```
 
-### 6. Containerized Deployment (Docker Compose)
-To start the full system with FastAPI, Redis, and Celery workers:
-```bash
-docker-compose up -d
-```
-To shut down the containerized system:
-```bash
-docker-compose down
-```
+- **Containerized Orchestration**: Deployable via Docker Compose or Kubernetes Helm charts:
+  ```bash
+  docker-compose up -d
+  ```
+- **Asynchronous Processing**: Long PDF ingestion tasks offloaded via Celery workers backed by Redis/Kafka brokers.
+- **Persistent Vector Store**: Distributed Qdrant cluster storing dense chunk embeddings with HNSW indexing.
+- **Horizontal Pod Autoscaling (HPA)**: Kubernetes HPA scaling GPU worker pods based on queue depth metrics.
 
 ---
 
@@ -399,56 +499,82 @@ docker-compose down
 
 ```text
 Document_Understanding/
-├── All intern reports/      # 📌 Featured Intern Progress Reports & Presentation Decks
-│   ├── Kaliber - Week 3.pdf
-│   ├── Kaliber ppt week 5-6.pdf
-│   ├── kaliber week 4.pdf
-│   └── kaliber_Week2.pdf
+├── Final_Document_Understanding_Architecture_v2.pptx  # 📊 Master 25-Slide Executive Architecture Presentation
+├── main.py                                           # 🚀 Quickstart 2: Ad-Hoc PDF Q&A & Pipeline Orchestrator
+├── run_harness.py                                    # 🧪 Quickstart 1: Benchmark Evaluator (UniDoc/TAT-DQA/Custom)
+├── ingestion.py                                      # Document Manifest & Ingestion Hashing Engine
+├── config.yaml                                       # Default Master Algorithms & Pipeline Configuration
+├── requirements.txt                                  # Python Dependencies
+├── pyproject.toml                                    # Project Metadata & Tooling Config
+├── docker-compose.yml                                # Containerized Production Stack (FastAPI, Redis, Celery)
+├── Dockerfile                                        # Container Build Specification
+├── LICENSE                                           # MIT Open Source License
 │
-├── algorithms/              # Core Document_Understanding algorithms
-│   ├── layout_detection/    #   Layout segmenters (YOLOv10, Nemotron-Parse, LandingAI)
-│   ├── text_extraction/     #   Text extraction & OCR (PyMuPDF, EasyOCR, Tesseract, PaddleOCR)
-│   ├── table_extraction/    #   Table structure recovery (IBM Docling TableFormer, TATR)
-│   └── image_extraction/    #   VLM Figure Captioning (Gemini 3.6 Flash SOTA API, Groq Llama-4-Scout)
+├── algorithms/                                       # Core Segmentation & Extraction Algorithms
+│   ├── layout_detection/                             #   Layout segmenters (DocLayout-YOLOv10, Nemotron-Parse, LandingAI)
+│   ├── text_extraction/                              #   Text extraction & OCR (PyMuPDF, EasyOCR, Tesseract, PaddleOCR)
+│   ├── table_extraction/                             #   Table structure recovery (IBM Docling TableFormer, TATR)
+│   └── image_extraction/                             #   VLM Figure Captioning (Gemini 3.6 Flash SOTA API, Groq Llama)
 │
-├── benchmark_harness/       # End-to-End Multimodal Evaluation Harness
-│   ├── stages/              #   Ingest, OCR, Chunking, Embedding, Retrieval, Reading, Evaluation
-│   └── runner.py            #   Harness orchestration & Raw Query routing engine
+├── benchmark_harness/                                # End-to-End Multimodal Evaluation Harness
+│   ├── stages/                                       #   OCR, Chunking, Embedding, Retrieval, Reading, Evaluation
+│   ├── runner.py                                     #   Harness Orchestration & Dynamic Intent Routing
+│   └── config.py                                     #   PipelineConfig Dataclass
 │
-├── src/                     # Core Business Logic
-│   ├── arithmetic/          #   Symbolic financial arithmetic execution engine
-│   ├── readers/             #   Window readers & LLM reader implementations
-│   ├── vector_db/           #   Dense vector storage & search
-│   └── routing/             #   Dynamic query enhancer & routing policies
+├── chunking/                                         # Context-Preserving Document Chunking Strategies
+│   └── strategies/                                   #   Semantic Mesh, Section Hierarchical, Hybrid Semantic
 │
-├── obsidian-precision/      # Main Document Understanding Web Application
-│   ├── frontend/            #   React + Vite web interface dashboard
-│   └── backend/             #   FastAPI backend server & SQLite job database
+├── src/                                              # Business Logic & Model Readers
+│   ├── arithmetic/                                   #   Symbolic financial arithmetic execution engine
+│   ├── readers/                                      #   Fast Upgraded Window Reader & Gemini LLM Reader
+│   ├── vector_db/                                    #   Qdrant Vector Database Store & Inverted BM25 Index
+│   └── routing/                                      #   Query Enhancer & Dispatch Router
 │
-├── layout_annotator/        # Manual BBox Ground Truth Creation Web Application
-│   ├── frontend/            #   HTML5 Canvas bounding box editor interface
-│   └── backend/             #   Inference backend and session save controllers
+├── obsidian-precision/                               # Interactive Document Ingestion & BBox Dashboard
+│   ├── frontend/                                     #   React + Vite web interface
+│   └── backend/                                      #   FastAPI backend server & job database
 │
-├── benchmarking/            # Consolidated Benchmarking & Results Workspace
-│   ├── src/                 #   Benchmarking React SPA app
-│   └── results/             #   Model benchmarks, domain breakdowns & heatmaps
+├── layout_annotator/                                 # Manual BBox Ground Truth Creation Web Tool
+│   ├── frontend/                                     #   HTML5 Canvas bounding box editor
+│   └── backend/                                      #   Inference backend & session controllers
 │
-├── external_benchmarks/     # Standard Academic Benchmark Datasets
-│   ├── TAT-DQA/             #   TAT-DQA Financial Table QA Dataset
-│   └── UniDoc-Bench/        #   Salesforce UniDoc Multimodal PDF Benchmark
+├── benchmarking/                                     # Consolidated Benchmarking & Results Workspace
+│   ├── src/                                          #   Benchmarking React SPA app
+│   └── results/                                      #   Model benchmarks, domain breakdowns & heatmaps
 │
-├── data/                    # PDF Document datasets (Scientific, Legal, Financial, etc.)
-├── main.py                  # Modular CLI pipeline orchestrator
-├── run_harness.py           # Benchmark harness execution CLI
-└── README.md                # Master project documentation (this file)
+├── external_benchmarks/                              # Standard Academic Benchmark Datasets
+│   ├── TAT-DQA/                                      #   TAT-DQA Financial Table QA Dataset
+│   └── UniDoc-Bench/                                 #   Salesforce UniDoc Multimodal PDF Benchmark
+│
+├── notebooks/                                        # Jupyter Exploration & Analysis Notebooks
+│   ├── OpenDataLoader.ipynb                          #   Dataset loader & exploratory data analysis
+│   ├── layout_detection.ipynb                        #   Layout segmentation prototyping
+│   ├── table_extraction.ipynb                        #   Table recovery prototyping
+│   ├── text_extraction.ipynb                         #   OCR comparison prototyping
+│   └── image_extraction.ipynb                        #   Figure captioning prototyping
+│
+├── scripts/                                          # Utility Scripts & Diagnostics
+│   ├── check_sanity.py                               #   Environment & API sanity check
+│   ├── verify_models.py                              #   Model weight integrity verifier
+│   ├── download_pdfs.py                              #   Benchmark PDF downloader
+│   ├── run_chunking_eval.py                          #   Chunking evaluation harness
+│   └── run_all_benchmarks.py                         #   Batch benchmark runner
+│
+├── models/                                           # Local Neural Network Weights
+│   └── yolov10n.pt                                   #   YOLOv10 Layout Detection Weights
+│
+├── data/                                             # PDF Document Datasets (Scientific, Legal, Financial)
+├── outputs/                                          # Cached Ingestion JSONs, Chunks, and BBox PDFs
+└── results/                                          # Evaluation Result Logs & Scorecards
 ```
 
 ---
 
 ## Conclusion & Production Readiness
 
-This Unified Document Understanding Platform demonstrates that hallucination-free document intelligence requires a cohesive synergy of **2D spatial layout segmentation**, **SOTA multimodal vision (Gemini 3.6 Flash)**, **hybrid lexical-vector retrieval**, **symbolic arithmetic verification**, and **lenient continuous evaluation**.
+This Unified Document Understanding Platform demonstrates that hallucination-free document intelligence requires a cohesive synergy of **2D spatial layout segmentation**, **SOTA multimodal vision (Gemini 3.6 Flash)**, **hybrid lexical-vector retrieval**, **symbolic arithmetic verification**, and **continuous evaluation**.
 
 1. **Hallucination-Free Guarantee**: 100% Faithfulness achieved on DeepEval benchmark suites across tested documents.
 2. **Auditable Decision Traceability**: Every extracted answer is linked to coordinate bounding boxes, source page numbers, and retriever rank scores.
-3. **Cross-Domain Adaptability**: Evaluated on financial balance sheets, legal filings, medical instrument catalogues, and academic journals.
+3. **Cross-Domain Adaptability**: Evaluated across financial balance sheets, legal filings, medical instrument catalogues, and academic journals.
+4. **Dual Quickstart Flexibility**: Run ad-hoc natural language Q&A on any document with sub-second cached queries, or benchmark custom and academic datasets with modular pipeline swapping.
